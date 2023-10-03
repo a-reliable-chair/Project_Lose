@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Pacify",
+        "name": "Pacify",
+        "desc": "Aura: Enemies within 2 tiles have -2 STR/MAG.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "aura",
+                "Pacify_child"
+            ],
+            [
+                "aura_range",
+                3
+            ],
+            [
+                "aura_target",
+                "enemy"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "show_aura",
+                [
+                    128,
+                    243,
+                    255
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "nid": "Whirlwind",
+        "name": "<purple>Whirlwind</purple>",
+        "desc": "Orla Only. Attack twice per turn. Can target same target twice.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            10
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                5
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Orla"
+                ]
+            ],
+            [
+                "multi_target",
+                2
+            ],
+            [
+                "allow_same_target",
+                null
+            ],
+            [
+                "text_color",
+                "purple"
+            ]
+        ]
+    }
+]

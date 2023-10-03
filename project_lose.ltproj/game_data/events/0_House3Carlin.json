@@ -1,0 +1,38 @@
+[
+    {
+        "name": "House3Carlin",
+        "trigger": "Visit",
+        "level_nid": "0",
+        "condition": "region.nid == 'House3' and unit.nid == 'Carlin'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Carlin;Right",
+            "speak;Woman1;Hi Carlin!",
+            "multi_remove_portrait;Woman1;Carlin",
+            "transition;Close;1000;255, 255, 255",
+            "# Flashback",
+            "# Add music",
+            "change_background;House",
+            "music;But A Memory",
+            "transition;open;500;255, 255, 255",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Carlin;Right",
+            "speak;Woman1;This is supposed to be a flashback!",
+            "multi_remove_portrait;Woman1;Carlin",
+            "transition;close",
+            "change_background",
+            "transition;Open",
+            "give_item;Carlin;Disaster (Disaster)",
+            "give_exp;Carlin;40",
+            "sound;Unlock",
+            "show_layer;TopRight",
+            "has_traded;Carlin"
+        ]
+    }
+]

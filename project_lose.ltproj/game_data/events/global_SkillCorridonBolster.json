@@ -1,0 +1,15 @@
+[
+    {
+        "name": "SkillCorridonBolster",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_skill;{unit2};Bolstered (Bolstered);FLAG(no_banner)",
+            "set_current_hp;{unit2};{e:target.get_hp() + 5}"
+        ]
+    }
+]

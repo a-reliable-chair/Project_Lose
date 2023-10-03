@@ -1,0 +1,15 @@
+[
+    {
+        "name": "SkillCorridonRefine",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_skill;Corridon;Refine;no_banner",
+            "give_skill;Corridon;RefineDisplay;;no_banner"
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Blessed1",
+        "name": "Blessed",
+        "desc": "Blessed by a diety. +2 STR, +2 SKL.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "SKL",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

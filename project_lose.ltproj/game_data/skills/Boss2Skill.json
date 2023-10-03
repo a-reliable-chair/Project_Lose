@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Boss2Skill",
+        "name": "Boss2Skill",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

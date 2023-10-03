@@ -1,0 +1,93 @@
+[
+    {
+        "nid": "Nova",
+        "name": "Nova",
+        "desc": "Damages all enemies within range. Can't double. SPD -2.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                -10
+            ],
+            [
+                "weapon_type",
+                "Light"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                2
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "siege_weapon",
+                null
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "unrepairable",
+                null
+            ],
+            [
+                "equation_blast_aoe",
+                "MAGIC_RANGE"
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "status_on_equip",
+                "SPD2"
+            ]
+        ]
+    }
+]

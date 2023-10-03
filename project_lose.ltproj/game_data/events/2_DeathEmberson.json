@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathEmberson",
+        "trigger": "unit_death",
+        "level_nid": "2",
+        "condition": "unit.nid == \"Emberson\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Emberson;Left",
+            "speak;Emberson;Urgh... Blast...",
+            "remove_portrait;Emberson",
+            "inc_game_var;EmbersonDead;1"
+        ]
+    }
+]

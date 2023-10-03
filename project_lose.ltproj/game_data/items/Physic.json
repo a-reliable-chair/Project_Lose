@@ -1,0 +1,85 @@
+[
+    {
+        "nid": "Physic",
+        "name": "Physic",
+        "desc": "Restores an ally's HP from afar. Chapter Uses: 3.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                22
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "magic_heal",
+                2
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "unrepairable",
+                null
+            ],
+            [
+                "c_uses",
+                4
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "Heal"
+            ]
+        ]
+    }
+]

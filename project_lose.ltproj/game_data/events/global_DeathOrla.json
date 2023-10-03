@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathOrla",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Orla'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Orla;FarRight",
+            "speak;Orla;You were right, Colm...|I am a klutz. Sorry...",
+            "expression;Orla;CloseEyes",
+            "remove_portrait;Orla"
+        ]
+    }
+]

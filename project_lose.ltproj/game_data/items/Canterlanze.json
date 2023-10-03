@@ -1,0 +1,90 @@
+[
+    {
+        "nid": "Canterlanze",
+        "name": "<purple>Canterlanze</purple>",
+        "desc": "Zoya Only. Draw Back: 2. Grants Canto and Pass while equipped.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Zoya"
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ],
+            [
+                "uses",
+                12
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "draw_back_on_end_combat_initiate",
+                2
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "CantoSharp",
+                    "Pass"
+                ]
+            ],
+            [
+                "crit",
+                0
+            ]
+        ]
+    }
+]

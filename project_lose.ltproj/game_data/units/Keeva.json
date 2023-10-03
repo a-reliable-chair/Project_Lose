@@ -1,0 +1,106 @@
+[
+    {
+        "nid": "Keeva",
+        "name": "Keeva",
+        "desc": "[KINGDOM]'s Court mage who holds many secrets.",
+        "variant": "",
+        "level": 10,
+        "klass": "Bishop",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "STR": 0,
+            "MAG": 8,
+            "SKL": 5,
+            "SPD": 4,
+            "LCK": 0,
+            "DEF": 3,
+            "RES": 8,
+            "CON": 8,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "LCK": 0,
+            "DEF": 0,
+            "RES": 0,
+            "CON": 0,
+            "MOV": 0
+        },
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "RES": 0
+        },
+        "starting_items": [
+            [
+                "Flash",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                31,
+                251
+            ],
+            "Light": [
+                false,
+                31,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Keeva",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

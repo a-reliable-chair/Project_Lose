@@ -1,0 +1,133 @@
+[
+    {
+        "nid": "Elspeth",
+        "name": "Elspeth",
+        "desc": "Lifelong devotee of [CHURCH]. Humble and selfless.",
+        "variant": "Elspeth",
+        "level": 3,
+        "klass": "Cleric",
+        "tags": [
+            "Adult"
+        ],
+        "bases": {
+            "HP": 8,
+            "STR": 0,
+            "MAG": 6,
+            "SKL": 0,
+            "SPD": 3,
+            "LCK": 5,
+            "DEF": 0,
+            "RES": 6,
+            "CON": 4,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 50,
+            "STR": 0,
+            "MAG": 30,
+            "SKL": 20,
+            "SPD": 25,
+            "LCK": 35,
+            "DEF": 15,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 15
+        },
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "RES": 0
+        },
+        "starting_items": [
+            [
+                "Heal",
+                false
+            ],
+            [
+                "Trade",
+                false
+            ],
+            [
+                "ChurchKey",
+                false
+            ],
+            [
+                "ChurchKey",
+                false
+            ],
+            [
+                "ChurchKey",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Protector"
+            ],
+            [
+                1,
+                "Pacify"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                true,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                21,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Elspeth",
+        "affinity": "Light",
+        "fields": []
+    }
+]

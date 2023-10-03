@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Lose3",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount == 9",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "speak;;You took too long to escape!;;;hint",
+            "lose_game"
+        ]
+    }
+]

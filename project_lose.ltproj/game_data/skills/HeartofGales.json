@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "HeartofGales",
+        "name": "Heart Of Gales",
+        "desc": "+1 SPD. Wind affinity only.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.affinity == 'Wind'"
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathCorridon",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Corridon'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Corridon;FarRight",
+            "speak;Corridon;Urgh...|My apologies. I must withdraw.",
+            "expression;Corridon;CloseEyes",
+            "remove_portrait;Corridon"
+        ]
+    }
+]

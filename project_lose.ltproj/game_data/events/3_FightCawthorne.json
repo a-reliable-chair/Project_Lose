@@ -1,0 +1,16 @@
+[
+    {
+        "name": "FightCawthorne",
+        "trigger": "combat_start",
+        "level_nid": "3",
+        "condition": "(unit.nid == \"Cawthorne\" and unit2.team == 'player') or (unit2.nid == \"Cawthorne\" and unit.team == 'player')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Cawthorne;Left",
+            "speak;Cawthorne;I'm the head of this bandit pack, the mighty Cawthorne!{w}{clear}Hope you've enjoyed your life, 'cuz it's about to end!",
+            "remove_portrait;Cawthorne"
+        ]
+    }
+]

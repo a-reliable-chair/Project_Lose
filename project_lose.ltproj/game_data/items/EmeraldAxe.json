@@ -1,0 +1,85 @@
+[
+    {
+        "nid": "EmeraldAxe",
+        "name": "Emerald Axe",
+        "desc": "Doubles the weapon triangle. SPD -1.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                -10
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "uses",
+                8
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "double_triangle",
+                null
+            ],
+            [
+                "status_on_equip",
+                "SPD1"
+            ],
+            [
+                "warning",
+                null
+            ]
+        ]
+    }
+]

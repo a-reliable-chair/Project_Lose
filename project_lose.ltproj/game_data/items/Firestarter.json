@@ -1,0 +1,94 @@
+[
+    {
+        "nid": "Firestarter",
+        "name": "<purple>Firestarter</purple>",
+        "desc": "Sloane Only. Burns target on hit.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                15
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "uses",
+                12
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Sloane"
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ],
+            [
+                "status_on_hit",
+                "Burning"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 2.0,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
+            ]
+        ]
+    }
+]

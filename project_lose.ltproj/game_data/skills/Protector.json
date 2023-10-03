@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Protector",
+        "name": "Protector",
+        "desc": "Does not incur rescue penalties while rescuing Youth.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ignore_rescue_penalty",
+                null
+            ],
+            [
+                "condition",
+                "unit.traveler == 'Alpin' or unit.traveler == 'Carlin' or unit.traveler == 'Shayla' or unit.traveler == 'Zoya'"
+            ]
+        ]
+    }
+]

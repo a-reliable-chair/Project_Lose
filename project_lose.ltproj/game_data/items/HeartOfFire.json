@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "HeartOfFire",
+        "name": "<orange>Heart Of Flames</orange>",
+        "desc": "+1 Damage. Fire affinity only.",
+        "icon_nid": "Accessory",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "HeartofFire"
+            ],
+            [
+                "text_color",
+                "orange"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "HeartofRadiance",
+        "name": "Heart Of Radiance",
+        "desc": "+15 Avoid. Light affinity only.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.affinity == 'Light'"
+            ],
+            [
+                "avoid",
+                15
+            ]
+        ]
+    }
+]

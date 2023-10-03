@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "Debilitate",
+        "name": "Debilitate",
+        "desc": "Reduces target's stats by 3 for 2 turns. Chapter Uses: 2.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                22
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "status_on_hit",
+                "Debilitated"
+            ],
+            [
+                "map_hit_sub_blend",
+                [
+                    180,
+                    48,
+                    14
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "Stun"
+            ]
+        ]
+    }
+]

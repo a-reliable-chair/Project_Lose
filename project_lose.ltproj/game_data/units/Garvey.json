@@ -1,0 +1,125 @@
+[
+    {
+        "nid": "Garvey",
+        "name": "Garvey",
+        "desc": "One of Leod's guards. Dislikes his hometown and fellow villagers.",
+        "variant": "Garvey",
+        "level": 3,
+        "klass": "Archer",
+        "tags": [
+            "Adult"
+        ],
+        "bases": {
+            "HP": 13,
+            "STR": 5,
+            "MAG": 0,
+            "SKL": 5,
+            "SPD": 3,
+            "LCK": 1,
+            "DEF": 3,
+            "RES": 2,
+            "CON": 10,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 35,
+            "MAG": 20,
+            "SKL": 30,
+            "SPD": 20,
+            "LCK": 10,
+            "DEF": 25,
+            "RES": 15,
+            "CON": 0,
+            "MOV": 5
+        },
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "RES": 0
+        },
+        "starting_items": [
+            [
+                "Iron Bow",
+                false
+            ],
+            [
+                "Greatbow",
+                false
+            ],
+            [
+                "Herbs",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Protector"
+            ],
+            [
+                1,
+                "SurpressiveFire"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                false,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                true,
+                21,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Garvey",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "nid": "Debilitated",
+        "name": "Debilitated",
+        "desc": "-2 to all stats.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        -2
+                    ],
+                    [
+                        "MAG",
+                        -2
+                    ],
+                    [
+                        "SKL",
+                        -2
+                    ],
+                    [
+                        "SPD",
+                        -2
+                    ],
+                    [
+                        "LCK",
+                        -2
+                    ],
+                    [
+                        "DEF",
+                        -2
+                    ],
+                    [
+                        "RES",
+                        -2
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "negative",
+                null
+            ]
+        ]
+    }
+]

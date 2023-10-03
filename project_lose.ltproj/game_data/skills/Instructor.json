@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Instructor",
+        "name": "Instructor",
+        "desc": "Enemies hit by this unit grant x2 EXP and WEXP for 1 turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "give_status_after_hit",
+                "Exploitable"
+            ]
+        ]
+    }
+]

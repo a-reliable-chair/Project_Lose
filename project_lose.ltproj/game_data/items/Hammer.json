@@ -1,0 +1,92 @@
+[
+    {
+        "nid": "Hammer",
+        "name": "Hammer",
+        "desc": "Effective against armored units. SPD -1.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                -5
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "uses",
+                8
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Armor"
+                    ],
+                    "effective_multiplier": 2.0,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
+            ],
+            [
+                "status_on_equip",
+                "SPD1"
+            ],
+            [
+                "eval_warning",
+                "'Armor' in unit.tags"
+            ]
+        ]
+    }
+]

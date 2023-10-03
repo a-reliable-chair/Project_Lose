@@ -1,0 +1,16 @@
+[
+    {
+        "name": "FightShallcross",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == \"Shallcross\" and unit2.team == 'player') or (unit2.nid == \"Shallcross\" and unit.team == 'player')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Shallcross;Left",
+            "speak;Shallcross;Filler!",
+            "remove_portrait;Shallcross"
+        ]
+    }
+]

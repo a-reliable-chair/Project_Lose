@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Door1",
+        "trigger": "Door",
+        "level_nid": "2",
+        "condition": "region.nid == 'Door1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "show_layer;TopDoor",
+            "give_exp;{unit};10",
+            "has_traded;{unit}"
+        ]
+    }
+]

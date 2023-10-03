@@ -1,0 +1,52 @@
+[
+    {
+        "nid": "Herbs",
+        "name": "Herbs",
+        "desc": "Restores 4 HP. Unit can act after using.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                2
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "heal",
+                4
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "attack_after_combat",
+                null
+            ]
+        ]
+    }
+]

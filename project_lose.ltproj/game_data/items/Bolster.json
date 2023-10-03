@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Bolster",
+        "name": "Bolster",
+        "desc": "Grants max HP +5 for 2 turns and restores 5 HP.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "map_hit_sfx",
+                "HealInit"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    33,
+                    181,
+                    255
+                ]
+            ],
+            [
+                "event_on_hit",
+                "Global SkillCorridonBolster"
+            ],
+            [
+                "exp",
+                15
+            ]
+        ]
+    }
+]

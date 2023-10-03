@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "RES",
+        "name": "+3 RES",
+        "desc": "+3 Resistance.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        3
+                    ]
+                ]
+            ]
+        ]
+    }
+]

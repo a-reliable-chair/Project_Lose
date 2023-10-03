@@ -1,0 +1,83 @@
+[
+    {
+        "nid": "TBD",
+        "name": "<purple>TBD</purple>",
+        "desc": "Ailsa Only. TBD.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                6
+            ],
+            [
+                "hit",
+                15
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Ailsa"
+                ]
+            ],
+            [
+                "cooldown",
+                2
+            ],
+            [
+                "text_color",
+                "purple"
+            ]
+        ]
+    }
+]

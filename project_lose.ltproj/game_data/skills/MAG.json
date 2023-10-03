@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "MAG",
+        "name": "+2 MAG",
+        "desc": "+2 Magic.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

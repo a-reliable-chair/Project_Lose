@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Surpressed",
+        "name": "Surpressed",
+        "desc": "Unit's MOV is reduced by half.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "MOV",
+                        "-unit.stats['MOV']//2"
+                    ]
+                ]
+            ]
+        ]
+    }
+]

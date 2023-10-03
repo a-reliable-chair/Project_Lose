@@ -1,0 +1,91 @@
+[
+    {
+        "nid": "GuardianAngel",
+        "name": "<purple>Guardian Angel</purple>",
+        "desc": "Elspeth Only. Target ally's HP cannot fall below 1 for 1 turn. Completely recover health on the following turn.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                2
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                40
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Miracle"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    170,
+                    255
+                ]
+            ],
+            [
+                "prf_unit",
+                [
+                    "Elspeth"
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "Heal"
+            ],
+            [
+                "text_color",
+                "purple"
+            ]
+        ]
+    }
+]

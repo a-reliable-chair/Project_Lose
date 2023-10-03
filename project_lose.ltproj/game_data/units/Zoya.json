@@ -1,0 +1,121 @@
+[
+    {
+        "nid": "Zoya",
+        "name": "Zoya",
+        "desc": "The shut-in daughter of a fisherman. Timid and cautious.",
+        "variant": "",
+        "level": 1,
+        "klass": "ZoyaVillager",
+        "tags": [
+            "Youth"
+        ],
+        "bases": {
+            "HP": 11,
+            "STR": 3,
+            "MAG": 0,
+            "SKL": 4,
+            "SPD": 4,
+            "LCK": 3,
+            "DEF": 1,
+            "CON": 4,
+            "MOV": 5,
+            "RES": 3
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 25,
+            "MAG": 0,
+            "SKL": 30,
+            "SPD": 35,
+            "LCK": 20,
+            "DEF": 15,
+            "CON": 0,
+            "MOV": 20,
+            "RES": 20
+        },
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "RES": 0
+        },
+        "starting_items": [
+            [
+                "Iron Lance",
+                false
+            ],
+            [
+                "Javelin",
+                false
+            ],
+            [
+                "HeartOfFrost",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Trip"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                1,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Zoya",
+        "affinity": "Ice",
+        "fields": []
+    }
+]

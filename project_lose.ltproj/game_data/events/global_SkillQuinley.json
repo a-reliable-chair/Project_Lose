@@ -1,0 +1,24 @@
+[
+    {
+        "name": "SkillQuinley",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.team == 'enemy' and unit2.nid == 'Quinley'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:QuinleySkill} == 0",
+            "remove_unit;{unit}",
+            "resurrect;{unit}",
+            "change_team;{unit};player",
+            "recruit_generic;{unit};Thrall;Thrall",
+            "change_faction;Thrall;;FLAG(no_warn)",
+            "change_portrait;Thrall;Thrall",
+            "add_unit;{unit};Quinley;warp;closest",
+            "inc_level_var;QuinleySkill;1",
+            "wait;200",
+            "end"
+        ]
+    }
+]

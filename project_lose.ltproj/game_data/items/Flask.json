@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "Flask",
+        "name": "<purple>Flask</purple>",
+        "desc": "Adults only!",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "prf_tags",
+                [
+                    "Adult"
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ]
+        ]
+    }
+]

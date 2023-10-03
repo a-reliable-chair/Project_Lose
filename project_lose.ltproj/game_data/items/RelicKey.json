@@ -1,0 +1,36 @@
+[
+    {
+        "nid": "RelicKey",
+        "name": "Relic Key",
+        "desc": "Opens chests containing holy relics of the church.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "value",
+                300
+            ],
+            [
+                "uses",
+                2
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "can_unlock",
+                "region.nid.startswith('Chest')"
+            ]
+        ]
+    }
+]

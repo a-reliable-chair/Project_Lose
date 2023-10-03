@@ -1,0 +1,36 @@
+[
+    {
+        "name": "House1Alpin",
+        "trigger": "Visit",
+        "level_nid": "3",
+        "condition": "region.nid == 'House1' and unit.nid == 'Alpin'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Alpin;Right",
+            "speak;Woman1;Hi Alpin!",
+            "multi_remove_portrait;Woman1;Alpin",
+            "transition;Close;1000;255, 255, 255",
+            "# Flashback",
+            "# Add music",
+            "change_background;House",
+            "transition;open;500;255, 255, 255",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Alpin;Right",
+            "speak;Woman1;Flashback!",
+            "multi_remove_portrait;Woman1;Alpin",
+            "transition;close",
+            "change_background",
+            "transition;Open",
+            "give_item;Alpin;Lionheart (Lionheart)",
+            "give_exp;Alpin;40",
+            "show_layer;Left",
+            "has_traded;Alpin"
+        ]
+    }
+]

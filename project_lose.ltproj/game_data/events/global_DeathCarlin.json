@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathCarlin",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Carlin'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Carlin;FarRight",
+            "speak;Carlin;To think of it... Me... In this place...|Neimi...",
+            "expression;Carlin;CloseEyes",
+            "remove_portrait;Carlin"
+        ]
+    }
+]

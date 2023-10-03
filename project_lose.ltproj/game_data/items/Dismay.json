@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "Dismay",
+        "name": "<purple>Dismay</purple>",
+        "desc": "Elspeth Only. Stuns all enemies in range for 1 turn.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                60
+            ],
+            [
+                "equation_blast_aoe",
+                "MAGIC_RANGE"
+            ],
+            [
+                "status_on_hit",
+                "Stunned"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "map_hit_sub_blend",
+                [
+                    214,
+                    26,
+                    26
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ]
+        ]
+    }
+]

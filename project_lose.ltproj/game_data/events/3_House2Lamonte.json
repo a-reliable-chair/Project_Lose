@@ -1,0 +1,36 @@
+[
+    {
+        "name": "House2Lamonte",
+        "trigger": "Visit",
+        "level_nid": "3",
+        "condition": "region.nid == 'House2' and unit.nid == 'Lamonte'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Lamonte;Right",
+            "speak;Woman1;Hi Lamonte!",
+            "multi_remove_portrait;Woman1;Lamonte",
+            "transition;Close;1000;255, 255, 255",
+            "# Flashback",
+            "# Add music",
+            "change_background;House",
+            "transition;open;500;255, 255, 255",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Lamonte;Right",
+            "speak;Woman1;Flashback!",
+            "multi_remove_portrait;Woman1;Lamonte",
+            "transition;close",
+            "change_background",
+            "transition;Open",
+            "give_item;Lamonte;Palus (Palus)",
+            "give_exp;Lamonte;40",
+            "show_layer;Right",
+            "has_traded;Lamonte"
+        ]
+    }
+]

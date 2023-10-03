@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathAlpin",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Alpin'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Alpin;FarRight",
+            "speak;Alpin;Filler",
+            "expression;Alpin;CloseEyes",
+            "remove_portrait;Alpin"
+        ]
+    }
+]

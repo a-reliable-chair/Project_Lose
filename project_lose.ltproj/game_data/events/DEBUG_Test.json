@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Test",
+        "trigger": "level_start",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "set_current_hp;Alpin (Alpin);1",
+            "set_current_hp;Soldier (101);1",
+            "",
+            ""
+        ]
+    }
+]

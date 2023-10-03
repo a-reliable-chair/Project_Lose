@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Terrified",
+        "name": "Terrified",
+        "desc": "-15 Crit Avoid.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "time",
+                1
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "crit_avoid",
+                -15
+            ]
+        ]
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "Mace",
+        "name": "Mace",
+        "desc": "Cannot be Countered. SPD -2.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                -10
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "cannot_be_countered",
+                null
+            ],
+            [
+                "status_on_equip",
+                "SPD2"
+            ]
+        ]
+    }
+]

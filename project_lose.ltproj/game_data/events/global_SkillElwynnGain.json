@@ -1,0 +1,15 @@
+[
+    {
+        "name": "SkillElwynnGain",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "unit.nid == 'Elwynn'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_skill;Elwynn (Elwynn);ElwynnSkill (ElwynnSkillDisplay);FLAG(no_banner)",
+            "give_skill;Elwynn (Elwynn);ElwynnSkill (ElwynnSkill);FLAG(no_banner)"
+        ]
+    }
+]

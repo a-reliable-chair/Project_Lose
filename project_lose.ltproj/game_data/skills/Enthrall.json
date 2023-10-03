@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Enthrall",
+        "name": "Enthrall",
+        "desc": "Any unit killed by this unit revives on the player team. Limit: 1. Reduce, Reuse, Recycle.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "PotshotDisplay",
+        "name": "Potshot",
+        "desc": "Free action. An uncounterable attack. Requires terrain with DEF boost.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

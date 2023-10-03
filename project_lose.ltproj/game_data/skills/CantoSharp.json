@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "CantoSharp",
+        "name": "Canto Sharp",
+        "desc": "Unit can attack or move in either order.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "canto_sharp",
+                null
+            ]
+        ]
+    }
+]

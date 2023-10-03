@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathLamonte",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Lamonte'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Lamonte;FarRight",
+            "speak;Lamonte;I...{br}I don't want to die...",
+            "expression;Lamonte;CloseEyes",
+            "remove_portrait;Lamonte"
+        ]
+    }
+]

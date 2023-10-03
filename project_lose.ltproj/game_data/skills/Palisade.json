@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Palisade",
+        "name": "Palisade",
+        "desc": "Aura. Adjacent allies gain +15 Avoid.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "aura",
+                "PalisadeChild"
+            ],
+            [
+                "aura_range",
+                1
+            ],
+            [
+                "aura_target",
+                "ally"
+            ],
+            [
+                "show_aura",
+                [
+                    255,
+                    255,
+                    255
+                ]
+            ]
+        ]
+    }
+]

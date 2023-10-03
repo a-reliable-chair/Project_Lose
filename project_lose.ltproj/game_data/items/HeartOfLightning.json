@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "HeartOfLightning",
+        "name": "<orange>Heart Of Lightning</orange>",
+        "desc": "+10 Crit. Thunder affinity only.",
+        "icon_nid": "Accessory",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "HeartofLightning"
+            ],
+            [
+                "text_color",
+                "orange"
+            ]
+        ]
+    }
+]

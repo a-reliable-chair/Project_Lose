@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathDavenport",
+        "trigger": "unit_death",
+        "level_nid": "3",
+        "condition": "unit.nid == \"Davenport\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Davenport;Left",
+            "speak;Davenport;I'm the...mighty...Davenport...{br}This...ain't--",
+            "remove_portrait;Davenport",
+            "inc_game_var;Davenport;1"
+        ]
+    }
+]

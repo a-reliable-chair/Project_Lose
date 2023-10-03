@@ -1,0 +1,27 @@
+[
+    {
+        "name": "House1",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House1' and unit.nid != 'Elwynn' and unit.nid != 'Sloane'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;Man1;Left;no_block",
+            "add_portrait;{unit};Right",
+            "speak;Man1;FilleREE!",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Slim Sword (Slim Sword)",
+            "give_exp;{unit};10",
+            "sound;Unlock",
+            "show_layer;Left",
+            "has_traded;{unit}"
+        ]
+    }
+]

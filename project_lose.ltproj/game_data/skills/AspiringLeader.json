@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "AspiringLeader",
+        "name": "Aspiring Leader",
+        "desc": "Adjacent allies gain 20 EXP after this unit attacks.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

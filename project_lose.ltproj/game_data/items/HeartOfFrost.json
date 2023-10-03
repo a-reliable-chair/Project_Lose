@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "HeartOfFrost",
+        "name": "<orange>Heart Of Frost</orange>",
+        "desc": "+1 DEF/RES. Ice affinity only.",
+        "icon_nid": "Accessory",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "HeartofFrost"
+            ],
+            [
+                "text_color",
+                "orange"
+            ]
+        ]
+    }
+]

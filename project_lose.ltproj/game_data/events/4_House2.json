@@ -1,0 +1,26 @@
+[
+    {
+        "name": "House2",
+        "trigger": "Visit",
+        "level_nid": "4",
+        "condition": "region.nid == 'House2' and unit.nid != 'Ailsa' and unit.nid != 'Elspeth'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;Man1;Left;no_block",
+            "add_portrait;{unit};Right",
+            "speak;Man1;Filler",
+            "transition;Close",
+            "change_background",
+            "transition;Open",
+            "give_item;{unit};Iron Sword (Iron Sword)",
+            "give_exp;{unit};10",
+            "show_layer;Right",
+            "has_traded;{unit}"
+        ]
+    }
+]

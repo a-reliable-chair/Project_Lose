@@ -1,0 +1,38 @@
+[
+    {
+        "name": "House1Elwynn",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House1' and unit.nid == 'Elwynn'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Elwynn;Right",
+            "speak;Woman1;Hi Elwynn!",
+            "multi_remove_portrait;Woman1;Elwynn",
+            "transition;Close;1000;255, 255, 255",
+            "# Flashback",
+            "# Add music",
+            "change_background;House",
+            "transition;open;500;255, 255, 255",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Elwynn;Right",
+            "speak;Woman1;Flashback!",
+            "multi_remove_portrait;Woman1;Elwynn",
+            "transition;close",
+            "change_background",
+            "transition;Open",
+            "give_item;Elwynn;Flair (Flair)",
+            "give_exp;Elwynn;40",
+            "sound;Unlock",
+            "show_layer;Left",
+            "has_traded;Elwynn",
+            ""
+        ]
+    }
+]

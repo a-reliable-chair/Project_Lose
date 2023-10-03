@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathQuinley",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Quinley'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Quinley;FarRight",
+            "speak;Quinley;I was prepared for...{br}anything...",
+            "expression;Quinley;CloseEyes",
+            "remove_portrait;Quinley"
+        ]
+    }
+]

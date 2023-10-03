@@ -1,0 +1,18 @@
+[
+    {
+        "name": "DeathBrassfield",
+        "trigger": "unit_death",
+        "level_nid": "1",
+        "condition": "unit.nid == \"Brassfield\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Brassfield;Left",
+            "speak;Brassfield;filler",
+            "expression;Brassfield;CloseEyes",
+            "remove_portrait;Brassfield",
+            "inc_game_var;BrassfieldDead;1"
+        ]
+    }
+]

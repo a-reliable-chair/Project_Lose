@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathElwynn",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Elwynn'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Elwynn;FarRight",
+            "speak;Elwynn;I have no regrets.{br}This was always my fate.",
+            "expression;Elwynn;CloseEyes",
+            "remove_portrait;Elwynn"
+        ]
+    }
+]

@@ -1,0 +1,95 @@
+[
+    {
+        "nid": "Flair",
+        "name": "<purple>Flair</purple>",
+        "desc": "Elwynn Only. Steals. Can't miss, kill, or double.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                1
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Light"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Elwynn"
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ],
+            [
+                "status_on_hit",
+                "NonLethal"
+            ],
+            [
+                "steal",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Glimmer"
+            ]
+        ]
+    }
+]

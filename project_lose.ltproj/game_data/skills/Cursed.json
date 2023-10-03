@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "Cursed",
+        "name": "Cursed",
+        "desc": "You've met with a terrible fate, haven't you? -1 DEF/RES/LUK. Stackable.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "DEF",
+                        -1
+                    ],
+                    [
+                        "RES",
+                        -1
+                    ],
+                    [
+                        "LCK",
+                        -1
+                    ]
+                ]
+            ],
+            [
+                "stack",
+                999
+            ]
+        ]
+    }
+]

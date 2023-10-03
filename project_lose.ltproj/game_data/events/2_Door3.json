@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Door3",
+        "trigger": "Door",
+        "level_nid": "2",
+        "condition": "region.nid == 'Door3'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "show_layer;BotDoor",
+            "give_exp;{unit};10",
+            "has_traded;{unit}",
+            "move_cursor;Emberson (Emberson)",
+            "flicker_cursor;Emberson (Emberson)",
+            "add_portrait;Emberson (Emberson);Left",
+            "speak;Emberson (Emberson);Ah-ha! Smoked 'em out boys!|Time for the fun part!",
+            "remove_portrait;Emberson (Emberson)"
+        ]
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "nid": "Potshot",
+        "name": "Potshot",
+        "desc": "Free action. An uncounterable attack. Requires terrain with DEF boost.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "damage",
+                5
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global SkillSloane"
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "cannot_be_countered",
+                null
+            ]
+        ]
+    }
+]

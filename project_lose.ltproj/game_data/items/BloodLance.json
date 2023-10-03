@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "BloodLance",
+        "name": "Blood Lance",
+        "desc": "Has Lifelink. SPD -1.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                -5
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "lifelink",
+                1.0
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "status_on_equip",
+                "SPD1"
+            ]
+        ]
+    }
+]

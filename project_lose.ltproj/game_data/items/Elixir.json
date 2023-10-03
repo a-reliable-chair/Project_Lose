@@ -1,0 +1,48 @@
+[
+    {
+        "nid": "Elixir",
+        "name": "Elixir",
+        "desc": "Fully recovers HP.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "heal",
+                99
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ]
+        ]
+    }
+]

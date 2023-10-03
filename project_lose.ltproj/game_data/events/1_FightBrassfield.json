@@ -1,0 +1,16 @@
+[
+    {
+        "name": "FightBrassfield",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "(unit.nid == \"Brassfield\" and unit2.team == 'player') or (unit2.nid == \"Brassfield\" and unit.team == 'player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Brassfield;Left",
+            "speak;Brassfield;FILLER!",
+            "remove_portrait;Brassfield"
+        ]
+    }
+]

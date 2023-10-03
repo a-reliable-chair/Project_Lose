@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "BlessedRing",
+        "name": "<orange>Blessed Ring</orange>",
+        "desc": "+1 MOV. Youth Only.",
+        "icon_nid": "Accessory",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Anointed"
+            ],
+            [
+                "text_color",
+                "orange"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "Inspire",
+        "name": "Inspire",
+        "desc": "Target ally gains +1 STR/MAG/SKL/SPD for 2 turns. Chapter Uses: 2.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                22
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Inspired"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    170,
+                    255
+                ]
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "Heal"
+            ]
+        ]
+    }
+]

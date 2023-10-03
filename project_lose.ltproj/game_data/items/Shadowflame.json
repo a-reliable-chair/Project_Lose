@@ -1,0 +1,101 @@
+[
+    {
+        "nid": "Shadowflame",
+        "name": "<purple>Shadowflame</purple>",
+        "desc": "Quinley Only. Permanently reduces target's LUK, DEF and RES by 1. Stacks.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                0
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Anima"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    224,
+                    96,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Quinley"
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ],
+            [
+                "statuses_on_hit",
+                [
+                    "Cursed"
+                ]
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "battle_cast_anim",
+                "Fire"
+            ]
+        ]
+    }
+]

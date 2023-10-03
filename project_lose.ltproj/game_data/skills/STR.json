@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "STR",
+        "name": "+2 STR",
+        "desc": "+2 Strength.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

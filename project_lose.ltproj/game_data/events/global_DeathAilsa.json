@@ -1,0 +1,19 @@
+[
+    {
+        "name": "DeathAilsa",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Ailsa'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Ailsa;FarRight",
+            "speak;Ailsa;I... am a warrior to the very end.",
+            "expression;Ailsa;CloseEyes",
+            "remove_portrait;Ailsa",
+            "",
+            ""
+        ]
+    }
+]

@@ -1,0 +1,48 @@
+[
+    {
+        "nid": "Pure Water",
+        "name": "Pure Water",
+        "desc": "Grants 4 diminishing resistance.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    187,
+                    255
+                ]
+            ],
+            [
+                "status_on_hit",
+                "Resist"
+            ]
+        ]
+    }
+]

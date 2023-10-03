@@ -1,0 +1,16 @@
+[
+    {
+        "name": "FightCawthorne",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == \"Cawthorne\" and unit2.team == 'player') or (unit2.nid == \"Cawthorne\" and unit.team == 'player')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Cawthorne;Left",
+            "speak;Cawthorne;Filler",
+            "remove_portrait;Cawthorne"
+        ]
+    }
+]

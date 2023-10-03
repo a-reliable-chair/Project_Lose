@@ -1,0 +1,15 @@
+[
+    {
+        "name": "SkillElwynn",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_skill;Elwynn (Elwynn);ElwynnSkill (ElwynnSkill);FLAG(no_banner)",
+            "give_skill;Elwynn (Elwynn);ElwynnSkill (ElwynnSkillDisplay);FLAG(no_banner)"
+        ]
+    }
+]

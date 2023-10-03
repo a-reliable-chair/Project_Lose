@@ -1,0 +1,17 @@
+[
+    {
+        "name": "DeathGarvey",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Garvey'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Garvey;FarRight",
+            "speak;Garvey;I am sorry. I believe this is as far as I go...",
+            "expression;Garvey;CloseEyes",
+            "remove_portrait;Garvey"
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "TripDisplay",
+        "name": "Trip",
+        "desc": "Free action. Sets target's move to 0 for 1 turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

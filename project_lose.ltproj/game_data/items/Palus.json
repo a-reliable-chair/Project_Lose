@@ -1,0 +1,86 @@
+[
+    {
+        "nid": "Palus",
+        "name": "<purple>Palus</purple>",
+        "desc": "Lamonte Only. +2 DEF/RES. Adjacent allies gain +15 Avoid.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                5
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "uses",
+                12
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "prf_unit",
+                [
+                    "Lamonte"
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "Palisade",
+                    "Mitigate"
+                ]
+            ]
+        ]
+    }
+]

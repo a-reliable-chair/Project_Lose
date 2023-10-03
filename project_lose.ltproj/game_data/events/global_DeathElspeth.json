@@ -1,0 +1,21 @@
+[
+    {
+        "name": "DeathElspeth",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Elspeth'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Elspeth;FarRight",
+            "if;game.level.nid == '5'",
+            "speak;Elspeth;I can't let myself die here...|Someone has to hear my tale...",
+            "else",
+            "speak;Elspeth;My fate is irrelevant...|The world must have... light.",
+            "end",
+            "expression;Elspeth;CloseEyes",
+            "remove_portrait;Elspeth"
+        ]
+    }
+]

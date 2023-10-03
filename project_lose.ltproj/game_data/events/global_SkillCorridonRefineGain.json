@@ -1,0 +1,15 @@
+[
+    {
+        "name": "SkillCorridonRefineGain",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "unit.nid == 'Corridon'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "remove_skill;Corridon;RefineDisplay;no_banner",
+            "give_skill;Corridon;Refine;no_banner"
+        ]
+    }
+]

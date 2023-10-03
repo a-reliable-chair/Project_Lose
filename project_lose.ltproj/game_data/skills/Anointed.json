@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Anointed",
+        "name": "Anointed",
+        "desc": "+1 MOV. Youth only.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "\"Youth\" in unit.tags"
+            ]
+        ]
+    }
+]

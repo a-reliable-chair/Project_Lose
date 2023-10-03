@@ -1,0 +1,36 @@
+[
+    {
+        "name": "House3Corridon",
+        "trigger": "Visit",
+        "level_nid": "3",
+        "condition": "region.nid == 'House3' and unit.nid == 'Corridon'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Corridon;Right",
+            "speak;Woman1;Hi Corridon!",
+            "multi_remove_portrait;Woman1;Corridon",
+            "transition;Close;1000;255, 255, 255",
+            "# Flashback",
+            "# Add music",
+            "change_background;House",
+            "transition;open;500;255, 255, 255",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Corridon;Right",
+            "speak;Woman1;Flashback!",
+            "multi_remove_portrait;Woman1;Corridon",
+            "transition;close",
+            "change_background",
+            "transition;Open",
+            "give_skill;Corridon;Play",
+            "give_exp;Corridon;40",
+            "show_layer;Bot",
+            "has_traded;Corridon"
+        ]
+    }
+]

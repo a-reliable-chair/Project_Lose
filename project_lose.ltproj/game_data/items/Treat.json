@@ -1,0 +1,46 @@
+[
+    {
+        "nid": "Treat",
+        "name": "Treat",
+        "desc": "Free Action. Heal ally (MAG).",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "equation_heal",
+                "HEAL"
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "exp",
+                15
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global SkillElwynn"
+            ]
+        ]
+    }
+]

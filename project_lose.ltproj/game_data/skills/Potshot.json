@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Potshot",
+        "name": "Potshot",
+        "desc": "Free action. An uncounterable attack. Requires terrain with DEF boost.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Potshot"
+            ],
+            [
+                "condition",
+                "game.tilemap.get_terrain(unit.position) == '2' or game.tilemap.get_terrain(unit.position) == '3' or game.tilemap.get_terrain(unit.position) == '8' or game.tilemap.get_terrain(unit.position) == '20' or game.tilemap.get_terrain(unit.position) == '21' or game.tilemap.get_terrain(unit.position) == '41' or game.tilemap.get_terrain(unit.position) == '42'"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Bolster",
+        "name": "Bolster",
+        "desc": "Grants max HP +5 for 2 turns and restores 5 HP.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Bolster"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

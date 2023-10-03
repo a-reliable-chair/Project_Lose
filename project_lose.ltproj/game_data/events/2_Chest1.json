@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Chest1",
+        "trigger": "Chest",
+        "level_nid": "2",
+        "condition": "region.nid == 'Chest1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "show_layer;Left",
+            "give_item;{unit};BlessedRing",
+            "add_portrait;{unit};Left",
+            "speak;{unit};Got the thing!",
+            "give_exp;{unit};10",
+            "has_traded;{unit}",
+            "",
+            "",
+            "",
+            ""
+        ]
+    }
+]

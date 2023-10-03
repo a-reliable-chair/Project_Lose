@@ -1,0 +1,85 @@
+[
+    {
+        "nid": "RubySword",
+        "name": "Ruby Sword",
+        "desc": "Doubles the weapon triangle. SPD -1.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "hit",
+                0
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                8
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "double_triangle",
+                null
+            ],
+            [
+                "status_on_equip",
+                "SPD1"
+            ],
+            [
+                "warning",
+                null
+            ]
+        ]
+    }
+]

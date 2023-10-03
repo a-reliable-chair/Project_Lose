@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Tripped",
+        "name": "Tripped",
+        "desc": "Unit cannot move.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "time",
+                1
+            ],
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "MOV",
+                        "-unit.stats['MOV']"
+                    ]
+                ]
+            ]
+        ]
+    }
+]

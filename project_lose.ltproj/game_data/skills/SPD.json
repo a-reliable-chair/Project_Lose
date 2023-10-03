@@ -1,0 +1,23 @@
+[
+    {
+        "nid": "SPD",
+        "name": "+2 SPD",
+        "desc": "+2 Speed.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SPD",
+                        2
+                    ]
+                ]
+            ]
+        ]
+    }
+]

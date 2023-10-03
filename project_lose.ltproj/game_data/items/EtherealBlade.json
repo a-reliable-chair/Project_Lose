@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "EtherealBlade",
+        "name": "Ethereal Blade",
+        "desc": "Targets RES.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "hit",
+                0
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "alternate_resist_formula",
+                "MAGIC_DEFENSE"
+            ],
+            [
+                "wexp",
+                2
+            ]
+        ]
+    }
+]

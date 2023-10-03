@@ -1,0 +1,83 @@
+[
+    {
+        "nid": "AxeOfWoe",
+        "name": "<purple>Axe Of Woe</purple>",
+        "desc": "Shayla Only. +2 DEF.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                5
+            ],
+            [
+                "crit",
+                15
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Shayla"
+                ]
+            ],
+            [
+                "status_on_equip",
+                "Mitigate"
+            ],
+            [
+                "text_color",
+                "purple"
+            ],
+            [
+                "uses",
+                12
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ]
+        ]
+    }
+]
