@@ -14,6 +14,10 @@
                 null
             ],
             [
+                "target_ally",
+                null
+            ],
+            [
                 "uses",
                 1
             ],
@@ -33,12 +37,8 @@
                 ]
             ],
             [
-                "target_ally",
+                "usable_in_base",
                 null
-            ],
-            [
-                "status_on_hit",
-                "AngelFeather"
             ],
             [
                 "text_color",
@@ -53,8 +53,24 @@
                 ]
             ],
             [
+                "status_on_hit",
+                "AngelFeather"
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                0
+            ],
+            [
                 "eval_available",
                 "not has_skill(unit, 'AngelFeather')"
+            ],
+            [
+                "event_on_hit",
+                "Global AngelFeather"
             ]
         ]
     }

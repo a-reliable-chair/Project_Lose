@@ -11,6 +11,7 @@
             "move_cursor;19, 9",
             "wait;250",
             "add_group;Rein3;Rein3;immediate;push",
+            "flicker_cursor;19, 9",
             "wait;250",
             "add_portrait;SoldierRed;Right",
             "speak;SoldierRed;That one hiding in the boxes looks rich!|Let's get 'im!",

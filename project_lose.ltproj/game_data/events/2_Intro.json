@@ -8,10 +8,10 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "change_team;Elspeth (Elspeth);player",
             "level_var;DeadPlayers;0",
             "game_var;GotReclaimer;0",
             "game_var;EmbersonDead;0",
+            "change_team;Elspeth (Elspeth);player",
             "change_background;InsideCastle",
             "transition;open",
             "multi_add_portrait;Elspeth;FarLeft;Elwynn;MidLeft;Sloane;MidRight;Quinley;FarRight",

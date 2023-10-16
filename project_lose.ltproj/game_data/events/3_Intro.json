@@ -8,12 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "# FOR TESTING ONLY",
-            "game_var;LeodDead;0",
-            "# IN CASE I DONT SEE THE FIRST COMMENT",
             "level_var;DeadPlayers;0",
             "game_var;Davenport;0",
-            "game_var;LeodDead;0",
             "add_weather;sunset",
             "change_background;Town",
             "transition;open",

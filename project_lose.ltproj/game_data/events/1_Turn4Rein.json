@@ -11,6 +11,7 @@
             "move_cursor;0, 11",
             "wait;250",
             "add_group;Rein2;Rein2;immediate;push",
+            "flicker_cursor;0, 11",
             "wait;250",
             "add_portrait;SoldierRed;Left",
             "speak;SoldierRed;C'mon, soldier. Let's go for the coward!",

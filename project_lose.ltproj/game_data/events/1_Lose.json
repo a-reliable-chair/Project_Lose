@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;unit.team == 'player'",
+            "if;unit.team == 'player' and unit.nid != 'Thrall'",
             "inc_level_var;DeadPlayers;1",
             "end",
             "if;{v:DeadPlayers} == 2",

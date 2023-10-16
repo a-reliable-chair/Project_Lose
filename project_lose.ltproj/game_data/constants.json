@@ -117,7 +117,7 @@
     ],
     [
         "ai_fog_of_war",
-        true
+        false
     ],
     [
         "def_double",

@@ -11,7 +11,8 @@
             "set_current_hp;Alpin (Alpin);1",
             "set_current_hp;Soldier (101);1",
             "set_current_hp;Carlin;1",
-            ""
+            "game_var;_convoy;True",
+            "base;Arena"
         ]
     }
 ]
