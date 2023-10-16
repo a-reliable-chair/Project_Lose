@@ -33,7 +33,7 @@
                 "ai_group": "",
                 "starting_position": [
                     9,
-                    13
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -223,23 +223,25 @@
             {
                 "nid": "101",
                 "variant": null,
-                "level": 5,
-                "klass": "Archer",
+                "level": 2,
+                "klass": "Dracoknight",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron Bow",
+                        "Iron Axe",
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Bloodlust"
+                ],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    12
+                    7,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -266,8 +268,8 @@
             {
                 "nid": "103",
                 "variant": null,
-                "level": 4,
-                "klass": "Soldier",
+                "level": 2,
+                "klass": "GriffonKnight",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -281,8 +283,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    12
+                    4,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -295,7 +297,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Mace",
+                        "Hand Axe",
                         false
                     ]
                 ],
@@ -315,11 +317,11 @@
                 "nid": "105",
                 "variant": null,
                 "level": 7,
-                "klass": "Mercenary",
+                "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Silencer",
+                        "Longbow",
                         false
                     ]
                 ],
@@ -329,8 +331,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    12
+                    5,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -338,12 +340,12 @@
             {
                 "nid": "106",
                 "variant": null,
-                "level": 8,
-                "klass": "Knight",
+                "level": 2,
+                "klass": "Monk",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Flash",
                         false
                     ]
                 ],
@@ -353,11 +355,24 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    12
+                    5,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Davenport",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [

@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "value",
-                300
-            ],
-            [
                 "uses",
                 2
             ],

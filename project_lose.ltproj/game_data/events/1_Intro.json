@@ -162,7 +162,6 @@
             "add_unit;Wall (Barrel_3);11, 14;immediate",
             "add_unit;Wall (Barrel_4);12, 14;immediate",
             "add_unit;Wall (Barrel_5);12, 13;immediate",
-            "remove_skill;Leod (Leod);NPCVision (NPCVision);FLAG(no_banner)",
             "move_cursor;3, 0;FLAG(immediate)",
             "transition;open;500",
             "location_card;Moments later...",
@@ -183,6 +182,7 @@
             "# Recruitment",
             "sound;Unlock",
             "show_layer;TopRight",
+            "end_skip",
             "wait;250",
             "add_unit;Quinley (Quinley);18, 2;immediate",
             "wait;250",
@@ -209,12 +209,13 @@
             "# Sloane and Quinley join the team",
             "speak;Zoya;Hi!",
             "multi_remove_portrait;Quinley;Sloane;Elwynn;Zoya",
-            "transition;close",
+            "spawn_group;Enemy1;west;0, 5;normal;stack",
+            "move_group;Enemy1;Enemy1Placement",
+            "add_group;Stationary;Stationary;immediate",
             "remove_unit;Quinley (Quinley)",
             "remove_skill;Leod (Leod);NPCVision (NPCVision);FLAG(no_banner)",
             "remove_skill;Garvey (Garvey);NPCVision (NPCVision);FLAG(no_banner)",
             "remove_skill;Lamonte (Lamonte);NPCVision (NPCVision);FLAG(no_banner)",
-            "level_var;DeadEnemies;0",
             "prep;1"
         ]
     }

@@ -12,7 +12,31 @@
             "speak;Leod;filler",
             "expression;Leod;CloseEyes",
             "remove_portrait;Leod",
-            "inc_game_var;LeodDead;1"
+            "inc_game_var;LeodDead;1",
+            "if;game.check_alive('Enemy_13')",
+            "change_ai;Enemy_13;Yolo",
+            "remove_skill;Enemy_13;Bloodlust",
+            "end",
+            "if;game.check_alive('Enemy_14')",
+            "change_ai;Enemy_14;Yolo",
+            "remove_skill;Enemy_14;Bloodlust",
+            "end",
+            "if;game.check_alive('Enemy_15')",
+            "change_ai;Enemy_15;Yolo",
+            "remove_skill;Enemy_15;Bloodlust",
+            "end",
+            "if;game.check_alive('Enemy_16')",
+            "change_ai;Enemy_16;Yolo",
+            "remove_skill;Enemy_16;Bloodlust",
+            "end",
+            "if;game.check_alive('Enemy_17')",
+            "change_ai;Enemy_17;Yolo",
+            "remove_skill;Enemy_17;Bloodlust",
+            "end",
+            "if;game.check_alive('Enemy_18')",
+            "change_ai;Enemy_18;Yolo",
+            "remove_skill;Enemy_18;Bloodlust",
+            "end"
         ]
     }
 ]

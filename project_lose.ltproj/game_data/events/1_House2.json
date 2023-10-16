@@ -17,7 +17,7 @@
             "transition;Close",
             "change_background",
             "transition;Open",
-            "give_item;{unit};Steel Sword (Steel Sword)",
+            "give_item;{unit};Pure Water",
             "give_exp;{unit};10",
             "sound;Unlock",
             "show_layer;Right",

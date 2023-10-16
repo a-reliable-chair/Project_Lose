@@ -1,0 +1,17 @@
+[
+    {
+        "name": "BrassfieldAIChange",
+        "trigger": "combat_end",
+        "level_nid": "1",
+        "condition": "unit.nid == \"Brassfield\" or unit2.nid == \"Brassfield\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;game.check_alive('Brassfield')",
+            "flicker_cursor;Brassfield",
+            "change_ai;Brassfield;YoloIgnore",
+            "speak;;Brassfield is now on the attack!;;;hint"
+        ]
+    }
+]

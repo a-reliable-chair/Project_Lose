@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Veiled",
+        "name": "Veiled",
+        "desc": "This unit's range is set to 1.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "eval_min_range",
+                "(item_system.minimum_range(unit, unit.get_weapon()) - 1) * -1 if item_system.minimum_range(unit, unit.get_weapon()) >= 2 else 0"
+            ],
+            [
+                "limit_maximum_range",
+                1
+            ]
+        ]
+    }
+]

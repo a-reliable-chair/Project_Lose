@@ -111,7 +111,7 @@
             "wait;500",
             "move_cursor;0, 4;500",
             "wait;500",
-            "give_skill;Elspeth (Elspeth);Pacify (Pacify);FLAG(no_banner)",
+            "give_skill;Elspeth (Elspeth);HolyVeil;no_banner",
             "if;{v:LeodDead} == 1",
             "give_skill;Garvey (Garvey);Surpressive Fire (SurpressiveFire);FLAG(no_banner)",
             "end",

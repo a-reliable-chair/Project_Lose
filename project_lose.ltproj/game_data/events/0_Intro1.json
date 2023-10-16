@@ -13,7 +13,7 @@
             "level_var;DeadPlayers;0",
             "game_var;AckermanDead;0",
             "remove_skill;Cathal (Cathal);Aspiring Leader (AspiringLeader);FLAG(no_banner)",
-            "remove_skill;Elspeth (Elspeth);Pacify (Pacify);FLAG(no_banner)",
+            "remove_skill;Elspeth (Elspeth);HolyVeil;no_banner",
             "change_tilemap;School",
             "add_unit;Elwynn (Elwynn);10, 1;immediate",
             "add_unit;Elspeth (Elspeth);8, 1;immediate",

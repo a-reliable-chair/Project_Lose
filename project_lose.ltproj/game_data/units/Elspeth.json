@@ -57,14 +57,6 @@
             [
                 "ChurchKey",
                 false
-            ],
-            [
-                "ChurchKey",
-                false
-            ],
-            [
-                "ChurchKey",
-                false
             ]
         ],
         "learned_skills": [
@@ -74,7 +66,7 @@
             ],
             [
                 1,
-                "Pacify"
+                "HolyVeil"
             ]
         ],
         "unit_notes": [],

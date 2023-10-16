@@ -464,7 +464,7 @@
         "frame_y": 1,
         "num_frames": 11,
         "speed": 150,
-        "frame_times": "9,9,9,9,9,9,9,9,9,9,9",
+        "frame_times": "9,9,9,9,9,9,9,9,9,9,9,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -483,6 +483,15 @@
         "num_frames": 9,
         "speed": 150,
         "frame_times": "9,9,9,9,9,9,9,9,9",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapBloodlust",
+        "frame_x": 5,
+        "frame_y": 2,
+        "num_frames": 10,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {

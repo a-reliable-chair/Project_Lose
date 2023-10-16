@@ -2,7 +2,7 @@
     {
         "nid": "Flask",
         "name": "<purple>Flask</purple>",
-        "desc": "Adults only!",
+        "desc": "Adults only! -1 MOV, -2 SKL, +4 LUK for 3 turns. Useable once per chapter.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -18,25 +18,11 @@
                 null
             ],
             [
-                "uses",
-                3
-            ],
-            [
-                "uses_options",
-                [
-                    [
-                        "LoseUsesOnMiss (T/F)",
-                        "F",
-                        "Lose uses even on miss"
-                    ]
-                ]
-            ],
-            [
                 "map_hit_add_blend",
                 [
-                    96,
-                    144,
-                    232
+                    129,
+                    86,
+                    0
                 ]
             ],
             [
@@ -48,6 +34,29 @@
             [
                 "text_color",
                 "purple"
+            ],
+            [
+                "c_uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "status_on_hit",
+                "Drunk"
             ]
         ]
     }

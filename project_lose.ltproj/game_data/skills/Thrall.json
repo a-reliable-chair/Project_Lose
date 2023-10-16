@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "Thrall",
+        "name": "Thrall",
+        "desc": "This unit has reduced stats!",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "HP",
+                        "1-unit.stats['HP']"
+                    ],
+                    [
+                        "DEF",
+                        "-unit.stats['DEF']"
+                    ],
+                    [
+                        "RES",
+                        "-unit.stats['RES']"
+                    ],
+                    [
+                        "LCK",
+                        "-unit.stats['LCK']"
+                    ],
+                    [
+                        "SPD",
+                        "-unit.stats['SPD']"
+                    ]
+                ]
+            ]
+        ]
+    }
+]

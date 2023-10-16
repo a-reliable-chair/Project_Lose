@@ -1,23 +1,24 @@
 [
     {
         "nid": "1",
-        "name": "Ch. 2:",
+        "name": "Ch. 2: Skirmish In The Shadows",
         "tilemap": "Ch2",
         "bg_tilemap": null,
         "party": "Eirika",
         "music": {
-            "player_phase": "Distant Roads",
-            "enemy_phase": "Shadow of the Enemy",
-            "other_phase": null,
-            "enemy2_phase": null,
-            "player_battle": "Attack",
-            "enemy_battle": "Defense",
+            "player_phase": "Skirmish In The Shadows",
+            "enemy_phase": "Skirmish In The Shadows",
+            "other_phase": "Skirmish In The Shadows",
+            "enemy2_phase": "Skirmish In The Shadows",
+            "player_battle": null,
+            "enemy_battle": null,
             "other_battle": null,
-            "enemy2_battle": null
+            "enemy2_battle": null,
+            "boss_battle": null
         },
         "objective": {
-            "simple": "Defeat enemy,Left {eval:15-game.level_vars['DeadEnemies']}",
-            "win": "Defeat enemy,Left {eval:15-game.level_vars['DeadEnemies']}",
+            "simple": "Defeat Boss",
+            "win": "Defeat Boss",
             "loss": "Two Player Units Die"
         },
         "roam": false,
@@ -131,16 +132,6 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Brassfield",
-                "team": "enemy",
-                "ai": "AttackNoMove",
-                "roam_ai": null,
-                "ai_group": null,
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
@@ -414,6 +405,466 @@
                 "starting_skills": [],
                 "team": "enemy2",
                 "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Brassfield",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Ackerman",
+                "team": "enemy",
+                "ai": "Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Enemy_1",
+                "variant": null,
+                "level": 2,
+                "klass": "Shaman",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Jinx",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "YoloIgnore",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_2",
+                "variant": null,
+                "level": 2,
+                "klass": "Cavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "YoloIgnore",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_3",
+                "variant": null,
+                "level": 2,
+                "klass": "Fighter",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "YoloIgnore",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_4",
+                "variant": null,
+                "level": 2,
+                "klass": "Myrmidon",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "AttackInRangeIgnore",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_5",
+                "variant": null,
+                "level": 2,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "SapphireLance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "AttackInRangeIgnore",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_6",
+                "variant": null,
+                "level": 2,
+                "klass": "Fighter",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Hammer",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "AttackNoMove",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_7",
+                "variant": null,
+                "level": 2,
+                "klass": "Fighter",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "AttackInRangeIgnore",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_8",
+                "variant": null,
+                "level": 2,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "AttackNoMove",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_9",
+                "variant": null,
+                "level": 2,
+                "klass": "Monk",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Shimmer",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "AttackInRangeIgnore",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_10",
+                "variant": null,
+                "level": 2,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "AttackInRangeIgnore",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_11",
+                "variant": null,
+                "level": 2,
+                "klass": "Cavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Lancereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "AttackInTwoTurnsIgnore",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_12",
+                "variant": null,
+                "level": 2,
+                "klass": "Myrmidon",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Mageslayer",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "AttackInRangeIgnore",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_13",
+                "variant": null,
+                "level": 2,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "BloodLance",
+                        true
+                    ]
+                ],
+                "starting_skills": [
+                    "Bloodlust"
+                ],
+                "team": "enemy",
+                "ai": "YoloTargetLeod",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_14",
+                "variant": null,
+                "level": 2,
+                "klass": "Myrmidon",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Bloodlust"
+                ],
+                "team": "enemy",
+                "ai": "YoloTargetLeod",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_15",
+                "variant": null,
+                "level": 2,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Bloodlust"
+                ],
+                "team": "enemy",
+                "ai": "YoloTargetLeod",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_16",
+                "variant": null,
+                "level": 2,
+                "klass": "Fighter",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Bloodlust"
+                ],
+                "team": "enemy",
+                "ai": "YoloTargetLeod",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_17",
+                "variant": null,
+                "level": 2,
+                "klass": "Mage",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Bloodlust"
+                ],
+                "team": "enemy",
+                "ai": "YoloTargetLeod",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_18",
+                "variant": null,
+                "level": 2,
+                "klass": "Mercenary",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Bloodlust"
+                ],
+                "team": "enemy",
+                "ai": "YoloTargetLeod",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_19",
+                "variant": null,
+                "level": 2,
+                "klass": "Dracoknight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_20",
+                "variant": null,
+                "level": 2,
+                "klass": "PegasusKnight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -766,8 +1217,172 @@
         "unit_groups": [
             {
                 "nid": "Enemy1",
-                "units": [],
-                "positions": {}
+                "units": [
+                    "Enemy_1",
+                    "Enemy_2",
+                    "Enemy_3"
+                ],
+                "positions": {
+                    "Enemy_1": [
+                        0,
+                        5
+                    ],
+                    "Enemy_2": [
+                        0,
+                        5
+                    ],
+                    "Enemy_3": [
+                        0,
+                        5
+                    ]
+                }
+            },
+            {
+                "nid": "Enemy1Placement",
+                "units": [
+                    "Enemy_1",
+                    "Enemy_2",
+                    "Enemy_3"
+                ],
+                "positions": {
+                    "Enemy_1": [
+                        3,
+                        4
+                    ],
+                    "Enemy_2": [
+                        13,
+                        4
+                    ],
+                    "Enemy_3": [
+                        6,
+                        5
+                    ]
+                }
+            },
+            {
+                "nid": "Stationary",
+                "units": [
+                    "Brassfield",
+                    "Enemy_4",
+                    "Enemy_5",
+                    "Enemy_6",
+                    "Enemy_7",
+                    "Enemy_8",
+                    "Enemy_9",
+                    "Enemy_10",
+                    "Enemy_11",
+                    "Enemy_12"
+                ],
+                "positions": {
+                    "Brassfield": [
+                        16,
+                        15
+                    ],
+                    "Enemy_4": [
+                        14,
+                        3
+                    ],
+                    "Enemy_5": [
+                        15,
+                        16
+                    ],
+                    "Enemy_6": [
+                        16,
+                        7
+                    ],
+                    "Enemy_7": [
+                        4,
+                        10
+                    ],
+                    "Enemy_8": [
+                        5,
+                        10
+                    ],
+                    "Enemy_9": [
+                        5,
+                        15
+                    ],
+                    "Enemy_10": [
+                        17,
+                        10
+                    ],
+                    "Enemy_11": [
+                        11,
+                        15
+                    ],
+                    "Enemy_12": [
+                        8,
+                        13
+                    ]
+                }
+            },
+            {
+                "nid": "Rein1",
+                "units": [
+                    "Enemy_13",
+                    "Enemy_14"
+                ],
+                "positions": {
+                    "Enemy_13": [
+                        0,
+                        4
+                    ],
+                    "Enemy_14": [
+                        19,
+                        3
+                    ]
+                }
+            },
+            {
+                "nid": "Rein2",
+                "units": [
+                    "Enemy_15",
+                    "Enemy_16"
+                ],
+                "positions": {
+                    "Enemy_15": [
+                        0,
+                        11
+                    ],
+                    "Enemy_16": [
+                        0,
+                        12
+                    ]
+                }
+            },
+            {
+                "nid": "Rein3",
+                "units": [
+                    "Enemy_17",
+                    "Enemy_18"
+                ],
+                "positions": {
+                    "Enemy_17": [
+                        19,
+                        9
+                    ],
+                    "Enemy_18": [
+                        19,
+                        10
+                    ]
+                }
+            },
+            {
+                "nid": "Rein4",
+                "units": [
+                    "Enemy_19",
+                    "Enemy_20"
+                ],
+                "positions": {
+                    "Enemy_19": [
+                        10,
+                        0
+                    ],
+                    "Enemy_20": [
+                        11,
+                        0
+                    ]
+                }
             }
         ],
         "ai_groups": []

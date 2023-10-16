@@ -2,7 +2,7 @@
     {
         "nid": "Flair",
         "name": "<purple>Flair</purple>",
-        "desc": "Elwynn Only. Steals. Can't miss, kill, or double.",
+        "desc": "Elwynn Only. Steals. Can't miss, kill, double or target bosses.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -89,6 +89,10 @@
             [
                 "battle_cast_anim",
                 "Glimmer"
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Boss' not in target.tags"
             ]
         ]
     }

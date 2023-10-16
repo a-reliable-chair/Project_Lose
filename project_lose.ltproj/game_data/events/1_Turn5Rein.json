@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn5Rein",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;19, 9",
+            "wait;250",
+            "add_group;Rein3;Rein3;immediate;push",
+            "wait;250",
+            "add_portrait;SoldierRed;Right",
+            "speak;SoldierRed;That one hiding in the boxes looks rich!|Let's get 'im!",
+            "remove_portrait;SoldierRed"
+        ]
+    }
+]

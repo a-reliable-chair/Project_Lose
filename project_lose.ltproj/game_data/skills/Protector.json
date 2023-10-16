@@ -2,7 +2,7 @@
     {
         "nid": "Protector",
         "name": "Protector",
-        "desc": "Does not incur rescue penalties while rescuing Youth.",
+        "desc": "Does not incur rescue penalties while rescuing Trainees.",
         "icon_nid": "Skills",
         "icon_index": [
             0,

@@ -10,12 +10,8 @@
         ],
         "components": [
             [
-                "value",
-                50
-            ],
-            [
                 "uses",
-                1
+                3
             ],
             [
                 "uses_options",

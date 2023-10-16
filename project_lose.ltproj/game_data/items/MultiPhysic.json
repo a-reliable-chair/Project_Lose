@@ -2,7 +2,7 @@
     {
         "nid": "MultiPhysic",
         "name": "Multiphysic",
-        "desc": "Restores an ally's HP from afar, twice. Can target ally twice. Chapter Uses: 6.",
+        "desc": "Restores an ally's HP from afar, twice. Can target ally twice. Chapter Uses: 2.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -31,7 +31,7 @@
             ],
             [
                 "exp",
-                33
+                16
             ],
             [
                 "map_hit_add_blend",
@@ -59,7 +59,7 @@
             ],
             [
                 "c_uses",
-                6
+                2
             ],
             [
                 "uses_options",

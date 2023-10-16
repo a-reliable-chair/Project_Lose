@@ -40,9 +40,9 @@
         ]
     },
     {
-        "nid": "Monster",
-        "name": "Monster",
-        "desc": "A grotesque creature created by magic and born in darkness.",
+        "nid": "Thrall",
+        "name": "Thrall",
+        "desc": "An undead husk of a person.",
         "icon_nid": "MonsterEmblem",
         "icon_index": [
             0,

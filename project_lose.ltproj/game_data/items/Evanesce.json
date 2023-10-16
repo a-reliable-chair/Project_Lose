@@ -2,7 +2,7 @@
     {
         "nid": "Evanesce",
         "name": "Evanesce",
-        "desc": "Ignores RES and can't miss. Can't target bosses.",
+        "desc": "25 Damage. Ignores RES and can't miss. Can't target bosses.",
         "icon_nid": "Dark",
         "icon_index": [
             0,

@@ -17,7 +17,7 @@
             "transition;Close",
             "change_background",
             "transition;Open",
-            "give_item;{unit};Slim Sword (Slim Sword)",
+            "give_item;{unit};Elixir",
             "give_exp;{unit};10",
             "sound;Unlock",
             "show_layer;Left",

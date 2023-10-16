@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Brassfield;Left",
-            "speak;Brassfield;FILLER!",
+            "speak;Brassfield;I didn't want it come to this...|Ready your blade. I can't hold back now.",
             "remove_portrait;Brassfield"
         ]
     }

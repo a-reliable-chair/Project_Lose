@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn6Rein",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;10, 0",
+            "wait;250",
+            "add_group;Rein4;Rein4;immediate;push",
+            "wait;250"
+        ]
+    }
+]
