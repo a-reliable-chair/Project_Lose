@@ -2,7 +2,7 @@
     {
         "nid": "ManDead",
         "name": "Citizen",
-        "desc": "An innocent peasant lacking any combat skills at all.",
+        "desc": "A villager slain in battle.\nTheir pockets still look full...",
         "tier": 0,
         "movement_group": "Light Foot",
         "promotes_from": null,
@@ -17,8 +17,8 @@
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "CON": 5,
-            "MOV": 5,
+            "CON": -99,
+            "MOV": 0,
             "RES": 0
         },
         "growths": {

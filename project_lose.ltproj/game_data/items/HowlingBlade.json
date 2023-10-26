@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "HowlingBlade",
+        "name": "<blue>Howling Blade</blue>",
+        "desc": "Grants Distant Counter. Deals magic damage at range.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                20
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "text_color",
+                "blue"
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
+                "status_on_equip",
+                "DistantCounter"
+            ]
+        ]
+    }
+]

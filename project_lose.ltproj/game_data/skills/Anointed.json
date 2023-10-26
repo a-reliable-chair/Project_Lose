@@ -2,7 +2,7 @@
     {
         "nid": "Anointed",
         "name": "Anointed",
-        "desc": "+1 MOV. Youth only.",
+        "desc": "+1 to all stats. Trainees only.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -12,6 +12,38 @@
             [
                 "stat_change",
                 [
+                    [
+                        "HP",
+                        1
+                    ],
+                    [
+                        "STR",
+                        1
+                    ],
+                    [
+                        "MAG",
+                        1
+                    ],
+                    [
+                        "SKL",
+                        1
+                    ],
+                    [
+                        "SPD",
+                        1
+                    ],
+                    [
+                        "LCK",
+                        1
+                    ],
+                    [
+                        "DEF",
+                        1
+                    ],
+                    [
+                        "RES",
+                        1
+                    ],
                     [
                         "MOV",
                         1

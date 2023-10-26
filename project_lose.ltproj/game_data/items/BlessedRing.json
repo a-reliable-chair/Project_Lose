@@ -2,7 +2,7 @@
     {
         "nid": "BlessedRing",
         "name": "<orange>Blessed Ring</orange>",
-        "desc": "+1 MOV. Youth Only.",
+        "desc": "+1 to all stats. Trainees Only.",
         "icon_nid": "Accessory",
         "icon_index": [
             0,

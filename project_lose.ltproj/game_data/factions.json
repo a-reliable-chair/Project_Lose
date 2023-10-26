@@ -52,7 +52,7 @@
     {
         "nid": "Villager",
         "name": "Villager",
-        "desc": "",
+        "desc": "vilger",
         "icon_nid": "BlankEmblem",
         "icon_index": [
             0,
@@ -64,6 +64,16 @@
         "name": "Kingdom",
         "desc": "Kingdom Soldier.",
         "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Looter",
+        "name": "Looter",
+        "desc": "Underhanded thugs who loot amidst the chaos.",
+        "icon_nid": "BlankEmblem",
         "icon_index": [
             0,
             0

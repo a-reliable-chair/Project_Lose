@@ -1,0 +1,17 @@
+[
+    {
+        "name": "LevelUpMOV",
+        "trigger": "during_unit_level_up",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;stat_changes['MOV'] > 0",
+            "speak;;MOV + 1!|Lucky you!;;;hint",
+            "sound;Stat Up",
+            "end"
+        ]
+    }
+]

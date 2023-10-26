@@ -2,7 +2,7 @@
     {
         "nid": "Heal",
         "name": "Heal",
-        "desc": "Restores (User's MAG + 2) HP.",
+        "desc": "Restores (User's MAG * 2) HP.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -31,7 +31,7 @@
             ],
             [
                 "exp",
-                11
+                22
             ],
             [
                 "wexp",
@@ -46,16 +46,16 @@
                 ]
             ],
             [
-                "magic_heal",
-                2
-            ],
-            [
                 "unrepairable",
                 null
             ],
             [
                 "battle_cast_anim",
                 "Heal"
+            ],
+            [
+                "equation_heal",
+                "MAG2"
             ]
         ]
     }

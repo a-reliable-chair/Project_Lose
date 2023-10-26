@@ -1,0 +1,50 @@
+[
+    {
+        "nid": "Repair",
+        "name": "Repair",
+        "desc": "Repairs selected weapon in target's inventory. Does not affect tomes.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "repair",
+                null
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Hammerne"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    33,
+                    255,
+                    107
+                ]
+            ],
+            [
+                "exp",
+                15
+            ]
+        ]
+    }
+]

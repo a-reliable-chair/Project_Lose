@@ -14,12 +14,12 @@
             "STR": 4,
             "MAG": 0,
             "SKL": 5,
-            "SPD": 3,
+            "SPD": 1,
             "LCK": 0,
             "DEF": 4,
             "CON": 13,
             "MOV": 6,
-            "RES": 0
+            "RES": 1
         },
         "growths": {
             "HP": 0,
@@ -47,11 +47,15 @@
         },
         "starting_items": [
             [
-                "SapphireLance",
+                "WardensCleaver",
                 false
             ],
             [
-                "Iron Axe",
+                "BloodLance",
+                false
+            ],
+            [
+                "EtherealBlade",
                 false
             ],
             [
@@ -59,7 +63,12 @@
                 true
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Anticrit"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

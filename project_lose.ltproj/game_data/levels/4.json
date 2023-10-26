@@ -56,7 +56,7 @@
                 "generic": false
             },
             {
-                "nid": "Zoya",
+                "nid": "Raelin",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -86,7 +86,7 @@
                 "generic": false
             },
             {
-                "nid": "Sloane",
+                "nid": "Saraid",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -156,7 +156,7 @@
                 "generic": false
             },
             {
-                "nid": "Cathal",
+                "nid": "Laisren",
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
@@ -226,7 +226,7 @@
                 "generic": false
             },
             {
-                "nid": "EvilCathal",
+                "nid": "EvilLaisren",
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,

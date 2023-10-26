@@ -1,8 +1,8 @@
 [
     {
         "nid": "DEF",
-        "name": "+3 DEF",
-        "desc": "+3 Defense.",
+        "name": "+2 DEF",
+        "desc": "+2 Defense.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -14,7 +14,7 @@
                 [
                     [
                         "DEF",
-                        3
+                        2
                     ]
                 ]
             ]

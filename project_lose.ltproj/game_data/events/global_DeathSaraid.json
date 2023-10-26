@@ -1,0 +1,23 @@
+[
+    {
+        "name": "DeathSaraid",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Saraid'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Saraid;FarRight",
+            "if;game.level.nid == '4'",
+            "speak;Saraid;Endgame deathquote",
+            "else",
+            "speak;Saraid;regular deathquote.",
+            "end",
+            "expression;Saraid;CloseEyes",
+            "remove_portrait;Saraid",
+            "",
+            ""
+        ]
+    }
+]

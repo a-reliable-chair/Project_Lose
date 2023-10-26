@@ -76,12 +76,15 @@
                 }
             ],
             [
-                "status_on_equip",
-                "SPD1"
-            ],
-            [
                 "eval_warning",
                 "'Flying' in unit.tags"
+            ],
+            [
+                "multi_status_on_equip",
+                [
+                    "SPD1",
+                    "Galeforce"
+                ]
             ]
         ]
     }

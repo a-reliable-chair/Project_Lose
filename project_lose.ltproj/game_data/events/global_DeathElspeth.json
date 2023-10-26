@@ -9,13 +9,15 @@
         "priority": 20,
         "_source": [
             "add_portrait;Elspeth;FarRight",
-            "if;game.level.nid == '5'",
-            "speak;Elspeth;I can't let myself die here...|Someone has to hear my tale...",
+            "if;game.level.nid == '4'",
+            "speak;Elspeth;Endgame deathquote",
             "else",
-            "speak;Elspeth;My fate is irrelevant...|The world must have... light.",
+            "speak;Elspeth;regular deathquote.",
             "end",
             "expression;Elspeth;CloseEyes",
-            "remove_portrait;Elspeth"
+            "remove_portrait;Elspeth",
+            "",
+            ""
         ]
     }
 ]

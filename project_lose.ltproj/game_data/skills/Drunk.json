@@ -2,7 +2,7 @@
     {
         "nid": "Drunk",
         "name": "Drunk",
-        "desc": "-1 MOV, -2 SKL, +4 LUK",
+        "desc": "-1 MOV, +4 LUK.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -13,10 +13,6 @@
                 "stat_change",
                 [
                     [
-                        "SKL",
-                        -2
-                    ],
-                    [
                         "LCK",
                         4
                     ],
@@ -25,6 +21,14 @@
                         -1
                     ]
                 ]
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ],
+            [
+                "time",
+                3
             ]
         ]
     }

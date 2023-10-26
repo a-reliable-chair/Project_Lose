@@ -2,17 +2,17 @@
     "Alpin.json": 0,
     "Carlin.json": 1,
     "Shayla.json": 2,
-    "Zoya.json": 3,
+    "Raelin.json": 3,
     "Elwynn.json": 4,
     "Quinley.json": 5,
-    "Sloane.json": 6,
+    "Saraid.json": 6,
     "Elspeth.json": 7,
     "Lamonte.json": 8,
     "Garvey.json": 9,
     "Orla.json": 10,
     "Ailsa.json": 11,
     "Corridon.json": 12,
-    "Cathal.json": 13,
+    "Laisren.json": 13,
     "Leod.json": 14,
     "Ackerman.json": 15,
     "Brassfield.json": 16,
@@ -22,5 +22,5 @@
     "Shallcross.json": 20,
     "King.json": 21,
     "Keeva.json": 22,
-    "EvilCathal.json": 23
+    "EvilLaisren.json": 23
 }

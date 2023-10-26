@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "CloseCounter",
+        "name": "Close Counter",
+        "desc": "Unit can retaliate against adjacent foes even if otherwise unable to.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "close_counter",
+                null
+            ]
+        ]
+    }
+]

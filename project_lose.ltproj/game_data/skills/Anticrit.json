@@ -12,6 +12,10 @@
             [
                 "crit_avoid",
                 1000
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

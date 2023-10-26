@@ -46,7 +46,7 @@
     },
     {
         "nid": "3",
-        "name": "Elspeth's",
+        "name": "<purple>Elspeth's</>",
         "color": [
             0,
             32,
@@ -96,6 +96,21 @@
             84,
             84,
             84
+        ],
+        "minimap": "Floor",
+        "platform": "Floor",
+        "background": "combat_castle2",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": null
+    },
+    {
+        "nid": "6_1",
+        "name": "<purple>Stash</>",
+        "color": [
+            0,
+            255,
+            255
         ],
         "minimap": "Floor",
         "platform": "Floor",
@@ -196,7 +211,7 @@
     },
     {
         "nid": "12",
-        "name": "Alpin's",
+        "name": "<purple>Alpin's</>",
         "color": [
             0,
             160,
@@ -211,7 +226,7 @@
     },
     {
         "nid": "20",
-        "name": "Leod's",
+        "name": "<purple>Leod's</>",
         "color": [
             112,
             84,
@@ -226,7 +241,7 @@
     },
     {
         "nid": "21",
-        "name": "Orla's",
+        "name": "<purple>Orla's</>",
         "color": [
             80,
             48,
@@ -286,7 +301,7 @@
     },
     {
         "nid": "31",
-        "name": "Shayla's",
+        "name": "<purple>Shayla's</>",
         "color": [
             168,
             80,
@@ -301,7 +316,7 @@
     },
     {
         "nid": "32",
-        "name": "Zoya's",
+        "name": "<purple>Raelin's</>",
         "color": [
             32,
             96,
@@ -316,7 +331,7 @@
     },
     {
         "nid": "33",
-        "name": "Carlin's",
+        "name": "<purple>Carlin's</>",
         "color": [
             168,
             1,
@@ -331,7 +346,7 @@
     },
     {
         "nid": "34",
-        "name": "Elwynn's",
+        "name": "<purple>Elwynn's</>",
         "color": [
             160,
             1,
@@ -346,7 +361,7 @@
     },
     {
         "nid": "Arena",
-        "name": "Ailsa's",
+        "name": "<purple>Ailsa's</>",
         "color": [
             152,
             1,
@@ -361,7 +376,7 @@
     },
     {
         "nid": "35",
-        "name": "Corridon's",
+        "name": "<purple>Corridon's</>",
         "color": [
             85,
             0,

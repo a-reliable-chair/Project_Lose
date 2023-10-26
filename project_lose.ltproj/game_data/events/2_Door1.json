@@ -10,7 +10,9 @@
         "_source": [
             "sound;Unlock",
             "show_layer;TopDoor",
-            "give_exp;{unit};10",
+            "if;unit.team == 'player'",
+            "give_exp;{unit};20",
+            "end",
             "has_traded;{unit}"
         ]
     }

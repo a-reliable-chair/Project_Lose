@@ -3,15 +3,15 @@
         "name": "DeathCathal",
         "trigger": "unit_death",
         "level_nid": null,
-        "condition": "unit.nid == 'Cathal'",
+        "condition": "unit.nid == 'Laisren'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Cathal;FarRight",
-            "speak;Cathal;Please...|Forgive me...",
-            "expression;Cathal;CloseEyes",
-            "remove_portrait;Cathal"
+            "add_portrait;Laisren;FarRight",
+            "speak;Laisren;Please...|Forgive me...",
+            "expression;Laisren;CloseEyes",
+            "remove_portrait;Laisren"
         ]
     }
 ]

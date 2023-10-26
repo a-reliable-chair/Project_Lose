@@ -16,13 +16,13 @@
             "HP": 8,
             "STR": 3,
             "MAG": 0,
-            "SKL": 4,
+            "SKL": 5,
             "SPD": 3,
             "LCK": 0,
-            "DEF": 0,
+            "DEF": 1,
             "CON": 9,
             "MOV": 7,
-            "RES": 0
+            "RES": 1
         },
         "growths": {
             "HP": 60,

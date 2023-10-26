@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Exchange",
+        "name": "Exchange",
+        "desc": "Free action. Unit can trade with distant allies.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Exchange"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

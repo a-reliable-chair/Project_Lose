@@ -16,9 +16,9 @@
             "STR": 0,
             "MAG": 4,
             "SKL": 4,
-            "SPD": 2,
+            "SPD": 1,
             "LCK": 0,
-            "DEF": 2,
+            "DEF": 3,
             "RES": 0,
             "CON": 7,
             "MOV": 5

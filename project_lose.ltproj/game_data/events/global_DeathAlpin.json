@@ -9,9 +9,15 @@
         "priority": 20,
         "_source": [
             "add_portrait;Alpin;FarRight",
-            "speak;Alpin;Filler",
+            "if;game.level.nid == '4'",
+            "speak;Alpin;Endgame deathquote",
+            "else",
+            "speak;Alpin;regular deathquote.",
+            "end",
             "expression;Alpin;CloseEyes",
-            "remove_portrait;Alpin"
+            "remove_portrait;Alpin",
+            "",
+            ""
         ]
     }
 ]

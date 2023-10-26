@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn1ThiefTalk",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "flicker_cursor;Thief_1",
+            "multi_add_portrait;SoldierRed;Left;SoldierBlue;Right",
+            "speak;SoldierRed;Let's hang back and see how this plays out.",
+            "speak;SoldierBlue;Shouldn't we go look for loot?",
+            "speak;SoldierRed;We wait until they're all busy and then we move.",
+            "bop_portrait;SoldierBlue",
+            "speak;SoldierBlue;Got it!"
+        ]
+    }
+]

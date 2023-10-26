@@ -2,7 +2,7 @@
     {
         "nid": "HolyVeil",
         "name": "Holy Veil",
-        "desc": "Aura: Enemies within 2 tiles have their range reduced by 1.",
+        "desc": "Aura: Enemies within 2 tiles have their range set to 1.",
         "icon_nid": "Skills",
         "icon_index": [
             0,

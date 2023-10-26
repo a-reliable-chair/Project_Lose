@@ -2,7 +2,7 @@
     {
         "nid": "Play",
         "name": "Play",
-        "desc": "Corridon Only. Refreshes target.",
+        "desc": "Free Action. Refreshes target.",
         "icon_nid": "Skills",
         "icon_index": [
             11,
@@ -19,7 +19,7 @@
             ],
             [
                 "max_range",
-                2
+                1
             ],
             [
                 "exp",
@@ -34,18 +34,16 @@
                 ]
             ],
             [
-                "prf_unit",
-                [
-                    "Corridon"
-                ]
-            ],
-            [
                 "refresh",
                 null
             ],
             [
-                "text_color",
-                "purple"
+                "cooldown",
+                1
+            ],
+            [
+                "attack_after_combat",
+                null
             ]
         ]
     }

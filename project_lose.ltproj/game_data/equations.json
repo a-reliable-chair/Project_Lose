@@ -88,6 +88,14 @@
         "expression": "MAG"
     },
     {
+        "nid": "MAG2",
+        "expression": "MAG*2"
+    },
+    {
+        "nid": "TREAT",
+        "expression": "MAG + 2"
+    },
+    {
         "nid": "CONSTITUTION",
         "expression": "0"
     },
@@ -98,6 +106,10 @@
     {
         "nid": "ZERO",
         "expression": "0"
+    },
+    {
+        "nid": "ONE",
+        "expression": "1"
     },
     {
         "nid": "TWENTYFIVE",

@@ -2,7 +2,7 @@
     {
         "nid": "Thrall",
         "name": "Thrall",
-        "desc": "This unit has reduced stats!",
+        "desc": "This unit has been revived with reduced stats!",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -33,6 +33,10 @@
                         "-unit.stats['SPD']"
                     ]
                 ]
+            ],
+            [
+                "cannot_trade",
+                null
             ]
         ]
     }

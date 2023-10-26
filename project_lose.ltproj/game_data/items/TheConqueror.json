@@ -2,7 +2,7 @@
     {
         "nid": "TheConqueror",
         "name": "<blue>TheConqueror</blue>",
-        "desc": "Cavalier line only. Effective Vs. Horseback. +2 SPD, +2 DEF.",
+        "desc": "Cavalier line only. Deals magic damage at range. Effective Vs. Horseback.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -23,19 +23,19 @@
             ],
             [
                 "max_range",
-                2
+                15
             ],
             [
                 "damage",
-                6
+                4
             ],
             [
                 "hit",
-                25
+                0
             ],
             [
                 "crit",
-                15
+                0
             ],
             [
                 "level_exp",
@@ -65,12 +65,12 @@
                 }
             ],
             [
-                "status_on_equip",
-                "Blessed3"
-            ],
-            [
                 "text_color",
                 "blue"
+            ],
+            [
+                "magic_at_range",
+                null
             ]
         ]
     }

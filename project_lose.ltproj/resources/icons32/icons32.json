@@ -5,7 +5,12 @@
     },
     {
         "nid": "BlankEmblem",
-        "subicon_dict": {}
+        "subicon_dict": {
+            "BlankEmblem 0, 0": [
+                0,
+                0
+            ]
+        }
     },
     {
         "nid": "ConfederacyEmblem",

@@ -9,9 +9,15 @@
         "priority": 20,
         "_source": [
             "add_portrait;Carlin;FarRight",
-            "speak;Carlin;To think of it... Me... In this place...|Neimi...",
+            "if;game.level.nid == '4'",
+            "speak;Carlin;Endgame deathquote",
+            "else",
+            "speak;Carlin;regular deathquote.",
+            "end",
             "expression;Carlin;CloseEyes",
-            "remove_portrait;Carlin"
+            "remove_portrait;Carlin",
+            "",
+            ""
         ]
     }
 ]

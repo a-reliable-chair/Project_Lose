@@ -9,10 +9,15 @@
         "priority": 20,
         "_source": [
             "add_portrait;Shayla;FarRight",
-            "speak;Shayla;Brother... I'm sorry.",
+            "if;game.level.nid == '4'",
+            "speak;Shayla;Endgame deathquote",
+            "else",
+            "speak;Shayla;regular deathquote.",
+            "end",
             "expression;Shayla;CloseEyes",
             "remove_portrait;Shayla",
-            "remove_unit;Shayla"
+            "",
+            ""
         ]
     }
 ]

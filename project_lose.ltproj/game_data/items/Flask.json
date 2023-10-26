@@ -2,7 +2,7 @@
     {
         "nid": "Flask",
         "name": "<purple>Flask</purple>",
-        "desc": "Adults only! -1 MOV, -2 SKL, +4 LUK for 3 turns. Useable once per chapter.",
+        "desc": "Free Action.\nAdults only! -1 MOV, +4 LUK for 3 turns. \nChapter Uses: 1",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -57,6 +57,10 @@
             [
                 "status_on_hit",
                 "Drunk"
+            ],
+            [
+                "attack_after_combat",
+                null
             ]
         ]
     }

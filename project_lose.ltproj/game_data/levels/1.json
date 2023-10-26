@@ -17,8 +17,8 @@
             "boss_battle": null
         },
         "objective": {
-            "simple": "Defeat Boss",
-            "win": "Defeat Boss",
+            "simple": "Rout Fodder",
+            "win": "Defeat All,(Boss Optional)",
             "loss": "Two Player Units Die"
         },
         "roam": false,
@@ -47,7 +47,7 @@
                 "generic": false
             },
             {
-                "nid": "Zoya",
+                "nid": "Raelin",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -87,7 +87,7 @@
                 "generic": false
             },
             {
-                "nid": "Sloane",
+                "nid": "Saraid",
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
@@ -1250,7 +1250,7 @@
                         4
                     ],
                     "Enemy_2": [
-                        13,
+                        11,
                         4
                     ],
                     "Enemy_3": [
@@ -1358,12 +1358,12 @@
                 ],
                 "positions": {
                     "Enemy_17": [
-                        19,
-                        9
+                        4,
+                        17
                     ],
                     "Enemy_18": [
-                        19,
-                        10
+                        8,
+                        17
                     ]
                 }
             },
@@ -1375,12 +1375,12 @@
                 ],
                 "positions": {
                     "Enemy_19": [
-                        10,
-                        0
+                        19,
+                        9
                     ],
                     "Enemy_20": [
-                        11,
-                        0
+                        19,
+                        10
                     ]
                 }
             }

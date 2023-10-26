@@ -9,9 +9,15 @@
         "priority": 20,
         "_source": [
             "add_portrait;Orla;FarRight",
-            "speak;Orla;You were right, Colm...|I am a klutz. Sorry...",
+            "if;game.level.nid == '4'",
+            "speak;Orla;Endgame deathquote",
+            "else",
+            "speak;Orla;regular deathquote.",
+            "end",
             "expression;Orla;CloseEyes",
-            "remove_portrait;Orla"
+            "remove_portrait;Orla",
+            "",
+            ""
         ]
     }
 ]

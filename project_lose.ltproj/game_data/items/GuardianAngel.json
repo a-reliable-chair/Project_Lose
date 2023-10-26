@@ -23,7 +23,7 @@
             ],
             [
                 "uses",
-                2
+                1
             ],
             [
                 "uses_options",
@@ -46,7 +46,7 @@
             ],
             [
                 "exp",
-                40
+                100
             ],
             [
                 "min_range",
@@ -85,6 +85,10 @@
             [
                 "text_color",
                 "purple"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "Beachcomber",
         "name": "Beachcomber",
-        "desc": "+10 Crit/Avoid while on Sand or Sea tiles.",
+        "desc": "+100 Crit while on Sand or Sea tiles.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -18,12 +18,8 @@
                 "game.tilemap.get_terrain(unit.position) == '10' or game.tilemap.get_terrain(unit.position) == '11'"
             ],
             [
-                "avoid",
-                10
-            ],
-            [
                 "crit",
-                10
+                100
             ]
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "Treat",
         "name": "Treat",
-        "desc": "Free Action. Heal ally (MAG).",
+        "desc": "Free Action. Restores (User's MAG + 2) HP.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -27,7 +27,7 @@
             ],
             [
                 "equation_heal",
-                "HEAL"
+                "TREAT"
             ],
             [
                 "attack_after_combat",
@@ -38,8 +38,8 @@
                 15
             ],
             [
-                "event_after_combat_on_hit",
-                "Global SkillElwynn"
+                "cooldown",
+                1
             ]
         ]
     }

@@ -11,14 +11,13 @@
             "sound;Unlock",
             "show_layer;Left",
             "give_item;{unit};BlessedRing",
+            "if;unit.team == 'player'",
             "add_portrait;{unit};Left",
             "speak;{unit};Got the thing!",
-            "give_exp;{unit};10",
-            "has_traded;{unit}",
-            "",
-            "",
-            "",
-            ""
+            "remove_portrait;{unit}",
+            "give_exp;{unit};20",
+            "end",
+            "has_traded;{unit}"
         ]
     }
 ]

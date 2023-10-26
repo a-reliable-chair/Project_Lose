@@ -2,7 +2,7 @@
     {
         "nid": "Entangled",
         "name": "Entangled",
-        "desc": "-15 Avoid.",
+        "desc": "-20 Avoid.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -19,7 +19,7 @@
             ],
             [
                 "avoid",
-                -15
+                -20
             ]
         ]
     }

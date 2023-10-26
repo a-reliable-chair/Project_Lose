@@ -9,7 +9,13 @@
         "priority": 20,
         "_source": [
             "add_portrait;Lamonte;FarRight",
-            "speak;Lamonte;I...{br}I don't want to die...",
+            "if;game.level.nid == '1'",
+            "speak;Lamonte;Lamonte Ch2 death quote",
+            "elif;game.level.nid == '4'",
+            "speak;Lamonte;Endgame deathquote",
+            "else",
+            "speak;Lamonte;regular death quote",
+            "end",
             "expression;Lamonte;CloseEyes",
             "remove_portrait;Lamonte"
         ]

@@ -3,7 +3,7 @@
         "name": "DeathThrall",
         "trigger": "unit_death",
         "level_nid": null,
-        "condition": "unit.nid == 'Thrall'",
+        "condition": "get_skill(unit, 'Thrall')",
         "commands": [],
         "only_once": false,
         "priority": 20,

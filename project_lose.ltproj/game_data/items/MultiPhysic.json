@@ -2,7 +2,7 @@
     {
         "nid": "MultiPhysic",
         "name": "Multiphysic",
-        "desc": "Restores an ally's HP from afar, twice. Can target ally twice. Chapter Uses: 2.",
+        "desc": "Restores an ally's HP from up to (MAG * 2) tiles away. Casts twice. Chapter Uses: 2.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -31,7 +31,7 @@
             ],
             [
                 "exp",
-                16
+                33
             ],
             [
                 "map_hit_add_blend",
@@ -43,7 +43,7 @@
             ],
             [
                 "magic_heal",
-                2
+                4
             ],
             [
                 "min_range",
@@ -87,6 +87,10 @@
             [
                 "battle_cast_anim",
                 "Heal"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

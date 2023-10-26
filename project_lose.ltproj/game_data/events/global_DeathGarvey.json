@@ -9,7 +9,13 @@
         "priority": 20,
         "_source": [
             "add_portrait;Garvey;FarRight",
-            "speak;Garvey;I am sorry. I believe this is as far as I go...",
+            "if;game.level.nid == '1'",
+            "speak;Garvey;Garvey Ch2 death quote",
+            "elif;game.level.nid == '4'",
+            "speak;Garvey;Endgame deathquote",
+            "else",
+            "speak;Garvey;regular death quote",
+            "end",
             "expression;Garvey;CloseEyes",
             "remove_portrait;Garvey"
         ]

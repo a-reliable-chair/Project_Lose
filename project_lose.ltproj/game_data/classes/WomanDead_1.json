@@ -2,7 +2,7 @@
     {
         "nid": "WomanDead_1",
         "name": "Citizen",
-        "desc": "An innocent peasant lacking any combat skills at all.",
+        "desc": "A villager slain in battle.\nTheir pockets still look full...",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

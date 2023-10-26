@@ -11,11 +11,14 @@
             "sound;Unlock",
             "show_layer;Right",
             "give_item;{unit};The Reclaimer (TheReclaimer)",
+            "if;unit.team == 'player'",
             "add_portrait;{unit};Left",
             "speak;{unit};Got the other thing!",
-            "give_exp;{unit};10",
-            "has_traded;{unit}",
-            "inc_game_var;GotReclaimer;1"
+            "give_exp;{unit};20",
+            "remove_portrait;{unit}",
+            "inc_game_var;GotReclaimer;1",
+            "end",
+            "has_traded;{unit}"
         ]
     }
 ]

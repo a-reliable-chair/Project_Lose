@@ -1,0 +1,19 @@
+[
+    {
+        "name": "ShallcrossAIChange",
+        "trigger": "combat_end",
+        "level_nid": "4",
+        "condition": "unit2.nid == \"Shallcross\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;game.check_alive('Shallcross')",
+            "flicker_cursor;Shallcross",
+            "change_ai;Shallcross;YoloIgnore",
+            "add_portrait;Shallcross;Left",
+            "speak;Shallcross;Brazen, are we?|Very well, I won't hold back.",
+            "remove_portrait;Shallcross"
+        ]
+    }
+]

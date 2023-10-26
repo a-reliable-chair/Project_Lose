@@ -16,8 +16,8 @@
             "SKL": 0,
             "SPD": 2,
             "LCK": 4,
-            "DEF": 2,
-            "RES": 2,
+            "DEF": 1,
+            "RES": 1,
             "CON": 12,
             "MOV": 5
         },
@@ -58,11 +58,15 @@
             ],
             [
                 1,
+                "Shove"
+            ],
+            [
+                1,
                 "Bolster"
             ],
             [
                 1,
-                "Refine"
+                "Repair"
             ]
         ],
         "unit_notes": [],
@@ -89,7 +93,7 @@
             ],
             "Staff": [
                 true,
-                31,
+                0,
                 251
             ],
             "Light": [

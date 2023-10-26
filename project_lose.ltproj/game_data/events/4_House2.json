@@ -17,7 +17,7 @@
             "transition;Close",
             "change_background",
             "transition;Open",
-            "give_item;{unit};Iron Sword (Iron Sword)",
+            "give_item;{unit};Duskfall",
             "give_exp;{unit};10",
             "show_layer;Right",
             "has_traded;{unit}"

@@ -2,7 +2,7 @@
     {
         "nid": "Devilry",
         "name": "Devilry",
-        "desc": "HP Cost: 4. -2 SPD.",
+        "desc": "Can't miss. -2 SPD.\nHP Cost: 4.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -28,10 +28,6 @@
             [
                 "damage",
                 7
-            ],
-            [
-                "hit",
-                0
             ],
             [
                 "level_exp",
@@ -78,7 +74,7 @@
             ],
             [
                 "crit",
-                15
+                0
             ],
             [
                 "status_on_equip",

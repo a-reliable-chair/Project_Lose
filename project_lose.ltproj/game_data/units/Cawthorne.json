@@ -10,16 +10,16 @@
             "Boss"
         ],
         "bases": {
-            "HP": 20,
+            "HP": 25,
             "STR": 3,
             "MAG": 0,
             "SKL": 4,
-            "SPD": 1,
-            "LCK": 2,
-            "DEF": 5,
+            "SPD": 4,
+            "LCK": 0,
+            "DEF": 9,
             "CON": 14,
             "MOV": 5,
-            "RES": 2
+            "RES": 4
         },
         "growths": {
             "HP": 0,
@@ -52,6 +52,10 @@
             ]
         ],
         "learned_skills": [
+            [
+                1,
+                "Anticrit"
+            ],
             [
                 1,
                 "DivineBlessing"

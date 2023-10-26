@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Shove",
+        "name": "Shove",
+        "desc": "Free action. Shove target 1 tile.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Shove"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

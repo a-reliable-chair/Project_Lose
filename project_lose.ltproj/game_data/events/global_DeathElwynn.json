@@ -9,9 +9,15 @@
         "priority": 20,
         "_source": [
             "add_portrait;Elwynn;FarRight",
-            "speak;Elwynn;I have no regrets.{br}This was always my fate.",
+            "if;game.level.nid == '4'",
+            "speak;Elwynn;Endgame deathquote",
+            "else",
+            "speak;Elwynn;regular deathquote.",
+            "end",
             "expression;Elwynn;CloseEyes",
-            "remove_portrait;Elwynn"
+            "remove_portrait;Elwynn",
+            "",
+            ""
         ]
     }
 ]

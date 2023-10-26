@@ -8,11 +8,12 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "set_current_hp;Alpin (Alpin);1",
-            "set_current_hp;Soldier (101);1",
-            "set_current_hp;Carlin;1",
-            "game_var;_convoy;True",
-            "base;Arena"
+            "set_current_hp;Soldier (106);1",
+            "set_current_hp;Brassfield;1",
+            "level_var;SaraidSkill;0",
+            "level_var;QuinleySkill;0",
+            "set_exp;Alpin;95",
+            "level_var;RoutEnemies;0"
         ]
     }
 ]

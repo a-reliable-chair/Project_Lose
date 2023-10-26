@@ -2,7 +2,7 @@
     {
         "nid": "AngelFeather",
         "name": "AngelFeather",
-        "desc": "+5% Growths.",
+        "desc": "+10% Growths.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -14,35 +14,39 @@
                 [
                     [
                         "HP",
-                        5
+                        10
                     ],
                     [
                         "STR",
-                        5
+                        10
                     ],
                     [
                         "MAG",
-                        5
+                        10
                     ],
                     [
                         "SKL",
-                        5
+                        10
                     ],
                     [
                         "SPD",
-                        5
+                        10
                     ],
                     [
                         "LCK",
-                        5
+                        10
                     ],
                     [
                         "DEF",
-                        5
+                        10
                     ],
                     [
                         "RES",
-                        5
+                        10
+                    ],
+                    [
+                        "MOV",
+                        10
                     ]
                 ]
             ],

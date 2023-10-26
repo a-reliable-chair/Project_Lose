@@ -2,7 +2,7 @@
     {
         "nid": "AngelFeather",
         "name": "<yellow>Angel Feather</yellow>",
-        "desc": "Gives unit +5% growths. Cannot stack.",
+        "desc": "Gives unit +10% growths. Cannot stack.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,

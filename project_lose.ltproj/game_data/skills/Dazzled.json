@@ -2,7 +2,7 @@
     {
         "nid": "Dazzled",
         "name": "Dazzled",
-        "desc": "-15 Hit.",
+        "desc": "-20 Hit.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "hit",
-                -15
+                -20
             ],
             [
                 "negative",

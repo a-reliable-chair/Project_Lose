@@ -54,3 +54,30 @@ class DrawBackOnEndCombatInitiate(ItemComponent):
             if new_position_user and new_position_target:
                 action.do(action.Teleport(unit, new_position_user))
                 action.do(action.Teleport(target, new_position_target))
+
+class BackdashOnEndCombat(ItemComponent):
+    nid = 'backdash_on_end_combat'
+    desc = 'Unit shoves *itself* backwards from the target point after combat.'
+    tag = ItemTags.CUSTOM
+    author = 'mag, Lord_Tweed'
+
+    expose = ComponentType.Int
+    value = 1
+
+    def _check_dash(self, target, user, magnitude):
+        tpos = target.position
+        upos = user.position
+        offset = utils.tmult(utils.tclamp(utils.tuple_sub(upos, tpos), (-1, -1), (1, 1)), magnitude)
+        npos = utils.tuple_add(upos, offset)
+
+        mcost_user = movement_funcs.get_mcost(user, npos)
+        if game.board.check_bounds(npos) and not game.board.get_unit(npos) and \
+                mcost_user <= equations.parser.movement(user):
+            return npos
+        return None
+
+    def end_combat(self, playback, unit, item, target, mode):
+        if target and not skill_system.ignore_forced_movement(unit):
+            new_position = self._check_dash(target, unit, self.value)
+            if new_position:
+                action.do(action.ForcedMovement(unit, new_position))

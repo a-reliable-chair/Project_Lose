@@ -11,7 +11,8 @@
             "if;game.check_alive('Brassfield')",
             "flicker_cursor;Brassfield",
             "change_ai;Brassfield;YoloIgnore",
-            "speak;;Brassfield is now on the attack!;;;hint"
+            "speak;;Brassfield is now on the attack!;;;hint",
+            "end"
         ]
     }
 ]

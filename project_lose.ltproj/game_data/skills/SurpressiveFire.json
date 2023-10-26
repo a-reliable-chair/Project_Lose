@@ -2,7 +2,7 @@
     {
         "nid": "SurpressiveFire",
         "name": "Surpressive Fire",
-        "desc": "Enemy units within 3 tiles have their MOV cut in half.",
+        "desc": "Aura: Enemy units within 3 tiles have their MOV cut in half.",
         "icon_nid": "Skills",
         "icon_index": [
             0,

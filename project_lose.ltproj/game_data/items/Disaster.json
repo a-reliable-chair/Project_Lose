@@ -31,7 +31,7 @@
             ],
             [
                 "hit",
-                5
+                10
             ],
             [
                 "crit",
@@ -97,6 +97,10 @@
             [
                 "battle_cast_anim",
                 "Flux"
+            ],
+            [
+                "backdash_on_end_combat",
+                1
             ]
         ]
     }

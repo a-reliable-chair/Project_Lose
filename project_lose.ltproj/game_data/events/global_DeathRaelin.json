@@ -1,0 +1,23 @@
+[
+    {
+        "name": "DeathRaelin",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Raelin'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Raelin;FarRight",
+            "if;game.level.nid == '4'",
+            "speak;Raelin;Endgame deathquote",
+            "else",
+            "speak;Raelin;regular deathquote.",
+            "end",
+            "expression;Raelin;CloseEyes",
+            "remove_portrait;Raelin",
+            "",
+            ""
+        ]
+    }
+]

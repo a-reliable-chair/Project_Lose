@@ -9,9 +9,15 @@
         "priority": 20,
         "_source": [
             "add_portrait;Quinley;FarRight",
-            "speak;Quinley;I was prepared for...{br}anything...",
+            "if;game.level.nid == '4'",
+            "speak;Quinley;Endgame deathquote",
+            "else",
+            "speak;Quinley;regular deathquote.",
+            "end",
             "expression;Quinley;CloseEyes",
-            "remove_portrait;Quinley"
+            "remove_portrait;Quinley",
+            "",
+            ""
         ]
     }
 ]

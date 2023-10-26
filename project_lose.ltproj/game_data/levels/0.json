@@ -56,7 +56,7 @@
                 "generic": false
             },
             {
-                "nid": "Zoya",
+                "nid": "Raelin",
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
@@ -154,7 +154,7 @@
                 "generic": false
             },
             {
-                "nid": "Sloane",
+                "nid": "Saraid",
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
@@ -224,7 +224,7 @@
                 "generic": false
             },
             {
-                "nid": "Cathal",
+                "nid": "Laisren",
                 "team": "other",
                 "ai": "None",
                 "roam_ai": null,
@@ -1110,23 +1110,6 @@
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Escape",
-                "region_type": "event",
-                "position": [
-                    13,
-                    11
-                ],
-                "size": [
-                    4,
-                    1
-                ],
-                "sub_nid": "Escape",
-                "condition": "unit.team == 'player'",
-                "time_left": null,
-                "only_once": false,
                 "interrupt_move": false
             },
             {

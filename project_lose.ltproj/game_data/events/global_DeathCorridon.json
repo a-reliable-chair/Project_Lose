@@ -9,9 +9,15 @@
         "priority": 20,
         "_source": [
             "add_portrait;Corridon;FarRight",
-            "speak;Corridon;Urgh...|My apologies. I must withdraw.",
+            "if;game.level.nid == '4'",
+            "speak;Corridon;Endgame deathquote",
+            "else",
+            "speak;Corridon;regular deathquote.",
+            "end",
             "expression;Corridon;CloseEyes",
-            "remove_portrait;Corridon"
+            "remove_portrait;Corridon",
+            "",
+            ""
         ]
     }
 ]

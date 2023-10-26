@@ -12,8 +12,12 @@
             "map_anim;Snag;{position}",
             "# Show the new layer",
             "show_layer;Box1",
-            "",
-            ""
+            "if;game.check_alive('Leod')",
+            "flicker_cursor;Leod",
+            "add_portrait;Leod;Right",
+            "speak;Leod;AH! SOMEBODY HELP!",
+            "remove_portrait;Leod",
+            "end"
         ]
     }
 ]

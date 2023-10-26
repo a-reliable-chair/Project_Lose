@@ -12,8 +12,7 @@
             "speak;Brassfield;filler",
             "expression;Brassfield;CloseEyes",
             "remove_portrait;Brassfield",
-            "inc_game_var;BrassfieldDead;1",
-            "win_game"
+            "inc_game_var;BrassfieldDead;1"
         ]
     }
 ]

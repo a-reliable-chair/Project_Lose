@@ -12,12 +12,12 @@
         "bases": {
             "HP": 8,
             "STR": 0,
-            "MAG": 6,
+            "MAG": 4,
             "SKL": 0,
             "SPD": 3,
             "LCK": 5,
             "DEF": 0,
-            "RES": 6,
+            "RES": 4,
             "CON": 4,
             "MOV": 5
         },
@@ -47,14 +47,6 @@
         },
         "starting_items": [
             [
-                "Heal",
-                false
-            ],
-            [
-                "Trade",
-                false
-            ],
-            [
                 "ChurchKey",
                 false
             ]
@@ -62,11 +54,15 @@
         "learned_skills": [
             [
                 1,
-                "Protector"
+                "Shove"
             ],
             [
                 1,
-                "HolyVeil"
+                "DivineConduit"
+            ],
+            [
+                1,
+                "Exchange"
             ]
         ],
         "unit_notes": [],

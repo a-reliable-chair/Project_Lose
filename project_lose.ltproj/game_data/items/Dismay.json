@@ -46,7 +46,7 @@
             ],
             [
                 "exp",
-                60
+                66
             ],
             [
                 "equation_blast_aoe",
@@ -71,6 +71,10 @@
             [
                 "text_color",
                 "purple"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

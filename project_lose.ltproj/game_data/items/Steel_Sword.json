@@ -2,7 +2,7 @@
     {
         "nid": "Steel Sword",
         "name": "Steel Sword",
-        "desc": "-1 SPD.",
+        "desc": "SPD -1.",
         "icon_nid": "Sword",
         "icon_index": [
             0,

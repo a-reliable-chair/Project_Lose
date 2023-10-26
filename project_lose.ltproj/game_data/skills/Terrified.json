@@ -2,7 +2,7 @@
     {
         "nid": "Terrified",
         "name": "Terrified",
-        "desc": "-15 Crit Avoid.",
+        "desc": "-20 Crit Avoid.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -19,7 +19,7 @@
             ],
             [
                 "crit_avoid",
-                -15
+                -20
             ]
         ]
     }

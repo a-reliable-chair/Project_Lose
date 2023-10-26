@@ -2,7 +2,7 @@
     {
         "nid": "ElwynnSkill",
         "name": "Treat",
-        "desc": "Free action. Heal ally (MAG).",
+        "desc": "Free action. Restores (User's MAG + 2) HP.",
         "icon_nid": "Skills",
         "icon_index": [
             0,

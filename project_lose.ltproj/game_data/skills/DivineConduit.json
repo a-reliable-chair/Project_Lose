@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DivineConduit",
+        "name": "Divine Conduit",
+        "desc": "Restores (User's MAG * 2) HP to adjacent ally.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Heal"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

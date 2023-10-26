@@ -2,7 +2,7 @@
     {
         "nid": "Duskfall",
         "name": "Duskfall",
-        "desc": "Halves HP of all enemies in range. -4 SPD.",
+        "desc": "Halves HP of all non-boss enemies on the map.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -19,7 +19,7 @@
             ],
             [
                 "hit",
-                -15
+                -10
             ],
             [
                 "weapon_type",
@@ -31,7 +31,7 @@
             ],
             [
                 "uses",
-                2
+                1
             ],
             [
                 "uses_options",
@@ -50,7 +50,7 @@
             ],
             [
                 "wexp",
-                2
+                5
             ],
             [
                 "no_double",
@@ -61,16 +61,20 @@
                 null
             ],
             [
-                "status_on_equip",
-                "SPD4"
-            ],
-            [
-                "equation_blast_aoe",
-                "MAGIC_RANGE"
-            ],
-            [
                 "eclipse",
                 null
+            ],
+            [
+                "cannot_counter",
+                null
+            ],
+            [
+                "all_enemies_aoe",
+                null
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Boss' not in target.tags"
             ]
         ]
     }

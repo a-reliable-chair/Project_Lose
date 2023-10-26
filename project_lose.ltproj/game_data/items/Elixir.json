@@ -2,7 +2,7 @@
     {
         "nid": "Elixir",
         "name": "Elixir",
-        "desc": "Fully recovers HP.",
+        "desc": "Fully recovers HP. Unit can act after using.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -42,6 +42,10 @@
                     144,
                     232
                 ]
+            ],
+            [
+                "attack_after_combat",
+                null
             ]
         ]
     }

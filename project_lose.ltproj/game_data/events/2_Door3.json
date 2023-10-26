@@ -1,7 +1,7 @@
 [
     {
         "name": "Door3",
-        "trigger": "Door",
+        "trigger": "Entrance",
         "level_nid": "2",
         "condition": "region.nid == 'Door3'",
         "commands": [],
@@ -10,7 +10,9 @@
         "_source": [
             "sound;Unlock",
             "show_layer;BotDoor",
-            "give_exp;{unit};10",
+            "if;unit.team == 'player'",
+            "give_exp;{unit};20",
+            "end",
             "has_traded;{unit}",
             "move_cursor;Emberson (Emberson)",
             "flicker_cursor;Emberson (Emberson)",

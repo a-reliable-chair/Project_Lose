@@ -1,0 +1,47 @@
+[
+    {
+        "nid": "Petrified",
+        "name": "Petrified",
+        "desc": "Unit cannot act, and has drastically reduced Avoid and Crit Avoid.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            2,
+            10
+        ],
+        "components": [
+            [
+                "time",
+                3
+            ],
+            [
+                "unselectable",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "MOV",
+                        -99
+                    ]
+                ]
+            ],
+            [
+                "cannot_use_items",
+                null
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "avoid",
+                -100
+            ],
+            [
+                "crit_avoid",
+                -100
+            ]
+        ]
+    }
+]

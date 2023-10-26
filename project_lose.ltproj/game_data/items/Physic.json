@@ -2,7 +2,7 @@
     {
         "nid": "Physic",
         "name": "Physic",
-        "desc": "Restores an ally's HP from afar. Chapter Uses: 3.",
+        "desc": "Restores an ally's HP from up to (MAG * 2) tiles away. Chapter Uses: 4.",
         "icon_nid": "Staff",
         "icon_index": [
             0,
@@ -43,7 +43,7 @@
             ],
             [
                 "magic_heal",
-                2
+                4
             ],
             [
                 "min_range",
@@ -51,7 +51,7 @@
             ],
             [
                 "max_equation_range",
-                "MAGIC_RANGE"
+                "MAG2"
             ],
             [
                 "unrepairable",
@@ -79,6 +79,10 @@
             [
                 "battle_cast_anim",
                 "Heal"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

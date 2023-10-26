@@ -2,7 +2,7 @@
     {
         "nid": "Lancereaver",
         "name": "Lancereaver",
-        "desc": "Reverses the weapon triangle. SPD -1.",
+        "desc": "Reverses the weapon triangle.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -71,10 +71,6 @@
             [
                 "reaver",
                 null
-            ],
-            [
-                "status_on_equip",
-                "SPD1"
             ],
             [
                 "eval_warning",

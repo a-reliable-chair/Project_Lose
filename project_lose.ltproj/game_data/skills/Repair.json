@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Repair",
+        "name": "Repair",
+        "desc": "Repairs selected physical weapon in ally's inventory.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Repair"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

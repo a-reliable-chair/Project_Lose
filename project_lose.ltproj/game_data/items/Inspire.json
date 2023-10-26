@@ -27,7 +27,7 @@
             ],
             [
                 "exp",
-                22
+                33
             ],
             [
                 "min_range",
@@ -55,7 +55,7 @@
             ],
             [
                 "c_uses",
-                3
+                2
             ],
             [
                 "uses_options",
@@ -75,6 +75,10 @@
             [
                 "battle_cast_anim",
                 "Heal"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

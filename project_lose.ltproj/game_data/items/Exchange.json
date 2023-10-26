@@ -1,0 +1,62 @@
+[
+    {
+        "nid": "Exchange",
+        "name": "Exchange",
+        "desc": "Free action. Trade with allies up to (MAG * 2) tiles away.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAG2"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    232,
+                    200,
+                    15
+                ]
+            ],
+            [
+                "trade",
+                null
+            ],
+            [
+                "menu_after_combat",
+                null
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "Warp"
+            ],
+            [
+                "map_cast_anim",
+                "Warp"
+            ]
+        ]
+    }
+]

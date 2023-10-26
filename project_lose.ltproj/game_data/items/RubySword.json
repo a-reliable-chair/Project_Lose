@@ -2,7 +2,7 @@
     {
         "nid": "RubySword",
         "name": "Ruby Sword",
-        "desc": "Doubles the weapon triangle. SPD -1.",
+        "desc": "Doubles the weapon triangle.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -31,7 +31,7 @@
             ],
             [
                 "hit",
-                0
+                5
             ],
             [
                 "crit",
@@ -71,10 +71,6 @@
             [
                 "double_triangle",
                 null
-            ],
-            [
-                "status_on_equip",
-                "SPD1"
             ],
             [
                 "warning",

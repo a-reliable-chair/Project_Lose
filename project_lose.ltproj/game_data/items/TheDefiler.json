@@ -2,7 +2,7 @@
     {
         "nid": "TheDefiler",
         "name": "<blue>The Defiler</blue>",
-        "desc": "Knight line only. Effective Vs. Clergy. +2 MAG, +2 RES.",
+        "desc": "Knight line only. Inflicts half damage on miss. Effective Vs. Clergy. ",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -27,11 +27,11 @@
             ],
             [
                 "damage",
-                8
+                6
             ],
             [
                 "hit",
-                15
+                -15
             ],
             [
                 "crit",
@@ -65,12 +65,12 @@
                 }
             ],
             [
-                "status_on_equip",
-                "Blessed2"
-            ],
-            [
                 "text_color",
                 "blue"
+            ],
+            [
+                "damage_on_miss",
+                0.5
             ]
         ]
     }

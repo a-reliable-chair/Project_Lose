@@ -793,8 +793,8 @@
                 "action": "Attack",
                 "target": "Enemy",
                 "target_spec": [
-                    "Tag",
-                    "Ch2Ignore"
+                    "Team",
+                    "other"
                 ],
                 "view_range": -4,
                 "invert_targeting": false,
@@ -803,27 +803,126 @@
                 "condition": ""
             },
             {
-                "action": "None",
-                "target": "None",
-                "target_spec": null,
-                "view_range": 0,
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Ch2Ignore"
+                ],
+                "view_range": -2,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
             },
             {
-                "action": "None",
-                "target": "None",
+                "action": "Attack",
+                "target": "Enemy",
                 "target_spec": null,
-                "view_range": 0,
+                "view_range": -2,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
                 "condition": ""
             }
         ],
-        "priority": 20,
+        "priority": 21,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "ThiefCh3",
+        "behaviours": [
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Chest",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Door",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Entrance",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Escape",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 12,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "ThiefCh3_1",
+        "behaviours": [
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Chest",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Entrance",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Door",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Interact",
+                "target": "Event",
+                "target_spec": "Escape",
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 12,
         "offense_bias": 2.0,
         "roam_ai": false
     }

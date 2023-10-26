@@ -1,8 +1,8 @@
 [
     {
         "nid": "TheReclaimer",
-        "name": "<blue>TheReclaimer<blue>",
-        "desc": "Cavalier line only. Effective Vs. Armor. +2 STR, +2 SKL.",
+        "name": "<blue>The Reclaimer<blue>",
+        "desc": "Cavalier line only. 50% Lifelink. Effective Vs. Armor.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -27,15 +27,15 @@
             ],
             [
                 "damage",
-                7
+                6
             ],
             [
                 "hit",
-                20
+                -10
             ],
             [
                 "crit",
-                20
+                10
             ],
             [
                 "level_exp",
@@ -65,12 +65,12 @@
                 }
             ],
             [
-                "status_on_equip",
-                "Blessed1"
-            ],
-            [
                 "text_color",
                 "blue"
+            ],
+            [
+                "lifelink",
+                0.5
             ]
         ]
     }

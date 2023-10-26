@@ -14,10 +14,6 @@
                 null
             ],
             [
-                "time",
-                1
-            ],
-            [
                 "stat_change_expression",
                 [
                     [
@@ -25,6 +21,10 @@
                         "-unit.stats['MOV']"
                     ]
                 ]
+            ],
+            [
+                "end_time",
+                1
             ]
         ]
     }

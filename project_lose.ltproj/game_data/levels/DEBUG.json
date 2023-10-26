@@ -65,7 +65,7 @@
                 "generic": false
             },
             {
-                "nid": "Zoya",
+                "nid": "Raelin",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -91,14 +91,14 @@
                 "generic": false
             },
             {
-                "nid": "Sloane",
+                "nid": "Saraid",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    8
+                    7,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -195,7 +195,7 @@
                 "generic": false
             },
             {
-                "nid": "Cathal",
+                "nid": "Laisren",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -213,10 +213,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    8,
-                    2
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -230,6 +227,10 @@
                     [
                         "Iron Axe",
                         false
+                    ],
+                    [
+                        "MultiPhysic",
+                        true
                     ]
                 ],
                 "starting_skills": [
@@ -239,10 +240,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    7,
-                    9
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -252,7 +250,12 @@
                 "level": 1,
                 "klass": "ManDead",
                 "faction": "Villager",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "None",
@@ -282,10 +285,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    4,
-                    8
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -306,10 +306,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    6,
-                    6
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -330,10 +327,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    5,
-                    7
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -341,21 +335,21 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Monk",
+                "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Flash",
+                        "Steel Lance",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "AttackNoMove",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
+                    7,
                     9
                 ],
                 "starting_traveler": null,
@@ -367,10 +361,30 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Brassfield",
+                "team": "enemy",
+                "ai": "AttackNoMove",
+                "roam_ai": null,
+                "ai_group": "",
                 "starting_position": [
-                    7,
-                    5
+                    9,
+                    9
                 ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Ackerman",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             }

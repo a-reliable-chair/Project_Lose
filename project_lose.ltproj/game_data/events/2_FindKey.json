@@ -12,7 +12,7 @@
             "speak;{unit};Got it!",
             "remove_portrait;{unit}",
             "give_item;{unit};Relic Key (RelicKey)",
-            "give_exp;{unit};10",
+            "give_exp;{unit};20",
             "has_traded;{unit}"
         ]
     }
