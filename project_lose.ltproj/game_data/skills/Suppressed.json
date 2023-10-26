@@ -1,7 +1,7 @@
 [
     {
-        "nid": "Surpressed",
-        "name": "Surpressed",
+        "nid": "Suppressed",
+        "name": "Suppressed",
         "desc": "Unit's MOV is reduced by half.",
         "icon_nid": "Skills",
         "icon_index": [
