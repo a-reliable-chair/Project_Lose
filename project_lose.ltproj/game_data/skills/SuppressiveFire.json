@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "SuppressiveFire",
+        "name": "Suppressive Fire",
+        "desc": "Once per enemy phase, attack an enemy that moves within\n3 tiles and cut their remaining movement in half.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

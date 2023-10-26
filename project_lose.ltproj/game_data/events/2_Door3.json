@@ -18,7 +18,8 @@
             "flicker_cursor;Emberson (Emberson)",
             "add_portrait;Emberson (Emberson);Left",
             "speak;Emberson (Emberson);Ah-ha! Smoked 'em out boys!|Time for the fun part!",
-            "remove_portrait;Emberson (Emberson)"
+            "remove_portrait;Emberson (Emberson)",
+            "change_ai;Emberson;Yolo"
         ]
     }
 ]

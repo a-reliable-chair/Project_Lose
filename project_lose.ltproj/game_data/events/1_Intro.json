@@ -220,6 +220,7 @@
             "remove_skill;Lamonte (Lamonte);NPCVision (NPCVision);FLAG(no_banner)",
             "inc_level_var;RoutEnemies;-1",
             "inc_game_var;LeodDead;1",
+            "change_ai;Brassfield;NoAttackNoMove",
             "prep;1;Before An Impossible Battlefield"
         ]
     }

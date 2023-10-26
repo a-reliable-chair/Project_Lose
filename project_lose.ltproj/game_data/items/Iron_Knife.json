@@ -54,6 +54,10 @@
                 [
                     "Thief"
                 ]
+            ],
+            [
+                "ignore_weapon_advantage",
+                null
             ]
         ]
     }

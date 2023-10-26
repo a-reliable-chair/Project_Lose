@@ -514,7 +514,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1156,7 +1156,7 @@
                 ],
                 "size": [
                     2,
-                    2
+                    3
                 ],
                 "sub_nid": "Entrance",
                 "condition": "unit.can_unlock(region)",

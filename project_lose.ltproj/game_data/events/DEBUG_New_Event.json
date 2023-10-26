@@ -1,0 +1,14 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "unit_select",
+        "level_nid": "DEBUG",
+        "condition": "game.phase.get_current() in ['enemy', 'enemy2'] ",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "speak;test!;;;;hint"
+        ]
+    }
+]

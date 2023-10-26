@@ -1,7 +1,7 @@
 [
     {
         "nid": "Heal",
-        "name": "Heal",
+        "name": "<blue>Heal</>",
         "desc": "Restores (User's MAG * 2) HP.",
         "icon_nid": "Staff",
         "icon_index": [

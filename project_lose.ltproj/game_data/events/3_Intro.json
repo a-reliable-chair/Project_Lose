@@ -129,6 +129,7 @@
             "change_background",
             "move_cursor;21, 0",
             "transition;open",
+            "change_ai;Davenport;AttackNoMove",
             "prep;1;Before An Impossible Battlefield"
         ]
     }

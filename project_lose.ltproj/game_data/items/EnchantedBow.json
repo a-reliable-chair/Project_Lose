@@ -1,8 +1,8 @@
 [
     {
-        "nid": "ShiningBow",
-        "name": "Shining Bow",
-        "desc": "Uses MAG, targets RES. Not effective Vs. Fliers. SPD -1.",
+        "nid": "EnchantedBow",
+        "name": "Enchanted Bow",
+        "desc": "Targets RES. Not effective Vs. Fliers. SPD -1.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -67,10 +67,6 @@
             [
                 "alternate_resist_formula",
                 "MAGIC_DEFENSE"
-            ],
-            [
-                "alternate_damage_formula",
-                "MAGIC_DAMAGE"
             ],
             [
                 "status_on_equip",

@@ -45,8 +45,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    7
+                    10,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -58,8 +58,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    5
+                    7,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -84,8 +84,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    8
+                    11,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -97,8 +97,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    7
+                    8,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -149,8 +149,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    6
+                    6,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -345,12 +345,12 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "AttackNoMove",
+                "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    9
+                    3,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -391,51 +391,14 @@
         ],
         "regions": [
             {
-                "nid": "House",
+                "nid": "New Region",
                 "region_type": "event",
-                "position": [
-                    9,
-                    1
-                ],
+                "position": null,
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
-                "condition": "True",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Door1",
-                "region_type": "event",
-                "position": [
-                    4,
-                    2
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "Door",
-                "condition": "unit.can_unlock(region)",
-                "time_left": null,
-                "only_once": true,
-                "interrupt_move": false
-            },
-            {
-                "nid": "New_Region",
-                "region_type": "vision",
-                "position": [
-                    12,
-                    8
-                ],
-                "size": [
-                    1,
-                    1
-                ],
-                "sub_nid": "3",
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,

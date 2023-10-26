@@ -8,8 +8,10 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "set_current_hp;Soldier (106);1",
+            "#set_current_hp;Soldier (106);1",
             "set_current_hp;Brassfield;1",
+            "set_current_hp;Alpin;1",
+            "give_skill;Garvey;SuppressiveFire;no_banner",
             "level_var;SaraidSkill;0",
             "level_var;QuinleySkill;0",
             "set_exp;Alpin;95",

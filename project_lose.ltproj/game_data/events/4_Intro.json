@@ -132,6 +132,8 @@
             "speak;Elspeth;filler",
             "remove_portrait;Elspeth",
             "end",
+            "change_ai;Cawthorne;AttackNoMove",
+            "change_ai;Shallcross;AttackNoMove",
             "prep;1;Before An Impossible Battlefield",
             "# Turn 1 has Final Battle Quotes for deployed units (eventing not formatted yet)"
         ]

@@ -2,7 +2,7 @@
     {
         "nid": "Mini_Bow",
         "name": "Mini Bow",
-        "desc": "Cannot Counter. SPD -1.",
+        "desc": "SPD -1.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -69,16 +69,12 @@
                 1
             ],
             [
-                "cannot_counter",
-                null
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
                         "Flying"
                     ],
-                    "effective_multiplier": 2.0,
+                    "effective_multiplier": 3.0,
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true
                 }

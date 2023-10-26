@@ -118,8 +118,9 @@
             "wait;500",
             "give_skill;Elspeth (Elspeth);HolyVeil;no_banner",
             "if;{v:LeodDead} == 1",
-            "give_skill;Garvey (Garvey);Surpressive Fire (SurpressiveFire);FLAG(no_banner)",
+            "give_skill;Garvey (Garvey);SuppressiveFire;no_banner",
             "end",
+            "change_ai;Emberson;AttackInRange",
             "prep;1;Before An Impossible Battlefield"
         ]
     }

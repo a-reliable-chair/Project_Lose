@@ -1,7 +1,7 @@
 [
     {
         "nid": "Flask",
-        "name": "<purple>Flask</purple>",
+        "name": "<green>Flask</>",
         "desc": "Free Action.\nAdults only! -1 MOV, +4 LUK for 3 turns. \nChapter Uses: 1",
         "icon_nid": "Consumable",
         "icon_index": [

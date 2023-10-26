@@ -37,6 +37,14 @@
             [
                 "cannot_trade",
                 null
+            ],
+            [
+                "exp_multiplier",
+                0
+            ],
+            [
+                "wexp_multiplier",
+                0
             ]
         ]
     }

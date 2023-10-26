@@ -2,7 +2,7 @@
     {
         "nid": "Galebow",
         "name": "Galebow",
-        "desc": "After killing an enemy on player phase, unit can act again. SPD -1.",
+        "desc": "After killing an enemy on player phase, unit can act again. SPD -3.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -70,7 +70,7 @@
                     "effective_tags": [
                         "Flying"
                     ],
-                    "effective_multiplier": 2.0,
+                    "effective_multiplier": 3.0,
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true
                 }
@@ -82,7 +82,7 @@
             [
                 "multi_status_on_equip",
                 [
-                    "SPD1",
+                    "SPD3",
                     "Galeforce"
                 ]
             ]

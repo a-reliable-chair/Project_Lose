@@ -73,6 +73,10 @@
             [
                 "alternate_resist_formula",
                 "ZERO"
+            ],
+            [
+                "ignore_weapon_advantage",
+                null
             ]
         ]
     }
