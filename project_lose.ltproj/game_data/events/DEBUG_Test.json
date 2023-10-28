@@ -15,7 +15,7 @@
             "level_var;SaraidSkill;0",
             "level_var;QuinleySkill;0",
             "set_exp;Alpin;95",
-            "#change_ai;Brassfield;Yolo",
+            "change_ai;Brassfield;None",
             "level_var;RoutEnemies;0",
             "give_item;Elwynn;Flair;no_banner",
             "add_lore;WeaponTriangle",

@@ -32,8 +32,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    5
+                    8,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -45,8 +45,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    5
+                    3,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -58,8 +58,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    2
+                    5,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -71,8 +71,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    7
+                    5,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -84,66 +84,14 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Saraid",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    4,
+                    6,
                     9
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
-                "nid": "Quinley",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    4
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Elspeth",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Lamonte",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    8,
-                    6
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Garvey",
+                "nid": "Saraid",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -156,14 +104,66 @@
                 "generic": false
             },
             {
+                "nid": "Quinley",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Elspeth",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Lamonte",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Garvey",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
                 "nid": "Orla",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    4
+                    9,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -175,8 +175,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    4
+                    6,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -188,8 +188,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    3
+                    7,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -201,8 +201,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    3
+                    8,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -213,34 +213,29 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    6,
+                    11
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
                 "nid": "101",
                 "variant": null,
-                "level": 2,
-                "klass": "Dracoknight",
+                "level": 1,
+                "klass": "PegasusKnight",
                 "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Axe",
-                        false
-                    ],
-                    [
-                        "MultiPhysic",
-                        true
-                    ]
-                ],
-                "starting_skills": [
-                    "Bloodlust"
-                ],
+                "starting_items": [],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    6,
+                    10
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -337,7 +332,7 @@
                 "ai_group": "",
                 "starting_position": [
                     8,
-                    9
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -359,7 +354,10 @@
                 "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    6,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -381,7 +379,7 @@
                 "ai_group": "",
                 "starting_position": [
                     4,
-                    11
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false

@@ -9,19 +9,16 @@
         "priority": 20,
         "_source": [
             "if;{v:FireOrigin1} != 0 and {v:FireComplete1} == 0",
-            "for;size;range(1)",
-            "    for;sets_r_cringe;{v:ValidFire1Locs}",
-            "        lvar;ValidFire1Locs;{v:ValidFire1Locs} + [v for v in game.target_system.get_adjacent_positions({sets_r_cringe}) if v not in {v:ValidFire1Locs}]",
+            "    lvar;whocares1;0",
+            "    for;cross;[p for p in {v:ValidFire1Locs}]",
+            "        add_region;{e:'Fire1_' + str({v:whocares1})};{cross};1,1;status;Burning",
+            "        map_anim;Burning;{cross};overlay;permanent",
+            "        inc_level_var;whocares1;1",
             "    endf",
-            "endf",
-            "for;cross;[p for p in {v:ValidFire1Locs} if not game.board.get_unit(p)]",
-            "    add_region;{v:FireOrigin1};{cross};1,1;status;Burning",
-            "endf",
-            "remove_map_anim;Burning;{v:FireOrigin1}",
-            "map_anim;Target_3x3;{v:FireOrigin1};overlay;permanent",
-            "inc_level_var;FireComplete1;1",
+            "    inc_level_var;FireComplete1;1",
+            "#elif;{v:FireOrigin2} != 0 and {v:FireComplete2} == 0",
             "end",
-            "# if;{v:FireOrigin2} != 0 and {v:FireComplete2} == 0"
+            ""
         ]
     }
 ]

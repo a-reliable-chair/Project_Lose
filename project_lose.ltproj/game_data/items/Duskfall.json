@@ -2,7 +2,7 @@
     {
         "nid": "Duskfall",
         "name": "Duskfall",
-        "desc": "Halves HP of all non-boss enemies on the map.",
+        "desc": "Carlin and Quinley Only.\nHalves HP of all non-boss enemies on the map.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -20,10 +20,6 @@
             [
                 "hit",
                 -10
-            ],
-            [
-                "weapon_type",
-                "Dark"
             ],
             [
                 "magic",
@@ -49,10 +45,6 @@
                 ]
             ],
             [
-                "wexp",
-                5
-            ],
-            [
                 "no_double",
                 null
             ],
@@ -75,6 +67,13 @@
             [
                 "eval_target_restrict_2",
                 "'Boss' not in target.tags"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Carlin",
+                    "Quinley"
+                ]
             ]
         ]
     }

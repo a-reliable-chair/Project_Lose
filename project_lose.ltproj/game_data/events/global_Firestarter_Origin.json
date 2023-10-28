@@ -11,12 +11,14 @@
             "if;{v:FireStart1} == 0",
             "    add_region;Burning1-a;{unit2};1,1;status;Burning",
             "    map_anim;Burning;{unit2};overlay;permanent",
-            "    lvar;ValidFire1Locs;[x for x in game.target_system.get_adjacent_positions({unit2}).position)]",
+            "    lvar;ValidFire1Locs;[x for x in game.target_system.get_adjacent_positions(unit2.position)]",
             "    inc_level_var;FireStart1;1",
-            "    lvar;FireOrigin1;{e:{unit2}.position}",
+            "    lvar;FireOrigin1;unit2.position",
             "#elif;{v:FireStart2} == 0",
-            "#elif;{v:FireStart3} == 0",
-            "end"
+            "end",
+            "",
+            "",
+            ""
         ]
     }
 ]
