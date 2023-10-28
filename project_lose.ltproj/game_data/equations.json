@@ -77,11 +77,11 @@
     },
     {
         "nid": "STEAL_ATK",
-        "expression": "SPD"
+        "expression": "1"
     },
     {
         "nid": "STEAL_DEF",
-        "expression": "SPD"
+        "expression": "0"
     },
     {
         "nid": "HEAL",

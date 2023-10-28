@@ -2,7 +2,7 @@
     {
         "nid": "Whirlwind",
         "name": "<purple>Whirlwind</purple>",
-        "desc": "Orla Only. Attack twice per turn. Can target same target twice.",
+        "desc": "Orla Only.\nAttack twice per turn. Can target same target twice.",
         "icon_nid": "Axe",
         "icon_index": [
             0,

@@ -2,7 +2,7 @@
     {
         "nid": "TheConqueror",
         "name": "<blue>TheConqueror</blue>",
-        "desc": "Cavalier line only. Deals magic damage at range. Effective Vs. Horseback.",
+        "desc": "Cavalier line only.\nDeals magic damage at range. Effective Vs. Horseback.",
         "icon_nid": "Sword",
         "icon_index": [
             0,

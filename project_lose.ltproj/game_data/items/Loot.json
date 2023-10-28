@@ -2,7 +2,7 @@
     {
         "nid": "Loot",
         "name": "Loot",
-        "desc": "Loot the body, get the stuff",
+        "desc": "Loot the body, get the stuff.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

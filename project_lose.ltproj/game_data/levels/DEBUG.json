@@ -84,8 +84,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    3
+                    8,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -97,8 +97,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    2
+                    4,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -150,7 +150,7 @@
                 "ai_group": "",
                 "starting_position": [
                     6,
-                    7
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -318,7 +318,15 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Longbow",
+                        "Iron Bow",
+                        false
+                    ],
+                    [
+                        "Iron Sword",
+                        false
+                    ],
+                    [
+                        "EtherealBlade",
                         false
                     ]
                 ],
@@ -327,7 +335,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    8,
+                    9
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -348,10 +359,7 @@
                 "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    3,
-                    10
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -372,8 +380,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    9
+                    4,
+                    11
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -391,17 +399,20 @@
         ],
         "regions": [
             {
-                "nid": "New Region",
+                "nid": "Door1",
                 "region_type": "event",
-                "position": null,
+                "position": [
+                    11,
+                    7
+                ],
                 "size": [
-                    1,
+                    2,
                     1
                 ],
-                "sub_nid": "",
-                "condition": "True",
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region)",
                 "time_left": null,
-                "only_once": false,
+                "only_once": true,
                 "interrupt_move": false
             }
         ],

@@ -5,8 +5,8 @@
         "desc": "Steal items from enemies.",
         "icon_nid": "Skills",
         "icon_index": [
-            0,
-            0
+            7,
+            10
         ],
         "components": [
             [

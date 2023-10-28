@@ -9,6 +9,10 @@
         "priority": 20,
         "_source": [
             "# The School",
+            "add_lore;WeaponTriangle",
+            "add_lore;Stats",
+            "add_lore;Equations",
+            "add_lore;WeaponRanks",
             "music;Another Slow Day",
             "level_var;DeadPlayers;0",
             "game_var;AckermanDead;0",

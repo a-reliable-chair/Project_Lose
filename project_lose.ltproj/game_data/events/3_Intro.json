@@ -130,6 +130,7 @@
             "move_cursor;21, 0",
             "transition;open",
             "change_ai;Davenport;AttackNoMove",
+            "add_unit;Villager_1;18, 5;immediate",
             "prep;1;Before An Impossible Battlefield"
         ]
     }

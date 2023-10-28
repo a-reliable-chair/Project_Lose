@@ -2,7 +2,7 @@
     {
         "nid": "TheDefiler",
         "name": "<blue>The Defiler</blue>",
-        "desc": "Knight line only. Inflicts half damage on miss. Effective Vs. Clergy. ",
+        "desc": "Knight line only.\nInflicts half damage on miss. Effective Vs. Clergy. ",
         "icon_nid": "Axe",
         "icon_index": [
             0,

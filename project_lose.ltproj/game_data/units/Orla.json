@@ -10,7 +10,7 @@
             "Adult"
         ],
         "bases": {
-            "HP": 17,
+            "HP": 18,
             "STR": 5,
             "MAG": 0,
             "SKL": 4,

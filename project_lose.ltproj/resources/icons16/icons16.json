@@ -63,5 +63,17 @@
     {
         "nid": "Consumable",
         "subicon_dict": {}
+    },
+    {
+        "nid": "PersonalSkills",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Negative",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "NonPlayerSkills",
+        "subicon_dict": {}
     }
 ]

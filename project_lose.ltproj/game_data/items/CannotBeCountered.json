@@ -1,16 +1,16 @@
 [
     {
-        "nid": "Boss2Skill",
-        "name": "Boss2Skill",
+        "nid": "CannotBeCountered",
+        "name": "CannotBeCountered",
         "desc": "",
-        "icon_nid": "Skills",
+        "icon_nid": null,
         "icon_index": [
             0,
             0
         ],
         "components": [
             [
-                "class_skill",
+                "cannot_be_countered",
                 null
             ]
         ]

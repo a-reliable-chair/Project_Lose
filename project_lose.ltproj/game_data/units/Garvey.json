@@ -10,7 +10,7 @@
             "Adult"
         ],
         "bases": {
-            "HP": 13,
+            "HP": 14,
             "STR": 5,
             "MAG": 0,
             "SKL": 5,
@@ -24,7 +24,7 @@
         "growths": {
             "HP": 55,
             "STR": 35,
-            "MAG": 20,
+            "MAG": 0,
             "SKL": 30,
             "SPD": 20,
             "LCK": 10,

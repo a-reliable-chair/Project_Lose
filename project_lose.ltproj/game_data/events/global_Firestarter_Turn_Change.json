@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Firestarter_Turn_Change",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:FireOrigin1} != 0 and {v:FireComplete1} == 0",
+            "for;size;range(1)",
+            "    for;sets_r_cringe;{v:ValidFire1Locs}",
+            "        lvar;ValidFire1Locs;{v:ValidFire1Locs} + [v for v in game.target_system.get_adjacent_positions({sets_r_cringe}) if v not in {v:ValidFire1Locs}]",
+            "    endf",
+            "endf",
+            "for;cross;[p for p in {v:ValidFire1Locs} if not game.board.get_unit(p)]",
+            "    add_region;{v:FireOrigin1};{cross};1,1;status;Burning",
+            "endf",
+            "remove_map_anim;Burning;{v:FireOrigin1}",
+            "map_anim;Target_3x3;{v:FireOrigin1};overlay;permanent",
+            "inc_level_var;FireComplete1;1",
+            "end",
+            "# if;{v:FireOrigin2} != 0 and {v:FireComplete2} == 0"
+        ]
+    }
+]

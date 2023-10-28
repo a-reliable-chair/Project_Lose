@@ -2,7 +2,7 @@
     {
         "nid": "Exchange",
         "name": "Exchange",
-        "desc": "Free action. Unit can trade with distant allies.",
+        "desc": "Free action. Twice per turn, unit can trade with distant allies.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -16,6 +16,10 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "charges_per_turn",
+                2
             ]
         ]
     }

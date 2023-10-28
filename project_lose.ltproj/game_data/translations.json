@@ -169,7 +169,7 @@
     },
     {
         "nid": "SPD_desc",
-        "text": "This affects both evasion and attack speed."
+        "text": "Affects avoid. Doubling threshold: 1."
     },
     {
         "nid": "DEF_desc",
@@ -221,7 +221,7 @@
     },
     {
         "nid": "Hit_desc",
-        "text": "Chance that the attack will hit. Affected by terrain and enemies."
+        "text": "SKL*20 + LCK*5"
     },
     {
         "nid": "Rng_desc",
@@ -229,7 +229,7 @@
     },
     {
         "nid": "Avoid_desc",
-        "text": "Ability to dodge enemy attacks. Affects enemy's accuracy."
+        "text": "SPD*5 + LCK * 5"
     },
     {
         "nid": "AS_desc",
@@ -237,7 +237,7 @@
     },
     {
         "nid": "Crit_desc",
-        "text": "Chance the weapon will strike a critical blow, dealing double damage."
+        "text": "LCK*5"
     },
     {
         "nid": "Level_desc",
@@ -365,7 +365,7 @@
     },
     {
         "nid": "Shove_desc",
-        "text": "Push adjacent unit 1 tile away."
+        "text": "Free action. Push adjacent unit 1 tile away."
     },
     {
         "nid": "Pair Up_desc",

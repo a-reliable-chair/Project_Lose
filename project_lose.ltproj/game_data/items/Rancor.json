@@ -2,7 +2,7 @@
     {
         "nid": "Rancor",
         "name": "<purple>Rancor</purple>",
-        "desc": "Garvey Only. User takes 5 damage when attacking.",
+        "desc": "Garvey Only.\nBrave on attack.\nHP Cost: 5.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -35,11 +35,11 @@
             ],
             [
                 "crit",
-                35
+                15
             ],
             [
                 "uses",
-                10
+                8
             ],
             [
                 "uses_options",
@@ -88,6 +88,10 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true
                 }
+            ],
+            [
+                "brave_on_attack",
+                null
             ]
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "Flair",
         "name": "<purple>Flair</purple>",
-        "desc": "Elwynn Only. Steals. Can't miss, kill, double or target bosses.",
+        "desc": "Elwynn Only.\nSteals any unequipped item from target.\nCan't miss, double, kill, or target bosses.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -27,7 +27,7 @@
             ],
             [
                 "damage",
-                1
+                3
             ],
             [
                 "uses",

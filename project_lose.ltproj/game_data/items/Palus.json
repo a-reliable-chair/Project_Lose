@@ -2,7 +2,7 @@
     {
         "nid": "Palus",
         "name": "<purple>Palus</purple>",
-        "desc": "Lamonte Only. +2 DEF/RES. Adjacent allies gain +15 Avoid.",
+        "desc": "Lamonte Only.\n+2 DEF/RES. Adjacent allies gain +15 Avoid.",
         "icon_nid": "Lance",
         "icon_index": [
             0,

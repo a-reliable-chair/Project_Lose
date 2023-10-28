@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Global_TurnStart",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            ""
+        ]
+    }
+]

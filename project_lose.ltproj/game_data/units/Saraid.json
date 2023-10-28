@@ -24,7 +24,7 @@
         "growths": {
             "HP": 50,
             "STR": 25,
-            "MAG": 25,
+            "MAG": 0,
             "SKL": 30,
             "SPD": 35,
             "LCK": 15,
@@ -56,6 +56,10 @@
             ],
             [
                 "HeartOfRadiance",
+                false
+            ],
+            [
+                "Firestarter",
                 false
             ]
         ],

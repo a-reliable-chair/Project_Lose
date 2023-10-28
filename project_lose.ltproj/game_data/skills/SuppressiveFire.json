@@ -12,10 +12,6 @@
             [
                 "class_skill",
                 null
-            ],
-            [
-                "ability",
-                "SuppressiveShot"
             ]
         ]
     }

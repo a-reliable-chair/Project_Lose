@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Door1",
+        "trigger": "Door",
+        "level_nid": "DEBUG",
+        "condition": "region.nid == 'Door1'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;{unit};Left",
+            "speak;{unit};Door!",
+            "remove_portrait;{unit}",
+            ""
+        ]
+    }
+]

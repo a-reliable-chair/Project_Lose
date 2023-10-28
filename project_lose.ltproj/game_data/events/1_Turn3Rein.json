@@ -8,16 +8,13 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "move_cursor;0, 4",
+            "move_cursor;0, 11",
             "wait;250",
-            "add_group;Rein1;Rein1;immediate;push",
-            "flicker_cursor;0, 4",
+            "add_group;Rein2;Rein2;immediate;push",
+            "flicker_cursor;0, 11",
             "wait;250",
-            "move_cursor;19, 3",
-            "flicker_cursor;19, 3",
-            "wait;500",
-            "add_portrait;SoldierRed;Right",
-            "speak;SoldierRed;Get to the church, there's bound to be good loot!",
+            "add_portrait;SoldierRed;Left",
+            "speak;SoldierRed;C'mon, soldier. Let's go for the coward!",
             "remove_portrait;SoldierRed"
         ]
     }

@@ -25,7 +25,7 @@
             ],
             [
                 "can_unlock",
-                "region.nid.startswith('Door')"
+                "region.nid.startswith('Door') and game.level.nid == '2'"
             ]
         ]
     }

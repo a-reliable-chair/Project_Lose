@@ -3,10 +3,10 @@
         "nid": "Beachcomber",
         "name": "Beachcomber",
         "desc": "+100 Crit while on Sand or Sea tiles.",
-        "icon_nid": "Skills",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
-            0,
-            0
+            1,
+            2
         ],
         "components": [
             [

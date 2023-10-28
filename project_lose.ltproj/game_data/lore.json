@@ -5,5 +5,47 @@
         "title": "Dummy",
         "category": "Dummy",
         "text": "Can not delete last object of it's kind!"
+    },
+    {
+        "nid": "Stats",
+        "name": "Stats",
+        "title": "Stats",
+        "category": "Mechanics",
+        "text": "HP/LCK: 20{br}All Others: 10{br}All Units have MOV Growths!"
+    },
+    {
+        "nid": "Equations",
+        "name": "Equations",
+        "title": "Equations",
+        "category": "Mechanics",
+        "text": "Hit: SKL*20 + LCK*5{br}Avo: SPD*5 + LCK*5{br}Crit Avo: LCK*10{br}Doubling Threshold: 1 SPD{br}Crit Damage: x2{br}Effectiveness: x3"
+    },
+    {
+        "nid": "WeaponTriangle",
+        "name": "Wep. Triangle",
+        "title": "Weapon Triangle",
+        "category": "Mechanics",
+        "text": "Advantage: +1 Mt / +10 Hit{br}Disadvantage: -1 Mt / -10 Hit"
+    },
+    {
+        "nid": "WeaponRanks",
+        "name": "Wep. Ranks",
+        "title": "Weapon Ranks",
+        "category": "Mechanics",
+        "text": "Weapons don't require weapon ranks. Instead, characters gain Hit at rank A and S:{br}A: +10 Hit{br}S: +20 Hit"
+    },
+    {
+        "nid": "Burning",
+        "name": "Burning",
+        "title": "Burning",
+        "category": "Status Effects",
+        "text": ""
+    },
+    {
+        "nid": "FreeActions",
+        "name": "Free Actions",
+        "title": "Free Actions",
+        "category": "Mechanics",
+        "text": "Any item or ability with green text doesn't end a player unit's turn!"
     }
 ]

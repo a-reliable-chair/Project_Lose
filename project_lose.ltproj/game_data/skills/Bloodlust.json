@@ -3,10 +3,10 @@
         "nid": "Bloodlust",
         "name": "Bloodlust",
         "desc": "This unit intends to attack unarmed civilians!",
-        "icon_nid": "Skills",
+        "icon_nid": "NonPlayerSkills",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [

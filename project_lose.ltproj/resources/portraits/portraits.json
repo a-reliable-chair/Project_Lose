@@ -36,14 +36,26 @@
         "info_offset": 0
     },
     {
-        "nid": "Elwynn",
+        "nid": "Raelin (LittleKyng)",
         "blinking_offset": [
-            16,
-            24
+            24,
+            32
         ],
         "smiling_offset": [
             16,
-            40
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Elwynn (LittleKyng)",
+        "blinking_offset": [
+            24,
+            32
+        ],
+        "smiling_offset": [
+            16,
+            48
         ],
         "info_offset": 0
     },
@@ -415,18 +427,6 @@
         ],
         "smiling_offset": [
             24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "Raelin (LittleKyng)",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            16,
             48
         ],
         "info_offset": 0

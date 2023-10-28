@@ -10,7 +10,9 @@
         "_source": [
             "move_cursor;17, 8",
             "add_unit;Soldier_14;17, 9;immediate;push;west",
-            "add_unit;Soldier_15;17, 8;immediate;push;west",
+            "wait;500",
+            "move_cursor;17, 17",
+            "add_unit;Soldier_15;17, 17;immediate;push;west",
             "wait;500"
         ]
     }
