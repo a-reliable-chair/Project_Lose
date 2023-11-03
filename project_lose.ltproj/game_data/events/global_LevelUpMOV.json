@@ -9,8 +9,8 @@
         "priority": 20,
         "_source": [
             "if;stat_changes['MOV'] > 0",
-            "speak;;MOV + 1!|Lucky you!;;;hint",
-            "sound;Stat Up",
+            "    speak;;MOV + 1!|Lucky you!;;;hint",
+            "    sound;Stat Up",
             "end"
         ]
     }

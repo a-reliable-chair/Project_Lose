@@ -2,11 +2,11 @@
     {
         "nid": "LunarArc",
         "name": "Lunar Arc",
-        "desc": "Ignores DEF and grants Close Counter.",
-        "icon_nid": "Bow",
+        "desc": "Ignores DEF.\nGrants Close Counter.",
+        "icon_nid": "BossWeaps",
         "icon_index": [
             0,
-            9
+            2
         ],
         "components": [
             [

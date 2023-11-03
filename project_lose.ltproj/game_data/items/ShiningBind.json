@@ -2,7 +2,7 @@
     {
         "nid": "ShiningBind",
         "name": "Shining Bind",
-        "desc": "Petrifies target. Can't double. SPD -2.",
+        "desc": "Petrifies target.\nCan't double.\nSPD -2.",
         "icon_nid": "Light",
         "icon_index": [
             0,

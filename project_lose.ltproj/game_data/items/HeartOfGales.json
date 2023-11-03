@@ -2,7 +2,7 @@
     {
         "nid": "HeartOfGales",
         "name": "<orange>Heart Of Gales</orange>",
-        "desc": "+1 SPD. Wind affinity only.",
+        "desc": "Wind affinity only.\n+1 SPD. ",
         "icon_nid": "Accessory",
         "icon_index": [
             0,

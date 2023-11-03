@@ -39,7 +39,7 @@
         "name": "Burning",
         "title": "Burning",
         "category": "Status Effects",
-        "text": ""
+        "text": "Saraid's Firestarter lights tiles on fire!{br}The fire spreads next turn to adjacent tiles.{br}Units starting their turn on a burning tile take 4 damage.{br}Also, they suffer -1 SKL/SPD/DEF/RES."
     },
     {
         "nid": "FreeActions",
@@ -47,5 +47,19 @@
         "title": "Free Actions",
         "category": "Mechanics",
         "text": "Any item or ability with green text doesn't end a player unit's turn!"
+    },
+    {
+        "nid": "Bolster",
+        "name": "Bolster",
+        "title": "Bolster",
+        "category": "Mechanics",
+        "text": "Corridon's Bolster ability gives an ally temporary HP for 2 turns.{br}At the end of the effect their Max HP reduces to its original value."
+    },
+    {
+        "nid": "Repair",
+        "name": "Repair",
+        "title": "Repair",
+        "category": "Mechanics",
+        "text": ""
     }
 ]

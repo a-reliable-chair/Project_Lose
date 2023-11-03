@@ -2,7 +2,7 @@
     {
         "nid": "AspiringLeader",
         "name": "Aspiring Leader",
-        "desc": "Adjacent allies gain 20 EXP after this unit attacks.",
+        "desc": "After initiating an attack, adjacent allies gain 15 EXP.",
         "icon_nid": "Skills",
         "icon_index": [
             0,

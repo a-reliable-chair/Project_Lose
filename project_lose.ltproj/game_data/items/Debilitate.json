@@ -2,7 +2,7 @@
     {
         "nid": "Debilitate",
         "name": "Debilitate",
-        "desc": "Reduces target's stats by 2 for 2 turns. Chapter Uses: 3.",
+        "desc": "Reduces target's stats by 1 for 2 turns.\nChapter Uses: 3.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

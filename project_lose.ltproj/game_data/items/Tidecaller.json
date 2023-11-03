@@ -1,0 +1,83 @@
+[
+    {
+        "nid": "Tidecaller",
+        "name": "<purple>Tidecaller</purple>",
+        "desc": "Ailsa Only.\nAfter initiating combat, floods tiles around Ailsa for 1 turn.",
+        "icon_nid": "BossWeaps",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                5
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ],
+                    [
+                        "OneLossPerCombat (T/F)",
+                        "F",
+                        "Doubling doesn't cost extra uses"
+                    ]
+                ]
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Ailsa"
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ],
+            [
+                "event_after_combat_even_miss",
+                "Global Tidecaller"
+            ]
+        ]
+    }
+]

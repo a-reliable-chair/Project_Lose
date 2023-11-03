@@ -2,7 +2,7 @@
     {
         "nid": "HeartOfRadiance",
         "name": "<orange>Heart Of Radiance</orange>",
-        "desc": "+15 Avoid. Holy affinity only.",
+        "desc": "Holy affinity only.\n+15 Avoid. ",
         "icon_nid": "Accessory",
         "icon_index": [
             0,

@@ -8,16 +8,16 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;Gone...",
             "add_portrait;Saraid;FarRight",
             "if;game.level.nid == '4'",
-            "speak;Saraid;Endgame deathquote",
+            "    speak;Saraid;Endgame deathquote",
             "else",
-            "speak;Saraid;regular deathquote.",
+            "    speak;Saraid;regular deathquote.",
             "end",
             "expression;Saraid;CloseEyes",
             "remove_portrait;Saraid",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

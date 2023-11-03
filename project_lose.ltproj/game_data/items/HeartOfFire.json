@@ -2,7 +2,7 @@
     {
         "nid": "HeartOfFire",
         "name": "<orange>Heart Of Flames</orange>",
-        "desc": "+1 Damage. Fire affinity only.",
+        "desc": "Fire affinity only.\n+1 Damage. ",
         "icon_nid": "Accessory",
         "icon_index": [
             0,

@@ -13,10 +13,10 @@
             "# Show the new layer",
             "show_layer;Box3",
             "if;game.check_alive('Leod')",
-            "flicker_cursor;Leod",
-            "add_portrait;Leod;Right",
-            "speak;Leod;NOT LIKE THIS! SOMEBODY HELP!",
-            "remove_portrait;Leod",
+            "    flicker_cursor;Leod",
+            "    add_portrait;Leod;Right",
+            "    speak;Leod;NOT LIKE THIS! SOMEBODY HELP!",
+            "    remove_portrait;Leod",
             "end"
         ]
     }

@@ -8,16 +8,16 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;Gone...",
             "add_portrait;Carlin;FarRight",
             "if;game.level.nid == '4'",
-            "speak;Carlin;Endgame deathquote",
+            "    speak;Carlin;Endgame deathquote",
             "else",
-            "speak;Carlin;regular deathquote.",
+            "    speak;Carlin;regular deathquote.",
             "end",
             "expression;Carlin;CloseEyes",
             "remove_portrait;Carlin",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

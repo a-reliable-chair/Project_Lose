@@ -631,7 +631,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "ThiefCh3",
+                "ai": "Ch3_Thief_1",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -650,13 +650,13 @@
                         true
                     ],
                     [
-                        "Lockpick",
+                        "Iron Sword",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "ThiefCh3",
+                "ai": "Ch3_Thief_2",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1315,7 +1315,7 @@
                 "interrupt_move": false
             },
             {
-                "nid": "ThiefEscape",
+                "nid": "Escape_Thief",
                 "region_type": "event",
                 "position": [
                     8,

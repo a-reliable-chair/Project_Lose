@@ -9,9 +9,9 @@
         "priority": 20,
         "_source": [
             "if;game.check_alive('Brassfield')",
-            "flicker_cursor;Brassfield",
-            "change_ai;Brassfield;YoloIgnore",
-            "speak;;Brassfield is now on the attack!;;;hint",
+            "    flicker_cursor;Brassfield",
+            "    change_ai;Brassfield;Ch2_Yolo",
+            "    speak;;Brassfield is now on the attack!;;;hint",
             "end"
         ]
     }

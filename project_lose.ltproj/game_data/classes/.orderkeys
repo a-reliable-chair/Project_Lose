@@ -1,6 +1,6 @@
 {
     "AlpinVillager.json": 0,
-    "ZoyaVillager.json": 1,
+    "RaelinVillager.json": 1,
     "CarlinVillager.json": 2,
     "ShaylaVillager.json": 3,
     "Myrmidon.json": 4,
@@ -39,5 +39,6 @@
     "WomanDead_1.json": 37,
     "Boy.json": 38,
     "Girl.json": 39,
-    "Horse.json": 40
+    "Horse.json": 40,
+    "Cat.json": 41
 }

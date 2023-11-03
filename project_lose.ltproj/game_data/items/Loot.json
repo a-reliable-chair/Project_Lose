@@ -36,6 +36,10 @@
             [
                 "eval_target_restrict_2",
                 "target.team == 'other'"
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global Ch4LootingPlayer"
             ]
         ]
     }

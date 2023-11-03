@@ -2,7 +2,7 @@
     {
         "nid": "Corridon",
         "name": "Corridon",
-        "desc": "Town blacksmith and retired war veteran. Friendly and just.",
+        "desc": "Town blacksmith and retired war veteran.\nFriendly and just.",
         "variant": "",
         "level": 4,
         "klass": "Blacksmith",
@@ -10,11 +10,11 @@
             "Adult"
         ],
         "bases": {
-            "HP": 14,
+            "HP": 16,
             "STR": 0,
             "MAG": 0,
             "SKL": 0,
-            "SPD": 2,
+            "SPD": 3,
             "LCK": 4,
             "DEF": 1,
             "RES": 1,

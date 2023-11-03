@@ -2,7 +2,7 @@
     {
         "nid": "BloodLance",
         "name": "Blood Lance",
-        "desc": "Has Lifelink. SPD -1.",
+        "desc": "Has Lifelink.\nSPD -1.",
         "icon_nid": "Lance",
         "icon_index": [
             0,

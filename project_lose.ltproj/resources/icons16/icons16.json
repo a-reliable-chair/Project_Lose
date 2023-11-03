@@ -75,5 +75,13 @@
     {
         "nid": "NonPlayerSkills",
         "subicon_dict": {}
+    },
+    {
+        "nid": "BossWeaps",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Daggers",
+        "subicon_dict": {}
     }
 ]

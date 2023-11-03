@@ -8,16 +8,18 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;Gone...",
             "add_portrait;Garvey;FarRight",
             "if;game.level.nid == '1'",
-            "speak;Garvey;Garvey Ch2 death quote",
+            "    speak;Garvey;Garvey Ch2 death quote",
             "elif;game.level.nid == '4'",
-            "speak;Garvey;Endgame deathquote",
+            "    speak;Garvey;Endgame deathquote",
             "else",
-            "speak;Garvey;regular death quote",
+            "    speak;Garvey;regular death quote",
             "end",
             "expression;Garvey;CloseEyes",
-            "remove_portrait;Garvey"
+            "remove_portrait;Garvey",
+            "music_fade_back"
         ]
     }
 ]

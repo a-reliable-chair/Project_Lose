@@ -1,0 +1,21 @@
+[
+    {
+        "name": "Door1",
+        "trigger": "Door",
+        "level_nid": "3",
+        "condition": "region.nid == 'Door1'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "show_layer;BottomDoor",
+            "add_portrait;{unit};Left",
+            "speak;{unit};Huh? What's this dusty old tome doing here?",
+            "remove_portrait;{unit}",
+            "give_item;{unit};Nova",
+            "give_exp;{unit};40",
+            "has_traded;{unit}"
+        ]
+    }
+]

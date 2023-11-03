@@ -2,7 +2,7 @@
     {
         "nid": "Shadowflame",
         "name": "<purple>Shadowflame</purple>",
-        "desc": "Quinley Only. Permanently reduces target's LUK, DEF and RES by 1. Stacks.",
+        "desc": "Quinley Only.\nPermanently reduces target's LUK, DEF and RES by 1. Stacks.",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -83,18 +83,16 @@
                 "purple"
             ],
             [
-                "statuses_on_hit",
-                [
-                    "Cursed"
-                ]
-            ],
-            [
                 "crit",
                 0
             ],
             [
                 "battle_cast_anim",
                 "Fire"
+            ],
+            [
+                "status_on_hit",
+                "Cursed"
             ]
         ]
     }

@@ -9,11 +9,11 @@
         "priority": 20,
         "_source": [
             "if;unit.team == 'player' and unit.nid != 'Thrall'",
-            "inc_level_var;DeadPlayers;1",
+            "    inc_level_var;DeadPlayers;1",
             "end",
             "if;{v:DeadPlayers} == 3",
-            "alert;You have lost too many members of your party.",
-            "lose_game",
+            "    alert;You have lost too many members of your party.",
+            "    lose_game",
             "end"
         ]
     }

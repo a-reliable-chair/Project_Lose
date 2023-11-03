@@ -2,7 +2,7 @@
     {
         "nid": "Disaster",
         "name": "<purple>Disaster</purple>",
-        "desc": "Carlin Only. Backdash: 1. Cannot Counter or Double.",
+        "desc": "Carlin Only.\nBackdash: 1.\nCannot Counter or Double.",
         "icon_nid": "Dark",
         "icon_index": [
             0,

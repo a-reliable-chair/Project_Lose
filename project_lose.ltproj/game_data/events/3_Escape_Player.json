@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Escape_Player",
+        "trigger": "Escape",
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "add_portrait;{unit};Right",
+            "speak;{unit};I'm outta here!",
+            "remove_portrait;{unit}",
+            "remove_unit;{unit};fade;south",
+            "if;len(game.get_player_units()) == 0",
+            "    win_game",
+            "end"
+        ]
+    }
+]

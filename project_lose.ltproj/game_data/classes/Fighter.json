@@ -28,10 +28,10 @@
             "SKL": 15,
             "SPD": 20,
             "LCK": 0,
-            "DEF": 0,
+            "DEF": 25,
             "CON": 0,
             "MOV": 0,
-            "RES": 0
+            "RES": 10
         },
         "growth_bonus": {
             "HP": 0,

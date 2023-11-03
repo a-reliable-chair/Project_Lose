@@ -2,7 +2,7 @@
     {
         "nid": "Quinley",
         "name": "Quinley",
-        "desc": "A genius magician who's grown tired of elemental magic. Outgoing and friendly.",
+        "desc": "A genius magician who's grown tired of elemental magic.\nOutgoing and friendly.",
         "variant": "Quinley",
         "level": 2,
         "klass": "Mage",
@@ -15,7 +15,7 @@
             "MAG": 4,
             "SKL": 4,
             "SPD": 4,
-            "LCK": 2,
+            "LCK": 4,
             "DEF": 0,
             "RES": 3,
             "CON": 5,

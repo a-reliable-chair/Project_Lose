@@ -38,6 +38,7 @@
             "remove_unit;Laisren (Laisren);fade;west",
             "wait;250",
             "move_cursor;Cawthorne (Cawthorne)",
+            "music;Imperial Audacity",
             "wait;250",
             "add_portrait;Cawthorne (Cawthorne);Left",
             "# Ch 5 boss says he's gunna go kill some time wetting his whistle at the tavern. (Shows up as superboss in ch4)",
@@ -54,12 +55,12 @@
             "wait;500",
             "transition;close",
             "if;{v:AckermanDead} == 0",
-            "change_background;TownSunset",
-            "transition;open",
-            "add_portrait;Ackerman;Left",
-            "s;Ackerman;[I survived].",
-            "remove_portrait;Ackerman",
-            "wait;250",
+            "    change_background;TownSunset",
+            "    transition;open",
+            "    add_portrait;Ackerman;Left",
+            "    s;Ackerman;[I survived].",
+            "    remove_portrait;Ackerman",
+            "    wait;250",
             "end"
         ]
     }

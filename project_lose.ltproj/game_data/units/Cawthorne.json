@@ -2,7 +2,7 @@
     {
         "nid": "Cawthorne",
         "name": "Cawthorne",
-        "desc": "Cawthorne text.",
+        "desc": "Capt. Aelfric Cawthorne:",
         "variant": "",
         "level": 5,
         "klass": "General",
@@ -11,9 +11,9 @@
         ],
         "bases": {
             "HP": 25,
-            "STR": 3,
+            "STR": 5,
             "MAG": 0,
-            "SKL": 4,
+            "SKL": 5,
             "SPD": 4,
             "LCK": 0,
             "DEF": 9,

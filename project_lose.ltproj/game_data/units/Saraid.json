@@ -12,10 +12,10 @@
         "bases": {
             "HP": 12,
             "STR": 3,
-            "MAG": 2,
+            "MAG": 0,
             "SKL": 5,
             "SPD": 5,
-            "LCK": 0,
+            "LCK": 4,
             "DEF": 0,
             "RES": 2,
             "CON": 6,
@@ -56,10 +56,6 @@
             ],
             [
                 "HeartOfRadiance",
-                false
-            ],
-            [
-                "Firestarter",
                 false
             ]
         ],

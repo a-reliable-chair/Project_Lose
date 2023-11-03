@@ -2,7 +2,7 @@
     {
         "nid": "Burning",
         "name": "Burning",
-        "desc": "On fire! 4 damage each turn.\n-1 SKL/SPD/DEF/RES.",
+        "desc": "On fire! 3 damage each turn.\n-1 SKL/SPD/DEF/RES.",
         "icon_nid": "Negative",
         "icon_index": [
             0,
@@ -11,7 +11,7 @@
         "components": [
             [
                 "upkeep_damage",
-                4
+                3
             ],
             [
                 "stat_change",

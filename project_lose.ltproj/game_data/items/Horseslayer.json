@@ -2,7 +2,7 @@
     {
         "nid": "Horseslayer",
         "name": "Horseslayer",
-        "desc": "Effective against horseback units. SPD -1.",
+        "desc": "Effective against horseback units.\nSPD -1.",
         "icon_nid": "Lance",
         "icon_index": [
             0,

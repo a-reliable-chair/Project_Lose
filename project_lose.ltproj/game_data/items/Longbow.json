@@ -2,7 +2,7 @@
     {
         "nid": "Longbow",
         "name": "Longbow",
-        "desc": "Cannot Counter. SPD -1.",
+        "desc": "Cannot Counter.\nSPD -1.",
         "icon_nid": "Bow",
         "icon_index": [
             0,

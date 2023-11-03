@@ -2,7 +2,7 @@
     {
         "nid": "Hand Axe",
         "name": "Hand Axe",
-        "desc": "Cannot Counter. SPD -3.",
+        "desc": "Cannot Counter.\nSPD -3.",
         "icon_nid": "Axe",
         "icon_index": [
             0,

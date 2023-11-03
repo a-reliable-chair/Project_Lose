@@ -8,16 +8,16 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;Gone...",
             "add_portrait;Alpin;FarRight",
             "if;game.level.nid == '4'",
-            "speak;Alpin;Endgame deathquote",
+            "    speak;Alpin;Endgame deathquote",
             "else",
-            "speak;Alpin;regular deathquote.",
+            "    speak;Alpin;regular deathquote.",
             "end",
             "expression;Alpin;CloseEyes",
             "remove_portrait;Alpin",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

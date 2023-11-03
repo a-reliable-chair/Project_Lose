@@ -2,7 +2,7 @@
     {
         "nid": "GuardianAngel",
         "name": "<purple>Guardian Angel</purple>",
-        "desc": "Elspeth Only. Target ally's HP cannot fall below 1 for 1 turn. Completely recover health on the following turn.",
+        "desc": "Elspeth Only.\nTarget ally's HP cannot fall below 1 for 1 turn.\nCompletely recover health on the following turn.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

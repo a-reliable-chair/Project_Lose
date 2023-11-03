@@ -2,7 +2,7 @@
     {
         "nid": "Omnipotence",
         "name": "Omnipotence",
-        "desc": "Effective against caster units. SPD -1.",
+        "desc": "Effective against caster units.\nSPD -1.",
         "icon_nid": "Light",
         "icon_index": [
             0,

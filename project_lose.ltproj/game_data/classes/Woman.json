@@ -18,7 +18,7 @@
             "LCK": 0,
             "DEF": 0,
             "RES": 0,
-            "CON": 0,
+            "CON": 5,
             "MOV": 0
         },
         "growths": {

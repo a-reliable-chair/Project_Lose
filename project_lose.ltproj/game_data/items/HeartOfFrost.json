@@ -2,7 +2,7 @@
     {
         "nid": "HeartOfFrost",
         "name": "<orange>Heart Of Frost</orange>",
-        "desc": "+1 DEF/RES. Ice affinity only.",
+        "desc": "Ice affinity only.\n+1 DEF/RES. ",
         "icon_nid": "Accessory",
         "icon_index": [
             0,

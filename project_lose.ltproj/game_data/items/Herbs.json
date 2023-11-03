@@ -2,7 +2,7 @@
     {
         "nid": "Herbs",
         "name": "Herbs",
-        "desc": "Restores 4 HP. Unit can act after using.",
+        "desc": "Free Action.\nRestores 4 HP.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,

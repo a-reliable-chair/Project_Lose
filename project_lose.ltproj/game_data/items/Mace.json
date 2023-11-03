@@ -2,7 +2,7 @@
     {
         "nid": "Mace",
         "name": "Mace",
-        "desc": "Cannot be Countered. SPD -2.",
+        "desc": "Cannot be Countered.\nSPD -2.",
         "icon_nid": "Axe",
         "icon_index": [
             0,

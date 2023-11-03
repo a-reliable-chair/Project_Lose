@@ -8,16 +8,16 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;Gone...",
             "add_portrait;Quinley;FarRight",
             "if;game.level.nid == '4'",
-            "speak;Quinley;Endgame deathquote",
+            "    speak;Quinley;Endgame deathquote",
             "else",
-            "speak;Quinley;regular deathquote.",
+            "    speak;Quinley;regular deathquote.",
             "end",
             "expression;Quinley;CloseEyes",
             "remove_portrait;Quinley",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

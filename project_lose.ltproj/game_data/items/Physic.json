@@ -2,7 +2,7 @@
     {
         "nid": "Physic",
         "name": "Physic",
-        "desc": "Restores an ally's HP from up to (MAG * 2) tiles away. Chapter Uses: 4.",
+        "desc": "Restores an ally's HP from up to (MAG * 2) tiles away.\nChapter Uses: 4.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

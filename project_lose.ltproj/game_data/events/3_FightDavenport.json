@@ -10,7 +10,8 @@
         "_source": [
             "add_portrait;Davenport;Left",
             "speak;Davenport;Davenport Battle Quote!",
-            "remove_portrait;Davenport"
+            "remove_portrait;Davenport",
+            ""
         ]
     }
 ]

@@ -2,7 +2,7 @@
     {
         "nid": "Devilry",
         "name": "Devilry",
-        "desc": "Can't miss. -2 SPD.\nHP Cost: 4.",
+        "desc": "Can't miss.\nHP Cost: 4.\n-2 SPD.",
         "icon_nid": "Dark",
         "icon_index": [
             0,

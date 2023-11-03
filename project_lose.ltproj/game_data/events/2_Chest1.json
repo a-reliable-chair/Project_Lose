@@ -12,10 +12,10 @@
             "show_layer;Left",
             "give_item;{unit};BlessedRing",
             "if;unit.team == 'player'",
-            "add_portrait;{unit};Left",
-            "speak;{unit};Got the thing!",
-            "remove_portrait;{unit}",
-            "give_exp;{unit};20",
+            "    add_portrait;{unit};Left",
+            "    speak;{unit};Got the thing!",
+            "    remove_portrait;{unit}",
+            "    give_exp;{unit};20",
             "end",
             "has_traded;{unit}"
         ]

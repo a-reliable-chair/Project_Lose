@@ -8,16 +8,18 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;Gone...",
             "add_portrait;Lamonte;FarRight",
             "if;game.level.nid == '1'",
-            "speak;Lamonte;Lamonte Ch2 death quote",
+            "    speak;Lamonte;Lamonte Ch2 death quote",
             "elif;game.level.nid == '4'",
-            "speak;Lamonte;Endgame deathquote",
+            "    speak;Lamonte;Endgame deathquote",
             "else",
-            "speak;Lamonte;regular death quote",
+            "    speak;Lamonte;regular death quote",
             "end",
             "expression;Lamonte;CloseEyes",
-            "remove_portrait;Lamonte"
+            "remove_portrait;Lamonte",
+            "music_fade_back"
         ]
     }
 ]

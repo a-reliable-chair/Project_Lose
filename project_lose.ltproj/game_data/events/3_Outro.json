@@ -19,7 +19,7 @@
             "multi_remove_portrait;Orla;Ailsa;Corridon;Quinley",
             "transition;close",
             "change_background",
-            "#music - BBEG theme",
+            "music;Imperial Audacity",
             "add_unit;Cawthorne (Cawthorne);3, 18;immediate",
             "# Add Davenport if alive!",
             "move_cursor;Cawthorne (Cawthorne)",

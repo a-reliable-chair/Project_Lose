@@ -8,16 +8,16 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;Gone...",
             "add_portrait;Raelin;FarRight",
             "if;game.level.nid == '4'",
-            "speak;Raelin;Endgame deathquote",
+            "    speak;Raelin;Endgame deathquote",
             "else",
-            "speak;Raelin;regular deathquote.",
+            "    speak;Raelin;regular deathquote.",
             "end",
             "expression;Raelin;CloseEyes",
             "remove_portrait;Raelin",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

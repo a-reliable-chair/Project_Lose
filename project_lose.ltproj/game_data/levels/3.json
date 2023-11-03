@@ -1,15 +1,15 @@
 [
     {
         "nid": "3",
-        "name": "Ch. 4:",
+        "name": "Ch. 4: GTFO",
         "tilemap": "Ch4",
         "bg_tilemap": null,
         "party": "Eirika",
         "music": {
-            "player_phase": null,
-            "enemy_phase": null,
-            "other_phase": null,
-            "enemy2_phase": null,
+            "player_phase": "Sanctuary Ablaze",
+            "enemy_phase": "Sanctuary Ablaze",
+            "other_phase": "Sanctuary Ablaze",
+            "enemy2_phase": "Sanctuary Ablaze",
             "player_battle": null,
             "enemy_battle": null,
             "other_battle": null,
@@ -131,7 +131,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    19,
+                    3
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -141,7 +144,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    18,
+                    4
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -151,7 +157,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    19,
+                    4
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -171,7 +180,10 @@
                 "ai": "AttackNoMove",
                 "roam_ai": null,
                 "ai_group": null,
-                "starting_position": null,
+                "starting_position": [
+                    4,
+                    20
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -186,167 +198,7 @@
                 "generic": false
             },
             {
-                "nid": "101",
-                "variant": null,
-                "level": 1,
-                "klass": "ManDead",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "102",
-                "variant": null,
-                "level": 1,
-                "klass": "ManDead",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "103",
-                "variant": null,
-                "level": 1,
-                "klass": "ManDead_1",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "104",
-                "variant": null,
-                "level": 1,
-                "klass": "WomanDead",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "105",
-                "variant": null,
-                "level": 1,
-                "klass": "WomanDead_1",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "106",
-                "variant": null,
-                "level": 1,
-                "klass": "WomanDead_1",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "other",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "107",
-                "variant": null,
-                "level": 1,
-                "klass": "ManDead",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "108",
-                "variant": null,
-                "level": 1,
-                "klass": "ManDead",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "109",
-                "variant": null,
-                "level": 1,
-                "klass": "ManDead_1",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "110",
-                "variant": null,
-                "level": 1,
-                "klass": "ManDead_1",
-                "faction": "Soldier",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "111",
+                "nid": "Cutscene_1",
                 "variant": null,
                 "level": 1,
                 "klass": "Soldier",
@@ -362,25 +214,1207 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    19,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
             {
-                "nid": "Villager_1",
+                "nid": "Dead_1",
+                "variant": null,
+                "level": 1,
+                "klass": "ManDead",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_2",
+                "variant": null,
+                "level": 1,
+                "klass": "ManDead",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_3",
+                "variant": null,
+                "level": 1,
+                "klass": "ManDead_1",
+                "faction": "Villager",
+                "starting_items": [
+                    [
+                        "Fortify",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Lootable"
+                ],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_4",
+                "variant": null,
+                "level": 1,
+                "klass": "WomanDead",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_5",
+                "variant": null,
+                "level": 1,
+                "klass": "WomanDead_1",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    17,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_6",
+                "variant": null,
+                "level": 1,
+                "klass": "WomanDead_1",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_7",
+                "variant": null,
+                "level": 1,
+                "klass": "ManDead",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    15
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_8",
                 "variant": null,
                 "level": 1,
                 "klass": "ManDead",
                 "faction": "Villager",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Evanesce",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Lootable"
+                ],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    20
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_9",
+                "variant": null,
+                "level": 1,
+                "klass": "ManDead",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_10",
+                "variant": null,
+                "level": 1,
+                "klass": "ManDead_1",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_11",
+                "variant": null,
+                "level": 1,
+                "klass": "ManDead_1",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    14,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_12",
+                "variant": null,
+                "level": 1,
+                "klass": "ManDead_1",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    20,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_13",
+                "variant": null,
+                "level": 1,
+                "klass": "WomanDead_1",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    12
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_14",
+                "variant": null,
+                "level": 1,
+                "klass": "WomanDead",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_15",
+                "variant": null,
+                "level": 1,
+                "klass": "WomanDead",
+                "faction": "Villager",
+                "starting_items": [
+                    [
+                        "EnchantedBow",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Lootable"
+                ],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    8,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_16",
+                "variant": null,
+                "level": 1,
+                "klass": "ManDead",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    22
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_17",
+                "variant": null,
+                "level": 1,
+                "klass": "WomanDead",
+                "faction": "Villager",
+                "starting_items": [
+                    [
+                        "ShiningBind",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Lootable"
+                ],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_18",
+                "variant": null,
+                "level": 1,
+                "klass": "WomanDead_1",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    12,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_19",
+                "variant": null,
+                "level": 1,
+                "klass": "WomanDead",
+                "faction": "Villager",
+                "starting_items": [],
+                "starting_skills": [],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Dead_20",
+                "variant": null,
+                "level": 1,
+                "klass": "ManDead_1",
+                "faction": "Villager",
+                "starting_items": [
+                    [
+                        "Cataclysm",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Lootable"
+                ],
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    16,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_1",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
-                "team": "other",
-                "ai": "None",
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_2",
+                "variant": null,
+                "level": 4,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Axereaver",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_3",
+                "variant": null,
+                "level": 4,
+                "klass": "Monk",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Flash",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackNoMove",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    7,
+                    7
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_4",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Thunder",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackInRange",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    4,
+                    8
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_5",
+                "variant": null,
+                "level": 4,
+                "klass": "Cavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "SapphireLance",
+                        false
+                    ],
+                    [
+                        "RubySword",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackInRange",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_6",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackInRange",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_7",
+                "variant": null,
+                "level": 4,
+                "klass": "PegasusKnight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Blade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackInRange",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_8",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Silver Bow",
+                        false
+                    ],
+                    [
+                        "Longbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackNoMove",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    11,
+                    13
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_9",
+                "variant": null,
+                "level": 4,
+                "klass": "Soldier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_10",
+                "variant": null,
+                "level": 4,
+                "klass": "Myrmidon",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    19,
+                    10
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_11",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Fire",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackInRange",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    18,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_12",
+                "variant": null,
+                "level": 4,
+                "klass": "Cleric",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "MultiPhysic",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Heal",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    14
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_13",
+                "variant": null,
+                "level": 4,
+                "klass": "Knight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackNoMove",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    21
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_14",
+                "variant": null,
+                "level": 4,
+                "klass": "GriffonKnight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackInTwoTurns",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_15",
+                "variant": null,
+                "level": 4,
+                "klass": "Mercenary",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "RubySword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackInRange",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_16",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackInRange",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    1
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_17",
+                "variant": null,
+                "level": 4,
+                "klass": "Shaman",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Luna",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackNoMove",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_18",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackInRange",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    1,
+                    23
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_19",
+                "variant": null,
+                "level": 4,
+                "klass": "Mage",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Wind",
+                        true
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackInRange",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    3,
+                    24
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Soldier_20",
+                "variant": null,
+                "level": 4,
+                "klass": "Fighter",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        true
+                    ],
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_AttackInRange",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    17
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Thief_1",
+                "variant": null,
+                "level": 4,
+                "klass": "Thief",
+                "faction": "Looter",
+                "starting_items": [
+                    [
+                        "Iron_Knife",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Thief",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Thief_2",
+                "variant": null,
+                "level": 4,
+                "klass": "Thief",
+                "faction": "Looter",
+                "starting_items": [
+                    [
+                        "Iron_Knife",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Thief",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Thief_3",
+                "variant": null,
+                "level": 4,
+                "klass": "Thief",
+                "faction": "Looter",
+                "starting_items": [
+                    [
+                        "Steel_Knife",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Thief",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Thief_4",
+                "variant": null,
+                "level": 4,
+                "klass": "Thief",
+                "faction": "Looter",
+                "starting_items": [
+                    [
+                        "Steel_Knife",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Thief",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Rein_1",
+                "variant": null,
+                "level": 4,
+                "klass": "GriffonKnight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Rein_2",
+                "variant": null,
+                "level": 4,
+                "klass": "Pirate",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Mace",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Rein_3",
+                "variant": null,
+                "level": 4,
+                "klass": "Pirate",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Hand Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Rein_4",
+                "variant": null,
+                "level": 4,
+                "klass": "Cavalier",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "EtherealBlade",
+                        false
+                    ],
+                    [
+                        "Axereaver",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Rein_5",
+                "variant": null,
+                "level": 4,
+                "klass": "Monk",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Omnipotence",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Rein_6",
+                "variant": null,
+                "level": 4,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Greatbow",
+                        false
+                    ],
+                    [
+                        "Longbow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Rein_7",
+                "variant": null,
+                "level": 4,
+                "klass": "Dracoknight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Silver Axe",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Rein_8",
+                "variant": null,
+                "level": 4,
+                "klass": "PegasusKnight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "EtherealBlade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Rein_9",
+                "variant": null,
+                "level": 4,
+                "klass": "PegasusKnight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Ch4_Yolo",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -458,11 +1492,96 @@
                 "interrupt_move": false
             },
             {
-                "nid": "Formation1",
-                "region_type": "formation",
+                "nid": "Escape_Thief_1",
+                "region_type": "event",
+                "position": [
+                    5,
+                    0
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Escape_Thief",
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Escape_Thief_2",
+                "region_type": "event",
+                "position": [
+                    0,
+                    4
+                ],
+                "size": [
+                    1,
+                    18
+                ],
+                "sub_nid": "Escape_Thief",
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Escape_Thief_3",
+                "region_type": "event",
+                "position": [
+                    10,
+                    0
+                ],
+                "size": [
+                    2,
+                    1
+                ],
+                "sub_nid": "Escape_Thief",
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Escape_Thief_4",
+                "region_type": "event",
                 "position": [
                     16,
                     0
+                ],
+                "size": [
+                    5,
+                    1
+                ],
+                "sub_nid": "Escape_Thief",
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Door1",
+                "region_type": "event",
+                "position": [
+                    18,
+                    22
+                ],
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "Door",
+                "condition": "unit.can_unlock(region)",
+                "time_left": null,
+                "only_once": true,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Formation1",
+                "region_type": "formation",
+                "position": [
+                    17,
+                    4
                 ],
                 "size": [
                     1,
@@ -478,14 +1597,14 @@
                 "nid": "Formation2",
                 "region_type": "formation",
                 "position": [
-                    18,
-                    0
+                    16,
+                    1
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -495,8 +1614,8 @@
                 "nid": "Formation3",
                 "region_type": "formation",
                 "position": [
-                    20,
-                    0
+                    19,
+                    4
                 ],
                 "size": [
                     1,
@@ -513,7 +1632,7 @@
                 "region_type": "formation",
                 "position": [
                     17,
-                    1
+                    2
                 ],
                 "size": [
                     1,
@@ -530,7 +1649,7 @@
                 "region_type": "formation",
                 "position": [
                     19,
-                    1
+                    2
                 ],
                 "size": [
                     1,
@@ -547,7 +1666,7 @@
                 "region_type": "formation",
                 "position": [
                     16,
-                    2
+                    3
                 ],
                 "size": [
                     1,
@@ -564,13 +1683,13 @@
                 "region_type": "formation",
                 "position": [
                     18,
-                    2
+                    3
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
@@ -581,7 +1700,7 @@
                 "region_type": "formation",
                 "position": [
                     20,
-                    2
+                    3
                 ],
                 "size": [
                     1,
@@ -608,6 +1727,72 @@
                     "Lamonte"
                 ],
                 "positions": {}
+            },
+            {
+                "nid": "Rein1",
+                "units": [
+                    "Rein_1",
+                    "Rein_2",
+                    "Rein_3"
+                ],
+                "positions": {
+                    "Rein_1": [
+                        18,
+                        25
+                    ],
+                    "Rein_2": [
+                        17,
+                        25
+                    ],
+                    "Rein_3": [
+                        19,
+                        25
+                    ]
+                }
+            },
+            {
+                "nid": "Rein2",
+                "units": [
+                    "Rein_4",
+                    "Rein_5",
+                    "Rein_6"
+                ],
+                "positions": {
+                    "Rein_4": [
+                        0,
+                        25
+                    ],
+                    "Rein_5": [
+                        1,
+                        25
+                    ],
+                    "Rein_6": [
+                        2,
+                        25
+                    ]
+                }
+            },
+            {
+                "nid": "Rein3",
+                "units": [
+                    "Rein_7",
+                    "Rein_8",
+                    "Rein_9"
+                ],
+                "positions": {
+                    "Rein_7": [
+                        5,
+                        0
+                    ],
+                    "Rein_8": [
+                        6,
+                        0
+                    ],
+                    "Rein_9": [
+                        10,
+                        0
+                    ]
+                }
             }
         ],
         "ai_groups": []

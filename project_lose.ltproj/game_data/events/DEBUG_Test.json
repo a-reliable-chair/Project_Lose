@@ -24,8 +24,10 @@
             "add_lore;WeaponRanks",
             "add_lore;Burning",
             "add_lore;FreeActions",
+            "give_item;Quinley;Duskfall;no_banner",
             "set_custom_options;Codex;true;Open the Codex;Menu_Codex",
-            "base;Hill;Before An Impossible Battlefield"
+            "give_skill;Ailsa;Flooded",
+            "give_skill;Lamonte;Flooded"
         ]
     }
 ]

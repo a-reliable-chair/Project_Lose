@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Turn4Cawthorne",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "music;Imperial Audacity",
+            "move_cursor;16, 8",
+            "show_layer;TavernDoor",
+            "add_unit;Cawthorne;16, 8;fade;push",
+            "change_ai;Cawthorne;Ch4_Yolo",
+            "flicker_cursor;Cawthorne",
+            "add_portrait;Cawthorne;Right",
+            "speak;Cawthorne;Time for some fun!|Osgar! Don't bother stopping them, they won' get far!",
+            "remove_portrait;Cawthorne",
+            "add_region;Tavern;16,8;1,1;event;Tavern;only_once",
+            "move_cursor;Davenport",
+            "flicker_cursor;Davenport",
+            "change_ai;Davenport;Ch4_AttackNoMove"
+        ]
+    }
+]

@@ -3,7 +3,7 @@
         "nid": "Iron_Knife",
         "name": "Iron Knife",
         "desc": "Thieves only.\nIgnores DEF.",
-        "icon_nid": "Sword",
+        "icon_nid": "Daggers",
         "icon_index": [
             0,
             0

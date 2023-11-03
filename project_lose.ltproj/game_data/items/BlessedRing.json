@@ -2,7 +2,7 @@
     {
         "nid": "BlessedRing",
         "name": "<orange>Blessed Ring</orange>",
-        "desc": "+1 to all stats. Trainees Only.",
+        "desc": "Trainees Only.\n+1 to all stats. ",
         "icon_nid": "Accessory",
         "icon_index": [
             0,

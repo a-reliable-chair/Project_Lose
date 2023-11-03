@@ -8,16 +8,16 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;Gone...",
             "add_portrait;Elwynn;FarRight",
             "if;game.level.nid == '4'",
-            "speak;Elwynn;Endgame deathquote",
+            "    speak;Elwynn;Endgame deathquote",
             "else",
-            "speak;Elwynn;regular deathquote.",
+            "    speak;Elwynn;regular deathquote.",
             "end",
             "expression;Elwynn;CloseEyes",
             "remove_portrait;Elwynn",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

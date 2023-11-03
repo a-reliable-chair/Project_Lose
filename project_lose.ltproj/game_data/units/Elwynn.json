@@ -2,7 +2,7 @@
     {
         "nid": "Elwynn",
         "name": "Elwynn",
-        "desc": "Former vagabond turned holy monk of [CHURCH]. Stern and generally unpleasant.",
+        "desc": "Former vagabond turned holy monk.\nStern and generally unpleasant.",
         "variant": "",
         "level": 1,
         "klass": "Monk",

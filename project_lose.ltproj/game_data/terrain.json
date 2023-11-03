@@ -390,6 +390,21 @@
         "status": "Avoid10"
     },
     {
+        "nid": "35_1",
+        "name": "<purple>Tavern</>",
+        "color": [
+            85,
+            0,
+            0
+        ],
+        "minimap": "House",
+        "platform": "House",
+        "background": "combat_village",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": "Avoid10"
+    },
+    {
         "nid": "36",
         "name": "Chest",
         "color": [

@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Tavern",
+        "trigger": "Visit",
+        "level_nid": "3",
+        "condition": "region.nid == 'Tavern'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;...And Forgotten",
+            "add_portrait;{unit};Left",
+            "speak;{unit};...Dead.|Every one of them slaughtered.|What's this?",
+            "remove_portrait;{unit}",
+            "give_item;{unit};Duskfall",
+            "give_exp;{unit};40",
+            "has_traded;{unit}"
+        ]
+    }
+]

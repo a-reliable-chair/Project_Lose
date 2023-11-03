@@ -2,7 +2,7 @@
     {
         "nid": "Bolstered",
         "name": "Bolstered",
-        "desc": "Has 5 temporary HP. Lasts 2 turns.",
+        "desc": "Has 4 temporary HP. Lasts 2 turns.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -14,7 +14,7 @@
                 [
                     [
                         "HP",
-                        5
+                        4
                     ]
                 ]
             ],

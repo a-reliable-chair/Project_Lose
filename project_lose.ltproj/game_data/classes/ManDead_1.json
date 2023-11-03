@@ -10,14 +10,14 @@
         "tags": [],
         "max_level": 10,
         "bases": {
-            "HP": 10,
+            "HP": 1,
             "STR": 0,
             "MAG": 0,
             "SKL": 0,
             "SPD": 0,
             "LCK": 0,
             "DEF": 0,
-            "CON": 5,
+            "CON": 6,
             "MOV": 0,
             "RES": 0
         },
@@ -122,7 +122,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Dead Villager (M) (Man) 2",
+        "map_sprite_nid": "Villager (M) (Man) Dead2 {IS}",
         "combat_anim_nid": null,
         "fields": []
     }

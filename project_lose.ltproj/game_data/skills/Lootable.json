@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Lootable",
+        "name": "Lootable",
+        "desc": "This unit can be looted by player units and thieves!",
+        "icon_nid": "NonPlayerSkills",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "unit_anim",
+                "MapLootable"
+            ]
+        ]
+    }
+]

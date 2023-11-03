@@ -2,7 +2,7 @@
     {
         "nid": "Davenport",
         "name": "Davenport",
-        "desc": "Davenport text.",
+        "desc": "Lt. Osgar Davenport:",
         "variant": "",
         "level": 4,
         "klass": "Great_Knight",
@@ -16,10 +16,10 @@
             "SKL": 5,
             "SPD": 1,
             "LCK": 0,
-            "DEF": 4,
+            "DEF": 6,
             "CON": 13,
             "MOV": 6,
-            "RES": 1
+            "RES": 2
         },
         "growths": {
             "HP": 0,
@@ -78,12 +78,12 @@
             ],
             "Lance": [
                 false,
-                31,
+                21,
                 251
             ],
             "Axe": [
                 true,
-                21,
+                31,
                 251
             ],
             "Bow": [

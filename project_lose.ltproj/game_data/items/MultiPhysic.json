@@ -2,7 +2,7 @@
     {
         "nid": "MultiPhysic",
         "name": "Multiphysic",
-        "desc": "Restores an ally's HP from up to (MAG * 2) tiles away. Casts twice. Chapter Uses: 2.",
+        "desc": "Restores an ally's HP from up to (MAG * 2) tiles away.\nCasts twice.\nChapter Uses: 2.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

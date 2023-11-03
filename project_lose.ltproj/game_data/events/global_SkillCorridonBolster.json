@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "give_skill;{unit2};Bolstered (Bolstered);FLAG(no_banner)",
-            "set_current_hp;{unit2};{e:target.get_hp() + 5}"
+            "set_current_hp;{unit2};{e:target.get_hp() + 4}"
         ]
     }
 ]

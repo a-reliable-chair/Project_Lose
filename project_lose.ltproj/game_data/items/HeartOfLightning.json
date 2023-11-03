@@ -2,7 +2,7 @@
     {
         "nid": "HeartOfLightning",
         "name": "<orange>Heart Of Lightning</orange>",
-        "desc": "+10 Crit. Thunder affinity only.",
+        "desc": "Thunder affinity only.\n+10 Crit. ",
         "icon_nid": "Accessory",
         "icon_index": [
             0,

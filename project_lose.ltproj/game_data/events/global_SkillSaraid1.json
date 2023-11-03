@@ -9,11 +9,11 @@
         "priority": 20,
         "_source": [
             "if;{v:SaraidSkill} == 0 and game.tilemap.get_terrain(unit.position) == '2' or game.tilemap.get_terrain(unit.position) == '3' or game.tilemap.get_terrain(unit.position) == '8' or game.tilemap.get_terrain(unit.position) == '20' or game.tilemap.get_terrain(unit.position) == '21' or game.tilemap.get_terrain(unit.position) == '41' or game.tilemap.get_terrain(unit.position) == '42'",
-            "map_anim;Swoosh;{unit}",
-            "sound;Whistle",
-            "has_finished;{unit}",
-            "reset;{unit}",
-            "inc_level_var;SaraidSkill;1",
+            "    map_anim;Swoosh;{unit}",
+            "    sound;Whistle",
+            "    has_finished;{unit}",
+            "    reset;{unit}",
+            "    inc_level_var;SaraidSkill;1",
             "end"
         ]
     }

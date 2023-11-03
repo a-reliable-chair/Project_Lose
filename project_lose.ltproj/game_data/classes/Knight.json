@@ -33,7 +33,7 @@
             "DEF": 35,
             "CON": 0,
             "MOV": 0,
-            "RES": 0
+            "RES": 10
         },
         "growth_bonus": {
             "HP": 0,

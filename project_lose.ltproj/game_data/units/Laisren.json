@@ -2,7 +2,7 @@
     {
         "nid": "Laisren",
         "name": "Laisren",
-        "desc": "An aspiring recruit in [KINGDOM]'s army. Charming and outgoing. Alpin's older brother.",
+        "desc": "An aspiring recruit in [KINGDOM]'s army.\nCharming and outgoing.",
         "variant": "Cathal",
         "level": 5,
         "klass": "Cavalier",
@@ -10,7 +10,7 @@
             "Adult"
         ],
         "bases": {
-            "HP": 14,
+            "HP": 18,
             "STR": 4,
             "MAG": 0,
             "SKL": 5,

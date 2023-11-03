@@ -1,0 +1,18 @@
+[
+    {
+        "name": "DavenportAIChange_1",
+        "trigger": "combat_end",
+        "level_nid": "3",
+        "condition": "unit.nid == \"Davenport\" or unit2.nid == \"Davenport\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;game.check_alive('Davenport')",
+            "    flicker_cursor;Davenport",
+            "    change_ai;Davenport;Ch4_Yolo",
+            "    speak;;Davenport is now on the attack!;;;hint",
+            "end"
+        ]
+    }
+]

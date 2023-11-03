@@ -2,7 +2,7 @@
     {
         "nid": "Hammer",
         "name": "Hammer",
-        "desc": "Effective against armored units. SPD -1.",
+        "desc": "Effective against armored units.\nSPD -1.",
         "icon_nid": "Axe",
         "icon_index": [
             0,

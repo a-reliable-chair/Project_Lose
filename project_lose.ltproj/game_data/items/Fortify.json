@@ -2,7 +2,7 @@
     {
         "nid": "Fortify",
         "name": "Fortify",
-        "desc": "Restores (User's Magic + 2) HP to all allies within range.",
+        "desc": "Restores (User's Magic + 2) HP to all allies within MAG * 2 tiles.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

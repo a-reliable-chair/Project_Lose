@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "if;{v:SaraidSkill} == 1",
-            "inc_level_var;SaraidSkill;-1",
+            "    inc_level_var;SaraidSkill;-1",
             "end"
         ]
     }

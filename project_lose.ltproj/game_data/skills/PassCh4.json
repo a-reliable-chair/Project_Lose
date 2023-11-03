@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "PassCh4",
+        "name": "PassCh4",
+        "desc": "This unit always attacks first",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "pass",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

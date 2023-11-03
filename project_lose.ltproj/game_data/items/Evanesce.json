@@ -2,7 +2,7 @@
     {
         "nid": "Evanesce",
         "name": "Evanesce",
-        "desc": "25 Damage. Ignores RES and can't miss. Can't target bosses.",
+        "desc": "25 set damage.\nCan't miss or target bosses.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -28,10 +28,6 @@
             [
                 "level_exp",
                 null
-            ],
-            [
-                "weapon_type",
-                "Dark"
             ],
             [
                 "map_hit_add_blend",
@@ -81,16 +77,20 @@
                 null
             ],
             [
-                "battle_cast_anim",
-                "Flux"
-            ],
-            [
                 "alternate_resist_formula",
                 "ZERO"
             ],
             [
                 "alternate_damage_formula",
                 "TWENTYFIVE"
+            ],
+            [
+                "battle_cast_anim",
+                "Flux"
+            ],
+            [
+                "weapon_type",
+                "Dark"
             ]
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "Axereaver",
         "name": "Axereaver",
-        "desc": "Reverses the weapon triangle. SPD -1.",
+        "desc": "Reverses the weapon triangle.\nSPD -1.",
         "icon_nid": "Lance",
         "icon_index": [
             0,

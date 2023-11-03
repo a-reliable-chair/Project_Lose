@@ -8,16 +8,16 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;Gone...",
             "add_portrait;Ailsa;FarRight",
             "if;game.level.nid == '4'",
-            "speak;Ailsa;Endgame deathquote",
+            "    speak;Ailsa;Endgame deathquote",
             "else",
-            "speak;Ailsa;regular deathquote.",
+            "    speak;Ailsa;regular deathquote.",
             "end",
             "expression;Ailsa;CloseEyes",
             "remove_portrait;Ailsa",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

@@ -13,7 +13,7 @@
             "remove_portrait;{unit}",
             "remove_unit;{unit};fade;south",
             "if;len(game.get_player_units()) == 0",
-            "win_game",
+            "    win_game",
             "end"
         ]
     }

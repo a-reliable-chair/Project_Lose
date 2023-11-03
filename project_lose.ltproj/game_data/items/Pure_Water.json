@@ -2,7 +2,7 @@
     {
         "nid": "Pure Water",
         "name": "Pure Water",
-        "desc": "Grants 3 diminishing resistance. Unit can act after using.",
+        "desc": "Free Action.\nGrants 3 diminishing resistance.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,

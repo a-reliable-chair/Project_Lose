@@ -8,16 +8,16 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;Gone...",
             "add_portrait;Shayla;FarRight",
             "if;game.level.nid == '4'",
-            "speak;Shayla;Endgame deathquote",
+            "    speak;Shayla;Endgame deathquote",
             "else",
-            "speak;Shayla;regular deathquote.",
+            "    speak;Shayla;regular deathquote.",
             "end",
             "expression;Shayla;CloseEyes",
             "remove_portrait;Shayla",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

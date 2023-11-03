@@ -2,7 +2,7 @@
     {
         "nid": "Galebow",
         "name": "Galebow",
-        "desc": "After killing an enemy on player phase, unit can act again. SPD -3.",
+        "desc": "After killing an enemy on player phase, unit can act again.\nSPD -3.",
         "icon_nid": "Bow",
         "icon_index": [
             0,

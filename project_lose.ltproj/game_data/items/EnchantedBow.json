@@ -2,7 +2,7 @@
     {
         "nid": "EnchantedBow",
         "name": "Enchanted Bow",
-        "desc": "Targets RES. Not effective Vs. Fliers. SPD -1.",
+        "desc": "Targets RES.\nSPD -1.",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -71,6 +71,17 @@
             [
                 "status_on_equip",
                 "SPD1"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ]
         ]
     }

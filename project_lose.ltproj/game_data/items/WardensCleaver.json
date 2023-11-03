@@ -3,10 +3,10 @@
         "nid": "WardensCleaver",
         "name": "<blue>Warden's Cleaver<blue>",
         "desc": "While equipped unit cannot be doubled.",
-        "icon_nid": "Axe",
+        "icon_nid": "BossWeaps",
         "icon_index": [
             0,
-            11
+            1
         ],
         "components": [
             [

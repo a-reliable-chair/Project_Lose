@@ -2,7 +2,7 @@
     {
         "nid": "Fire",
         "name": "Fire",
-        "desc": "Effective against horseback units. -1 SPD.",
+        "desc": "Effective against horseback units.\n-1 SPD.",
         "icon_nid": "Anima",
         "icon_index": [
             0,

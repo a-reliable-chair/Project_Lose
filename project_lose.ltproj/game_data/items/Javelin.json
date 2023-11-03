@@ -2,7 +2,7 @@
     {
         "nid": "Javelin",
         "name": "Javelin",
-        "desc": "Cannot Counter. SPD -2.",
+        "desc": "Cannot Counter.\nSPD -2.",
         "icon_nid": "Lance",
         "icon_index": [
             0,

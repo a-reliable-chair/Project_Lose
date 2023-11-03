@@ -243,14 +243,9 @@
                 "nid": "102",
                 "variant": null,
                 "level": 1,
-                "klass": "ManDead",
+                "klass": "Cat",
                 "faction": "Villager",
-                "starting_items": [
-                    [
-                        "Silver Sword",
-                        false
-                    ]
-                ],
+                "starting_items": [],
                 "starting_skills": [],
                 "team": "other",
                 "ai": "None",

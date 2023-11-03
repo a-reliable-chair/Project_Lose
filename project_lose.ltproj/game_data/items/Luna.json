@@ -2,7 +2,7 @@
     {
         "nid": "Luna",
         "name": "Luna",
-        "desc": "Ignore's enemy resistance. SPD -1.",
+        "desc": "Ignore's enemy resistance.\nSPD -1.",
         "icon_nid": "Dark",
         "icon_index": [
             0,

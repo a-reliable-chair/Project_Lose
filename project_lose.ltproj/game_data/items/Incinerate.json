@@ -2,11 +2,11 @@
     {
         "nid": "Incinerate",
         "name": "Incinerate",
-        "desc": "Ignores RES. Cooldown: 1.",
-        "icon_nid": "Anima",
+        "desc": "Ignores RES.\nCooldown: 1.",
+        "icon_nid": "BossWeaps",
         "icon_index": [
             0,
-            0
+            3
         ],
         "components": [
             [

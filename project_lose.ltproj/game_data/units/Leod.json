@@ -2,7 +2,7 @@
     {
         "nid": "Leod",
         "name": "Leod",
-        "desc": "The mayor of [TOWN]. Pompous and short tempered.",
+        "desc": "Town mayor. Pompous and short tempered.",
         "variant": "",
         "level": 1,
         "klass": "Man",

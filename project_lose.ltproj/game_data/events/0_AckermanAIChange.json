@@ -9,12 +9,12 @@
         "priority": 20,
         "_source": [
             "if;game.check_alive('Ackerman')",
-            "move_cursor;Ackerman",
-            "flicker_cursor;Ackerman",
-            "add_portrait;Ackerman;Right",
-            "s;Ackerman;I'm gettin' bored! Time to clean 'em up!",
-            "remove_portrait;Ackerman",
-            "change_ai;Ackerman;Yolo",
+            "    move_cursor;Ackerman",
+            "    flicker_cursor;Ackerman",
+            "    add_portrait;Ackerman;Right",
+            "    s;Ackerman;I'm gettin' bored! Time to clean 'em up!",
+            "    remove_portrait;Ackerman",
+            "    change_ai;Ackerman;Yolo",
             "end"
         ]
     }

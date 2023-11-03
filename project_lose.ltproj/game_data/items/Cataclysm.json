@@ -2,7 +2,7 @@
     {
         "nid": "Cataclysm",
         "name": "Cataclysm",
-        "desc": "Effective against horseback, armored, and flying units. -3 SPD.",
+        "desc": "Effective against horseback, armored, and flying units.\n-3 SPD.",
         "icon_nid": "Anima",
         "icon_index": [
             0,

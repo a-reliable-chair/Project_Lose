@@ -2,10 +2,10 @@
     {
         "nid": "Raelin",
         "name": "Raelin",
-        "desc": "The shut-in daughter of a fisherman. Timid and cautious.",
+        "desc": "The shut-in daughter of a fisherman.\nTimid and cautious.",
         "variant": "",
         "level": 1,
-        "klass": "ZoyaVillager",
+        "klass": "RaelinVillager",
         "tags": [
             "Youth"
         ],

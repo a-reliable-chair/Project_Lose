@@ -8,16 +8,16 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "music;Gone...",
             "add_portrait;Orla;FarRight",
             "if;game.level.nid == '4'",
-            "speak;Orla;Endgame deathquote",
+            "    speak;Orla;Endgame deathquote",
             "else",
-            "speak;Orla;regular deathquote.",
+            "    speak;Orla;regular deathquote.",
             "end",
             "expression;Orla;CloseEyes",
             "remove_portrait;Orla",
-            "",
-            ""
+            "music_fade_back"
         ]
     }
 ]

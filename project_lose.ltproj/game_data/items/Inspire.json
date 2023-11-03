@@ -2,7 +2,7 @@
     {
         "nid": "Inspire",
         "name": "Inspire",
-        "desc": "Target ally gains +1 STR/MAG/SKL/SPD for 2 turns. Chapter Uses: 2.",
+        "desc": "Target ally gains +1 STR/MAG/SKL/SPD for 2 turns.\nChapter Uses: 2.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

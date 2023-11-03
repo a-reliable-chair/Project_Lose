@@ -11,7 +11,7 @@
             "sound;Unlock",
             "show_layer;BotDoor",
             "if;unit.team == 'player'",
-            "give_exp;{unit};20",
+            "    give_exp;{unit};20",
             "end",
             "has_traded;{unit}",
             "move_cursor;Emberson (Emberson)",

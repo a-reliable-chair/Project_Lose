@@ -2,7 +2,7 @@
     {
         "nid": "Debilitated",
         "name": "Debilitated",
-        "desc": "-2 to all stats.",
+        "desc": "-1 to all stats.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -14,31 +14,31 @@
                 [
                     [
                         "STR",
-                        -2
+                        -1
                     ],
                     [
                         "MAG",
-                        -2
+                        -1
                     ],
                     [
                         "SKL",
-                        -2
+                        -1
                     ],
                     [
                         "SPD",
-                        -2
+                        -1
                     ],
                     [
                         "LCK",
-                        -2
+                        -1
                     ],
                     [
                         "DEF",
-                        -2
+                        -1
                     ],
                     [
                         "RES",
-                        -2
+                        -1
                     ]
                 ]
             ],

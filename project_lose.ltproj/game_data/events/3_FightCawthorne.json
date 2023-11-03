@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Cawthorne;Left",
-            "speak;Cawthorne;I'm the head of this bandit pack, the mighty Cawthorne!{w}{clear}Hope you've enjoyed your life, 'cuz it's about to end!",
+            "speak;Cawthorne;Filler die!",
             "remove_portrait;Cawthorne"
         ]
     }
