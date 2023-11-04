@@ -23,7 +23,7 @@
             ],
             [
                 "condition",
-                "game.level.nid == '3' and unit.nid =! 'Thrall'"
+                "game.level.nid == '3' and unit.nid != 'Thrall'"
             ]
         ]
     }

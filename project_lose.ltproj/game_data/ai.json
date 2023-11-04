@@ -657,8 +657,8 @@
                 "action": "Steal",
                 "target": "Enemy",
                 "target_spec": [
-                    "Team",
-                    "other"
+                    "Tag",
+                    "Ch4Loot"
                 ],
                 "view_range": -4,
                 "invert_targeting": false,
@@ -667,9 +667,12 @@
                 "condition": ""
             },
             {
-                "action": "Interact",
-                "target": "Event",
-                "target_spec": "Escape_Thief",
+                "action": "Move_to",
+                "target": "Enemy",
+                "target_spec": [
+                    "Tag",
+                    "Ch4Loot"
+                ],
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,

@@ -2,7 +2,7 @@
     {
         "nid": "Repair",
         "name": "Repair",
-        "desc": "Repairs selected physical weapon in ally's inventory.",
+        "desc": "Repairs selected weapon in ally's inventory.\nUnit has convoy access.",
         "icon_nid": "Skills",
         "icon_index": [
             0,

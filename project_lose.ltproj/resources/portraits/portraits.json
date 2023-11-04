@@ -144,14 +144,14 @@
         "info_offset": 0
     },
     {
-        "nid": "Corridon",
+        "nid": "Corridon (LittleKyng)",
         "blinking_offset": [
             16,
-            24
+            16
         ],
         "smiling_offset": [
             16,
-            40
+            32
         ],
         "info_offset": 0
     },

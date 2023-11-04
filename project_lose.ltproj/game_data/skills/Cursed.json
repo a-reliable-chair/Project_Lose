@@ -2,7 +2,7 @@
     {
         "nid": "Cursed",
         "name": "Cursed",
-        "desc": "You've met with a terrible fate, haven't you? -1 DEF/RES/LUK. Stackable.",
+        "desc": "You've met with a terrible fate, haven't you? -2 DEF/RES/LUK. Stackable.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -14,15 +14,15 @@
                 [
                     [
                         "DEF",
-                        -1
+                        -2
                     ],
                     [
                         "RES",
-                        -1
+                        -2
                     ],
                     [
                         "LCK",
-                        -1
+                        -2
                     ]
                 ]
             ],

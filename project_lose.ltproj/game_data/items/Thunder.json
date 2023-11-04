@@ -2,7 +2,7 @@
     {
         "nid": "Thunder",
         "name": "Thunder",
-        "desc": "Effective against armored units.\nSPD -2.",
+        "desc": "Effective against armored units.",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -23,11 +23,11 @@
             ],
             [
                 "max_range",
-                2
+                3
             ],
             [
                 "damage",
-                2
+                3
             ],
             [
                 "hit",
@@ -59,7 +59,7 @@
             ],
             [
                 "uses",
-                10
+                6
             ],
             [
                 "uses_options",
@@ -77,10 +77,6 @@
                 ]
             ],
             [
-                "unrepairable",
-                null
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -94,10 +90,6 @@
             [
                 "wexp",
                 2
-            ],
-            [
-                "status_on_equip",
-                "SPD2"
             ],
             [
                 "eval_warning",

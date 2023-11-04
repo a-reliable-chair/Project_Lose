@@ -19,7 +19,7 @@
             ],
             [
                 "hit",
-                -10
+                0
             ],
             [
                 "magic",
@@ -46,10 +46,6 @@
             ],
             [
                 "no_double",
-                null
-            ],
-            [
-                "unrepairable",
                 null
             ],
             [

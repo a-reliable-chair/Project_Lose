@@ -2,64 +2,64 @@
     {
         "nid": "HP",
         "name": "HP",
-        "maximum": 60,
-        "desc": "Hit points. The unit is removed from the battle if HP reaches 0.",
+        "maximum": 25,
+        "desc": "The unit is removed from the battle if HP reaches 0.",
         "position": "hidden",
         "growth_colors": false
     },
     {
         "nid": "STR",
         "name": "Str",
-        "maximum": 30,
-        "desc": "Strength. The higher the number, the more damage you inflict.",
+        "maximum": 10,
+        "desc": "Each point increases physical damage by 1.",
         "position": "left",
         "growth_colors": false
     },
     {
         "nid": "MAG",
         "name": "Mag",
-        "maximum": 30,
-        "desc": "Magical power. Increases spell and staff effectiveness.",
+        "maximum": 10,
+        "desc": "Each point increases magic damage and healing by 1.",
         "position": "left",
         "growth_colors": false
     },
     {
         "nid": "SKL",
         "name": "Skill",
-        "maximum": 30,
-        "desc": "Fighting skill. A higher number improves accuracy.",
+        "maximum": 10,
+        "desc": "Each point increases hit by 20.",
         "position": "left",
         "growth_colors": false
     },
     {
         "nid": "SPD",
         "name": "Spd",
-        "maximum": 30,
-        "desc": "This affects both evasion and attack speed.",
+        "maximum": 10,
+        "desc": "Each point gives +5 avoid. Doubling threshold: 1.",
         "position": "left",
         "growth_colors": false
     },
     {
         "nid": "LCK",
         "name": "Luck",
-        "maximum": 30,
-        "desc": "Luck affects many things.",
+        "maximum": 20,
+        "desc": "Each point gives +5 hit, crit, avoid, and crit avoid.",
         "position": "right",
         "growth_colors": false
     },
     {
         "nid": "DEF",
         "name": "Def",
-        "maximum": 30,
-        "desc": "Reduces damage from weapons.",
+        "maximum": 10,
+        "desc": "Each point reduces incoming physical damage by 1.",
         "position": "left",
         "growth_colors": false
     },
     {
         "nid": "RES",
         "name": "Res",
-        "maximum": 30,
-        "desc": "Reduces damage from magic.",
+        "maximum": 10,
+        "desc": "Each point decreases incoming magic damage by 1.",
         "position": "left",
         "growth_colors": false
     },
@@ -67,7 +67,7 @@
         "nid": "CON",
         "name": "Con",
         "maximum": 25,
-        "desc": "Constitution. Affects rescuing.",
+        "desc": "Affects rescuing.",
         "position": "right",
         "growth_colors": false
     },
@@ -75,7 +75,7 @@
         "nid": "MOV",
         "name": "Move",
         "maximum": 15,
-        "desc": "The distance you can move in one turn.",
+        "desc": "The distance you can move in one turn. Can be increased by leveling up!",
         "position": "right",
         "growth_colors": false
     }

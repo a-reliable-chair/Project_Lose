@@ -1,7 +1,7 @@
 [
     {
         "nid": "3",
-        "name": "Ch. 4: GTFO",
+        "name": "Ch. 4:",
         "tilemap": "Ch4",
         "bg_tilemap": null,
         "party": "Eirika",
@@ -1221,31 +1221,6 @@
                 "generic": true
             },
             {
-                "nid": "Rein_1",
-                "variant": null,
-                "level": 4,
-                "klass": "GriffonKnight",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Lance",
-                        false
-                    ],
-                    [
-                        "Javelin",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Ch4_Yolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "Rein_2",
                 "variant": null,
                 "level": 4,
@@ -1368,26 +1343,9 @@
                     [
                         "Silver Axe",
                         false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Ch4_Yolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Rein_8",
-                "variant": null,
-                "level": 4,
-                "klass": "PegasusKnight",
-                "faction": "Soldier",
-                "starting_items": [
+                    ],
                     [
-                        "EtherealBlade",
+                        "Swordreaver",
                         false
                     ]
                 ],
@@ -1409,6 +1367,10 @@
                 "starting_items": [
                     [
                         "Silver Sword",
+                        false
+                    ],
+                    [
+                        "Axereaver",
                         false
                     ]
                 ],
@@ -1731,15 +1693,10 @@
             {
                 "nid": "Rein1",
                 "units": [
-                    "Rein_1",
                     "Rein_2",
                     "Rein_3"
                 ],
                 "positions": {
-                    "Rein_1": [
-                        18,
-                        25
-                    ],
                     "Rein_2": [
                         17,
                         25
@@ -1776,16 +1733,11 @@
                 "nid": "Rein3",
                 "units": [
                     "Rein_7",
-                    "Rein_8",
                     "Rein_9"
                 ],
                 "positions": {
                     "Rein_7": [
                         5,
-                        0
-                    ],
-                    "Rein_8": [
-                        6,
                         0
                     ],
                     "Rein_9": [

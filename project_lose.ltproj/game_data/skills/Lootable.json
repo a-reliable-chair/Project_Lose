@@ -12,6 +12,12 @@
             [
                 "unit_anim",
                 "MapLootable"
+            ],
+            [
+                "has_tags",
+                [
+                    "Ch4Loot"
+                ]
             ]
         ]
     }

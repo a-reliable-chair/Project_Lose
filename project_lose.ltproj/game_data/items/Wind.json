@@ -2,7 +2,7 @@
     {
         "nid": "Wind",
         "name": "Wind",
-        "desc": "Effective against flying units.",
+        "desc": "Brave. Effective against flying units.",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -19,7 +19,7 @@
             ],
             [
                 "min_range",
-                1
+                2
             ],
             [
                 "max_range",
@@ -35,7 +35,7 @@
             ],
             [
                 "crit",
-                5
+                10
             ],
             [
                 "level_exp",
@@ -59,7 +59,7 @@
             ],
             [
                 "uses",
-                8
+                10
             ],
             [
                 "uses_options",
@@ -75,10 +75,6 @@
                         "Doubling doesn't cost extra uses"
                     ]
                 ]
-            ],
-            [
-                "unrepairable",
-                null
             ],
             [
                 "effective_damage",
@@ -102,6 +98,10 @@
             [
                 "battle_cast_anim",
                 "Wind"
+            ],
+            [
+                "brave",
+                null
             ]
         ]
     }

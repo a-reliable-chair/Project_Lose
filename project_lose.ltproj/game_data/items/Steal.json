@@ -26,11 +26,11 @@
                 11
             ],
             [
-                "target_enemy",
+                "steal",
                 null
             ],
             [
-                "steal",
+                "target_unit",
                 null
             ],
             [

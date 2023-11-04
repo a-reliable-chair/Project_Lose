@@ -2,7 +2,7 @@
     {
         "nid": "Repair",
         "name": "Repair",
-        "desc": "Repairs selected weapon in target's inventory. Does not affect tomes.",
+        "desc": "Repairs selected weapon in target's inventory.",
         "icon_nid": null,
         "icon_index": [
             0,

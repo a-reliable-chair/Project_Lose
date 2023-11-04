@@ -7,6 +7,8 @@
         "level": 4,
         "klass": "Blacksmith",
         "tags": [
+            "Convoy",
+            "AdjConvoy",
             "Adult"
         ],
         "bases": {
@@ -118,7 +120,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Corridon",
+        "portrait_nid": "Corridon (LittleKyng)",
         "affinity": "Light",
         "fields": []
     }

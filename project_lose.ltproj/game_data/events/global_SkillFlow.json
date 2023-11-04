@@ -1,6 +1,6 @@
 [
     {
-        "name": "Ch4LootingThief",
+        "name": "SkillFlow",
         "trigger": null,
         "level_nid": null,
         "condition": "True",
@@ -8,8 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "remove_skill;{unit2};Lootable;no_banner",
-            "change_ai;{unit};Ch4_ThiefEscape"
+            "give_skill;Orla;FlowState;no_banner"
         ]
     }
 ]

@@ -1,9 +1,9 @@
 [
     {
-        "name": "Turn4Cawthorne",
+        "name": "Turn5Cawthorne",
         "trigger": "turn_change",
         "level_nid": "3",
-        "condition": "game.turncount == 4",
+        "condition": "game.turncount == 5",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -20,6 +20,9 @@
             "add_region;Tavern;16,8;1,1;event;Tavern;only_once",
             "move_cursor;Davenport",
             "flicker_cursor;Davenport",
+            "add_portrait;Davenport;Left",
+            "speak;Davenport;Sir!",
+            "remove_portrait;Davenport",
             "change_ai;Davenport;Ch4_AttackNoMove"
         ]
     }

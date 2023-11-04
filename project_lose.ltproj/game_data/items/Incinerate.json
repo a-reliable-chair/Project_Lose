@@ -27,11 +27,11 @@
             ],
             [
                 "damage",
-                5
+                6
             ],
             [
                 "hit",
-                0
+                10
             ],
             [
                 "level_exp",
@@ -56,10 +56,6 @@
             [
                 "alternate_resist_formula",
                 "ZERO"
-            ],
-            [
-                "unrepairable",
-                null
             ],
             [
                 "crit",

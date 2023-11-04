@@ -391,7 +391,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Thunder",
+                        "Wind",
                         true
                     ]
                 ],
@@ -454,7 +454,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Galebow",
+                        "EnchantedBow",
                         true
                     ],
                     [

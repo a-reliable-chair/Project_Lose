@@ -2,7 +2,7 @@
     {
         "nid": "Fire",
         "name": "Fire",
-        "desc": "Effective against horseback units.\n-1 SPD.",
+        "desc": "Effective against horseback units.",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -27,7 +27,7 @@
             ],
             [
                 "damage",
-                3
+                4
             ],
             [
                 "hit",
@@ -35,11 +35,11 @@
             ],
             [
                 "crit",
-                5
+                0
             ],
             [
                 "uses",
-                12
+                8
             ],
             [
                 "uses_options",
@@ -77,10 +77,6 @@
                 null
             ],
             [
-                "unrepairable",
-                null
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -94,10 +90,6 @@
             [
                 "wexp",
                 2
-            ],
-            [
-                "status_on_equip",
-                "SPD1"
             ],
             [
                 "eval_warning",

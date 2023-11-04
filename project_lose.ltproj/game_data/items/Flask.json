@@ -61,6 +61,10 @@
             [
                 "attack_after_combat",
                 null
+            ],
+            [
+                "unrepairable",
+                null
             ]
         ]
     }
