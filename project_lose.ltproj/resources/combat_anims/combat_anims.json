@@ -6637,8 +6637,8 @@
         ],
         "palettes": [
             [
-                "GenericBlue",
-                "New Palette_7"
+                "Raelin",
+                "Raelin"
             ]
         ]
     },
@@ -69664,6 +69664,10 @@
             }
         ],
         "palettes": [
+            [
+                "Elwynn",
+                "Elwynn"
+            ],
             [
                 "GenericBlue",
                 "Generic_Monk"
