@@ -5,7 +5,7 @@
         "level_nid": "2",
         "condition": "region.nid == 'Door3'",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "sound;Unlock",
@@ -14,12 +14,14 @@
             "    give_exp;{unit};20",
             "end",
             "has_traded;{unit}",
-            "move_cursor;Emberson (Emberson)",
-            "flicker_cursor;Emberson (Emberson)",
-            "add_portrait;Emberson (Emberson);Left",
-            "speak;Emberson (Emberson);Ah-ha! Smoked 'em out boys!|Time for the fun part!",
-            "remove_portrait;Emberson (Emberson)",
-            "change_ai;Emberson;Yolo"
+            "if;game.check_alive('Emberson')",
+            "    move_cursor;Emberson",
+            "    flicker_cursor;Emberson",
+            "    add_portrait;Emberson;Left",
+            "    speak;Emberson;Ah-ha! Smoked 'em out boys!|Time for the fun part!",
+            "    remove_portrait;Emberson",
+            "    change_ai;Emberson;Yolo",
+            "end"
         ]
     }
 ]

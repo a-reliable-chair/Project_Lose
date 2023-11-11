@@ -96,14 +96,14 @@
         "info_offset": 0
     },
     {
-        "nid": "Garvey",
+        "nid": "Garvey (LittleKyng)",
         "blinking_offset": [
-            32,
-            32
+            16,
+            16
         ],
         "smiling_offset": [
-            32,
-            48
+            16,
+            32
         ],
         "info_offset": 0
     },

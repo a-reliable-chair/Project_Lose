@@ -27,7 +27,7 @@
             "transition;close",
             "change_background",
             "transition;Open",
-            "#give_item;Saraid;Firestarter (Firestarter)",
+            "give_item;Saraid;Firestarter",
             "give_exp;Saraid;40",
             "sound;Unlock",
             "show_layer;Left",

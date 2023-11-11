@@ -25,9 +25,10 @@
             "add_lore;Burning",
             "add_lore;FreeActions",
             "give_item;Quinley;Duskfall;no_banner",
+            "give_item;Ailsa;Tidecaller;no_banner",
+            "give_item;Saraid;Firestarter;no_banner",
             "set_custom_options;Codex;true;Open the Codex;Menu_Codex",
-            "give_skill;Ailsa;Flooded",
-            "give_skill;Lamonte;Flooded"
+            "base;title_background;Before An Impossible Battlefield"
         ]
     }
 ]

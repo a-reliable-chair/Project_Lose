@@ -27,7 +27,7 @@
             "transition;close",
             "change_background",
             "transition;Open",
-            "give_item;Elspeth;Dismay (Dismay)",
+            "give_item;Elspeth;Dismay",
             "give_exp;Elspeth;40",
             "show_layer;Right",
             "has_traded;Elspeth"

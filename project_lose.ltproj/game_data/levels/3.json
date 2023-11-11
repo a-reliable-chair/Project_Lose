@@ -1,15 +1,15 @@
 [
     {
         "nid": "3",
-        "name": "Ch. 4:",
+        "name": "Ch. 4: Periphery of Mayhem",
         "tilemap": "Ch4",
         "bg_tilemap": null,
         "party": "Eirika",
         "music": {
-            "player_phase": "Map Theme 4",
-            "enemy_phase": "Map Theme 4",
-            "other_phase": "Map Theme 4",
-            "enemy2_phase": "Map Theme 4",
+            "player_phase": "Periphery Of Mayhem",
+            "enemy_phase": "Periphery Of Mayhem",
+            "other_phase": "Periphery Of Mayhem",
+            "enemy2_phase": "Periphery Of Mayhem",
             "player_battle": null,
             "enemy_battle": null,
             "other_battle": null,
@@ -509,7 +509,7 @@
                 "faction": "Villager",
                 "starting_items": [
                     [
-                        "EnchantedBow",
+                        "Galebow",
                         false
                     ]
                 ],
@@ -749,7 +749,7 @@
                     ],
                     [
                         "RubySword",
-                        true
+                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -1093,7 +1093,7 @@
                 "starting_items": [
                     [
                         "Wind",
-                        true
+                        false
                     ]
                 ],
                 "starting_skills": [],

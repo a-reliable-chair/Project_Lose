@@ -2,7 +2,7 @@
     {
         "nid": "Omnipotence",
         "name": "Omnipotence",
-        "desc": "Effective against caster units.\nSPD -1.",
+        "desc": "Effective against caster units.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -90,10 +90,6 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true
                 }
-            ],
-            [
-                "status_on_equip",
-                "SPD1"
             ],
             [
                 "eval_warning",

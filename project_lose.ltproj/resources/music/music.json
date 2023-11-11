@@ -1,16 +1,6 @@
 [
     [
-        "Chapter Sound",
-        false,
-        false
-    ],
-    [
-        "But A Memory",
-        true,
-        false
-    ],
-    [
-        "Looming Tempests",
+        "Destined For Failure",
         true,
         false
     ],
@@ -25,22 +15,12 @@
         false
     ],
     [
-        "Destined For Failure",
+        "Imperial Audacity",
         true,
         false
     ],
     [
-        "...And Forgotten",
-        true,
-        false
-    ],
-    [
-        "Skirmish In The Shadows",
-        true,
-        false
-    ],
-    [
-        "The Darkest Timeline",
+        "Pandemonium",
         true,
         false
     ],
@@ -50,7 +30,12 @@
         false
     ],
     [
-        "Pandemonium",
+        "Rise To The Threat",
+        true,
+        false
+    ],
+    [
+        "Skirmish In The Shadows",
         true,
         false
     ],
@@ -60,8 +45,18 @@
         false
     ],
     [
-        "For The Greater Good",
-        true,
+        "Periphery Of Mayhem",
+        false,
+        false
+    ],
+    [
+        "Inevitable Fate Pt. 1",
+        false,
+        false
+    ],
+    [
+        "Inevitable Fate Pt. 2",
+        false,
         false
     ],
     [
@@ -70,7 +65,17 @@
         false
     ],
     [
-        "Imperial Audacity",
+        "...And Forgotten",
+        true,
+        false
+    ],
+    [
+        "But A Memory",
+        false,
+        false
+    ],
+    [
+        "For The Greater Good",
         true,
         false
     ],
@@ -80,8 +85,13 @@
         false
     ],
     [
-        "Map Theme 4",
-        false,
+        "The Darkest Timeline",
+        true,
+        false
+    ],
+    [
+        "Thanks For Playing",
+        true,
         false
     ]
 ]

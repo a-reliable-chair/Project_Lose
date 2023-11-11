@@ -17,7 +17,7 @@
     ],
     [
         "bonus_method",
-        "Use Sum of Affinity Bonuses"
+        "Use Partner's Affinity Bonus"
     ],
     [
         "bonus_range",
@@ -29,11 +29,11 @@
     ],
     [
         "chapter_points",
-        0
+        1
     ],
     [
         "end_turn_points",
-        1
+        0
     ],
     [
         "combat_points",
@@ -53,7 +53,7 @@
     ],
     [
         "rank_limit",
-        5
+        1
     ],
     [
         "highest_rank_limit",
@@ -69,6 +69,6 @@
     ],
     [
         "rank_limit_per_chapter",
-        1
+        0
     ]
 ]

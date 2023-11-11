@@ -791,8 +791,8 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Fire",
-                        false
+                        "Thunder",
+                        true
                     ]
                 ],
                 "starting_skills": [
@@ -1385,6 +1385,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

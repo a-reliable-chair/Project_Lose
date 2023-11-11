@@ -26,7 +26,7 @@
             "    resurrect;{unit}",
             "    change_team;{unit};player",
             "    recruit_generic;{unit};Thrall;Thrall",
-            "    change_faction;Thrall;Thrall;FLAG(no_warn)",
+            "    change_faction;Thrall;Thrall;no_warn",
             "    change_portrait;Thrall;Thrall",
             "    for;Current_Skill;[u.nid for u in u('Thrall').skills]",
             "        remove_skill;Thrall;{Current_Skill};no_banner",

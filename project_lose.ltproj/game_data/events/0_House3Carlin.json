@@ -28,7 +28,7 @@
             "transition;close",
             "change_background",
             "transition;Open",
-            "give_item;Carlin;Disaster (Disaster)",
+            "give_item;Carlin;Disaster",
             "give_exp;Carlin;40",
             "sound;Unlock",
             "show_layer;TopRight",

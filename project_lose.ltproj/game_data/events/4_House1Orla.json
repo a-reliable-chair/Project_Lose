@@ -27,7 +27,7 @@
             "transition;close",
             "change_background",
             "transition;Open",
-            "give_item;Orla;Whirlwind (Whirlwind)",
+            "give_item;Orla;Whirlwind",
             "give_exp;Orla;40",
             "show_layer;Left",
             "has_traded;Orla"

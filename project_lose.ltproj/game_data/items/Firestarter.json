@@ -86,12 +86,12 @@
                 }
             ],
             [
-                "event_after_combat_even_miss",
-                "Global Firestarter_Origin"
-            ],
-            [
                 "no_double",
                 null
+            ],
+            [
+                "status_on_equip",
+                "Firestarter"
             ]
         ]
     }

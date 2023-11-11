@@ -1,13 +1,13 @@
 [
     {
         "nid": "0",
-        "name": "Ch. 1: 1st One",
+        "name": "Ch. 1: Rise To The Threat",
         "tilemap": "Ch1",
         "bg_tilemap": "Ch1",
         "party": "Eirika",
         "music": {
-            "player_phase": "Looming Tempests",
-            "enemy_phase": "Looming Tempests",
+            "player_phase": "Rise To The Threat",
+            "enemy_phase": "Rise To The Threat",
             "other_phase": null,
             "enemy2_phase": null,
             "player_battle": null,

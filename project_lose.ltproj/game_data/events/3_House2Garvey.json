@@ -27,7 +27,7 @@
             "transition;close",
             "change_background",
             "transition;Open",
-            "give_item;Garvey;Rancor (Rancor)",
+            "give_item;Garvey;Rancor",
             "give_exp;Garvey;40",
             "show_layer;Right",
             "has_traded;Garvey"

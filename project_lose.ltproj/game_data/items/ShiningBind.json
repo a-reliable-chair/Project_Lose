@@ -2,7 +2,7 @@
     {
         "nid": "ShiningBind",
         "name": "Shining Bind",
-        "desc": "Petrifies target.\nCan't double.\nSPD -2.",
+        "desc": "Petrifies target.\nCan't double.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -79,10 +79,6 @@
             [
                 "no_double",
                 null
-            ],
-            [
-                "status_on_equip",
-                "SPD2"
             ],
             [
                 "battle_cast_anim",

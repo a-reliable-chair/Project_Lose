@@ -13,40 +13,18 @@
     {
         "nid": "Fire",
         "name": "Fire",
-        "desc": "Grants increased might, accuracy, avoid, and crit rate.",
+        "desc": "Grants increased might.",
         "bonus": [
             {
                 "support_rank": "C",
-                "damage": 0.5,
+                "damage": 1.0,
                 "resist": 0,
-                "accuracy": 2.5,
-                "avoid": 2.5,
-                "crit": 2.5,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
                 "dodge": 0,
                 "attack_speed": 0,
                 "defense_speed": 0
-            },
-            {
-                "support_rank": "B",
-                "damage": 1.0,
-                "resist": 0.0,
-                "accuracy": 5.0,
-                "avoid": 5.0,
-                "crit": 5.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "damage": 1.5,
-                "resist": 0.0,
-                "accuracy": 7.5,
-                "avoid": 7.5,
-                "crit": 7.5,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
             }
         ],
         "icon_nid": "Affinity",
@@ -58,40 +36,18 @@
     {
         "nid": "Thunder",
         "name": "Thunder",
-        "desc": "Grants increased defense, avoid, crit rate, and crit avoid.",
+        "desc": "Grants increased crit rate.",
         "bonus": [
             {
                 "support_rank": "C",
                 "damage": 0.0,
-                "resist": 0.5,
+                "resist": 0.0,
                 "accuracy": 0.0,
-                "avoid": 2.5,
-                "crit": 2.5,
-                "dodge": 2.5,
+                "avoid": 0.0,
+                "crit": 15.0,
+                "dodge": 0.0,
                 "attack_speed": 0,
                 "defense_speed": 0
-            },
-            {
-                "support_rank": "B",
-                "damage": 0.0,
-                "resist": 1.0,
-                "accuracy": 0.0,
-                "avoid": 5.0,
-                "crit": 5.0,
-                "dodge": 5.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "damage": 0.0,
-                "resist": 1.5,
-                "accuracy": 0.0,
-                "avoid": 7.5,
-                "crit": 7.5,
-                "dodge": 7.5,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
             }
         ],
         "icon_nid": "Affinity",
@@ -103,40 +59,18 @@
     {
         "nid": "Wind",
         "name": "Wind",
-        "desc": "Grants increased might, accuracy, crit rate, and crit avoid.",
+        "desc": "Grants increased attack speed.",
         "bonus": [
             {
                 "support_rank": "C",
-                "damage": 0.5,
+                "damage": 0.0,
                 "resist": 0,
-                "accuracy": 2.5,
+                "accuracy": 0.0,
                 "avoid": 0.0,
-                "crit": 2.5,
-                "dodge": 2.5,
-                "attack_speed": 0,
-                "defense_speed": 0
-            },
-            {
-                "support_rank": "B",
-                "damage": 1.0,
-                "resist": 0.0,
-                "accuracy": 5.0,
-                "avoid": 0.0,
-                "crit": 5.0,
-                "dodge": 5.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "damage": 1.5,
-                "resist": 0.0,
-                "accuracy": 7.5,
-                "avoid": 0.0,
-                "crit": 7.5,
-                "dodge": 7.5,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 1.0,
+                "defense_speed": 1.0
             }
         ],
         "icon_nid": "Affinity",
@@ -148,38 +82,16 @@
     {
         "nid": "Ice",
         "name": "Ice",
-        "desc": "Grants increased defense, accuracy, avoid, and crit avoid.",
+        "desc": "Grants increased defenses.",
         "bonus": [
             {
                 "support_rank": "C",
                 "damage": 0.0,
-                "resist": 0.5,
-                "accuracy": 2.5,
-                "avoid": 2.5,
-                "crit": 0.0,
-                "dodge": 2.5,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "damage": 0.0,
                 "resist": 1.0,
-                "accuracy": 5.0,
-                "avoid": 5.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
                 "crit": 0.0,
-                "dodge": 5.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "damage": 0.0,
-                "resist": 1.5,
-                "accuracy": 7.5,
-                "avoid": 7.5,
-                "crit": 0.0,
-                "dodge": 7.5,
+                "dodge": 0.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
             }
@@ -193,38 +105,16 @@
     {
         "nid": "Dark",
         "name": "Dark",
-        "desc": "Grants increased accuracy, avoid, crit rate, and crit avoid.",
+        "desc": "Grants increased accuracy.",
         "bonus": [
             {
                 "support_rank": "C",
                 "damage": 0.0,
                 "resist": 0.0,
-                "accuracy": 2.5,
-                "avoid": 2.5,
-                "crit": 2.5,
-                "dodge": 2.5,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 5.0,
-                "avoid": 5.0,
-                "crit": 5.0,
-                "dodge": 5.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "damage": 0.0,
-                "resist": 0.0,
-                "accuracy": 7.5,
-                "avoid": 7.5,
-                "crit": 7.5,
-                "dodge": 7.5,
+                "accuracy": 15.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
             }
@@ -238,37 +128,15 @@
     {
         "nid": "Light",
         "name": "Light",
-        "desc": "Grants increased attack, defense, accuracy, and crit rate.",
+        "desc": "Grants increased avoid.",
         "bonus": [
             {
                 "support_rank": "C",
-                "damage": 0.5,
-                "resist": 0.5,
-                "accuracy": 2.5,
-                "avoid": 0.0,
-                "crit": 2.5,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "damage": 1.0,
-                "resist": 1.0,
-                "accuracy": 5.0,
-                "avoid": 0.0,
-                "crit": 5.0,
-                "dodge": 0.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "damage": 1.5,
-                "resist": 1.5,
-                "accuracy": 7.5,
-                "avoid": 0.0,
-                "crit": 7.5,
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 15.0,
+                "crit": 0.0,
                 "dodge": 0.0,
                 "attack_speed": 0.0,
                 "defense_speed": 0.0
@@ -278,51 +146,6 @@
         "icon_index": [
             0,
             6
-        ]
-    },
-    {
-        "nid": "Anima",
-        "name": "Anima",
-        "desc": "Grants increased attack, defense, avoid, and crit avoid.",
-        "bonus": [
-            {
-                "support_rank": "C",
-                "damage": 0.5,
-                "resist": 0.5,
-                "accuracy": 0.0,
-                "avoid": 2.5,
-                "crit": 0.0,
-                "dodge": 2.5,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "B",
-                "damage": 1.0,
-                "resist": 1.0,
-                "accuracy": 0.0,
-                "avoid": 5.0,
-                "crit": 0.0,
-                "dodge": 5.0,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            },
-            {
-                "support_rank": "A",
-                "damage": 1.5,
-                "resist": 1.5,
-                "accuracy": 0.0,
-                "avoid": 7.5,
-                "crit": 0.0,
-                "dodge": 7.5,
-                "attack_speed": 0.0,
-                "defense_speed": 0.0
-            }
-        ],
-        "icon_nid": "Affinity",
-        "icon_index": [
-            0,
-            8
         ]
     }
 ]

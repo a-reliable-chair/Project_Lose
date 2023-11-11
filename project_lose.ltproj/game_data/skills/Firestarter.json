@@ -1,0 +1,25 @@
+[
+    {
+        "nid": "Firestarter",
+        "name": "Firestarter",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "start_and_end_event_initiate",
+                {
+                    "start_event": "Global Firestart_Position",
+                    "end_event": "Global Firestarter_Origin"
+                }
+            ]
+        ]
+    }
+]

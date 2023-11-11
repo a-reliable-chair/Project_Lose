@@ -14,10 +14,6 @@
                 null
             ],
             [
-                "is_terrain",
-                null
-            ],
-            [
                 "condition",
                 "unit.team == 'enemy'"
             ],

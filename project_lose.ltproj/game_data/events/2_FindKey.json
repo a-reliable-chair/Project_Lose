@@ -5,13 +5,13 @@
         "level_nid": "2",
         "condition": "True",
         "commands": [],
-        "only_once": false,
+        "only_once": true,
         "priority": 20,
         "_source": [
             "add_portrait;{unit};Right",
             "speak;{unit};Got it!",
             "remove_portrait;{unit}",
-            "give_item;{unit};Relic Key (RelicKey)",
+            "give_item;{unit};RelicKey",
             "give_exp;{unit};20",
             "has_traded;{unit}"
         ]

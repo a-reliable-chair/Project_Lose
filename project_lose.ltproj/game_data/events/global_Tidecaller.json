@@ -8,20 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "lvar;AilsaSpots;0",
-            "lvar;ValidAilsaLocs;[x for x in game.target_system.get_adjacent_positions(u('Ailsa').position)]",
-            "lvar;AilsaPosition;u('Ailsa').position",
-            "for;size;range(1)",
-            "    for;sets_r_cringe;{v:ValidAilsaLocs}",
-            "        lvar;ValidLocs;{v:ValidAilsaLocs} + [v for v in game.target_system.get_adjacent_positions({sets_r_cringe}) if v not in {v:ValidAilsaLocs}]",
-            "    endf",
-            "endf",
-            "map_anim;Tidecaller;Ailsa;permanent",
-            "for;cross;[p for p in {v:ValidAilsaLocs} if not game.board.get_unit(p)]",
-            "    add_region;{e:'Flood_' + str({v:AilsaSpots})};{cross};1,1;status;Flooded",
-            "    inc_level_var;AilsaSpots",
-            "endf",
-            ""
+            "add_region;Tidecall;{unit};1, 1;status;Flooded",
+            "map_anim;Tidecaller;Ailsa;permanent"
         ]
     }
 ]

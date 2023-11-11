@@ -27,7 +27,7 @@
             ],
             [
                 "hit",
-                -10
+                0
             ],
             [
                 "magic",
@@ -54,11 +54,11 @@
             ],
             [
                 "crit",
-                15
+                25
             ],
             [
                 "wexp",
-                2
+                5
             ],
             [
                 "siege_weapon",
@@ -75,10 +75,6 @@
             [
                 "equation_blast_aoe",
                 "MAGIC_RANGE"
-            ],
-            [
-                "no_double",
-                null
             ],
             [
                 "prf_unit",

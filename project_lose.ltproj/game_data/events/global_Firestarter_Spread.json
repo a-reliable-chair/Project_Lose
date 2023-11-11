@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Firestarter_Spread",
+        "trigger": "turn_change",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#Spread the fire. Also add the region to the rogin position for easy cleanup later",
+            "for;fire_regions;[r.center for r in game.level.regions if r.nid.startswith('Firestarter_')]",
+            "    for;cross;[p for p in game.target_system.get_adjacent_positions({fire_regions})]",
+            "        add_region;{e:'FireSpread_' + '{v:FireSpreadCounter}'};{cross};1,1;status;Burning",
+            "        map_anim;Burning;{cross};overlay;permanent",
+            "        inc_level_var;FireSpreadCounter;1",
+            "    endf",
+            "endf",
+            "#Remove the original region to prevent issues",
+            "for;fire_starts;[r for r in game.level.regions if r.nid.startswith('Firestarter_')]",
+            "    lvar;FirePos;game.get_region('{fire_starts}').center",
+            "    remove_region;{e:game.get_region('{fire_starts}')}",
+            "    add_region;{e:'FireSpread_' + '{v:FireSpreadCounter}'};{v:FirePos};1,1;status;Burning",
+            "    inc_level_var;FireSpreadCounter;1",
+            "endf"
+        ]
+    }
+]

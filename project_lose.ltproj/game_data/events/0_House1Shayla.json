@@ -52,7 +52,7 @@
             "remove_portrait;Shayla",
             "change_background",
             "transition;Open",
-            "give_item;Shayla;Axe Of Woe (AxeOfWoe)",
+            "give_item;Shayla;AxeOfWoe",
             "give_exp;Shayla;40",
             "sound;Unlock",
             "show_layer;BotLeft",

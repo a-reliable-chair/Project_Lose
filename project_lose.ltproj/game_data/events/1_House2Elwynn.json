@@ -27,7 +27,7 @@
             "transition;close",
             "change_background",
             "transition;Open",
-            "give_item;Elwynn;Flask (Flask)",
+            "give_item;Elwynn;Flask",
             "give_exp;Elwynn;40",
             "sound;Unlock",
             "show_layer;Right",

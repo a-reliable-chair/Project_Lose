@@ -14,8 +14,8 @@
             "STR": 3,
             "MAG": 0,
             "SKL": 6,
-            "SPD": 6,
-            "LCK": 4,
+            "SPD": 7,
+            "LCK": 2,
             "DEF": 1,
             "RES": 5,
             "CON": 9,
@@ -51,7 +51,7 @@
                 false
             ],
             [
-                "SapphireLance",
+                "Javelin",
                 false
             ],
             [

@@ -2,7 +2,7 @@
     {
         "nid": "Disaster",
         "name": "<purple>Disaster</purple>",
-        "desc": "Carlin Only.\nBackdash: 1.\nCannot Counter or Double.",
+        "desc": "Carlin Only.\nBackdash: 1.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -85,14 +85,6 @@
             [
                 "text_color",
                 "purple"
-            ],
-            [
-                "cannot_counter",
-                null
-            ],
-            [
-                "no_double",
-                null
             ],
             [
                 "battle_cast_anim",

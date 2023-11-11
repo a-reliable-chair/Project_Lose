@@ -455,7 +455,7 @@
                 "starting_items": [
                     [
                         "EnchantedBow",
-                        true
+                        false
                     ],
                     [
                         "Longbow",

@@ -27,7 +27,7 @@
             "transition;close",
             "change_background",
             "transition;Open",
-            "give_item;Alpin;Lionheart (Lionheart)",
+            "give_item;Alpin;Lionheart",
             "give_exp;Alpin;40",
             "show_layer;Left",
             "has_traded;Alpin"

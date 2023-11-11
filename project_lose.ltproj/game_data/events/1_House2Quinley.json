@@ -27,7 +27,7 @@
             "transition;close",
             "change_background",
             "transition;Open",
-            "give_item;Quinley;Shadowflame (Shadowflame)",
+            "give_item;Quinley;Shadowflame",
             "give_exp;Quinley;40",
             "sound;Unlock",
             "show_layer;Right",

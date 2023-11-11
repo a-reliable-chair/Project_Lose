@@ -11,10 +11,10 @@
         ],
         "bases": {
             "HP": 18,
-            "STR": 5,
+            "STR": 6,
             "MAG": 0,
             "SKL": 5,
-            "SPD": 6,
+            "SPD": 4,
             "LCK": 4,
             "DEF": 3,
             "RES": 2,
@@ -51,7 +51,7 @@
                 false
             ],
             [
-                "EmeraldAxe",
+                "Hand Axe",
                 false
             ],
             [

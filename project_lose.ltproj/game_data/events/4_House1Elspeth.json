@@ -27,10 +27,10 @@
             "transition;close",
             "change_background",
             "transition;Open",
-            "give_item;Elspeth;Guardian Angel (GuardianAngel)",
+            "give_item;Elspeth;GuardianAngel",
             "give_exp;Elspeth;40",
             "show_layer;Left",
-            "has_traded;Elspeth (Elspeth)"
+            "has_traded;Elspeth"
         ]
     }
 ]

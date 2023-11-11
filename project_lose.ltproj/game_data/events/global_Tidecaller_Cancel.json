@@ -8,13 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;game.level_vars.get('AilsaPosition', 0) != 0",
-            "    for;AilsaRegions;[r for r in game.level.regions if 'Flood_' in r.nid]",
-            "        remove_region;{AilsaRegions}",
-            "    endf",
-            "    remove_map_anim;Tidecaller;Ailsa",
-            "    lvar;AilsaPosition;0",
-            "end"
+            "remove_region;Tidecall",
+            "remove_map_anim;Tidecaller;Ailsa"
         ]
     }
 ]
