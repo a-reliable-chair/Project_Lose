@@ -16,7 +16,7 @@
         "desc": "Grants increased might.",
         "bonus": [
             {
-                "support_rank": "C",
+                "support_rank": "1",
                 "damage": 1.0,
                 "resist": 0,
                 "accuracy": 0.0,
@@ -39,7 +39,7 @@
         "desc": "Grants increased crit rate.",
         "bonus": [
             {
-                "support_rank": "C",
+                "support_rank": "1",
                 "damage": 0.0,
                 "resist": 0.0,
                 "accuracy": 0.0,
@@ -62,7 +62,7 @@
         "desc": "Grants increased attack speed.",
         "bonus": [
             {
-                "support_rank": "C",
+                "support_rank": "1",
                 "damage": 0.0,
                 "resist": 0,
                 "accuracy": 0.0,
@@ -85,7 +85,7 @@
         "desc": "Grants increased defenses.",
         "bonus": [
             {
-                "support_rank": "C",
+                "support_rank": "1",
                 "damage": 0.0,
                 "resist": 1.0,
                 "accuracy": 0.0,
@@ -108,7 +108,7 @@
         "desc": "Grants increased accuracy.",
         "bonus": [
             {
-                "support_rank": "C",
+                "support_rank": "1",
                 "damage": 0.0,
                 "resist": 0.0,
                 "accuracy": 15.0,
@@ -131,7 +131,7 @@
         "desc": "Grants increased avoid.",
         "bonus": [
             {
-                "support_rank": "C",
+                "support_rank": "1",
                 "damage": 0.0,
                 "resist": 0.0,
                 "accuracy": 0.0,

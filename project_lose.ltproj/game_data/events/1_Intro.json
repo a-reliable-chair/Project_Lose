@@ -219,7 +219,6 @@
             "remove_skill;Garvey;NPCVision;no_banner",
             "remove_skill;Lamonte;NPCVision;no_banner",
             "inc_level_var;RoutEnemies;-1",
-            "inc_game_var;LeodDead;1",
             "change_ai;Brassfield;None",
             "prep;1;Before An Impossible Battlefield"
         ]
