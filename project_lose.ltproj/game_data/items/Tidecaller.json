@@ -2,7 +2,7 @@
     {
         "nid": "Tidecaller",
         "name": "<purple>Tidecaller</purple>",
-        "desc": "Ailsa Only.\nAfter initiating combat, floods tiles around Ailsa for 1 turn.",
+        "desc": "Ailsa Only.\nAfter initiating combat, floods the tile Ailsa occupies for 1 turn.",
         "icon_nid": "BossWeaps",
         "icon_index": [
             0,
@@ -76,7 +76,11 @@
             ],
             [
                 "event_after_combat_even_miss",
-                "Global Tidecaller"
+                "Global Tidecall"
+            ],
+            [
+                "self_status_on_hit",
+                "Tidecall"
             ]
         ]
     }

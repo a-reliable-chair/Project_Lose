@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tidecaller_Cancel",
+        "name": "Tidecall_Cancel",
         "trigger": "turn_change",
         "level_nid": null,
         "condition": "True",
@@ -8,8 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "remove_region;Tidecall",
-            "remove_map_anim;Tidecaller;Ailsa"
+            "if;{v:Tidecall} != 0",
+            "    remove_map_anim;Tidecaller;Ailsa",
+            "end"
         ]
     }
 ]

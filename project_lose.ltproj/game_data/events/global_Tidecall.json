@@ -1,6 +1,6 @@
 [
     {
-        "name": "Tidecaller",
+        "name": "Tidecall",
         "trigger": null,
         "level_nid": null,
         "condition": "True",
@@ -8,8 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_region;Tidecall;{unit};1, 1;status;Flooded",
-            "map_anim;Tidecaller;Ailsa;permanent"
+            "map_anim;Tidecaller;Ailsa;permanent",
+            "inc_level_var;Tidecall;1"
         ]
     }
 ]

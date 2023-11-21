@@ -164,13 +164,11 @@
     "1_Rout",
     "global_LevelUpMOV",
     "global_SkillSuppressiveFire_Cancel",
-    "global_Tidecaller_Cancel",
     "global_SkillSuppressiveFire_Shot",
     "global_SkillSuppressiveFire_Zone",
     "DEBUG_Door1",
     "global_Menu_Codex",
     "global_Ch4LootingThief",
-    "global_Tidecaller",
     "global_SkillFlow",
     "global_Firestart",
     "global_Firestarter_Extinguish",
@@ -189,5 +187,7 @@
     "global_WEXP++",
     "4_BossAIChanges",
     "4_ElspethBrassfieldTalk",
-    "4_BossDeathRein"
+    "4_BossDeathRein",
+    "global_Tidecall",
+    "global_Tidecall_Cancel"
 ]
