@@ -8,10 +8,6 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "level_var;DeadPlayers;0",
-            "level_var;QuinleySkill;0",
-            "level_var;SaraidSkill;0",
-            "game_var;Davenport;0",
             "set_stats;Soldier_5;STR,5;immediate",
             "set_stats;Soldier_5;SKL,7;immediate",
             "add_weather;sunset",
@@ -114,7 +110,13 @@
             "change_ai;Davenport;Ch4_AttackInRange",
             "add_lore;Bolster",
             "add_lore;Repair",
-            "prep;1;Before An Impossible Battlefield"
+            "level_var;DeadPlayers;0",
+            "level_var;QuinleySkill;0",
+            "level_var;SaraidSkill;0",
+            "game_var;Davenport;0",
+            "",
+            "prep;1;Before An Impossible Battlefield",
+            ""
         ]
     }
 ]

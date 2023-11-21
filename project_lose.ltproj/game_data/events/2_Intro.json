@@ -8,12 +8,6 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "level_var;DeadPlayers;0",
-            "level_var;QuinleySkill;0",
-            "level_var;SaraidSkill;0",
-            "level_var;PlayerOpenChest;0",
-            "game_var;GotReclaimer;0",
-            "game_var;EmbersonDead;0",
             "change_team;Elspeth;player",
             "change_background;InsideCastle",
             "#music calm track?",
@@ -122,6 +116,14 @@
             "    give_skill;Garvey;SuppressiveFire;no_banner",
             "end",
             "change_ai;Emberson;AttackInRange",
+            "",
+            "level_var;DeadPlayers;0",
+            "level_var;QuinleySkill;0",
+            "level_var;SaraidSkill;0",
+            "level_var;PlayerOpenChest;0",
+            "game_var;GotReclaimer;0",
+            "game_var;EmbersonDead;0",
+            "",
             "prep;1;Before An Impossible Battlefield"
         ]
     }

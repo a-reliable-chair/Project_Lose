@@ -8,16 +8,10 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "level_var;RoutEnemies;1",
             "give_skill;Leod;NPCVision;no_banner",
             "give_skill;Garvey;NPCVision;no_banner",
             "give_skill;Lamonte;NPCVision;no_banner",
-            "game_var;LeodDead;0",
-            "game_var;BrassfieldDead;0",
-            "level_var;DeadPlayers;0",
-            "level_var;QuinleySkill;0",
-            "level_var;SaraidSkill;0",
-            "level_var;RoutEnemies;1",
-            "level_var;BrokenBarrel;0",
             "# Market / Pier",
             "change_tilemap;Ch4",
             "add_weather;sunset",
@@ -221,6 +215,14 @@
             "remove_skill;Lamonte;NPCVision;no_banner",
             "inc_level_var;RoutEnemies;-1",
             "change_ai;Brassfield;None",
+            "",
+            "game_var;LeodDead;0",
+            "game_var;BrassfieldDead;0",
+            "level_var;DeadPlayers;0",
+            "level_var;QuinleySkill;0",
+            "level_var;SaraidSkill;0",
+            "level_var;BrokenBarrel;0",
+            "",
             "prep;1;Before An Impossible Battlefield"
         ]
     }

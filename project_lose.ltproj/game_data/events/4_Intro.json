@@ -8,13 +8,6 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "level_var;DeadPlayers;0",
-            "level_var;CawthorneDead;0",
-            "level_var;QuinleySkill;0",
-            "level_var;SaraidSkill;0",
-            "level_var;Tidecall;0",
-            "level_var;LaisrenDeployed;0",
-            "level_var;TraineeDeployed;0",
             "add_talk;Elspeth;Brassfield",
             "add_weather;rain",
             "give_skill;Laisren;AspiringLeader;no_banner",
@@ -281,6 +274,15 @@
             "end",
             "change_ai;Cawthorne;AttackNoMove",
             "change_ai;Shallcross;AttackNoMove",
+            "",
+            "level_var;DeadPlayers;0",
+            "level_var;CawthorneDead;0",
+            "level_var;QuinleySkill;0",
+            "level_var;SaraidSkill;0",
+            "level_var;Tidecall;0",
+            "level_var;LaisrenDeployed;0",
+            "level_var;TraineeDeployed;0",
+            "",
             "prep;1;Before An Impossible Battlefield"
         ]
     }
