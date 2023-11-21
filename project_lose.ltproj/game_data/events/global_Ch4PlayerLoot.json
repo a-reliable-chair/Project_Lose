@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Ch4PlayerLoot",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "inc_game_var;TunnelVision;1",
+            "sound;FireBall",
+            "remove_skill;{unit2};Lootable;;no_banner"
+        ]
+    }
+]

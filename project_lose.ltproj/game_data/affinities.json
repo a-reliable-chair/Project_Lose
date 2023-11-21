@@ -13,7 +13,7 @@
     {
         "nid": "Fire",
         "name": "Fire",
-        "desc": "Grants increased might.",
+        "desc": "Grants +1 might.",
         "bonus": [
             {
                 "support_rank": "1",
@@ -36,7 +36,7 @@
     {
         "nid": "Thunder",
         "name": "Thunder",
-        "desc": "Grants increased crit rate.",
+        "desc": "Grants +10 crit rate.",
         "bonus": [
             {
                 "support_rank": "1",
@@ -44,7 +44,7 @@
                 "resist": 0.0,
                 "accuracy": 0.0,
                 "avoid": 0.0,
-                "crit": 15.0,
+                "crit": 10.0,
                 "dodge": 0.0,
                 "attack_speed": 0,
                 "defense_speed": 0
@@ -59,7 +59,7 @@
     {
         "nid": "Wind",
         "name": "Wind",
-        "desc": "Grants increased attack speed.",
+        "desc": "Grants +1 attack speed.",
         "bonus": [
             {
                 "support_rank": "1",
@@ -82,7 +82,7 @@
     {
         "nid": "Ice",
         "name": "Ice",
-        "desc": "Grants increased defenses.",
+        "desc": "Reduces incoming damage by 1.",
         "bonus": [
             {
                 "support_rank": "1",
@@ -105,13 +105,13 @@
     {
         "nid": "Dark",
         "name": "Dark",
-        "desc": "Grants increased accuracy.",
+        "desc": "Grants +10 accuracy.",
         "bonus": [
             {
                 "support_rank": "1",
                 "damage": 0.0,
                 "resist": 0.0,
-                "accuracy": 15.0,
+                "accuracy": 10.0,
                 "avoid": 0.0,
                 "crit": 0.0,
                 "dodge": 0.0,
@@ -128,14 +128,14 @@
     {
         "nid": "Light",
         "name": "Light",
-        "desc": "Grants increased avoid.",
+        "desc": "Grants +10 avoid.",
         "bonus": [
             {
                 "support_rank": "1",
                 "damage": 0.0,
                 "resist": 0.0,
                 "accuracy": 0.0,
-                "avoid": 15.0,
+                "avoid": 10.0,
                 "crit": 0.0,
                 "dodge": 0.0,
                 "attack_speed": 0.0,

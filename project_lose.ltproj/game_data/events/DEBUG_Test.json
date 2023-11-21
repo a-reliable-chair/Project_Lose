@@ -24,11 +24,19 @@
             "add_lore;WeaponRanks",
             "add_lore;Burning",
             "add_lore;FreeActions",
+            "add_lore;BuildingSupports",
+            "add_lore;SupportBonuses",
             "give_item;Quinley;Duskfall;no_banner",
             "give_item;Ailsa;Tidecaller;no_banner",
             "give_item;Saraid;Firestarter;no_banner",
             "set_custom_options;Codex;true;Open the Codex;Menu_Codex",
-            "base;title_background;Before An Impossible Battlefield"
+            "game_var;_supports;True",
+            "increment_support_points;Alpin;Carlin;1",
+            "clear_achievements",
+            "give_item;Alpin;WExp;no_banner",
+            "give_item;Saraid;Firestarter;no_banner",
+            "base;title_background",
+            ""
         ]
     }
 ]

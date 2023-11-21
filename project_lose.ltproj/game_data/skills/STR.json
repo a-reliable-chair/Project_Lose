@@ -1,12 +1,12 @@
 [
     {
         "nid": "STR",
-        "name": "+2 STR",
-        "desc": "+2 Strength.",
-        "icon_nid": null,
+        "name": "Strength+",
+        "desc": "Strength temporarily increased. ",
+        "icon_nid": "Skills",
         "icon_index": [
-            0,
-            0
+            5,
+            5
         ],
         "components": [
             [
@@ -15,6 +15,19 @@
                     [
                         "STR",
                         2
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "STR",
+                        -1
                     ]
                 ]
             ]

@@ -1,7 +1,7 @@
 [
     {
         "name": "House3Corridon",
-        "trigger": "Visit",
+        "trigger": "<yellow>Visit</>",
         "level_nid": "3",
         "condition": "region.nid == 'House3' and unit.nid == 'Corridon'",
         "commands": [],
@@ -30,7 +30,13 @@
             "give_skill;Corridon;Play",
             "give_exp;Corridon;40",
             "show_layer;Bot",
-            "has_traded;Corridon"
+            "has_traded;Corridon",
+            "if;not has_achievement('11')",
+            "    update_achievement;11;Flashback: Corridon;Achievement desc.",
+            "    complete_achievement;11;1;banner",
+            "    inc_game_var;AchievementCount;1",
+            "end",
+            "inc_game_var;TunnelVision;1"
         ]
     }
 ]

@@ -1,7 +1,7 @@
 [
     {
         "nid": "TheDefiler",
-        "name": "<blue>The Defiler</blue>",
+        "name": "<purple>The Defiler</>",
         "desc": "Knight line only.\nEffective Vs. Clergy.\nInflicts half damage on miss. ",
         "icon_nid": "Axe",
         "icon_index": [
@@ -66,7 +66,7 @@
             ],
             [
                 "text_color",
-                "blue"
+                "purple"
             ],
             [
                 "damage_on_miss",

@@ -2,7 +2,7 @@
     {
         "nid": "Bolster",
         "name": "Bolster",
-        "desc": "Free Action. Grants max HP +4 for 2 turns and restores 4 HP.",
+        "desc": "Grants max HP +4 for 2 turns and restores 4 HP.",
         "icon_nid": null,
         "icon_index": [
             0,

@@ -1,7 +1,7 @@
 [
     {
         "nid": "Loot",
-        "name": "Loot",
+        "name": "<yellow>Loot</>",
         "desc": "Loot the body, get the stuff.",
         "icon_nid": "Staff",
         "icon_index": [
@@ -36,6 +36,10 @@
             [
                 "eval_target_restrict_2",
                 "target.team == 'other'"
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global Ch4PlayerLoot"
             ]
         ]
     }

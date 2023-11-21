@@ -1,0 +1,17 @@
+[
+    {
+        "name": "AchievementCheck",
+        "trigger": "on_base_start",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;not has_achievement('34') and {v:AchievementCount} == 33",
+            "    update_achievement;34;All That's Left Is Their Leader...;...Now what?",
+            "    complete_achievement;34;1;banner",
+            "end"
+        ]
+    }
+]

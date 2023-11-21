@@ -1,0 +1,28 @@
+[
+    {
+        "name": "BossDeathDavenport",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == \"Davenport\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Davenport;Left",
+            "if;game.level.nid == '3'",
+            "    speak;Davenport;Daveport Ch4 deathquote!",
+            "    inc_game_var;LieutenantInChapter;1",
+            "elif;game.level.nid == '4'",
+            "    speak;Davenport;Ch5 Davenport deathquote!",
+            "    inc_game_var;LieutenantInEndgame;1",
+            "end",
+            "remove_portrait;Davenport",
+            "inc_game_var;Davenport;1",
+            "if;not has_achievement('32') and {v:LieutenantInChapter} == 4",
+            "    update_achievement;32;One After One, By The Star-Dogged Moon;Killed all lieutenants in their starting chapters",
+            "    complete_achievement;32;1",
+            "    inc_game_var;AchievementCount;1",
+            "end"
+        ]
+    }
+]

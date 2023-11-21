@@ -1,8 +1,8 @@
 [
     {
         "nid": "TheConqueror",
-        "name": "<blue>TheConqueror</blue>",
-        "desc": "Cavalier line only.\nDeals magic damage at range. Effective Vs. Horseback.",
+        "name": "<purple>The Conqueror</>",
+        "desc": "Cavalier line only.\nIgnores weapon triangle.\nUses Magic at range.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -54,22 +54,15 @@
                 ]
             ],
             [
-                "effective_damage",
-                {
-                    "effective_tags": [
-                        "Horse"
-                    ],
-                    "effective_multiplier": 3.0,
-                    "effective_bonus_damage": 0,
-                    "show_effectiveness_flash": true
-                }
-            ],
-            [
                 "text_color",
-                "blue"
+                "purple"
             ],
             [
                 "magic_at_range",
+                null
+            ],
+            [
+                "ignore_weapon_advantage",
                 null
             ]
         ]

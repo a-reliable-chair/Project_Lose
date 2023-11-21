@@ -1,7 +1,7 @@
 [
     {
         "nid": "Herbs",
-        "name": "Herbs",
+        "name": "<yellow>Herbs</>",
         "desc": "Free Action.\nRestores 4 HP.",
         "icon_nid": "Consumable",
         "icon_index": [

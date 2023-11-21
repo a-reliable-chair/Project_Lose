@@ -1,12 +1,12 @@
 [
     {
         "nid": "MAG",
-        "name": "+2 MAG",
-        "desc": "+2 Magic.",
-        "icon_nid": null,
+        "name": "Magic+",
+        "desc": "Magic temporarily increased. ",
+        "icon_nid": "Skills",
         "icon_index": [
-            0,
-            0
+            5,
+            5
         ],
         "components": [
             [
@@ -15,6 +15,19 @@
                     [
                         "MAG",
                         2
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "MAG",
+                        -1
                     ]
                 ]
             ]

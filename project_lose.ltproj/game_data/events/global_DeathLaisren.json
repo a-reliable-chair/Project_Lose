@@ -1,6 +1,6 @@
 [
     {
-        "name": "DeathCathal",
+        "name": "DeathLaisren",
         "trigger": "unit_death",
         "level_nid": null,
         "condition": "unit.nid == 'Laisren'",
@@ -14,6 +14,7 @@
             "expression;Laisren;CloseEyes",
             "remove_portrait;Laisren",
             "music_fade_back",
+            "inc_game_var;NoDeaths;1",
             "#Do one if dying to Cawthorne"
         ]
     }

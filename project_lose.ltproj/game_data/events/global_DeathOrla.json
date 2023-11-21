@@ -17,7 +17,8 @@
             "end",
             "expression;Orla;CloseEyes",
             "remove_portrait;Orla",
-            "music_fade_back"
+            "music_fade_back",
+            "inc_game_var;NoDeaths;1"
         ]
     }
 ]

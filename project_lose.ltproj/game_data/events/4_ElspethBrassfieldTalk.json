@@ -1,0 +1,27 @@
+[
+    {
+        "name": "ElspethBrassfieldTalk",
+        "trigger": "on_talk",
+        "level_nid": "4",
+        "condition": "unit.nid == 'Elspeth' and unit2.nid == 'Brassfield'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "multi_add_portrait;Elspeth;Right;Brassfield;Left",
+            "speak;Brassfield;You're from the church...",
+            "speak;Elspeth;I can see the kindness in your eyes.",
+            "speak;Brassfield;Well, I'm convinced.",
+            "multi_remove_portrait;Elspeth;Brassfield",
+            "remove_item;Brassfield;HowlingBlade;no_banner",
+            "remove_item;Brassfield;EmeraldAxe;no_banner",
+            "give_item;Brassfield;HowlingBlade;no_banner",
+            "give_item;Brassfield;EmeraldAxe;no_banner",
+            "remove_tag;Brassfield;Boss",
+            "change_team;Brassfield;player",
+            "remove_talk;Elspeth;Brassfield",
+            "set_name;Brassfield;Wynnflaed",
+            "game_var;BrassfieldRecruited;1"
+        ]
+    }
+]

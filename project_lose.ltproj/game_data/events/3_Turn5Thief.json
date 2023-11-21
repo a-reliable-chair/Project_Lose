@@ -1,9 +1,9 @@
 [
     {
-        "name": "Turn6Thief",
+        "name": "Turn5Thief",
         "trigger": "turn_change",
         "level_nid": "3",
-        "condition": "game.turncount == 6",
+        "condition": "game.turncount == 5",
         "commands": [],
         "only_once": false,
         "priority": 20,

@@ -1,12 +1,12 @@
 [
     {
         "nid": "SPD",
-        "name": "+2 SPD",
-        "desc": "+2 Speed.",
-        "icon_nid": null,
+        "name": "Speed+",
+        "desc": "Speed temporarily increased. ",
+        "icon_nid": "Skills",
         "icon_index": [
-            0,
-            0
+            5,
+            5
         ],
         "components": [
             [
@@ -15,6 +15,19 @@
                     [
                         "SPD",
                         2
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "SPD",
+                        -1
                     ]
                 ]
             ]

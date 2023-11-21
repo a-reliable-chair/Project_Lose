@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;21, 0",
+            "wait;250",
+            "add_unit;T4Rein_1;18, 0;immediate;push;north",
+            "add_unit;T4Rein_2;19, 0;immediate;push;north",
+            "wait;250",
+            "",
+            "move_cursor;2, 0",
+            "wait;250",
+            "add_unit;T4Rein_3;2, 0;immediate;push;north",
+            "wait;250"
+        ]
+    }
+]

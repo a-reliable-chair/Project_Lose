@@ -1,0 +1,24 @@
+[
+    {
+        "name": "BossDeathAckerman",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == \"Ackerman\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Ackerman;Left",
+            "if;game.level.nid == '0'",
+            "    speak;Ackerman;Beaten...|by a... buncha... kids...",
+            "    inc_game_var;LieutenantInChapter;1",
+            "elif;game.level.nid == '4'",
+            "    speak;Ackerman;Ch5 Ackerman deathquote!",
+            "    inc_game_var;LieutenantInEndgame;1",
+            "end",
+            "expression;Ackerman;CloseEyes",
+            "remove_portrait;Ackerman",
+            "inc_game_var;AckermanDead;1"
+        ]
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "nid": "DEFBooster",
+        "name": "<yellow>DEF++</>",
+        "desc": "Free Action.\nGrants 3 diminishing defense.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                [
+                    [
+                        "LoseUsesOnMiss (T/F)",
+                        "F",
+                        "Lose uses even on miss"
+                    ]
+                ]
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    0,
+                    187,
+                    255
+                ]
+            ],
+            [
+                "status_on_hit",
+                "DEF"
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "PureWater"
+            ]
+        ]
+    }
+]

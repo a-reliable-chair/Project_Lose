@@ -1,7 +1,7 @@
 [
     {
         "name": "Chest1",
-        "trigger": "Chest",
+        "trigger": "<yellow>Chest</>",
         "level_nid": "2",
         "condition": "region.nid == 'Chest1'",
         "commands": [],
@@ -16,6 +16,8 @@
             "    speak;{unit};Huh, neat.",
             "    remove_portrait;{unit}",
             "    give_exp;{unit};20",
+            "    inc_game_var;TunnelVision;1",
+            "    inc_level_var;PlayerOpenChest;1",
             "end",
             "has_traded;{unit}"
         ]

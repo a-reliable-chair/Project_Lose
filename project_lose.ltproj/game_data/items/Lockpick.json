@@ -1,7 +1,7 @@
 [
     {
-        "nid": "MakeshiftLockpick",
-        "name": "Makeshift Lockpick",
+        "nid": "Lockpick",
+        "name": "<yellow>Lockpick</>",
         "desc": "Opens chests and doors.",
         "icon_nid": "Consumable",
         "icon_index": [
@@ -26,6 +26,10 @@
             [
                 "can_unlock",
                 "True"
+            ],
+            [
+                "attack_after_combat",
+                null
             ]
         ]
     }

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "FightWynnflaedEmberson",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == \"Emberson\" and unit2.nid == 'Brassfield') or (unit.nid == \"Brassfield\" and unit2.nid == 'Emberson')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Emberson;Left",
+            "speak;Emberson;I always knew you never had it in you, wench.",
+            "remove_portrait;Emberson",
+            "add_portrait;Brassfield;Right",
+            "speak;Brassfield;Your words are worthless.",
+            "remove_portrait;Brassfield"
+        ]
+    }
+]

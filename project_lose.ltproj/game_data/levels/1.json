@@ -571,6 +571,10 @@
                     [
                         "Iron Axe",
                         false
+                    ],
+                    [
+                        "Herbs",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -699,7 +703,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "BloodLance",
+                        "Horseslayer",
                         true
                     ]
                 ],
@@ -884,7 +888,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "<yellow>Visit</>",
                 "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,
@@ -901,7 +905,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "<yellow>Visit</>",
                 "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,

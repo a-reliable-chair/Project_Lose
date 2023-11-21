@@ -1,7 +1,7 @@
 [
     {
         "name": "Door3",
-        "trigger": "Entrance",
+        "trigger": "<yellow>Entrance</>",
         "level_nid": "2",
         "condition": "region.nid == 'Door3'",
         "commands": [],
@@ -12,6 +12,7 @@
             "show_layer;BotDoor",
             "if;unit.team == 'player'",
             "    give_exp;{unit};20",
+            "    inc_game_var;TunnelVision;1",
             "end",
             "has_traded;{unit}",
             "if;game.check_alive('Emberson')",

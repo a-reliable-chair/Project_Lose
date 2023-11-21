@@ -6,7 +6,7 @@
         "requirements": [
             {
                 "support_rank": "1",
-                "requirement": 0,
+                "requirement": 1,
                 "gate": "",
                 "damage": 0.0,
                 "resist": 0.0,
@@ -20,8 +20,1508 @@
         ]
     },
     {
-        "unit1": "Eirika",
-        "unit2": "Carlin",
+        "unit1": "Alpin",
+        "unit2": "Shayla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alpin",
+        "unit2": "Raelin",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alpin",
+        "unit2": "Elwynn",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alpin",
+        "unit2": "Quinley",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alpin",
+        "unit2": "Saraid",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alpin",
+        "unit2": "Elspeth",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alpin",
+        "unit2": "Lamonte",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alpin",
+        "unit2": "Garvey",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alpin",
+        "unit2": "Orla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alpin",
+        "unit2": "Ailsa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Alpin",
+        "unit2": "Corridon",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Carlin",
+        "unit2": "Shayla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Carlin",
+        "unit2": "Raelin",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Carlin",
+        "unit2": "Elwynn",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Carlin",
+        "unit2": "Quinley",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Carlin",
+        "unit2": "Saraid",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Carlin",
+        "unit2": "Elspeth",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Carlin",
+        "unit2": "Lamonte",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Carlin",
+        "unit2": "Garvey",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Carlin",
+        "unit2": "Orla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Carlin",
+        "unit2": "Ailsa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Carlin",
+        "unit2": "Corridon",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Shayla",
+        "unit2": "Raelin",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Shayla",
+        "unit2": "Elwynn",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Shayla",
+        "unit2": "Quinley",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Shayla",
+        "unit2": "Saraid",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Shayla",
+        "unit2": "Elspeth",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Shayla",
+        "unit2": "Lamonte",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Shayla",
+        "unit2": "Garvey",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Shayla",
+        "unit2": "Orla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Shayla",
+        "unit2": "Ailsa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Shayla",
+        "unit2": "Corridon",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Raelin",
+        "unit2": "Elwynn",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Raelin",
+        "unit2": "Quinley",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Raelin",
+        "unit2": "Saraid",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Raelin",
+        "unit2": "Elspeth",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Raelin",
+        "unit2": "Lamonte",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Raelin",
+        "unit2": "Garvey",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Raelin",
+        "unit2": "Orla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Raelin",
+        "unit2": "Ailsa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Raelin",
+        "unit2": "Corridon",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elwynn",
+        "unit2": "Quinley",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elwynn",
+        "unit2": "Saraid",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elwynn",
+        "unit2": "Elspeth",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elwynn",
+        "unit2": "Lamonte",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elwynn",
+        "unit2": "Garvey",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elwynn",
+        "unit2": "Orla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elwynn",
+        "unit2": "Ailsa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elwynn",
+        "unit2": "Corridon",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Quinley",
+        "unit2": "Saraid",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Quinley",
+        "unit2": "Elspeth",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Quinley",
+        "unit2": "Lamonte",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Quinley",
+        "unit2": "Garvey",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Quinley",
+        "unit2": "Orla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Quinley",
+        "unit2": "Ailsa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Quinley",
+        "unit2": "Corridon",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Saraid",
+        "unit2": "Elspeth",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Saraid",
+        "unit2": "Lamonte",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Saraid",
+        "unit2": "Garvey",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Saraid",
+        "unit2": "Orla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Saraid",
+        "unit2": "Ailsa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Saraid",
+        "unit2": "Corridon",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elspeth",
+        "unit2": "Lamonte",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elspeth",
+        "unit2": "Garvey",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elspeth",
+        "unit2": "Orla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elspeth",
+        "unit2": "Ailsa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Elspeth",
+        "unit2": "Corridon",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Lamonte",
+        "unit2": "Orla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Lamonte",
+        "unit2": "Ailsa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Lamonte",
+        "unit2": "Corridon",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Garvey",
+        "unit2": "Orla",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Garvey",
+        "unit2": "Ailsa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Garvey",
+        "unit2": "Corridon",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Orla",
+        "unit2": "Ailsa",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Orla",
+        "unit2": "Corridon",
+        "one_way": false,
+        "requirements": [
+            {
+                "support_rank": "1",
+                "requirement": 1,
+                "gate": "",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ]
+    },
+    {
+        "unit1": "Ailsa",
+        "unit2": "Corridon",
         "one_way": false,
         "requirements": [
             {

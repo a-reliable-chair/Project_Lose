@@ -81,7 +81,31 @@
             "speak;Shallcross;filler",
             "speak;SoldierRed;filler",
             "transition;close",
-            "multi_remove_portrait;Shallcross;SoldierBlue;SoldierRed"
+            "multi_remove_portrait;Shallcross;SoldierBlue;SoldierRed",
+            "if;not has_achievement('8')",
+            "    update_achievement;8;Flashback: Alpin;Visit Alpin's house with Alpin in Ch4",
+            "end",
+            "if;not has_achievement('9')",
+            "    update_achievement;9;Flashback: Lamonte;Visit Leod's house with Lamonte in Ch4",
+            "end",
+            "if;not has_achievement('10')",
+            "    update_achievement;10;Flashback: Garvey;Visit Leod's house with Garvey in Ch4",
+            "end",
+            "if;not has_achievement('11')",
+            "    update_achievement;11;Flashback: Corridon;Visit Corridon's house with Corridon in Ch4",
+            "end",
+            "if;not has_achievement('20')",
+            "    update_achievement;20;That's Not How You Play The Game!;Damage Cawthorne in Ch4",
+            "end",
+            "if;not has_achievement('21')",
+            "    update_achievement;21;Every Party Needs A Pooper;Visit the tavern in Ch4",
+            "end",
+            "if;not has_achievement('22')",
+            "    update_achievement;22;Where'd You Get That Key?!;Open the door next to Corridon's in Ch4",
+            "end",
+            "if;not has_achievement('23')",
+            "    update_achievement;23;Mom, Can We Keep Him?;Escape with a Thrall in Ch4",
+            "end"
         ]
     }
 ]

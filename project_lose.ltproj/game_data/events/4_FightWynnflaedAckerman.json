@@ -1,0 +1,19 @@
+[
+    {
+        "name": "FightWynnflaedAckerman",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == \"Ackerman\" and unit2.nid == 'Brassfield') or (unit.nid == \"Brassfield\" and unit2.nid == 'Ackerman')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Ackerman;Left",
+            "speak;Ackerman;Traitor!",
+            "remove_portrait;Ackerman",
+            "add_portrait;Brassfield;Right",
+            "speak;Brassfield;FILLER!",
+            "remove_portrait;Brassfield"
+        ]
+    }
+]

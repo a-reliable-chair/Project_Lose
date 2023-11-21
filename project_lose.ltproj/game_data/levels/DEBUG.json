@@ -45,8 +45,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    3,
-                    8
+                    10,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -388,14 +388,6 @@
                     [
                         "Iron Bow",
                         false
-                    ],
-                    [
-                        "Iron Sword",
-                        false
-                    ],
-                    [
-                        "EtherealBlade",
-                        false
                     ]
                 ],
                 "starting_skills": [],
@@ -427,10 +419,7 @@
                 "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    9,
-                    5
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },

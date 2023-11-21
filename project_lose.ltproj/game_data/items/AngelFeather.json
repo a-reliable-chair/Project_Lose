@@ -71,6 +71,10 @@
             [
                 "event_on_hit",
                 "Global AngelFeather"
+            ],
+            [
+                "attack_after_combat",
+                null
             ]
         ]
     }

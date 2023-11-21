@@ -1,7 +1,7 @@
 [
     {
         "nid": "Trip",
-        "name": "Trip",
+        "name": "<yellow>Trip</>",
         "desc": "Free Action. Set target's move to 0 for 1 turn.",
         "icon_nid": null,
         "icon_index": [

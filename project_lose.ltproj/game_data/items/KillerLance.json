@@ -1,8 +1,8 @@
 [
     {
-        "nid": "BloodLance",
-        "name": "Blood Lance",
-        "desc": "Has Lifelink.\nSPD -1.",
+        "nid": "KillerLance",
+        "name": "Killer Lance",
+        "desc": "SPD -1.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -54,7 +54,7 @@
             ],
             [
                 "crit",
-                5
+                30
             ],
             [
                 "min_range",
@@ -63,10 +63,6 @@
             [
                 "max_range",
                 1
-            ],
-            [
-                "lifelink",
-                1.0
             ],
             [
                 "wexp",

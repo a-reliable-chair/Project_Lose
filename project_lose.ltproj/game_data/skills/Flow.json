@@ -20,6 +20,10 @@
             [
                 "galeforce",
                 null
+            ],
+            [
+                "charges_per_turn",
+                1
             ]
         ]
     }

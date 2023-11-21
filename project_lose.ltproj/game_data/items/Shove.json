@@ -1,7 +1,7 @@
 [
     {
         "nid": "Shove",
-        "name": "<green>Shove</>",
+        "name": "<yellow>Shove</>",
         "desc": "Free action. Shove target 1 tile.",
         "icon_nid": "Skills",
         "icon_index": [
@@ -10,20 +10,12 @@
         ],
         "components": [
             [
-                "target_unit",
-                null
-            ],
-            [
                 "min_range",
                 1
             ],
             [
                 "max_range",
                 1
-            ],
-            [
-                "eval_target_restrict_2",
-                "target.team == 'player'"
             ],
             [
                 "attack_after_combat",
@@ -34,7 +26,15 @@
                 1
             ],
             [
-                "shove_on_end_combat",
+                "target_ally",
+                null
+            ],
+            [
+                "shove_target_restrict",
+                1
+            ],
+            [
+                "shove",
                 1
             ]
         ]

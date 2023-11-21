@@ -36,7 +36,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Raelin (LittleKyng)",
+        "nid": "Raelin",
         "blinking_offset": [
             24,
             32
@@ -48,7 +48,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Elwynn (LittleKyng)",
+        "nid": "Elwynn",
         "blinking_offset": [
             24,
             32
@@ -96,7 +96,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Garvey (LittleKyng)",
+        "nid": "Garvey",
         "blinking_offset": [
             16,
             16
@@ -180,6 +180,18 @@
         "info_offset": 0
     },
     {
+        "nid": "King",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
         "nid": "Ackerman",
         "blinking_offset": [
             16,
@@ -241,18 +253,6 @@
     },
     {
         "nid": "Shallcross",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
-        "nid": "King",
         "blinking_offset": [
             24,
             24

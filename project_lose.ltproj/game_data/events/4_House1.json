@@ -1,7 +1,7 @@
 [
     {
         "name": "House1",
-        "trigger": "Visit",
+        "trigger": "<yellow>Visit</>",
         "level_nid": "4",
         "condition": "region.nid == 'House1' and unit.nid != 'Orla' and unit.nid != 'Elspeth'",
         "commands": [],
@@ -17,10 +17,12 @@
             "transition;Close",
             "change_background",
             "transition;Open",
-            "give_item;{unit};Nova",
+            "give_item;{unit};STRBooster",
             "give_exp;{unit};10",
             "show_layer;Left",
-            "has_traded;{unit}"
+            "has_traded;{unit}",
+            "inc_game_var;TunnelVision;1",
+            "inc_game_var;InstructionsUnclear;1"
         ]
     }
 ]

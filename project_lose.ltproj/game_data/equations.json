@@ -65,7 +65,7 @@
     },
     {
         "nid": "RATING",
-        "expression": "(HP - 10)//2 + max(STR, MAG) + SKL + SPD + LCK//2 + DEF + RES"
+        "expression": "STR + MAG + SKL + SPD + LCK + DEF + RES"
     },
     {
         "nid": "RESCUE_AID",

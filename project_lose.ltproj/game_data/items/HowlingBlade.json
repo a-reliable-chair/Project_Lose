@@ -1,7 +1,7 @@
 [
     {
         "nid": "HowlingBlade",
-        "name": "<blue>Howling Blade</blue>",
+        "name": "Howling Blade",
         "desc": "Grants Distant Counter.\nDeals magic damage at range.",
         "icon_nid": "BossWeaps",
         "icon_index": [
@@ -44,10 +44,6 @@
             [
                 "weapon_type",
                 "Sword"
-            ],
-            [
-                "text_color",
-                "blue"
             ],
             [
                 "magic_at_range",

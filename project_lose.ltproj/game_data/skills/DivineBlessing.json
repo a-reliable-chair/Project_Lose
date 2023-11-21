@@ -15,7 +15,7 @@
             ],
             [
                 "dynamic_resist",
-                "0 if unit2.get_weapon().name  == '<blue>The Reclaimer<blue>' else 1000"
+                "0 if unit2.get_weapon().name  == '<purple>The Reclaimer</>' else 1000"
             ]
         ]
     }

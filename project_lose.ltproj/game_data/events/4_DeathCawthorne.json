@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "add_portrait;Cawthorne;Left",
-            "speak;Cawthorne;Filler",
+            "speak;Cawthorne;ded",
             "remove_portrait;Cawthorne",
             "inc_level_var;CawthorneDead;1"
         ]

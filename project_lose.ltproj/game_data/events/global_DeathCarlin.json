@@ -17,7 +17,8 @@
             "end",
             "expression;Carlin;CloseEyes",
             "remove_portrait;Carlin",
-            "music_fade_back"
+            "music_fade_back",
+            "inc_game_var;NoDeaths;1"
         ]
     }
 ]

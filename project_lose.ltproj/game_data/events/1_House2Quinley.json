@@ -31,7 +31,13 @@
             "give_exp;Quinley;40",
             "sound;Unlock",
             "show_layer;Right",
-            "has_traded;Quinley"
+            "has_traded;Quinley",
+            "if;not has_achievement('7')",
+            "    update_achievement;7;Flashback: Elspeth and Quinley;Achievement desc.",
+            "    complete_achievement;7;1;banner",
+            "    inc_game_var;AchievementCount;1",
+            "end",
+            "inc_game_var;TunnelVision;1"
         ]
     }
 ]

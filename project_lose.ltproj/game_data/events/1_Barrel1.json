@@ -17,7 +17,8 @@
             "    add_portrait;Leod;Right",
             "    speak;Leod;AH! SOMEBODY HELP!",
             "    remove_portrait;Leod",
-            "end"
+            "end",
+            "inc_level_var;BrokenBarrel;1"
         ]
     }
 ]

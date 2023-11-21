@@ -1,13 +1,13 @@
-{
-    "Ch1.json": 0,
-    "Ch3.json": 1,
-    "Ch4.json": 2,
-    "Ch5.json": 3,
-    "Alleyway.json": 4,
-    "Ch2.json": 5,
-    "School.json": 6,
-    "Castle_Exterior.json": 7,
-    "Castle_Interior.json": 8,
-    "AlleywaySepia.json": 9,
-    "Church_Office.json": 10
-}
+[
+    "Ch1.json",
+    "Ch3.json",
+    "Ch4.json",
+    "Ch5.json",
+    "Alleyway.json",
+    "Ch2.json",
+    "School.json",
+    "Castle_Exterior.json",
+    "Castle_Interior.json",
+    "AlleywaySepia.json",
+    "Church_Office.json"
+]

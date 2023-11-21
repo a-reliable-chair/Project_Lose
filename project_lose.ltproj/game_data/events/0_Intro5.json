@@ -169,6 +169,7 @@
             "add_region;Formation4;4, 2;1;formation",
             "add_region;Formation5;2, 2;1;formation",
             "game_var;_convoy;True",
+            "game_var;_supports;True",
             "change_ai;Ackerman;AttackNoMove",
             "prep;1;Before An Impossible Battlefield"
         ]

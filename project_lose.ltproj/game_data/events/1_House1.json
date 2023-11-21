@@ -17,11 +17,13 @@
             "transition;Close",
             "change_background",
             "transition;Open",
-            "give_item;{unit};Elixir",
+            "give_item;{unit};SKLBooster",
             "give_exp;{unit};10",
             "sound;Unlock",
             "show_layer;Left",
-            "has_traded;{unit}"
+            "has_traded;{unit}",
+            "inc_game_var;TunnelVision;1",
+            "inc_game_var;InstructionsUnclear;1"
         ]
     }
 ]

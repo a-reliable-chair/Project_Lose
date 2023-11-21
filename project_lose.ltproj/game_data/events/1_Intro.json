@@ -17,6 +17,7 @@
             "level_var;QuinleySkill;0",
             "level_var;SaraidSkill;0",
             "level_var;RoutEnemies;1",
+            "level_var;BrokenBarrel;0",
             "# Market / Pier",
             "change_tilemap;Ch4",
             "add_weather;sunset",

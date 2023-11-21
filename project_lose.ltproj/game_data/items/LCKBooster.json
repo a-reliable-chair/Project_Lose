@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Pure Water",
-        "name": "Pure Water",
-        "desc": "Free Action.\nGrants 3 diminishing resistance.",
+        "nid": "LCKBooster",
+        "name": "<yellow>LCK++</>",
+        "desc": "Free Action.\nGrants 4 diminishing luck.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,
@@ -10,16 +10,12 @@
         ],
         "components": [
             [
-                "usable",
-                null
-            ],
-            [
                 "target_ally",
                 null
             ],
             [
                 "uses",
-                3
+                1
             ],
             [
                 "uses_options",
@@ -41,14 +37,26 @@
             ],
             [
                 "status_on_hit",
-                "Resist"
+                "LCK"
             ],
             [
                 "attack_after_combat",
                 null
             ],
             [
-                "unrepairable",
+                "map_cast_sfx",
+                "PureWater"
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "usable",
                 null
             ]
         ]

@@ -1,0 +1,74 @@
+[
+    {
+        "nid": "Cleanse",
+        "name": "Cleanse",
+        "desc": "Fully heals target ally and removes all negative statuses.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                22
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "magic_heal",
+                99
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAG2"
+            ],
+            [
+                "unrepairable",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Heal"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ],
+            [
+                "restore",
+                null
+            ]
+        ]
+    }
+]

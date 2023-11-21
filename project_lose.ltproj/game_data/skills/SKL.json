@@ -1,12 +1,12 @@
 [
     {
         "nid": "SKL",
-        "name": "+2 SKL",
-        "desc": "+2 Skill.",
-        "icon_nid": null,
+        "name": "Skill+",
+        "desc": "Skill temporarily increased. ",
+        "icon_nid": "Skills",
         "icon_index": [
-            0,
-            0
+            5,
+            5
         ],
         "components": [
             [
@@ -15,6 +15,19 @@
                     [
                         "SKL",
                         2
+                    ]
+                ]
+            ],
+            [
+                "time",
+                2
+            ],
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "SKL",
+                        -1
                     ]
                 ]
             ]

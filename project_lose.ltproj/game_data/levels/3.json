@@ -521,7 +521,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
+                    7,
                     5
                 ],
                 "starting_traveler": null,
@@ -798,6 +798,10 @@
                     [
                         "Steel Blade",
                         false
+                    ],
+                    [
+                        "Elixir",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -849,6 +853,10 @@
                 "starting_items": [
                     [
                         "Iron Lance",
+                        false
+                    ],
+                    [
+                        "Javelin",
                         false
                     ]
                 ],
@@ -997,6 +1005,10 @@
                 "starting_items": [
                     [
                         "RubySword",
+                        false
+                    ],
+                    [
+                        "Elixir",
                         false
                     ]
                 ],
@@ -1396,7 +1408,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "<yellow>Visit</>",
                 "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,
@@ -1413,7 +1425,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "<yellow>Visit</>",
                 "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,
@@ -1430,7 +1442,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "<yellow>Visit</>",
                 "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,
@@ -1532,7 +1544,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Door",
+                "sub_nid": "<yellow>Door</>",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1710,7 +1722,6 @@
             {
                 "nid": "Rein2",
                 "units": [
-                    "Rein_4",
                     "Rein_5",
                     "Rein_6"
                 ],

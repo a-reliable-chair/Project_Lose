@@ -1,0 +1,19 @@
+[
+    {
+        "name": "FightWynnflaedDavenport",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == \"Davenport\" and unit2.nid == 'Brassfield') or (unit.nid == \"Brassfield\" and unit2.nid == 'Davenport')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Davenport;Left",
+            "speak;Davenport;Brassfield...",
+            "remove_portrait;Davenport",
+            "add_portrait;Brassfield;Right",
+            "speak;Brassfield;I've made my choice, Osgard.|Prepare yourself.",
+            "remove_portrait;Brassfield"
+        ]
+    }
+]

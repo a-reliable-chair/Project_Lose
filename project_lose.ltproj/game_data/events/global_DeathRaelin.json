@@ -17,7 +17,8 @@
             "end",
             "expression;Raelin;CloseEyes",
             "remove_portrait;Raelin",
-            "music_fade_back"
+            "music_fade_back",
+            "inc_game_var;NoDeaths;1"
         ]
     }
 ]

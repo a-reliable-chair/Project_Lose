@@ -1,7 +1,7 @@
 [
     {
         "nid": "ChurchKey",
-        "name": "Church Key",
+        "name": "<yellow>Church Key</>",
         "desc": "Opens any door in the church.",
         "icon_nid": "Consumable",
         "icon_index": [
@@ -26,6 +26,10 @@
             [
                 "can_unlock",
                 "region.nid.startswith('Door') and game.level.nid == '2'"
+            ],
+            [
+                "attack_after_combat",
+                null
             ]
         ]
     }

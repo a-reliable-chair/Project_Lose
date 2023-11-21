@@ -8,9 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "move_cursor;5, 0",
+            "move_cursor;19, 25",
             "wait;250",
-            "add_group;Rein3;Rein3;immediate;push",
+            "add_group;Rein1;Rein1;immediate;push",
             "wait;500"
         ]
     }

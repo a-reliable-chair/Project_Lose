@@ -1,7 +1,7 @@
 [
     {
         "nid": "Treat",
-        "name": "Treat",
+        "name": "<yellow>Treat</>",
         "desc": "Free Action. Restores (User's MAG + 2) HP.",
         "icon_nid": null,
         "icon_index": [

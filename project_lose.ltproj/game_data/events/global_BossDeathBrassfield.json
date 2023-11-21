@@ -1,0 +1,27 @@
+[
+    {
+        "name": "BossDeathBrassfield",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == \"Brassfield\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "add_portrait;Brassfield;Left",
+            "if;game.level.nid == '1'",
+            "    speak;Brassfield;Brassfield Ch2 deathquote!",
+            "    inc_game_var;LieutenantInChapter;1",
+            "elif;game_level.nid == '4' and {v:BrassfieldRecruited} == 1",
+            "    music;Gone...",
+            "    speak;Brassfield;Better to die here...",
+            "elif;game.level.nid == '4'",
+            "    speak;Brassfield;Ch5 Brassfield deathquote!",
+            "    inc_game_var;LieutenantInEndgame;1",
+            "end",
+            "expression;Brassfield;CloseEyes",
+            "remove_portrait;Brassfield",
+            "inc_game_var;BrassfieldDead;1"
+        ]
+    }
+]

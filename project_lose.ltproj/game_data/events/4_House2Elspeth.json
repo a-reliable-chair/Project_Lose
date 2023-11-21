@@ -1,7 +1,7 @@
 [
     {
         "name": "House2Elspeth",
-        "trigger": "Visit",
+        "trigger": "<yellow>Visit</>",
         "level_nid": "4",
         "condition": "region.nid == 'House2' and unit.nid == 'Elspeth'",
         "commands": [],
@@ -30,7 +30,13 @@
             "give_item;Elspeth;Dismay",
             "give_exp;Elspeth;40",
             "show_layer;Right",
-            "has_traded;Elspeth"
+            "has_traded;Elspeth",
+            "if;not has_achievement('15')",
+            "    update_achievement;15;Flashback: Elspeth and Ailsa;Achievement desc.",
+            "    complete_achievement;15;1;banner",
+            "    inc_game_var;AchievementCount;1",
+            "end",
+            "inc_game_var;TunnelVision;1"
         ]
     }
 ]

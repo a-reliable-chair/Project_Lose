@@ -1,7 +1,7 @@
 [
     {
         "nid": "TheReclaimer",
-        "name": "<blue>The Reclaimer<blue>",
+        "name": "<purple>The Reclaimer</>",
         "desc": "Cavalier line only.\nEffective Vs. Armor.\n50% Lifelink. ",
         "icon_nid": "Lance",
         "icon_index": [
@@ -66,7 +66,7 @@
             ],
             [
                 "text_color",
-                "blue"
+                "purple"
             ],
             [
                 "lifelink",

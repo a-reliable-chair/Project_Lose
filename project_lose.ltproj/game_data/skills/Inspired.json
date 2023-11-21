@@ -2,7 +2,7 @@
     {
         "nid": "Inspired",
         "name": "Inspired",
-        "desc": "+1 STR/MAG/SKL/SPD.",
+        "desc": "+2 to all stats. Decays over time.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -14,25 +14,78 @@
                 [
                     [
                         "STR",
-                        1
+                        2
                     ],
                     [
                         "MAG",
-                        1
+                        2
                     ],
                     [
                         "SKL",
-                        1
+                        2
                     ],
                     [
                         "SPD",
-                        1
+                        2
+                    ],
+                    [
+                        "LCK",
+                        2
+                    ],
+                    [
+                        "DEF",
+                        2
+                    ],
+                    [
+                        "RES",
+                        2
+                    ],
+                    [
+                        "MOV",
+                        2
                     ]
                 ]
             ],
             [
                 "time",
                 2
+            ],
+            [
+                "upkeep_stat_change",
+                [
+                    [
+                        "STR",
+                        -1
+                    ],
+                    [
+                        "MAG",
+                        -1
+                    ],
+                    [
+                        "SKL",
+                        -1
+                    ],
+                    [
+                        "SPD",
+                        -1
+                    ],
+                    [
+                        "LCK",
+                        -1
+                    ],
+                    [
+                        "DEF",
+                        -1
+                    ],
+                    [
+                        "RES",
+                        -1
+                    ],
+                    [
+                        "MOV",
+                        -1
+                    ]
+                ]
             ]
         ]
     }

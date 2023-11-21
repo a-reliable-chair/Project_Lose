@@ -10,7 +10,7 @@
         "_source": [
             "if;game.check_alive('Shallcross')",
             "flicker_cursor;Shallcross",
-            "change_ai;Shallcross;YoloIgnore",
+            "change_ai;Shallcross;Yolo",
             "add_portrait;Shallcross;Left",
             "speak;Shallcross;Brazen, are we?|Very well, I won't hold back.",
             "remove_portrait;Shallcross"

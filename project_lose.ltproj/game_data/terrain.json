@@ -46,7 +46,7 @@
     },
     {
         "nid": "3",
-        "name": "<purple>Elspeth's</>",
+        "name": "<yellow>Elspeth's</>",
         "color": [
             0,
             32,
@@ -106,7 +106,7 @@
     },
     {
         "nid": "6_1",
-        "name": "<purple>Stash</>",
+        "name": "<yellow>Stash</>",
         "color": [
             0,
             255,
@@ -211,7 +211,7 @@
     },
     {
         "nid": "12",
-        "name": "<purple>Alpin's</>",
+        "name": "<yellow>Alpin's</>",
         "color": [
             0,
             160,
@@ -226,7 +226,7 @@
     },
     {
         "nid": "20",
-        "name": "<purple>Leod's</>",
+        "name": "<yellow>Leod's</>",
         "color": [
             112,
             84,
@@ -241,7 +241,7 @@
     },
     {
         "nid": "21",
-        "name": "<purple>Orla's</>",
+        "name": "<yellow>Orla's</>",
         "color": [
             80,
             48,
@@ -301,7 +301,7 @@
     },
     {
         "nid": "31",
-        "name": "<purple>Shayla's</>",
+        "name": "<yellow>Shayla's</>",
         "color": [
             168,
             80,
@@ -316,7 +316,7 @@
     },
     {
         "nid": "32",
-        "name": "<purple>Raelin's</>",
+        "name": "<yellow>Raelin's</>",
         "color": [
             32,
             96,
@@ -331,7 +331,7 @@
     },
     {
         "nid": "33",
-        "name": "<purple>Carlin's</>",
+        "name": "<yellow>Carlin's</>",
         "color": [
             168,
             1,
@@ -346,7 +346,7 @@
     },
     {
         "nid": "34",
-        "name": "<purple>Elwynn's</>",
+        "name": "<yellow>Elwynn's</>",
         "color": [
             160,
             1,
@@ -361,7 +361,7 @@
     },
     {
         "nid": "Arena",
-        "name": "<purple>Ailsa's</>",
+        "name": "<yellow>Ailsa's</>",
         "color": [
             152,
             1,
@@ -376,7 +376,7 @@
     },
     {
         "nid": "35",
-        "name": "<purple>Corridon's</>",
+        "name": "<yellow>Corridon's</>",
         "color": [
             85,
             0,
@@ -391,7 +391,7 @@
     },
     {
         "nid": "35_1",
-        "name": "<purple>Tavern</>",
+        "name": "<yellow>Tavern</>",
         "color": [
             85,
             0,
@@ -406,7 +406,7 @@
     },
     {
         "nid": "36",
-        "name": "Chest",
+        "name": "<yellow>Chest</>",
         "color": [
             255,
             247,
@@ -421,7 +421,7 @@
     },
     {
         "nid": "37",
-        "name": "Door",
+        "name": "<yellow>Door</>",
         "color": [
             80,
             0,

@@ -61,6 +61,15 @@
             "    s;Ackerman;[I survived].",
             "    remove_portrait;Ackerman",
             "    wait;250",
+            "end",
+            "if;not has_achievement('1')",
+            "    update_achievement;1;Flashback: Shayla;Visit Shayla's house with Shayla in Ch1",
+            "end",
+            "if;not has_achievement('2')",
+            "    update_achievement;2;Flashback: Raelin;Visit Raelin's house with Raelin in Ch1",
+            "end",
+            "if;not has_achievement('3')",
+            "    update_achievement;3;Flashback: Carlin;Visit Carlin's house with Carlin in Ch1",
             "end"
         ]
     }

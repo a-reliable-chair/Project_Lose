@@ -355,7 +355,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "Chest",
+                "target_spec": "<yellow>Chest</>",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -365,7 +365,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "Door",
+                "target_spec": "<yellow>Door</>",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -375,7 +375,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "Entrance",
+                "target_spec": "<yellow>Entrance</>",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -403,7 +403,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "Chest",
+                "target_spec": "<yellow>Chest</>",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -413,7 +413,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "Entrance",
+                "target_spec": "<yellow>Entrance</>",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -423,7 +423,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "Door",
+                "target_spec": "<yellow>Door</>",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -730,6 +730,34 @@
                 "target": "None",
                 "target_spec": null,
                 "view_range": 0,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
+        "nid": "Keeva",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -1,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -1,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
