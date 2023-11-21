@@ -27,7 +27,10 @@
             "move_cursor;21, 15",
             "wait;250",
             "add_unit;T5Rein_3;21, 15;immediate;push;south",
-            "wait;250"
+            "wait;250",
+            "",
+            "change_music;player_phase;Inevitable Fate Pt. 2",
+            "change_music;enemy_phase;Inevitable Fate Pt. 2"
         ]
     }
 ]
