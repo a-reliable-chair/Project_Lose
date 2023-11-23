@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Level_5",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "# Autolevels",
+            "autolevel_to;Alpin;5",
+            "autolevel_to;Carlin;5",
+            "autolevel_to;Raelin;5",
+            "autolevel_to;Shayla;5",
+            "autolevel_to;Elwynn;5",
+            "autolevel_to;Saraid;5",
+            "autolevel_to;Quinley;5",
+            "autolevel_to;Elspeth;5",
+            "autolevel_to;Lamonte;5",
+            "autolevel_to;Garvey;5",
+            "autolevel_to;Ailsa;5",
+            "autolevel_to;Orla;5",
+            "autolevel_to;Corridon;5",
+            ""
+        ]
+    }
+]

@@ -42,9 +42,9 @@
     {
         "nid": "LCK",
         "name": "Luck",
-        "maximum": 20,
+        "maximum": 10,
         "desc": "Each point gives +5 hit, crit, avoid, and crit avoid.",
-        "position": "right",
+        "position": "left",
         "growth_colors": false
     },
     {

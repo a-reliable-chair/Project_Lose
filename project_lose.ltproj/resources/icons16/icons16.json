@@ -83,5 +83,9 @@
     {
         "nid": "Daggers",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{AtelierLabs} Cleanse",
+        "subicon_dict": {}
     }
 ]

@@ -9,6 +9,7 @@
         "priority": 20,
         "_source": [
             "move_cursor;1, 9",
+            "change_team;Keeva;enemy",
             "add_tag;Keeva;Boss",
             "add_unit;Keeva;1, 9;warp",
             "wait;250",

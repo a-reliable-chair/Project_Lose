@@ -81,3 +81,45 @@ class BackdashOnEndCombat(ItemComponent):
             new_position = self._check_dash(target, unit, self.value)
             if new_position:
                 action.do(action.ForcedMovement(unit, new_position))
+
+class EvalEnemyBlastAOE(ItemComponent):
+    nid = 'eval_smartblast_aoe'
+    desc = "Grants EVAL Enemy AoE range."
+    tag = ItemTags.CUSTOM
+
+    expose = ComponentType.String
+
+    def _get_power(self, unit) -> int:
+        from app.engine import evaluate
+        try:
+            base_power = int(evaluate.evaluate(self.value, unit))
+        except Exception as e:
+            logging.error("Couldn't evaluate %s conditional (%s)", self.value, e)
+            base_power = 0
+        empowered_splash = skill_system.empower_splash(unit)
+        return base_power + 1 + empowered_splash
+
+    def splash(self, unit, item, position) -> tuple:
+        ranges = set(range(self._get_power(unit)))
+        splash = game.target_system.find_manhattan_spheres(ranges, position[0], position[1])
+        splash = {pos for pos in splash if game.board.check_bounds(pos)}
+        from app.engine import item_system, skill_system
+        if item_system.is_spell(unit, item):
+            # spell blast
+            splash = [game.board.get_unit(s) for s in splash]
+            splash = [s.position for s in splash if s and skill_system.check_enemy(unit, s)]
+            return None, splash
+        else:
+            # regular blast
+            splash = [game.board.get_unit(s) for s in splash if s != position]
+            splash = [s.position for s in splash if s and skill_system.check_enemy(unit, s)]
+            return position if game.board.get_unit(position) else None, splash
+
+    def splash_positions(self, unit, item, position) -> set:
+        from app.engine import skill_system
+        ranges = set(range(self._get_power(unit)))
+        splash = game.target_system.find_manhattan_spheres(ranges, position[0], position[1])
+        splash = {pos for pos in splash if game.tilemap.check_bounds(pos)}
+        # Doesn't highlight allies positions
+        splash = {pos for pos in splash if not game.board.get_unit(pos) or skill_system.check_enemy(unit, game.board.get_unit(pos))}
+        return splash

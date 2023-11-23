@@ -1,6 +1,6 @@
 [
     {
-        "name": "New Event",
+        "name": "Achievement19_Check",
         "trigger": "unit_wait",
         "level_nid": "2",
         "condition": "True",

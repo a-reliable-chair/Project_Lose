@@ -8,6 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "if;{v:RoutEnemies} == 0",
+            "    inc_level_var;RoutEnemies;1",
+            "end",
             "transition;close",
             "remove_skill;Garvey;NPCVision;no_banner",
             "remove_skill;Lamonte;NPCVision;no_banner",
@@ -81,6 +84,7 @@
             "    interact_unit;Lamonte;Garvey;crit1,end;Lance10;force_no_animation",
             "    flicker_cursor;Lamonte",
             "    change_team;Lamonte;player",
+            "    give_skill;Lamonte;Lifeline;no_banner",
             "    move_unit;Lamonte;12, 13;normal;push",
             "    wait;250",
             "    multi_add_portrait;Leod;Left;Lamonte;Right",

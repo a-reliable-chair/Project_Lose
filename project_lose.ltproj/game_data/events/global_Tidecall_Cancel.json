@@ -3,7 +3,7 @@
         "name": "Tidecall_Cancel",
         "trigger": "turn_change",
         "level_nid": null,
-        "condition": "True",
+        "condition": "u('Ailsa').position",
         "commands": [],
         "only_once": false,
         "priority": 20,

@@ -68324,6 +68324,108 @@
         ]
     },
     {
+        "nid": "Blacksmith",
+        "weapon_anims": [
+            {
+                "nid": "Unarmed",
+                "poses": [
+                    [
+                        "Stand",
+                        [
+                            [
+                                "frame",
+                                [
+                                    4,
+                                    "Unarmed_000"
+                                ]
+                            ]
+                        ]
+                    ],
+                    [
+                        "Dodge",
+                        [
+                            [
+                                "frame",
+                                [
+                                    1,
+                                    "Unarmed_000"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    3,
+                                    "Unarmed_001"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    27,
+                                    "Unarmed_002"
+                                ]
+                            ],
+                            [
+                                "frame",
+                                [
+                                    4,
+                                    "Unarmed_001"
+                                ]
+                            ]
+                        ]
+                    ]
+                ],
+                "frames": [
+                    [
+                        "Unarmed_000",
+                        [
+                            0,
+                            0,
+                            29,
+                            33
+                        ],
+                        [
+                            139,
+                            71
+                        ]
+                    ],
+                    [
+                        "Unarmed_001",
+                        [
+                            29,
+                            0,
+                            47,
+                            33
+                        ],
+                        [
+                            134,
+                            72
+                        ]
+                    ],
+                    [
+                        "Unarmed_002",
+                        [
+                            76,
+                            0,
+                            36,
+                            24
+                        ],
+                        [
+                            145,
+                            77
+                        ]
+                    ]
+                ]
+            }
+        ],
+        "palettes": [
+            [
+                "GenericBlue",
+                "New Palette_7"
+            ]
+        ]
+    },
+    {
         "nid": "Warrior",
         "weapon_anims": [
             {

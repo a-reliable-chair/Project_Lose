@@ -33,9 +33,9 @@
             "set_custom_options;Codex;true;Open the Codex;Menu_Codex",
             "game_var;_supports;True",
             "increment_support_points;Alpin;Carlin;1",
-            "clear_achievements",
             "give_item;Alpin;WExp;no_banner",
             "give_item;Saraid;Firestarter;no_banner",
+            "give_item;Elspeth;Nova",
             "base;title_background",
             ""
         ]
