@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Bow9",
+        "nid": "Bow7",
         "name": "Iron Bow",
-        "desc": "9 Fixed Damage.",
+        "desc": "",
         "icon_nid": "Bow",
         "icon_index": [
             0,
@@ -12,10 +12,6 @@
             [
                 "weapon",
                 null
-            ],
-            [
-                "value",
-                540
             ],
             [
                 "target_enemy",
@@ -30,27 +26,8 @@
                 2
             ],
             [
-                "damage",
-                9
-            ],
-            [
                 "hit",
-                85
-            ],
-            [
-                "crit",
-                0
-            ],
-            [
-                "uses",
-                45
-            ],
-            [
-                "uses_options",
-                {
-                    "lose_uses_on_miss": false,
-                    "one_loss_per_combat": false
-                }
+                5
             ],
             [
                 "level_exp",
@@ -61,22 +38,23 @@
                 "Bow"
             ],
             [
-                "weapon_rank",
-                "E"
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3.0,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
             ],
             [
-                "effective",
-                12
-            ],
-            [
-                "effective_tag",
-                [
-                    "Flying"
-                ]
+                "eval_warning",
+                "'Flying' in unit.tags"
             ],
             [
                 "alternate_damage_formula",
-                "ZERO"
+                "SEVEN"
             ],
             [
                 "alternate_resist_formula",

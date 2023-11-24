@@ -42,10 +42,6 @@
                 ]
             ],
             [
-                "magic_heal",
-                99
-            ],
-            [
                 "min_range",
                 1
             ],
@@ -68,6 +64,10 @@
             [
                 "restore",
                 null
+            ],
+            [
+                "equation_heal",
+                "TWENTYFIVE"
             ]
         ]
     }

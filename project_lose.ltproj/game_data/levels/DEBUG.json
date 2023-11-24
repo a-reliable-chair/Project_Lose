@@ -6,11 +6,11 @@
         "bg_tilemap": null,
         "party": "Eirika",
         "music": {
-            "player_phase": "BattleFateMain",
+            "player_phase": null,
             "enemy_phase": null,
             "other_phase": null,
             "enemy2_phase": null,
-            "player_battle": "Attack",
+            "player_battle": null,
             "enemy_battle": null,
             "other_battle": null,
             "enemy2_battle": null

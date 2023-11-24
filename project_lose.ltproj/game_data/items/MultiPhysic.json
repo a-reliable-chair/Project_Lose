@@ -42,10 +42,6 @@
                 ]
             ],
             [
-                "magic_heal",
-                4
-            ],
-            [
                 "min_range",
                 1
             ],
@@ -83,6 +79,10 @@
             [
                 "ignore_line_of_sight",
                 null
+            ],
+            [
+                "equation_heal",
+                "MAG2"
             ]
         ]
     }

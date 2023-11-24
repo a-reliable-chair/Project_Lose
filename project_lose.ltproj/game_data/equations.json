@@ -85,7 +85,7 @@
     },
     {
         "nid": "HEAL",
-        "expression": "MAG"
+        "expression": "MAG + 4"
     },
     {
         "nid": "MAG2",
@@ -114,5 +114,9 @@
     {
         "nid": "TWENTYFIVE",
         "expression": "25"
+    },
+    {
+        "nid": "SEVEN",
+        "expression": "7"
     }
 ]

@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "change_roaming_unit;Alpin",
             "create_achievement;1;Flashback 1;Clear chapter 1 to view hint",
             "create_achievement;2;Flashback 2;Clear chapter 1 to view hint",
             "create_achievement;3;Flashback 3;Clear chapter 1 to view hint",
