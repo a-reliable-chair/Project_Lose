@@ -44,6 +44,10 @@
             [
                 "cooldown",
                 1
+            ],
+            [
+                "map_cast_anim",
+                "Map_Bolster_Cast"
             ]
         ]
     }

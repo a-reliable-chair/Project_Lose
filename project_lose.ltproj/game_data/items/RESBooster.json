@@ -27,8 +27,8 @@
             [
                 "map_hit_add_blend",
                 [
+                    85,
                     0,
-                    187,
                     255
                 ]
             ],
@@ -55,6 +55,10 @@
             [
                 "usable",
                 null
+            ],
+            [
+                "map_cast_anim",
+                "Map_RES_Cast"
             ]
         ]
     }

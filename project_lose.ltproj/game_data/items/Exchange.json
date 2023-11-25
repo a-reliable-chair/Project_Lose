@@ -28,9 +28,9 @@
             [
                 "map_hit_add_blend",
                 [
-                    232,
-                    200,
-                    15
+                    179,
+                    179,
+                    179
                 ]
             ],
             [
@@ -55,7 +55,7 @@
             ],
             [
                 "map_cast_anim",
-                "Warp"
+                "Map_Exchange_Cast"
             ]
         ]
     }

@@ -203,7 +203,7 @@
         "frame_y": 4,
         "num_frames": 16,
         "speed": 24,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -212,7 +212,7 @@
         "frame_y": 4,
         "num_frames": 16,
         "speed": 24,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -241,15 +241,6 @@
         "speed": 75,
         "frame_times": "1,1,1,1,1,1,1,1,16,3,3,3",
         "use_frame_time": true
-    },
-    {
-        "nid": "MapSmallHealTrans",
-        "frame_x": 5,
-        "frame_y": 4,
-        "num_frames": 16,
-        "speed": 24,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
-        "use_frame_time": false
     },
     {
         "nid": "MissBlue",
@@ -609,6 +600,186 @@
         "num_frames": 4,
         "speed": 75,
         "frame_times": "1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapSmallHealTrans",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 100,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Heal_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 100,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Bolster_Cast",
+        "frame_x": 5,
+        "frame_y": 1,
+        "num_frames": 5,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Play_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Repair_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 150,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Exchange_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_GuardianAngel_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 100,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Physic_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Herb_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Elixir_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_EXP_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_WEXP_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_STR_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_MAG_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_SKL_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_SPD_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_LCK_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_DEF_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_RES_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_REF_Cast",
+        "frame_x": 3,
+        "frame_y": 1,
+        "num_frames": 3,
+        "speed": 75,
+        "frame_times": "1,1,1",
         "use_frame_time": false
     }
 ]

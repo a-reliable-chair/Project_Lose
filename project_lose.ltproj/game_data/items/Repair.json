@@ -44,6 +44,10 @@
             [
                 "exp",
                 15
+            ],
+            [
+                "map_cast_anim",
+                "Map_Repair_Cast"
             ]
         ]
     }

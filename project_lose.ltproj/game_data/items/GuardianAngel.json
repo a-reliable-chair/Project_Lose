@@ -81,6 +81,10 @@
             [
                 "ignore_line_of_sight",
                 null
+            ],
+            [
+                "map_cast_anim",
+                "Map_GuardianAngel_Cast"
             ]
         ]
     }

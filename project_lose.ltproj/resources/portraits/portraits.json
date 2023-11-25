@@ -120,18 +120,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Orla",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            32,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Ailsa",
         "blinking_offset": [
             16,
@@ -139,6 +127,18 @@
         ],
         "smiling_offset": [
             16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Orla",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            32,
             40
         ],
         "info_offset": 0

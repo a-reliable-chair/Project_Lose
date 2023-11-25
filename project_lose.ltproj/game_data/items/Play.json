@@ -28,9 +28,9 @@
             [
                 "map_hit_add_blend",
                 [
-                    68,
-                    232,
-                    109
+                    170,
+                    85,
+                    255
                 ]
             ],
             [
@@ -44,6 +44,10 @@
             [
                 "attack_after_combat",
                 null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Play_Cast"
             ]
         ]
     }

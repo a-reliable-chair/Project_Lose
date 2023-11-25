@@ -33,11 +33,11 @@
             "set_custom_options;Codex;true;Open the Codex;Menu_Codex",
             "game_var;_supports;True",
             "increment_support_points;Alpin;Carlin;1",
-            "give_item;Alpin;WExp;no_banner",
+            "give_item;Alpin;STRBooster;no_banner",
             "give_item;Saraid;Firestarter;no_banner",
-            "give_item;Elspeth;Nova",
-            "base;title_background",
-            ""
+            "give_item;Elspeth;GuardianAngel;no_banner",
+            "give_skill;Corridon;Play;no_banner",
+            "base;title_background"
         ]
     }
 ]

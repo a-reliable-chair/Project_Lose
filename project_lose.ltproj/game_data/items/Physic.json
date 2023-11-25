@@ -75,6 +75,10 @@
             [
                 "equation_heal",
                 "MAG2"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Physic_Cast"
             ]
         ]
     }

@@ -47,6 +47,10 @@
             [
                 "unrepairable",
                 null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Elixir_Cast"
             ]
         ]
     }

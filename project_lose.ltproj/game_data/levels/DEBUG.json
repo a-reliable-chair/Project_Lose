@@ -168,7 +168,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    9,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": false
             },

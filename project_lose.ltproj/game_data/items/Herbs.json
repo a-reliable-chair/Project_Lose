@@ -35,9 +35,9 @@
             [
                 "map_hit_add_blend",
                 [
-                    96,
-                    144,
-                    232
+                    0,
+                    255,
+                    0
                 ]
             ],
             [
@@ -47,6 +47,10 @@
             [
                 "unrepairable",
                 null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Herb_Cast"
             ]
         ]
     }
