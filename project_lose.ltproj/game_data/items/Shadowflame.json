@@ -85,6 +85,10 @@
             [
                 "status_on_hit",
                 "Cursed"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Shadowflame_Cast"
             ]
         ]
     }

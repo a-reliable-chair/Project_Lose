@@ -71,6 +71,10 @@
             [
                 "eval_warning",
                 "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Sword'"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Axe_Cast"
             ]
         ]
     }

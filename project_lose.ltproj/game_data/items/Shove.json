@@ -36,6 +36,10 @@
             [
                 "shove",
                 1
+            ],
+            [
+                "map_cast_anim",
+                "Map_Shove_Cast"
             ]
         ]
     }

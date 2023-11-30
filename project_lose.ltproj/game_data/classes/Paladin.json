@@ -9,7 +9,8 @@
         "turns_into": [],
         "tags": [
             "Horse",
-            "Mounted"
+            "Mounted",
+            "NonMagic"
         ],
         "max_level": 10,
         "bases": {
@@ -21,7 +22,7 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 11,
-            "MOV": 8,
+            "MOV": 7,
             "RES": 6
         },
         "growths": {

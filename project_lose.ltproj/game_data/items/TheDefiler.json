@@ -2,7 +2,7 @@
     {
         "nid": "TheDefiler",
         "name": "<purple>The Defiler</>",
-        "desc": "Knight line only.\nEffective Vs. Clergy.\nInflicts half damage on miss. ",
+        "desc": "Effective Vs. Clergy.\nInflicts half damage on miss. ",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -12,6 +12,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "weapon_rank",
+                "A"
             ],
             [
                 "target_enemy",
@@ -71,6 +75,16 @@
             [
                 "damage_on_miss",
                 0.5
+            ],
+            [
+                "map_cast_anim",
+                "Map_Defiler_Cast"
+            ],
+            [
+                "item_tags",
+                [
+                    "BlessedWeapon"
+                ]
             ]
         ]
     }

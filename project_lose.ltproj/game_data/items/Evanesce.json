@@ -65,20 +65,28 @@
                 null
             ],
             [
-                "alternate_resist_formula",
-                "ZERO"
-            ],
-            [
-                "alternate_damage_formula",
-                "TWENTYFIVE"
-            ],
-            [
                 "battle_cast_anim",
                 "Flux"
             ],
             [
                 "weapon_type",
                 "Dark"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Evanesce_Cast"
+            ],
+            [
+                "damage",
+                0
+            ],
+            [
+                "alternate_damage_formula",
+                "TWENTYFIVE"
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
             ]
         ]
     }

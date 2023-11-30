@@ -13,11 +13,11 @@
     {
         "nid": "Fire",
         "name": "Fire",
-        "desc": "Grants support partner +1 might.",
+        "desc": "Grants support partner +2 might.",
         "bonus": [
             {
                 "support_rank": "1",
-                "damage": 1.0,
+                "damage": 2.0,
                 "resist": 0,
                 "accuracy": 0.0,
                 "avoid": 0.0,
@@ -36,7 +36,7 @@
     {
         "nid": "Thunder",
         "name": "Thunder",
-        "desc": "Grants support partner +10 crit rate.",
+        "desc": "Grants support partner +15 crit rate.",
         "bonus": [
             {
                 "support_rank": "1",
@@ -44,7 +44,7 @@
                 "resist": 0.0,
                 "accuracy": 0.0,
                 "avoid": 0.0,
-                "crit": 10.0,
+                "crit": 15.0,
                 "dodge": 0.0,
                 "attack_speed": 0,
                 "defense_speed": 0
@@ -59,7 +59,7 @@
     {
         "nid": "Wind",
         "name": "Wind",
-        "desc": "Grants support partner +1 attack speed.",
+        "desc": "Grants support partner +2 attack speed.",
         "bonus": [
             {
                 "support_rank": "1",
@@ -69,8 +69,8 @@
                 "avoid": 0.0,
                 "crit": 0.0,
                 "dodge": 0.0,
-                "attack_speed": 1.0,
-                "defense_speed": 1.0
+                "attack_speed": 2.0,
+                "defense_speed": 2.0
             }
         ],
         "icon_nid": "Affinity",
@@ -82,12 +82,12 @@
     {
         "nid": "Ice",
         "name": "Ice",
-        "desc": "Reduces support partner's incoming damage by 1.",
+        "desc": "Reduces support partner's incoming damage by 2.",
         "bonus": [
             {
                 "support_rank": "1",
                 "damage": 0.0,
-                "resist": 1.0,
+                "resist": 2.0,
                 "accuracy": 0.0,
                 "avoid": 0.0,
                 "crit": 0.0,
@@ -105,13 +105,13 @@
     {
         "nid": "Dark",
         "name": "Dark",
-        "desc": "Grants support partner +10 accuracy.",
+        "desc": "Grants support partner +15 accuracy.",
         "bonus": [
             {
                 "support_rank": "1",
                 "damage": 0.0,
                 "resist": 0.0,
-                "accuracy": 10.0,
+                "accuracy": 15.0,
                 "avoid": 0.0,
                 "crit": 0.0,
                 "dodge": 0.0,
@@ -128,14 +128,14 @@
     {
         "nid": "Light",
         "name": "Light",
-        "desc": "Grants support partner +10 avoid.",
+        "desc": "Grants support partner +15 avoid.",
         "bonus": [
             {
                 "support_rank": "1",
                 "damage": 0.0,
                 "resist": 0.0,
                 "accuracy": 0.0,
-                "avoid": 10.0,
+                "avoid": 15.0,
                 "crit": 0.0,
                 "dodge": 0.0,
                 "attack_speed": 0.0,

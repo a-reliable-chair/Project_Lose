@@ -52,6 +52,10 @@
             [
                 "status_on_equip",
                 "DistantCounter"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Wind_Cast"
             ]
         ]
     }

@@ -45,8 +45,8 @@
                 66
             ],
             [
-                "equation_blast_aoe",
-                "MAGIC_RANGE"
+                "equation_heal",
+                "MAG2"
             ],
             [
                 "unrepairable",
@@ -57,8 +57,20 @@
                 null
             ],
             [
-                "equation_heal",
-                "MAG2"
+                "map_target_cast_anim",
+                "Map_Heal_Cast"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "eval_ally_smartblast_aoe",
+                "unit.stats['MAG']*2"
             ]
         ]
     }

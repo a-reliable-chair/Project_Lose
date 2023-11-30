@@ -2,7 +2,7 @@
     {
         "nid": "Palisade",
         "name": "Palisade",
-        "desc": "Aura. Adjacent allies gain +15 Avoid.",
+        "desc": "Aura. Allies within 2 tiles gain +15 Avoid.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "aura_range",
-                1
+                2
             ],
             [
                 "aura_target",

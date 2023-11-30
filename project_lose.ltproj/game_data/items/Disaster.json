@@ -2,7 +2,7 @@
     {
         "nid": "Disaster",
         "name": "<purple>Disaster</purple>",
-        "desc": "Carlin Only.\nBackdash: 1.",
+        "desc": "Carlin Only.\nAfter any interaction with another unit, Backdash: 1.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -85,6 +85,10 @@
             [
                 "backdash_on_end_combat",
                 1
+            ],
+            [
+                "map_cast_anim",
+                "Map_Disaster_Cast"
             ]
         ]
     }

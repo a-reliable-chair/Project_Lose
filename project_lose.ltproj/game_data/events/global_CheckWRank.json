@@ -1,0 +1,20 @@
+[
+    {
+        "name": "CheckWRank",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "unit.team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.wexp['Sword'] == 41 or unit.wexp['Lance'] == 41 or unit.wexp['Axe'] == 41 or unit.wexp['Bow'] == 41 or unit.wexp['Light'] == 41 or unit.wexp['Anima'] == 41 or unit.wexp['Dark'] == 41",
+            "    if;not has_achievement('32')",
+            "        update_achievement;32;The Same Kick, 10,000 Times;Reached Weapon Rank S with a unit",
+            "        complete_achievement;32;1;banner",
+            "        inc_game_var;AchievementCount;1",
+            "    end",
+            "end"
+        ]
+    }
+]

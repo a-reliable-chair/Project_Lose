@@ -13,12 +13,13 @@
     "AdjConvoy",
     "Tile",
     "Flying",
-    "Monster",
     "Sword",
     "Youth",
     "Adult",
     "Clergy",
     "Caster",
     "Ch2Ignore",
-    "Ch4Loot"
+    "Ch4Loot",
+    "NonMagic",
+    "BlessedWeapon"
 ]

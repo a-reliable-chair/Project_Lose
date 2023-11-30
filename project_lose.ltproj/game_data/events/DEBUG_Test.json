@@ -8,8 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "#set_current_hp;Soldier (106);1",
-            "#set_current_hp;Brassfield;1",
+            "set_current_hp;107;1",
+            "set_current_hp;Brassfield;1",
             "set_current_hp;Alpin;1",
             "give_skill;Garvey;SuppressiveFire;no_banner",
             "level_var;SaraidSkill;0",
@@ -19,6 +19,7 @@
             "change_ai;Brassfield;None",
             "level_var;RoutEnemies;0",
             "give_item;Elwynn;Flair;no_banner",
+            "give_item;Elwynn;TheAlmighty;no_banner",
             "add_lore;WeaponTriangle",
             "add_lore;Stats",
             "add_lore;Equations",
@@ -36,7 +37,12 @@
             "give_item;Alpin;STRBooster;no_banner",
             "give_item;Saraid;Firestarter;no_banner",
             "give_item;Elspeth;GuardianAngel;no_banner",
+            "give_item;Alpin;AngelFeather;no_banner",
             "give_skill;Corridon;Play;no_banner",
+            "give_item;Elspeth;Fortify;no_banner",
+            "give_item;Laisren;TheReclaimer;no_banner",
+            "give_item;Quinley;Wind;no_banner",
+            "give_item;Carlin;Duskfall;no_banner",
             "base;title_background"
         ]
     }

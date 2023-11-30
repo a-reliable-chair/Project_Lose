@@ -2,14 +2,14 @@
     [
         {
             "nid": "player",
-            "map_sprite_palette": "map_sprite_blue",
+            "map_sprite_palette": "Shep Other Palette",
             "combat_variant_palette": "GenericBlue",
             "combat_color": "blue",
             "phase_change_sound_effect": null
         },
         {
             "nid": "enemy",
-            "map_sprite_palette": "map_sprite_red",
+            "map_sprite_palette": "Shep Enemy Palette",
             "combat_variant_palette": "GenericRed",
             "combat_color": "red",
             "phase_change_sound_effect": null
@@ -23,7 +23,7 @@
         },
         {
             "nid": "other",
-            "map_sprite_palette": "map_sprite_green",
+            "map_sprite_palette": "Shep Player Palette",
             "combat_variant_palette": "GenericGreen",
             "combat_color": "green",
             "phase_change_sound_effect": null

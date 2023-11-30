@@ -67,7 +67,11 @@
             ],
             [
                 "battle_cast_anim",
-                "Flux"
+                "Jinx"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Jynx_Cast"
             ]
         ]
     }

@@ -10,7 +10,8 @@
         "tags": [
             "Horse",
             "Mounted",
-            "Armor"
+            "Armor",
+            "NonMagic"
         ],
         "max_level": 10,
         "bases": {

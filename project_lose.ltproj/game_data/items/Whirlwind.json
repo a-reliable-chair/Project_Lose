@@ -23,7 +23,7 @@
             ],
             [
                 "max_range",
-                1
+                2
             ],
             [
                 "damage",
@@ -73,6 +73,10 @@
             [
                 "text_color",
                 "purple"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Axe_Cast"
             ]
         ]
     }

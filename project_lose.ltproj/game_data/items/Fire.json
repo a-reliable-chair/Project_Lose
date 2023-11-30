@@ -90,6 +90,10 @@
             [
                 "battle_cast_anim",
                 "Fire"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Fire_Cast"
             ]
         ]
     }

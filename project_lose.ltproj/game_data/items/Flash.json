@@ -62,12 +62,12 @@
                 null
             ],
             [
-                "battle_cast_anim",
-                "Glimmer"
-            ],
-            [
                 "status_on_hit",
                 "Dazzled"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Flash_Cast"
             ]
         ]
     }

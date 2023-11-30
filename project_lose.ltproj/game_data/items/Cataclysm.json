@@ -2,7 +2,7 @@
     {
         "nid": "Cataclysm",
         "name": "Cataclysm",
-        "desc": "-2 SPD.",
+        "desc": "",
         "icon_nid": "Anima",
         "icon_index": [
             0,
@@ -73,12 +73,12 @@
                 2
             ],
             [
-                "status_on_equip",
-                "SPD2"
-            ],
-            [
                 "battle_cast_anim",
                 "Fire"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Cataclysm_Cast"
             ]
         ]
     }

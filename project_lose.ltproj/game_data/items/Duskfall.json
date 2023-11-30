@@ -64,12 +64,12 @@
                 ]
             ],
             [
-                "map_cast_anim",
-                "DuskfallMapCast"
-            ],
-            [
                 "target_tile",
                 null
+            ],
+            [
+                "event_on_hit",
+                "Global DuskfallAnim"
             ]
         ]
     }

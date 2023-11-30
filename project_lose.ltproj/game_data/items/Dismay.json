@@ -41,23 +41,15 @@
                 66
             ],
             [
-                "equation_blast_aoe",
-                "MAGIC_RANGE"
-            ],
-            [
                 "status_on_hit",
                 "Stunned"
             ],
             [
-                "target_enemy",
-                null
-            ],
-            [
                 "map_hit_sub_blend",
                 [
-                    214,
-                    26,
-                    26
+                    85,
+                    0,
+                    255
                 ]
             ],
             [
@@ -66,6 +58,18 @@
             ],
             [
                 "ignore_line_of_sight",
+                null
+            ],
+            [
+                "map_target_cast_anim",
+                "Map_Dismay_Cast"
+            ],
+            [
+                "eval_smartblast_aoe",
+                "unit.stats['MAG']*2"
+            ],
+            [
+                "target_tile",
                 null
             ]
         ]

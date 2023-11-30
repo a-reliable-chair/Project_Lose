@@ -71,6 +71,10 @@
             [
                 "warning",
                 null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Lance_Cast"
             ]
         ]
     }

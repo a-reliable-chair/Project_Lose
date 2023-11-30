@@ -869,27 +869,6 @@
                 "nid": "T3Rein_2",
                 "variant": null,
                 "level": 5,
-                "klass": "Myrmidon",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Silver Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T3Rein_3",
-                "variant": null,
-                "level": 5,
                 "klass": "Mage",
                 "faction": "Soldier",
                 "starting_items": [
@@ -930,27 +909,6 @@
             },
             {
                 "nid": "T4Rein_2",
-                "variant": null,
-                "level": 5,
-                "klass": "Monk",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Omnipotence",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T4Rein_3",
                 "variant": null,
                 "level": 5,
                 "klass": "Archer",
@@ -995,27 +953,6 @@
                 "nid": "T5Rein_2",
                 "variant": null,
                 "level": 5,
-                "klass": "Soldier",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Silver Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T5Rein_3",
-                "variant": null,
-                "level": 5,
                 "klass": "PegasusKnight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1056,27 +993,6 @@
             },
             {
                 "nid": "T6Rein_2",
-                "variant": null,
-                "level": 5,
-                "klass": "Dracoknight",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Mace",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T6Rein_3",
                 "variant": null,
                 "level": 5,
                 "klass": "Mercenary",
@@ -1121,27 +1037,6 @@
                 "nid": "T7Rein_2",
                 "variant": null,
                 "level": 5,
-                "klass": "Fighter",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Silver Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T7Rein_3",
-                "variant": null,
-                "level": 5,
                 "klass": "Shaman",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1184,69 +1079,6 @@
                 "nid": "T8Rein_2",
                 "variant": null,
                 "level": 5,
-                "klass": "Shaman",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Devilry",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T8Rein_3",
-                "variant": null,
-                "level": 5,
-                "klass": "Mercenary",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Iron Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Yolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T8Rein_4",
-                "variant": null,
-                "level": 5,
-                "klass": "PegasusKnight",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "EtherealBlade",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T8Rein_5",
-                "variant": null,
-                "level": 5,
                 "klass": "GriffonKnight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1265,70 +1097,7 @@
                 "generic": true
             },
             {
-                "nid": "T8Rein_6",
-                "variant": null,
-                "level": 5,
-                "klass": "GriffonKnight",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Silver Lance",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T8Rein_7",
-                "variant": null,
-                "level": 5,
-                "klass": "Dracoknight",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Steel Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Yolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T8Rein_8",
-                "variant": null,
-                "level": 5,
-                "klass": "Dracoknight",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Silver Axe",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T8Rein_9",
+                "nid": "T8Rein_3",
                 "variant": null,
                 "level": 5,
                 "klass": "Pirate",
@@ -1349,28 +1118,7 @@
                 "generic": true
             },
             {
-                "nid": "T8Rein_10",
-                "variant": null,
-                "level": 5,
-                "klass": "PegasusKnight",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Silver Sword",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T8Rein_11",
+                "nid": "T8Rein_4",
                 "variant": null,
                 "level": 5,
                 "klass": "Pirate",
@@ -1391,28 +1139,7 @@
                 "generic": true
             },
             {
-                "nid": "T8Rein_12",
-                "variant": null,
-                "level": 5,
-                "klass": "PegasusKnight",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "EtherealBlade",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T8Rein_13",
+                "nid": "T8Rein_5",
                 "variant": null,
                 "level": 5,
                 "klass": "Myrmidon",
@@ -1433,28 +1160,7 @@
                 "generic": true
             },
             {
-                "nid": "T8Rein_14",
-                "variant": null,
-                "level": 5,
-                "klass": "Mage",
-                "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Wind",
-                        false
-                    ]
-                ],
-                "starting_skills": [],
-                "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": null,
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "T8Rein_15",
+                "nid": "T8Rein_6",
                 "variant": null,
                 "level": 5,
                 "klass": "Monk",
@@ -1475,7 +1181,112 @@
                 "generic": true
             },
             {
-                "nid": "T8Rein_16",
+                "nid": "T9Rein_1",
+                "variant": null,
+                "level": 5,
+                "klass": "Shaman",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Devilry",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "T9Rein_2",
+                "variant": null,
+                "level": 5,
+                "klass": "GriffonKnight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Silver Lance",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "T9Rein_3",
+                "variant": null,
+                "level": 5,
+                "klass": "PegasusKnight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Silver Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "T9Rein_4",
+                "variant": null,
+                "level": 5,
+                "klass": "PegasusKnight",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "EtherealBlade",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "T9Rein_5",
+                "variant": null,
+                "level": 5,
+                "klass": "Mage",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Wind",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "T9Rein_6",
                 "variant": null,
                 "level": 5,
                 "klass": "Fighter",
@@ -1488,7 +1299,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
+                "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -2050,9 +1861,7 @@
                 "nid": "Starting2",
                 "units": [
                     "Enemy_4",
-                    "Enemy_5",
                     "Enemy_6",
-                    "Enemy_7",
                     "Enemy_8"
                 ],
                 "positions": {
@@ -2082,7 +1891,6 @@
                 "nid": "Starting3",
                 "units": [
                     "Enemy_9",
-                    "Enemy_10",
                     "Enemy_11",
                     "Enemy_12",
                     "Enemy_13"
@@ -2111,6 +1919,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

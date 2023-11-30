@@ -48,9 +48,9 @@
             [
                 "map_hit_add_blend",
                 [
-                    170,
-                    170,
-                    255
+                    85,
+                    255,
+                    127
                 ]
             ],
             [
@@ -71,6 +71,10 @@
             [
                 "ignore_line_of_sight",
                 null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Inspire_Cast"
             ]
         ]
     }

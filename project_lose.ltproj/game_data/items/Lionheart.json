@@ -70,6 +70,10 @@
             [
                 "text_color",
                 "purple"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Sword_Cast"
             ]
         ]
     }

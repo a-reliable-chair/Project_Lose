@@ -90,6 +90,10 @@
             [
                 "battle_cast_anim",
                 "Thunder"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Thunder_Cast"
             ]
         ]
     }

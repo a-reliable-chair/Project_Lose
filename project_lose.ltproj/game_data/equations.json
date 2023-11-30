@@ -118,5 +118,9 @@
     {
         "nid": "SEVEN",
         "expression": "7"
+    },
+    {
+        "nid": "MAG4",
+        "expression": "MAG * 4"
     }
 ]

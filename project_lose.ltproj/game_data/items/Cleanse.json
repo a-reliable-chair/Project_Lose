@@ -2,7 +2,7 @@
     {
         "nid": "Cleanse",
         "name": "Cleanse",
-        "desc": "Fully heals target ally and removes all negative statuses.",
+        "desc": "Fully heals target ally and removes all negative statuses.\nRange: 1 - (MAG * 4).",
         "icon_nid": "{AtelierLabs} Cleanse",
         "icon_index": [
             0,
@@ -47,7 +47,7 @@
             ],
             [
                 "max_equation_range",
-                "MAG2"
+                "MAG4"
             ],
             [
                 "unrepairable",
@@ -68,6 +68,10 @@
             [
                 "equation_heal",
                 "TWENTYFIVE"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Heal_Cast"
             ]
         ]
     }

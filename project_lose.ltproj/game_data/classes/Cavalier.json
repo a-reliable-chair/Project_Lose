@@ -9,7 +9,8 @@
         "turns_into": [],
         "tags": [
             "Horse",
-            "Mounted"
+            "Mounted",
+            "NonMagic"
         ],
         "max_level": 10,
         "bases": {

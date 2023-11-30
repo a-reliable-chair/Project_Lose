@@ -2,7 +2,7 @@
     {
         "nid": "TheConqueror",
         "name": "<purple>The Conqueror</>",
-        "desc": "Cavalier line only.\nIgnores weapon triangle.\nUses Magic at range.",
+        "desc": "Ignores weapon triangle.\nUses Magic at range.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -12,6 +12,10 @@
             [
                 "weapon",
                 null
+            ],
+            [
+                "weapon_rank",
+                "A"
             ],
             [
                 "target_enemy",
@@ -34,24 +38,12 @@
                 0
             ],
             [
-                "crit",
-                0
-            ],
-            [
                 "level_exp",
                 null
             ],
             [
                 "weapon_type",
                 "Sword"
-            ],
-            [
-                "prf_class",
-                [
-                    "Cavalier",
-                    "Paladin",
-                    "Great_Knight"
-                ]
             ],
             [
                 "text_color",
@@ -64,6 +56,16 @@
             [
                 "ignore_weapon_advantage",
                 null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Conqueror_Cast"
+            ],
+            [
+                "item_tags",
+                [
+                    "BlessedWeapon"
+                ]
             ]
         ]
     }

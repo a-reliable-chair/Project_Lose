@@ -57,6 +57,10 @@
             [
                 "unrepairable",
                 null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Flask_Cast"
             ]
         ]
     }

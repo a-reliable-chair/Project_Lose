@@ -2,7 +2,7 @@
     {
         "nid": "Palus",
         "name": "<purple>Palus</purple>",
-        "desc": "Lamonte Only.\nAdjacent allies gain +15 Avoid.",
+        "desc": "Lamonte Only.\nAllies within 2 tiles gain +15 Avoid.",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -69,6 +69,10 @@
             [
                 "status_on_equip",
                 "Palisade"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Lance_Cast"
             ]
         ]
     }

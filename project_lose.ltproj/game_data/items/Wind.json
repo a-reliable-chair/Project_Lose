@@ -94,6 +94,10 @@
             [
                 "brave",
                 null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Wind_Cast"
             ]
         ]
     }

@@ -2,7 +2,7 @@
     {
         "nid": "Bolstered",
         "name": "Bolstered",
-        "desc": "Has 4 temporary HP. Lasts 2 turns.",
+        "desc": "This unit takes no damage during their next combat.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -10,17 +10,17 @@
         ],
         "components": [
             [
-                "stat_change",
-                [
-                    [
-                        "HP",
-                        4
-                    ]
-                ]
+                "ignore_damage",
+                null
             ],
             [
-                "time",
-                2
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": false,
+                    "lost_on_ally": false,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": false
+                }
             ]
         ]
     }

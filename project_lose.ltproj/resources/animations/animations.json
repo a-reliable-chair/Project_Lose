@@ -77,7 +77,7 @@
         "frame_y": 1,
         "num_frames": 10,
         "speed": 32,
-        "frame_times": "2,2,2,2,2,2,2,2,2,2",
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -576,15 +576,6 @@
         "use_frame_time": false
     },
     {
-        "nid": "DuskfallMapCast",
-        "frame_x": 4,
-        "frame_y": 2,
-        "num_frames": 8,
-        "speed": 250,
-        "frame_times": "250,250,250,250,250,250,250,250,1,1,1,1,1,1,1,1,1",
-        "use_frame_time": false
-    },
-    {
         "nid": "MapLootable",
         "frame_x": 1,
         "frame_y": 1,
@@ -603,48 +594,12 @@
         "use_frame_time": false
     },
     {
-        "nid": "MapSmallHealTrans",
-        "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
-        "speed": 100,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
-        "use_frame_time": false
-    },
-    {
-        "nid": "Map_Heal_Cast",
-        "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
-        "speed": 100,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
-        "use_frame_time": false
-    },
-    {
         "nid": "Map_Bolster_Cast",
         "frame_x": 5,
         "frame_y": 1,
         "num_frames": 5,
         "speed": 75,
         "frame_times": "1,1,1,1,1",
-        "use_frame_time": false
-    },
-    {
-        "nid": "Map_Play_Cast",
-        "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
-        "speed": 75,
-        "frame_times": "1,1,1",
-        "use_frame_time": false
-    },
-    {
-        "nid": "Map_Repair_Cast",
-        "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
-        "speed": 150,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -666,120 +621,462 @@
         "use_frame_time": false
     },
     {
-        "nid": "Map_Physic_Cast",
+        "nid": "Map_DEF_Cast",
         "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
+        "frame_y": 2,
+        "num_frames": 6,
         "speed": 75,
-        "frame_times": "1,1,1,1,1",
-        "use_frame_time": false
-    },
-    {
-        "nid": "Map_Herb_Cast",
-        "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
-        "speed": 75,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "frame_times": "1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
         "nid": "Map_Elixir_Cast",
         "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
+        "frame_y": 2,
+        "num_frames": 6,
         "speed": 75,
-        "frame_times": "1,1,1,1,1",
+        "frame_times": "1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
         "nid": "Map_EXP_Cast",
         "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
+        "frame_y": 2,
+        "num_frames": 6,
         "speed": 75,
-        "frame_times": "1,1,1,1,1",
+        "frame_times": "1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
-        "nid": "Map_WEXP_Cast",
+        "nid": "Map_Herb_Cast",
         "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
+        "frame_y": 2,
+        "num_frames": 6,
         "speed": 75,
-        "frame_times": "1,1,1",
+        "frame_times": "1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
-        "nid": "Map_STR_Cast",
+        "nid": "Map_Heal_Cast",
         "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
+        "frame_y": 2,
+        "num_frames": 6,
         "speed": 75,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
-        "use_frame_time": false
-    },
-    {
-        "nid": "Map_MAG_Cast",
-        "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
-        "speed": 75,
-        "frame_times": "1,1,1",
-        "use_frame_time": false
-    },
-    {
-        "nid": "Map_SKL_Cast",
-        "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
-        "speed": 75,
-        "frame_times": "1,1,1",
-        "use_frame_time": false
-    },
-    {
-        "nid": "Map_SPD_Cast",
-        "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
-        "speed": 75,
-        "frame_times": "1,1,1",
+        "frame_times": "1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
         "nid": "Map_LCK_Cast",
         "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
+        "frame_y": 2,
+        "num_frames": 6,
         "speed": 75,
-        "frame_times": "1,1,1",
+        "frame_times": "1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
-        "nid": "Map_DEF_Cast",
+        "nid": "Map_MAG_Cast",
         "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
+        "frame_y": 2,
+        "num_frames": 6,
         "speed": 75,
-        "frame_times": "1,1,1",
+        "frame_times": "1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
-        "nid": "Map_RES_Cast",
+        "nid": "Map_Play_Cast",
         "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
+        "frame_y": 2,
+        "num_frames": 6,
         "speed": 75,
-        "frame_times": "1,1,1",
+        "frame_times": "1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
         "nid": "Map_REF_Cast",
         "frame_x": 3,
-        "frame_y": 1,
-        "num_frames": 3,
+        "frame_y": 2,
+        "num_frames": 6,
         "speed": 75,
-        "frame_times": "1,1,1",
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Refine_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 5,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_RES_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_SKL_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_SPD_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_STR_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_WEXP_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Sword_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 5,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Axe_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 5,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Bow_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 25,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Lance_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 37,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Flask_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_AngelFeather_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 50,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Conqueror_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 5,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Shove_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 5,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Handaxe_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 8,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Javelin_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 5,
+        "speed": 37,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Firestarter_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 25,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Rancor_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 25,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Defiler_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Wind_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 8,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Reclaimer_Cast",
+        "frame_x": 4,
+        "frame_y": 2,
+        "num_frames": 8,
+        "speed": 50,
+        "frame_times": "1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Debilitate_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Inspire_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Dismay_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Shadowflame_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Fire_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Incinerate_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Entangle_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Thunder_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Cataclysm_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Jynx_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Evanesce_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Disaster_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Duskfall_Cast",
+        "frame_x": 2,
+        "frame_y": 2,
+        "num_frames": 4,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Luna_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Devilry_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_ShiningBind_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Omnipotence_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Shimmer_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Flash_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Nova_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Flair_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     }
 ]

@@ -161,7 +161,7 @@
         "platform": "Wall",
         "background": "combat_castle4",
         "mtype": "Wall",
-        "opaque": true,
+        "opaque": false,
         "status": null
     },
     {
@@ -491,7 +491,7 @@
         "platform": "Wall",
         "background": "combat_village",
         "mtype": "Wall",
-        "opaque": true,
+        "opaque": false,
         "status": null
     },
     {
@@ -506,7 +506,7 @@
         "platform": "Floor",
         "background": "Cliff",
         "mtype": "Wall",
-        "opaque": true,
+        "opaque": false,
         "status": null
     },
     {
@@ -521,7 +521,7 @@
         "platform": "Mountain",
         "background": "combat_hill",
         "mtype": "Hill",
-        "opaque": true,
+        "opaque": false,
         "status": "Mountain"
     },
     {

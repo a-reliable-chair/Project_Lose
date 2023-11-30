@@ -2,7 +2,7 @@
     {
         "nid": "TheReclaimer",
         "name": "<purple>The Reclaimer</>",
-        "desc": "Cavalier line only.\nEffective Vs. Armor.\n50% Lifelink. ",
+        "desc": "Effective Vs. Armor.\n50% Lifelink. ",
         "icon_nid": "Lance",
         "icon_index": [
             0,
@@ -16,6 +16,10 @@
             [
                 "target_enemy",
                 null
+            ],
+            [
+                "weapon_rank",
+                "A"
             ],
             [
                 "min_range",
@@ -46,14 +50,6 @@
                 "Lance"
             ],
             [
-                "prf_class",
-                [
-                    "Cavalier",
-                    "Paladin",
-                    "Great_Knight"
-                ]
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -71,6 +67,16 @@
             [
                 "lifelink",
                 0.5
+            ],
+            [
+                "map_cast_anim",
+                "Map_Reclaimer_Cast"
+            ],
+            [
+                "item_tags",
+                [
+                    "BlessedWeapon"
+                ]
             ]
         ]
     }

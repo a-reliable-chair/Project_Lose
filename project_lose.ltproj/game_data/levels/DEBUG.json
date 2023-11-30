@@ -109,7 +109,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    8,
+                    10
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -143,8 +146,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    9
+                    7,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -156,7 +159,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
+                    10,
                     8
                 ],
                 "starting_traveler": null,
@@ -208,8 +211,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    11
+                    7,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -256,22 +259,17 @@
                 "nid": "103",
                 "variant": null,
                 "level": 2,
-                "klass": "Myrmidon",
+                "klass": "Thief",
                 "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Javelin",
-                        false
-                    ]
-                ],
+                "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy",
+                "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    4
+                    6,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -280,22 +278,17 @@
                 "nid": "107",
                 "variant": null,
                 "level": 2,
-                "klass": "Myrmidon",
+                "klass": "Knight",
                 "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Javelin",
-                        false
-                    ]
-                ],
+                "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy",
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    4
+                    5,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -304,22 +297,17 @@
                 "nid": "108",
                 "variant": null,
                 "level": 2,
-                "klass": "Myrmidon",
+                "klass": "ManDead",
                 "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Javelin",
-                        false
-                    ]
-                ],
+                "starting_items": [],
                 "starting_skills": [],
-                "team": "enemy",
+                "team": "other",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    3
+                    5,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -376,7 +364,7 @@
                 "nid": "105",
                 "variant": null,
                 "level": 7,
-                "klass": "Archer",
+                "klass": "Mage",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -389,10 +377,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    8,
-                    5
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -409,11 +394,14 @@
                     ]
                 ],
                 "starting_skills": [],
-                "team": "enemy",
+                "team": "other",
                 "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    4,
+                    10
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -447,6 +435,45 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Shallcross",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    2,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Emberson",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    6,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Keeva",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    9
+                ],
                 "starting_traveler": null,
                 "generic": false
             }

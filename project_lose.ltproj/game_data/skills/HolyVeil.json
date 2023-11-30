@@ -2,7 +2,7 @@
     {
         "nid": "HolyVeil",
         "name": "Holy Veil",
-        "desc": "Aura: Enemies within 2 tiles have their range set to 1.",
+        "desc": "Aura: Enemies within 4 tiles have their range set to 1.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "aura_range",
-                2
+                4
             ],
             [
                 "aura_target",

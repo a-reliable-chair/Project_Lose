@@ -8,14 +8,21 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "music;Gone...",
-            "add_portrait;Laisren;FarRight",
-            "speak;Laisren;Please...|Forgive me...",
-            "expression;Laisren;CloseEyes",
-            "remove_portrait;Laisren",
-            "music_fade_back",
-            "inc_game_var;NoDeaths;1",
-            "#Do one if dying to Cawthorne"
+            "if;{v:Ch5Outro} == 0",
+            "    music;Gone...",
+            "    add_portrait;Laisren;FarRight",
+            "    speak;Laisren;Please...|Forgive me...",
+            "    expression;Laisren;CloseEyes",
+            "    remove_portrait;Laisren",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "end",
+            "if;{v:Ch5Outro} == 1",
+            "    add_portrait;Laisren;FarRight",
+            "    speak;Laisren;Blegh. Bad ending.",
+            "    expression;Laisren;CloseEyes",
+            "    remove_portrait;Laisren",
+            "end"
         ]
     }
 ]

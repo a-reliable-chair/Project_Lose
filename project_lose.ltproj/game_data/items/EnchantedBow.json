@@ -74,6 +74,10 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true
                 }
+            ],
+            [
+                "map_cast_anim",
+                "Map_Bow_Cast"
             ]
         ]
     }

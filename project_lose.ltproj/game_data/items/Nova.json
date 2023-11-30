@@ -73,6 +73,10 @@
             [
                 "target_tile",
                 null
+            ],
+            [
+                "map_target_cast_anim",
+                "Map_Nova_Cast"
             ]
         ]
     }

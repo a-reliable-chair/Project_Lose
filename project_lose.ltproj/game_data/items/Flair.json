@@ -2,7 +2,7 @@
     {
         "nid": "Flair",
         "name": "<purple>Flair</purple>",
-        "desc": "Elwynn Only.\nSteals any unequipped item from target.\nCan't miss, double, kill, or target bosses.",
+        "desc": "Elwynn Only.\nSteals an unequipped item from target.\nCan't miss, double, or kill.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -83,8 +83,8 @@
                 "Glimmer"
             ],
             [
-                "eval_target_restrict_2",
-                "'Boss' not in target.tags"
+                "map_cast_anim",
+                "Map_Flair_Cast"
             ]
         ]
     }

@@ -89,7 +89,11 @@
             ],
             [
                 "battle_cast_anim",
-                "Glimmer"
+                "Omnipotence"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Omnipotence_Cast"
             ]
         ]
     }

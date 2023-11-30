@@ -10,7 +10,8 @@
         "tags": [
             "Mounted",
             "Dragon",
-            "Flying"
+            "Flying",
+            "NonMagic"
         ],
         "max_level": 10,
         "bases": {

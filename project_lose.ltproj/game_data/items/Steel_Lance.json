@@ -59,6 +59,10 @@
             [
                 "status_on_equip",
                 "SPD1"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Lance_Cast"
             ]
         ]
     }

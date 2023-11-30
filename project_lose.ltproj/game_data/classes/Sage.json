@@ -125,7 +125,7 @@
             0,
             0
         ],
-        "map_sprite_nid": "Mage",
+        "map_sprite_nid": "Sage",
         "combat_anim_nid": "Sage",
         "fields": []
     }

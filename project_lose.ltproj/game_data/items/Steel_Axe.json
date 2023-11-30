@@ -63,6 +63,10 @@
             [
                 "status_on_equip",
                 "SPD2"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Axe_Cast"
             ]
         ]
     }

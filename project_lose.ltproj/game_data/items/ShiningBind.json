@@ -75,6 +75,10 @@
             [
                 "battle_cast_anim",
                 "Glimmer"
+            ],
+            [
+                "map_cast_anim",
+                "Map_ShiningBind_Cast"
             ]
         ]
     }

@@ -8,7 +8,8 @@
         "promotes_from": null,
         "turns_into": [],
         "tags": [
-            "Armor"
+            "Armor",
+            "NonMagic"
         ],
         "max_level": 10,
         "bases": {

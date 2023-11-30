@@ -70,6 +70,10 @@
             [
                 "eval_warning",
                 "'Flying' in unit.tags"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Bow_Cast"
             ]
         ]
     }

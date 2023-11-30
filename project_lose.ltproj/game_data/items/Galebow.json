@@ -77,6 +77,10 @@
                     "SPD3",
                     "Galeforce"
                 ]
+            ],
+            [
+                "map_cast_anim",
+                "Map_Bow_Cast"
             ]
         ]
     }

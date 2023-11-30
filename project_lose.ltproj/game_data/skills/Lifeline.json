@@ -2,7 +2,7 @@
     {
         "nid": "Lifeline",
         "name": "Lifeline",
-        "desc": "This unit heals adjacent allies for half of their damage dealt.",
+        "desc": "Adjacent allies are healed by this unit's damage.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -15,7 +15,7 @@
             ],
             [
                 "ally_lifelink",
-                0.5
+                1.0
             ]
         ]
     }

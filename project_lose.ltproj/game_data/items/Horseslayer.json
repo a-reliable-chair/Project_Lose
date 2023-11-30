@@ -78,6 +78,10 @@
             [
                 "eval_warning",
                 "'Horse' in unit.tags"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Lance_Cast"
             ]
         ]
     }

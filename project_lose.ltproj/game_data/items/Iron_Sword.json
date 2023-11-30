@@ -44,6 +44,10 @@
             [
                 "crit",
                 0
+            ],
+            [
+                "map_cast_anim",
+                "Map_Sword_Cast"
             ]
         ]
     }

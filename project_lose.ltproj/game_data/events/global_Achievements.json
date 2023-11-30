@@ -8,7 +8,6 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "change_roaming_unit;Alpin",
             "create_achievement;1;Flashback 1;Clear chapter 1 to view hint",
             "create_achievement;2;Flashback 2;Clear chapter 1 to view hint",
             "create_achievement;3;Flashback 3;Clear chapter 1 to view hint",
@@ -35,15 +34,21 @@
             "create_achievement;24;Specific Chapter 9;Clear chapter 5 to view hint",
             "create_achievement;25;Specific Chapter 10;Clear chapter 5 to view hint",
             "create_achievement;26;Specific Chapter 11;Clear chapter 5 to view hint",
+            "create_achievement;26;Specific Chapter 11;Clear chapter 5 to view hint",
             "create_achievement;27;Specific Chapter 12;Clear chapter 5 to view hint",
-            "create_achievement;28;Gamewide 1;Clear the game to view hint",
-            "create_achievement;29;Gamewide 2;Clear the game to view hint",
-            "create_achievement;30;Gamewide 3;Clear the game to view hint",
-            "create_achievement;31;Gamewide 4;Clear the game to view hint",
-            "create_achievement;32;Gamewide 5;Clear the game to view hint",
-            "create_achievement;33;Gamewide 6;Clear the game to view hint",
-            "create_achievement;34;Gamewide 7;Clear the game to view hint",
-            "create_achievement;35;???;???"
+            "create_achievement;28;Specific Chapter 13;Clear chapter 5 to view hint",
+            "create_achievement;29;Specific Chapter 14;Clear chapter 5 to view hint",
+            "create_achievement;30;Specific Chapter 15;Clear chapter 5 to view hint",
+            "create_achievement;31;Gamewide 1;Clear the game to view hint",
+            "create_achievement;32;Gamewide 2;Clear the game to view hint",
+            "create_achievement;33;Gamewide 3;Clear the game to view hint",
+            "create_achievement;34;Gamewide 4;Clear the game to view hint",
+            "create_achievement;35;Gamewide 5;Clear the game to view hint",
+            "create_achievement;36;Gamewide 6;Clear the game to view hint",
+            "create_achievement;37;Gamewide 7;Clear the game to view hint",
+            "create_achievement;38;Gamewide 8;Clear the game to view hint",
+            "create_achievement;39;Gamewide 9;Clear the game to view hint",
+            "create_achievement;40;Gamewide 10;Clear the game to view hint"
         ]
     }
 ]

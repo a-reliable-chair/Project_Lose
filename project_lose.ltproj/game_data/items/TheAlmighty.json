@@ -1,0 +1,91 @@
+[
+    {
+        "nid": "TheAlmighty",
+        "name": "<purple>The Almighty</>",
+        "desc": "Effective Vs. Non-casters.\nCannot Be Countered.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                10
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Light"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "unrepairable",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Flash_Cast"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "NonMagic"
+                    ],
+                    "effective_multiplier": 3,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
+            ],
+            [
+                "cannot_be_countered",
+                null
+            ],
+            [
+                "item_tags",
+                [
+                    "BlessedWeapon"
+                ]
+            ]
+        ]
+    }
+]

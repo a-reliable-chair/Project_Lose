@@ -9,7 +9,8 @@
         "turns_into": [],
         "tags": [
             "Mounted",
-            "Flying"
+            "Flying",
+            "NonMagic"
         ],
         "max_level": 10,
         "bases": {

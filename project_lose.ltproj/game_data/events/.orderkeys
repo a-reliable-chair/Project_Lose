@@ -52,6 +52,8 @@
     "4_FightShallcross",
     "global_BossDeathEmberson",
     "4_DeathCawthorne",
+    "4_DeathShallcross",
+    "4_DeathKeeva",
     "global_BossDeathDavenport",
     "2_Outro",
     "DEBUG_Test",
@@ -123,6 +125,7 @@
     "4_Turn6",
     "4_Turn7",
     "4_Turn8",
+    "4_Turn9",
     "3_Turn5Thief",
     "3_Turn6Rein",
     "3_Turn4Rein",
@@ -177,5 +180,8 @@
     "global_Level_5",
     "global_Level_2",
     "global_Level_3",
-    "global_Level_4"
+    "global_Level_4",
+    "global_DuskfallAnim",
+    "global_CheckLevel",
+    "global_CheckWRank"
 ]

@@ -11,12 +11,11 @@
             "move_cursor;21, 0",
             "wait;250",
             "add_unit;T6Rein_1;18, 0;immediate;push;south",
-            "add_unit;T6Rein_2;19, 0;immediate;push;south",
             "wait;250",
             "",
             "move_cursor;17, 0",
             "wait;250",
-            "add_unit;T6Rein_3;12, 0;immediate;push;north",
+            "add_unit;T6Rein_2;12, 0;immediate;push;north",
             "wait;250"
         ]
     }

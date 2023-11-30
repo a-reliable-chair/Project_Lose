@@ -76,6 +76,10 @@
             [
                 "crit",
                 0
+            ],
+            [
+                "map_cast_anim",
+                "Map_Lance_Cast"
             ]
         ]
     }
