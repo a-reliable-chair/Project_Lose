@@ -120,6 +120,7 @@
             "level_var;DeadPlayers;0",
             "level_var;QuinleySkill;0",
             "level_var;SaraidSkill;0",
+            "level_var;LamonteSkill;0",
             "level_var;PlayerOpenChest;0",
             "game_var;GotReclaimer;0",
             "game_var;EmbersonDead;0",

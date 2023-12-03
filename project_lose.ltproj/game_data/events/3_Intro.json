@@ -113,6 +113,7 @@
             "level_var;DeadPlayers;0",
             "level_var;QuinleySkill;0",
             "level_var;SaraidSkill;0",
+            "level_var;LamonteSkill;0",
             "game_var;DavenportDead;0",
             "",
             "prep;1;Before An Impossible Battlefield",

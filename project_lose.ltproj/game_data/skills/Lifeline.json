@@ -2,7 +2,7 @@
     {
         "nid": "Lifeline",
         "name": "Lifeline",
-        "desc": "Adjacent allies are healed by this unit's damage.",
+        "desc": "After initiating an attack, allies within 3 tiles heal for this unit's STR.",
         "icon_nid": "Skills",
         "icon_index": [
             0,
@@ -12,10 +12,6 @@
             [
                 "class_skill",
                 null
-            ],
-            [
-                "ally_lifelink",
-                1.0
             ]
         ]
     }

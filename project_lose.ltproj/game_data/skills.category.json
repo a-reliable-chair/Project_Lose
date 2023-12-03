@@ -1,4 +1,5 @@
 {
+    "Acrobat": "Weapon",
     "Anointed": "Accessories",
     "Anticrit": "Non-PlayerSkills",
     "AspiringLeader": "Personals",
@@ -11,7 +12,7 @@
     "Bungle": "Personals",
     "Burning": "Negative Effects",
     "Canto": "Class",
-    "CantoSharp": "Weapon",
+    "CantoSharp": "Personals",
     "CloseCounter": "Non-PlayerSkills",
     "Cursed": "Negative Effects",
     "DEF": "Stats",
@@ -84,8 +85,6 @@
     "Thrall": "Non-PlayerSkills",
     "Throne": "Terrain",
     "Tidecall": "Weapon",
-    "Trip": "Personals",
-    "Tripped": "Negative Effects",
     "Vantage": "Non-PlayerSkills",
     "Veiled": "Negative Effects",
     "Warden": "Weapon"

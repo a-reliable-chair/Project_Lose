@@ -810,15 +810,6 @@
         "use_frame_time": false
     },
     {
-        "nid": "Map_Conqueror_Cast",
-        "frame_x": 3,
-        "frame_y": 2,
-        "num_frames": 5,
-        "speed": 75,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
-        "use_frame_time": false
-    },
-    {
         "nid": "Map_Shove_Cast",
         "frame_x": 3,
         "frame_y": 2,
@@ -1077,6 +1068,15 @@
         "num_frames": 9,
         "speed": 75,
         "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Conqueror_Cast",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 5,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1",
         "use_frame_time": false
     }
 ]

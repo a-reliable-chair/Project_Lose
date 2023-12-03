@@ -33,7 +33,7 @@
                 "ai_group": "",
                 "starting_position": [
                     8,
-                    7
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -45,8 +45,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    7
+                    9,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -135,7 +135,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    10,
+                    5
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -173,7 +176,7 @@
                 "ai_group": "",
                 "starting_position": [
                     9,
-                    6
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
