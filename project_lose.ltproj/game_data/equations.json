@@ -122,5 +122,9 @@
     {
         "nid": "MAG4",
         "expression": "MAG * 4"
+    },
+    {
+        "nid": "NEG_RES",
+        "expression": "-RES"
     }
 ]

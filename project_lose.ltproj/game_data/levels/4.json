@@ -492,7 +492,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
                 "ai": "Wait1TurnThenYolo",
                 "roam_ai": null,
@@ -513,7 +515,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
                 "ai": "Wait1TurnThenYolo",
                 "roam_ai": null,
@@ -580,7 +584,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
                 "ai": "Wait1TurnThenYolo",
                 "roam_ai": null,
@@ -622,7 +628,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
                 "ai": "Wait1TurnThenYolo",
                 "roam_ai": null,
@@ -668,7 +676,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
                 "ai": "Wait1TurnThenYolo",
                 "roam_ai": null,

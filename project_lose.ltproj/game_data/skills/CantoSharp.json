@@ -12,6 +12,10 @@
             [
                 "canto_sharp",
                 null
+            ],
+            [
+                "class_skill",
+                null
             ]
         ]
     }

@@ -1,8 +1,8 @@
 [
     {
-        "nid": "Terrified",
-        "name": "Terrified",
-        "desc": "-20 Crit Avoid.",
+        "nid": "Jinxed",
+        "name": "Jinxed",
+        "desc": "-2 Damage.",
         "icon_nid": "Negative",
         "icon_index": [
             0,
@@ -18,8 +18,8 @@
                 null
             ],
             [
-                "crit_avoid",
-                -20
+                "damage",
+                -2
             ]
         ]
     }

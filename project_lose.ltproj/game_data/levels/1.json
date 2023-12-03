@@ -19,7 +19,7 @@
         "objective": {
             "simple": "Rout Fodder",
             "win": "Defeat All,(Boss Optional)",
-            "loss": "Two Player Units Die"
+            "loss": "Three Player Units Die"
         },
         "roam": false,
         "roam_unit": null,
@@ -874,6 +874,52 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Enemy_21",
+                "variant": null,
+                "level": 2,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Bloodlust"
+                ],
+                "team": "enemy",
+                "ai": "Ch2_TargetLeod",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "Enemy_22",
+                "variant": null,
+                "level": 2,
+                "klass": "Mercenary",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Steel Sword",
+                        false
+                    ]
+                ],
+                "starting_skills": [
+                    "Bloodlust"
+                ],
+                "team": "enemy",
+                "ai": "Ch2_TargetLeod",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": true
             }
         ],
         "regions": [
@@ -1357,8 +1403,8 @@
             {
                 "nid": "Rein3",
                 "units": [
-                    "Enemy_17",
-                    "Enemy_18"
+                    "Enemy_21",
+                    "Enemy_22"
                 ],
                 "positions": {
                     "Enemy_17": [
@@ -1368,23 +1414,41 @@
                     "Enemy_18": [
                         8,
                         17
+                    ],
+                    "Enemy_21": [
+                        19,
+                        4
+                    ],
+                    "Enemy_22": [
+                        19,
+                        9
                     ]
                 }
             },
             {
                 "nid": "Rein4",
                 "units": [
+                    "Enemy_17",
+                    "Enemy_18",
                     "Enemy_19",
                     "Enemy_20"
                 ],
                 "positions": {
                     "Enemy_19": [
-                        19,
-                        9
+                        12,
+                        0
                     ],
                     "Enemy_20": [
-                        19,
-                        10
+                        5,
+                        0
+                    ],
+                    "Enemy_17": [
+                        4,
+                        17
+                    ],
+                    "Enemy_18": [
+                        8,
+                        17
                     ]
                 }
             }

@@ -43,6 +43,7 @@
     "HeartofRadiance": "Accessories",
     "HolyVeil": "Personals",
     "Inspired": "Weapon",
+    "Jinxed": "Negative Effects",
     "LCK": "Stats",
     "Lifeline": "Personals",
     "Lootable": "Non-PlayerSkills",
@@ -60,6 +61,7 @@
     "PalisadeChild": "Weapon",
     "Pass": "Weapon",
     "PassCh4": "Non-PlayerSkills",
+    "Patient": "Non-PlayerSkills",
     "Peak": "Terrain",
     "Petrified": "Negative Effects",
     "Play": "Personals",
@@ -81,11 +83,11 @@
     "Stunned": "Negative Effects",
     "Suppressed": "Negative Effects",
     "SuppressiveFire": "Personals",
-    "Terrified": "Negative Effects",
     "Thrall": "Non-PlayerSkills",
     "Throne": "Terrain",
     "Tidecall": "Weapon",
     "Vantage": "Non-PlayerSkills",
     "Veiled": "Negative Effects",
-    "Warden": "Weapon"
+    "Warden": "Weapon",
+    "Warp": "Personals"
 }

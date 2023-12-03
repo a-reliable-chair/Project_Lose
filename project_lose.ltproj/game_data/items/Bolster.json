@@ -34,10 +34,6 @@
                 ]
             ],
             [
-                "event_on_hit",
-                "Global SkillCorridonBolster"
-            ],
-            [
                 "exp",
                 15
             ],
@@ -48,6 +44,10 @@
             [
                 "map_cast_anim",
                 "Map_Bolster_Cast"
+            ],
+            [
+                "status_on_hit",
+                "Bolstered"
             ]
         ]
     }

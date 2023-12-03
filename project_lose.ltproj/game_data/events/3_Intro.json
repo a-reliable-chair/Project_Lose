@@ -78,6 +78,7 @@
             "change_team;Orla;player",
             "change_team;Ailsa;player",
             "change_team;Corridon;player",
+            "set_item_uses;Ailsa;Steel Lance;20",
             "multi_add_portrait;Orla;FarLeft;Ailsa;MidLeft;Corridon;MidRight;Elspeth;FarRight",
             "# Orla, Ailsa, and Corridon join the party. The group comes to terms with the fact that the town may be a lost cause at this point and they need to get out of here.",
             "speak;Orla;Filler!",

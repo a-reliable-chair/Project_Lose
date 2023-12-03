@@ -2,7 +2,7 @@
     {
         "nid": "Drunk",
         "name": "Drunk",
-        "desc": "-1 MOV, +4 LUK.",
+        "desc": "+4 LUK.",
         "icon_nid": null,
         "icon_index": [
             0,
@@ -15,10 +15,6 @@
                     [
                         "LCK",
                         4
-                    ],
-                    [
-                        "MOV",
-                        -1
                     ]
                 ]
             ],

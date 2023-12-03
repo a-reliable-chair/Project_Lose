@@ -2,7 +2,7 @@
     {
         "nid": "Bungle",
         "name": "Bungle",
-        "desc": "Always attacks second.",
+        "desc": "Always attacks second, reflects half damage taken.",
         "icon_nid": "Skills",
         "icon_index": [
             0,

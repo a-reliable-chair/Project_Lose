@@ -477,21 +477,12 @@
         "use_frame_time": false
     },
     {
-        "nid": "MapBloodlust",
-        "frame_x": 5,
-        "frame_y": 2,
-        "num_frames": 10,
-        "speed": 75,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1",
-        "use_frame_time": false
-    },
-    {
         "nid": "AOE_Blizzard",
         "frame_x": 12,
         "frame_y": 1,
         "num_frames": 12,
         "speed": 32,
-        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2",
+        "frame_times": "2,2,2,2,2,2,2,2,2,2,2,2,1",
         "use_frame_time": false
     },
     {
@@ -1077,6 +1068,24 @@
         "num_frames": 5,
         "speed": 75,
         "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapBloodlust",
+        "frame_x": 5,
+        "frame_y": 2,
+        "num_frames": 10,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "MapPatient",
+        "frame_x": 5,
+        "frame_y": 2,
+        "num_frames": 10,
+        "speed": 225,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     }
 ]

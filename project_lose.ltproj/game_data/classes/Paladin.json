@@ -22,7 +22,7 @@
             "LCK": 0,
             "DEF": 8,
             "CON": 11,
-            "MOV": 7,
+            "MOV": 6,
             "RES": 6
         },
         "growths": {
@@ -132,7 +132,7 @@
             0
         ],
         "map_sprite_nid": "Paladin",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "PaladinLaisren",
         "fields": []
     }
 ]

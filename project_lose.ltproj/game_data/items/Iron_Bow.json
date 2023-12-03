@@ -63,6 +63,10 @@
             [
                 "map_cast_anim",
                 "Map_Bow_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

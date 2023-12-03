@@ -79,6 +79,10 @@
             [
                 "map_cast_anim",
                 "Map_Devilry_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

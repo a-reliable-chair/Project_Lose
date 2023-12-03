@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Warp",
+        "name": "Warp",
+        "desc": "Free action, once per turn move an ally within MAG to another square.\nRequires line of sight.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Warp"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    }
+]

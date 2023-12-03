@@ -70,6 +70,10 @@
             [
                 "event_on_hit",
                 "Global DuskfallAnim"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

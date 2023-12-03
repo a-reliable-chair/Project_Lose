@@ -16,7 +16,7 @@
         },
         {
             "nid": "enemy2",
-            "map_sprite_palette": "map_sprite_purple",
+            "map_sprite_palette": "Shep Player Palette",
             "combat_variant_palette": "GenericPurple",
             "combat_color": "purple",
             "phase_change_sound_effect": null

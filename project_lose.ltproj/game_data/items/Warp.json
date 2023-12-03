@@ -1,0 +1,37 @@
+[
+    {
+        "nid": "Warp",
+        "name": "<yellow>Warp</yellow>",
+        "desc": "Move an ally within MAG to another square.\nRequires line of sight.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "sequence_item",
+                [
+                    "Warp1",
+                    "Warp2"
+                ]
+            ],
+            [
+                "attack_after_combat",
+                null
+            ]
+        ]
+    }
+]

@@ -23,7 +23,7 @@
             "DEF": 1,
             "RES": 1,
             "CON": 6,
-            "MOV": 7
+            "MOV": 6
         },
         "growths": {
             "HP": 55,

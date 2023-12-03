@@ -583,7 +583,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
@@ -608,7 +610,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
@@ -1305,7 +1309,7 @@
                 "interrupt_move": false
             },
             {
-                "nid": "Escape_Thief",
+                "nid": "Escape_Thief1",
                 "region_type": "event",
                 "position": [
                     8,
@@ -1313,6 +1317,40 @@
                 ],
                 "size": [
                     2,
+                    1
+                ],
+                "sub_nid": "Escape",
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Escape_Thief2",
+                "region_type": "event",
+                "position": [
+                    0,
+                    15
+                ],
+                "size": [
+                    1,
+                    3
+                ],
+                "sub_nid": "Escape",
+                "condition": "unit.team == 'enemy'",
+                "time_left": null,
+                "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "Escape_Thief32",
+                "region_type": "event",
+                "position": [
+                    12,
+                    12
+                ],
+                "size": [
+                    1,
                     1
                 ],
                 "sub_nid": "Escape",

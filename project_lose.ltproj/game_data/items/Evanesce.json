@@ -87,6 +87,10 @@
             [
                 "alternate_resist_formula",
                 "ZERO"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

@@ -1,0 +1,38 @@
+[
+    {
+        "nid": "Warp1",
+        "name": "Warp1",
+        "desc": "Move an ally within MAG to another square.\nRequires line of sight.",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "store_unit",
+                null
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_DAMAGE"
+            ]
+        ]
+    }
+]

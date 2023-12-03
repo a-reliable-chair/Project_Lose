@@ -88,6 +88,10 @@
             [
                 "map_cast_anim",
                 "Map_Firestarter_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

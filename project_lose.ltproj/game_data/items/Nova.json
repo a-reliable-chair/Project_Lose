@@ -77,6 +77,10 @@
             [
                 "map_target_cast_anim",
                 "Map_Nova_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

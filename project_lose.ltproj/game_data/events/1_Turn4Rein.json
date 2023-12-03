@@ -10,10 +10,13 @@
         "_source": [
             "move_cursor;19, 9",
             "wait;250",
-            "add_group;Rein4;Rein4;immediate;push",
+            "add_group;Rein3;Rein3;immediate;push",
             "flicker_cursor;19, 9",
-            "flicker_cursor;19, 10",
-            "wait;250"
+            "flicker_cursor;19, 4",
+            "wait;250",
+            "add_portrait;SoldierRed;Right",
+            "speak;SoldierRed;Loot loot loot!",
+            "remove_portrait;SoldierRed"
         ]
     }
 ]

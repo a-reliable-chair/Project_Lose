@@ -38,6 +38,14 @@
             "    change_ai;Enemy_18;Yolo",
             "    remove_skill;Enemy_18;Bloodlust;no_banner",
             "end",
+            "if;game.check_alive('Enemy_21')",
+            "    change_ai;Enemy_21;Yolo",
+            "    remove_skill;Enemy_21;Bloodlust;no_banner",
+            "end",
+            "if;game.check_alive('Enemy_22')",
+            "    change_ai;Enemy_22;Yolo",
+            "    remove_skill;Enemy_22;Bloodlust;no_banner",
+            "end",
             "music_fade_back"
         ]
     }

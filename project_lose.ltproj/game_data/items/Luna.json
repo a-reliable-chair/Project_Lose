@@ -2,7 +2,7 @@
     {
         "nid": "Luna",
         "name": "Luna",
-        "desc": "Ignore's enemy resistance.\nSPD -1.",
+        "desc": "Adds target's RES to damage then ignores RES.\nSPD -1.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -39,11 +39,11 @@
             ],
             [
                 "alternate_resist_formula",
-                "ZERO"
+                "NEG_RES"
             ],
             [
                 "uses",
-                8
+                6
             ],
             [
                 "uses_options",
@@ -75,6 +75,10 @@
             [
                 "battle_cast_anim",
                 "Flux"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

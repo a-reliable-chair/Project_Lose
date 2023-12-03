@@ -819,7 +819,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
                 "ai": "Wait1TurnThenYolo",
                 "roam_ai": null,
@@ -1021,7 +1023,7 @@
                 "nid": "Rein_5",
                 "variant": null,
                 "level": 1,
-                "klass": "GriffonKnight",
+                "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
@@ -1042,7 +1044,7 @@
                 "nid": "Rein_6",
                 "variant": null,
                 "level": 1,
-                "klass": "Dracoknight",
+                "klass": "Pirate",
                 "faction": "Soldier",
                 "starting_items": [
                     [

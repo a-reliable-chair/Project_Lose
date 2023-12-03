@@ -161,7 +161,7 @@
         "platform": "Wall",
         "background": "combat_castle4",
         "mtype": "Wall",
-        "opaque": false,
+        "opaque": true,
         "status": null
     },
     {
@@ -491,7 +491,7 @@
         "platform": "Wall",
         "background": "combat_village",
         "mtype": "Wall",
-        "opaque": false,
+        "opaque": true,
         "status": null
     },
     {

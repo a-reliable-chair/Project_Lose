@@ -67,6 +67,10 @@
             [
                 "map_cast_anim",
                 "Map_Javelin_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

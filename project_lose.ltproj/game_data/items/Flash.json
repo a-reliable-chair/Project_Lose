@@ -68,6 +68,10 @@
             [
                 "map_cast_anim",
                 "Map_Flash_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

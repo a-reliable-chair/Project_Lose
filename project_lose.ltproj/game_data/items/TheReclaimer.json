@@ -27,7 +27,7 @@
             ],
             [
                 "max_range",
-                2
+                1
             ],
             [
                 "damage",
@@ -77,6 +77,10 @@
                 [
                     "BlessedWeapon"
                 ]
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

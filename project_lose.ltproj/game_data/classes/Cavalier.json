@@ -22,7 +22,7 @@
             "LCK": 0,
             "DEF": 1,
             "CON": 9,
-            "MOV": 7,
+            "MOV": 6,
             "RES": 1
         },
         "growths": {
