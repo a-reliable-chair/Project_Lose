@@ -110,8 +110,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    10
+                    4,
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -323,7 +323,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Javelin",
+                        "Iron Sword",
                         false
                     ]
                 ],

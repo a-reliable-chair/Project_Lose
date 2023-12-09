@@ -10,9 +10,9 @@
         "_source": [
             "set_current_hp;107;1",
             "set_current_hp;Brassfield;1",
-            "set_current_hp;Alpin;1",
+            "#set_current_hp;Alpin;1",
             "set_current_hp;Lamonte;1",
-            "set_current_hp;Carlin;1",
+            "#set_current_hp;Carlin;1",
             "set_current_hp;Ailsa;1",
             "give_skill;Garvey;SuppressiveFire;no_banner",
             "give_skill;Lamonte;Lifeline;no_banner",
@@ -24,7 +24,7 @@
             "set_exp;Alpin;95",
             "change_ai;Brassfield;None",
             "level_var;RoutEnemies;0",
-            "give_item;Elwynn;Flair;no_banner",
+            "give_item;Elwynn;Omnipotence;no_banner",
             "give_item;Elwynn;TheAlmighty;no_banner",
             "add_lore;WeaponTriangle",
             "add_lore;Stats",
@@ -34,7 +34,7 @@
             "add_lore;FreeActions",
             "add_lore;BuildingSupports",
             "add_lore;SupportBonuses",
-            "give_item;Quinley;Duskfall;no_banner",
+            "give_item;Quinley;Cataclysm;no_banner",
             "give_item;Ailsa;Tidecaller;no_banner",
             "give_item;Saraid;Firestarter;no_banner",
             "set_custom_options;Codex;true;Open the Codex;Menu_Codex",
@@ -49,6 +49,10 @@
             "give_item;Laisren;TheReclaimer;no_banner",
             "give_item;Quinley;Wind;no_banner",
             "give_item;Carlin;Duskfall;no_banner",
+            "give_item;Laisren;TheConqueror;no_banner",
+            "set_wexp;Laisren;Sword;41",
+            "map_anim;Map_Suppressive_Fire;10, 10;permanent",
+            "map_anim;Map_Suppressive_Fire;12, 13;permanent",
             "base;title_background"
         ]
     }

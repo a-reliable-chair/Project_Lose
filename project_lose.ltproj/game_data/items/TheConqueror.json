@@ -66,6 +66,10 @@
                 [
                     "BlessedWeapon"
                 ]
+            ],
+            [
+                "battle_cast_anim",
+                "ConquerorHit"
             ]
         ]
     }
