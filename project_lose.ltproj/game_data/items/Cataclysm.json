@@ -59,7 +59,7 @@
             ],
             [
                 "uses",
-                6
+                4
             ],
             [
                 "uses_options",
@@ -79,6 +79,10 @@
             [
                 "map_cast_anim",
                 "Map_Cataclysm_Cast"
+            ],
+            [
+                "multi_target",
+                2
             ]
         ]
     }

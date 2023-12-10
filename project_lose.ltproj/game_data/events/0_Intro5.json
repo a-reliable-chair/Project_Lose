@@ -172,6 +172,7 @@
             "game_var;_supports;True",
             "change_ai;Ackerman;AttackNoMove",
             "",
+            "",
             "level_var;DeadPlayers;0",
             "game_var;AckermanDead;0",
             "game_var;YouSupported;0",

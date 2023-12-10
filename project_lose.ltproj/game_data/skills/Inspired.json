@@ -86,6 +86,10 @@
                         -1
                     ]
                 ]
+            ],
+            [
+                "unit_anim",
+                "Map_Inspired_Unit"
             ]
         ]
     }

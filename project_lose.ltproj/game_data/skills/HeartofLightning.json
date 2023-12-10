@@ -16,6 +16,10 @@
             [
                 "crit",
                 10
+            ],
+            [
+                "hidden_if_inactive",
+                null
             ]
         ]
     }

@@ -798,9 +798,11 @@
                         true
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
-                "ai": "Yolo",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -823,7 +825,7 @@
                     "Patient"
                 ],
                 "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -964,7 +966,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Steel Axe",
+                        "Iron Axe",
                         false
                     ]
                 ],
@@ -1239,7 +1241,7 @@
                         2
                     ],
                     "Enemy_5": [
-                        12,
+                        15,
                         11
                     ],
                     "Enemy_6": [

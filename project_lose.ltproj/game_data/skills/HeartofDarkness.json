@@ -16,6 +16,10 @@
             [
                 "hit",
                 15
+            ],
+            [
+                "hidden_if_inactive",
+                null
             ]
         ]
     }

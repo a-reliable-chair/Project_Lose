@@ -1,0 +1,32 @@
+[
+    {
+        "name": "BossDeathChecks",
+        "trigger": "unit_death",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid == 'Ackerman' or unit.nid == 'Sub_1'",
+            "    level_var;AckerRein;0",
+            "end",
+            "",
+            "if;(unit.nid == 'Brassfield' and game.get_unit('Brassfield').team == 'enemy') or unit.nid == 'Sub_2'",
+            "    level_var;BrassRein;0",
+            "end",
+            "",
+            "if;unit.nid == 'Emberson' or unit.nid == 'Sub_3'",
+            "    level_var;EmberRein;0",
+            "end",
+            "",
+            "if;unit.nid == 'Davenport' or unit.nid == 'Sub_4'",
+            "    level_var;DavenRein;0",
+            "end",
+            "",
+            "if;unit.nid == 'Cawthorne'",
+            "    level_var;CawthRein;0",
+            "end"
+        ]
+    }
+]

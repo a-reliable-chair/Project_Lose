@@ -20,6 +20,10 @@
             [
                 "regeneration",
                 1.0
+            ],
+            [
+                "unit_anim",
+                "Map_GuardianAngel_Unit"
             ]
         ]
     }

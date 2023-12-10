@@ -50,7 +50,7 @@
             "give_item;Quinley;Wind;no_banner",
             "give_item;Carlin;Duskfall;no_banner",
             "give_item;Laisren;TheConqueror;no_banner",
-            "set_wexp;Laisren;Sword;41",
+            "give_item;Raelin;Acroband;no_banner",
             "map_anim;Map_Suppressive_Fire;10, 10;permanent",
             "map_anim;Map_Suppressive_Fire;12, 13;permanent",
             "base;title_background"

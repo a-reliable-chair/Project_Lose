@@ -1105,5 +1105,59 @@
         "speed": 75,
         "frame_times": "1,1,1,1,1,1",
         "use_frame_time": false
+    },
+    {
+        "nid": "Map_Bolster_Unit",
+        "frame_x": 4,
+        "frame_y": 2,
+        "num_frames": 8,
+        "speed": 100,
+        "frame_times": "1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_MiniBoss_icon",
+        "frame_x": 2,
+        "frame_y": 1,
+        "num_frames": 2,
+        "speed": 250,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_GuardianAngel_Unit",
+        "frame_x": 2,
+        "frame_y": 1,
+        "num_frames": 2,
+        "speed": 250,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Debilitate_Unit",
+        "frame_x": 2,
+        "frame_y": 2,
+        "num_frames": 4,
+        "speed": 150,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Inspired_Unit",
+        "frame_x": 2,
+        "frame_y": 2,
+        "num_frames": 4,
+        "speed": 75,
+        "frame_times": "1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Motivated_Unit",
+        "frame_x": 2,
+        "frame_y": 2,
+        "num_frames": 4,
+        "speed": 150,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
     }
 ]

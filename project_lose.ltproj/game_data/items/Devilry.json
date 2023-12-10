@@ -2,7 +2,7 @@
     {
         "nid": "Devilry",
         "name": "Devilry",
-        "desc": "Can't miss.\nHP Cost: 4.",
+        "desc": "Can't miss.\nHP Cost: 5.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
@@ -70,7 +70,7 @@
             ],
             [
                 "hp_cost",
-                4
+                5
             ],
             [
                 "battle_cast_anim",

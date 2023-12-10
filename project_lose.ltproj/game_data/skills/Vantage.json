@@ -21,10 +21,6 @@
                     "lost_on_enemy": true,
                     "lost_on_splash": true
                 }
-            ],
-            [
-                "lifelink",
-                -0.5
             ]
         ]
     }

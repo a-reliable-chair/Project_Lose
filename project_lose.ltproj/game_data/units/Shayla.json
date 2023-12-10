@@ -10,7 +10,7 @@
             "Youth"
         ],
         "bases": {
-            "HP": 14,
+            "HP": 15,
             "STR": 4,
             "MAG": 0,
             "SKL": 4,
@@ -19,7 +19,7 @@
             "DEF": 1,
             "CON": 7,
             "MOV": 5,
-            "RES": 0
+            "RES": 1
         },
         "growths": {
             "HP": 65,
@@ -67,6 +67,10 @@
             [
                 1,
                 "Bungle"
+            ],
+            [
+                1,
+                "Lifetaker"
             ]
         ],
         "unit_notes": [],

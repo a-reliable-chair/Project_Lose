@@ -21,7 +21,7 @@
             "",
             "move_cursor;0, 10",
             "wait;250",
-            "add_unit;T5Rein_1;0, 8;immediate;push;west",
+            "add_unit;T5Rein_1;0, 7;immediate;push;west",
             "wait;250",
             "",
             "move_cursor;21, 15",

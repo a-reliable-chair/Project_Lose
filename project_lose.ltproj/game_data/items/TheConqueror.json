@@ -1,7 +1,7 @@
 [
     {
         "nid": "TheConqueror",
-        "name": "<purple>The Conqueror</>",
+        "name": "<blue>The Conqueror</>",
         "desc": "Ignores weapon triangle.\nUses Magic at range.",
         "icon_nid": "Sword",
         "icon_index": [
@@ -47,7 +47,7 @@
             ],
             [
                 "text_color",
-                "purple"
+                "blue"
             ],
             [
                 "magic_at_range",

@@ -52,6 +52,10 @@
             [
                 "status_on_hit",
                 "Motivated"
+            ],
+            [
+                "eval_target_restrict_2",
+                "target.team == 'player'"
             ]
         ]
     }

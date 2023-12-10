@@ -2,7 +2,17 @@
     {
         "nid": "Soldier",
         "name": "Soldier",
-        "desc": "The army of Grado, the largest nation on the entire continent",
+        "desc": "Solder tects",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Promoted",
+        "name": "New Promote",
+        "desc": "This unit is standing in for their fallen superior.",
         "icon_nid": "KnightEmblem",
         "icon_index": [
             0,

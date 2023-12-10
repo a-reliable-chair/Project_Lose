@@ -32,6 +32,10 @@
             [
                 "max_equation_range",
                 "MAGIC_DAMAGE"
+            ],
+            [
+                "eval_target_restrict_2",
+                "target.team == 'player'"
             ]
         ]
     }

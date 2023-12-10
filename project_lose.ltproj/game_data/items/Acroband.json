@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Acroband",
+        "name": "<purple>Acroband</purple>",
+        "desc": "Raelin Only.\nGrants Acrobat and Pass while held.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Acropass"
+            ],
+            [
+                "text_color",
+                "purple"
+            ]
+        ]
+    }
+]

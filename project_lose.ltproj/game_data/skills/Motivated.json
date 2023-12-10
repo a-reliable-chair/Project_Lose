@@ -49,6 +49,10 @@
             [
                 "time",
                 1
+            ],
+            [
+                "unit_anim",
+                "Map_Motivated_Unit"
             ]
         ]
     }

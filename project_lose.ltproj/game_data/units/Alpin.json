@@ -10,7 +10,7 @@
             "Youth"
         ],
         "bases": {
-            "HP": 11,
+            "HP": 13,
             "STR": 3,
             "MAG": 0,
             "SKL": 4,

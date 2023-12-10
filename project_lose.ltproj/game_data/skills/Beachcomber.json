@@ -15,7 +15,7 @@
             ],
             [
                 "condition",
-                "game.tilemap.get_terrain(unit.position) == '10' or game.tilemap.get_terrain(unit.position) == '11'"
+                "game.tilemap.get_terrain(unit.position) == '10' or game.tilemap.get_terrain(unit.position) == '11' or game.tilemap.get_terrain(unit.position) == '10_1' or game.tilemap.get_terrain(unit.position) == '11_1' "
             ],
             [
                 "crit",

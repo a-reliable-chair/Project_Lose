@@ -53,6 +53,10 @@
             [
                 "negative",
                 null
+            ],
+            [
+                "unit_anim",
+                "Map_Debilitate_Unit"
             ]
         ]
     }

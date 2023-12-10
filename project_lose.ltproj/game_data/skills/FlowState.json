@@ -1,7 +1,7 @@
 [
     {
         "nid": "FlowState",
-        "name": "FlowState",
+        "name": "Flow State",
         "desc": "Unit's defenses are reduced to 0 until next turn!",
         "icon_nid": "Skills",
         "icon_index": [
@@ -25,6 +25,14 @@
             [
                 "time",
                 1
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    184,
+                    0,
+                    0
+                ]
             ]
         ]
     }

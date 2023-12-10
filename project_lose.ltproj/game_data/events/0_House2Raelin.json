@@ -27,7 +27,7 @@
             "transition;close",
             "change_background",
             "transition;Open",
-            "give_item;Raelin;Canterlanze",
+            "give_item;Raelin;Acroband",
             "give_exp;Raelin;40",
             "sound;Unlock",
             "show_layer;BotRight",

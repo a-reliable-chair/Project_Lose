@@ -8,9 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "move_cursor;2, 0",
+            "move_cursor;3, 0",
             "wait;250",
-            "add_unit;T3Rein_1;2, 0;immediate;push;north",
+            "add_unit;T3Rein_1;3, 0;immediate;push;north",
             "wait;250",
             "",
             "move_cursor;0, 10",

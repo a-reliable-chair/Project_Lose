@@ -2,7 +2,7 @@
     {
         "nid": "Bungle",
         "name": "Bungle",
-        "desc": "Always attacks second, reflects half damage taken.",
+        "desc": "Always attacks second. When initiating combat, fully restore HP on takedowns.",
         "icon_nid": "Skills",
         "icon_index": [
             0,

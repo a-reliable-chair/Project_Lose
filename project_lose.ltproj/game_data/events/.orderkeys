@@ -108,6 +108,7 @@
     "global_SkillLamonte",
     "DEBUG_House",
     "0_Turn1",
+    "0_Turn2",
     "0_Turn3Rein",
     "0_Turn4Rein",
     "0_Turn5Rein",
@@ -120,6 +121,7 @@
     "3_Turn5Rein",
     "3_Turn3Thief",
     "4_Turn3",
+    "4_Turn2",
     "4_Turn4",
     "4_Turn5",
     "4_Turn6",
@@ -184,5 +186,6 @@
     "global_Level_4",
     "global_DuskfallAnim",
     "global_CheckLevel",
-    "global_CheckWRank"
+    "global_CheckWRank",
+    "4_BossDeathChecks"
 ]

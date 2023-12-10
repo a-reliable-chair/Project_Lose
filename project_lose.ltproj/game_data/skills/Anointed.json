@@ -53,6 +53,10 @@
             [
                 "condition",
                 "\"Youth\" in unit.tags"
+            ],
+            [
+                "hidden_if_inactive",
+                null
             ]
         ]
     }

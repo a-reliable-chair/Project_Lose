@@ -21,6 +21,10 @@
                     "lost_on_enemy": true,
                     "lost_on_splash": false
                 }
+            ],
+            [
+                "unit_anim",
+                "Map_Bolster_Unit"
             ]
         ]
     }

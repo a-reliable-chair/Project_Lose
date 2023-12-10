@@ -450,7 +450,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Patient"
+                ],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
@@ -496,7 +498,7 @@
                     "Patient"
                 ],
                 "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -519,7 +521,7 @@
                     "Patient"
                 ],
                 "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -588,7 +590,7 @@
                     "Patient"
                 ],
                 "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -632,7 +634,7 @@
                     "Patient"
                 ],
                 "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -680,7 +682,7 @@
                     "Patient"
                 ],
                 "team": "enemy",
-                "ai": "Wait1TurnThenYolo",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -759,7 +761,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Fighter",
-                "faction": "Soldier",
+                "faction": "Promoted",
                 "starting_items": [
                     [
                         "Silver Axe",
@@ -770,7 +772,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Promoted"
+                ],
                 "team": "enemy",
                 "ai": "Yolo",
                 "roam_ai": null,
@@ -784,7 +788,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Mercenary",
-                "faction": "Soldier",
+                "faction": "Promoted",
                 "starting_items": [
                     [
                         "Silver Sword",
@@ -795,7 +799,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Promoted"
+                ],
                 "team": "enemy",
                 "ai": "AttackNoMove",
                 "roam_ai": null,
@@ -809,14 +815,20 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Mage",
-                "faction": "Soldier",
+                "faction": "Promoted",
                 "starting_items": [
                     [
-                        "Cataclysm",
+                        "Fire",
+                        false
+                    ],
+                    [
+                        "Thunder",
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Promoted"
+                ],
                 "team": "enemy",
                 "ai": "AttackNoMove",
                 "roam_ai": null,
@@ -830,7 +842,7 @@
                 "variant": null,
                 "level": 5,
                 "klass": "Knight",
-                "faction": "Soldier",
+                "faction": "Promoted",
                 "starting_items": [
                     [
                         "Javelin",
@@ -841,7 +853,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Promoted"
+                ],
                 "team": "enemy",
                 "ai": "AttackNoMove",
                 "roam_ai": null,
@@ -1717,7 +1731,8 @@
                 "units": [
                     "Enemy_1",
                     "Enemy_2",
-                    "Enemy_3"
+                    "Enemy_3",
+                    "Enemy_10"
                 ],
                 "positions": {
                     "Enemy_1": [
@@ -1757,8 +1772,8 @@
                         5
                     ],
                     "Enemy_10": [
-                        12,
-                        3
+                        1,
+                        7
                     ],
                     "Enemy_11": [
                         13,

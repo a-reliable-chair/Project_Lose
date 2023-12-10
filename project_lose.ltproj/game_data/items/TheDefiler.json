@@ -1,7 +1,7 @@
 [
     {
         "nid": "TheDefiler",
-        "name": "<purple>The Defiler</>",
+        "name": "<blue>The Defiler</>",
         "desc": "Effective Vs. Clergy.\nInflicts half damage on miss. ",
         "icon_nid": "Axe",
         "icon_index": [
@@ -70,7 +70,7 @@
             ],
             [
                 "text_color",
-                "purple"
+                "blue"
             ],
             [
                 "damage_on_miss",
