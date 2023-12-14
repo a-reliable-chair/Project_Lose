@@ -53,10 +53,6 @@
             [
                 "Mace",
                 false
-            ],
-            [
-                "AngelFeather",
-                true
             ]
         ],
         "learned_skills": [
@@ -114,7 +110,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Brassfield",
+        "portrait_nid": null,
         "affinity": "Light",
         "fields": []
     }

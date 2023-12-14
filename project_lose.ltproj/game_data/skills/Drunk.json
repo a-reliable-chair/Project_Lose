@@ -25,6 +25,10 @@
             [
                 "time",
                 3
+            ],
+            [
+                "unit_anim",
+                "Map_Drunk_Unit"
             ]
         ]
     }

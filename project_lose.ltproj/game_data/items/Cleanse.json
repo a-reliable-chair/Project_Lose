@@ -54,10 +54,6 @@
                 null
             ],
             [
-                "battle_cast_anim",
-                "Heal"
-            ],
-            [
                 "ignore_line_of_sight",
                 null
             ],
@@ -72,6 +68,10 @@
             [
                 "map_cast_anim",
                 "Map_Heal_Cast"
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

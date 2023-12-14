@@ -32,6 +32,10 @@
             [
                 "max_equation_range",
                 "MAGIC_DAMAGE"
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

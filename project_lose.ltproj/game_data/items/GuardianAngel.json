@@ -71,10 +71,6 @@
                 ]
             ],
             [
-                "battle_cast_anim",
-                "Heal"
-            ],
-            [
                 "text_color",
                 "purple"
             ],
@@ -85,6 +81,10 @@
             [
                 "map_cast_anim",
                 "Map_GuardianAngel_Cast"
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

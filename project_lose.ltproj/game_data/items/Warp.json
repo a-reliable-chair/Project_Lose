@@ -31,6 +31,10 @@
             [
                 "attack_after_combat",
                 null
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

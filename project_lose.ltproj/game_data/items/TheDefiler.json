@@ -50,14 +50,6 @@
                 "Axe"
             ],
             [
-                "prf_class",
-                [
-                    "Knight",
-                    "General",
-                    "Great_Knight"
-                ]
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -89,6 +81,10 @@
             [
                 "ignore_line_of_sight",
                 null
+            ],
+            [
+                "battle_cast_anim",
+                "DefilerHit"
             ]
         ]
     }

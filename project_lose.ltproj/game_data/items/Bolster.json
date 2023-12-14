@@ -48,6 +48,10 @@
             [
                 "status_on_hit",
                 "Bolstered"
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

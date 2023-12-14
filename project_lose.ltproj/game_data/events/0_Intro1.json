@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "level_var;DeadPlayers;0",
             "# The School",
             "music;Another Slow Day",
             "change_tilemap;School",

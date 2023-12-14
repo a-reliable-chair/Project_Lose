@@ -56,6 +56,10 @@
             [
                 "map_cast_anim",
                 "Map_Exchange_Cast"
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

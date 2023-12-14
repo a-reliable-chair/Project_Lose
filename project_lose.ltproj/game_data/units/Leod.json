@@ -45,12 +45,7 @@
             "DEF": 0,
             "RES": 0
         },
-        "starting_items": [
-            [
-                "AngelFeather",
-                true
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

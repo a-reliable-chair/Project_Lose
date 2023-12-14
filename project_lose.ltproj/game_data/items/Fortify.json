@@ -71,6 +71,10 @@
             [
                 "eval_ally_smartblast_aoe",
                 "unit.stats['MAG']*2"
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

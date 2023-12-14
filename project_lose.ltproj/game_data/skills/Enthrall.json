@@ -2,7 +2,7 @@
     {
         "nid": "Enthrall",
         "name": "Enthrall",
-        "desc": "Any unit killed by this unit revives on the player team. Limit: 1. Reduce, Reuse, Recycle.",
+        "desc": "When initiating an attack, any killed enemy revives on the player team.",
         "icon_nid": "Skills",
         "icon_index": [
             0,

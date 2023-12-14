@@ -93,6 +93,10 @@
             [
                 "text_color",
                 "blue"
+            ],
+            [
+                "battle_cast_anim",
+                "TheAlmighty"
             ]
         ]
     }

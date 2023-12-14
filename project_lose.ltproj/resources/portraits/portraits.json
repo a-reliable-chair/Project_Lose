@@ -206,11 +206,11 @@
     {
         "nid": "Brassfield",
         "blinking_offset": [
-            32,
+            24,
             24
         ],
         "smiling_offset": [
-            24,
+            16,
             40
         ],
         "info_offset": 0

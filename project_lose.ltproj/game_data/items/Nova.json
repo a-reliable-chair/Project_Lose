@@ -81,6 +81,10 @@
             [
                 "ignore_line_of_sight",
                 null
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

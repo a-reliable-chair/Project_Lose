@@ -20,6 +20,10 @@
             [
                 "negative",
                 null
+            ],
+            [
+                "unit_anim",
+                "Map_Dazzled_Unit"
             ]
         ]
     }

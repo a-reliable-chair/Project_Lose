@@ -3,7 +3,7 @@
         "name": "SkillQuinley",
         "trigger": "unit_death",
         "level_nid": null,
-        "condition": "unit.team == 'enemy' and unit2.nid == 'Quinley' and u('Quinley').position",
+        "condition": "unit.team == 'enemy' and unit2.nid == 'Quinley' and u('Quinley').position and game.phase.get_current() == 'player'\n",
         "commands": [],
         "only_once": false,
         "priority": 20,

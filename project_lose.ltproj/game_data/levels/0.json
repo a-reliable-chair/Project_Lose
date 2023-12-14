@@ -945,8 +945,8 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Luna",
-                        true
+                        "Jinx",
+                        false
                     ]
                 ],
                 "starting_skills": [],

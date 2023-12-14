@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "give_item;Davenport;AngelFeather;no_banner;droppable",
             "set_stats;Soldier_5;STR,5;immediate",
             "set_stats;Soldier_5;SKL,7;immediate",
             "add_weather;sunset",

@@ -40,6 +40,10 @@
             [
                 "map_cast_anim",
                 "Map_Shove_Cast"
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

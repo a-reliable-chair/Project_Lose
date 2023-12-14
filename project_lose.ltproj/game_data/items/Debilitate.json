@@ -65,16 +65,16 @@
                 ]
             ],
             [
-                "battle_cast_anim",
-                "Stun"
-            ],
-            [
                 "ignore_line_of_sight",
                 null
             ],
             [
                 "map_cast_anim",
                 "Map_Debilitate_Cast"
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

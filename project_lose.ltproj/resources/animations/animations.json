@@ -1159,5 +1159,41 @@
         "speed": 150,
         "frame_times": "1,1,1,1,1",
         "use_frame_time": false
+    },
+    {
+        "nid": "Map_Dazzled_Unit",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 100,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Entangle_Unit",
+        "frame_x": 1,
+        "frame_y": 1,
+        "num_frames": 1,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Jinxed_Unit",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 5,
+        "speed": 100,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Drunk_Unit",
+        "frame_x": 2,
+        "frame_y": 2,
+        "num_frames": 4,
+        "speed": 150,
+        "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
     }
 ]

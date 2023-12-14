@@ -48,6 +48,10 @@
             [
                 "eval_ally_smartblast_aoe",
                 "3"
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

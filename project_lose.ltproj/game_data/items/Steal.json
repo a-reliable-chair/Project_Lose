@@ -36,6 +36,10 @@
             [
                 "event_after_combat_on_hit",
                 "Global Ch4LootingThief"
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

@@ -36,6 +36,10 @@
             [
                 "eval_target_restrict_2",
                 "target.team == 'player'"
+            ],
+            [
+                "never_use_battle_animation",
+                null
             ]
         ]
     }

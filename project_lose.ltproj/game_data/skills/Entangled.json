@@ -20,6 +20,10 @@
             [
                 "avoid",
                 -20
+            ],
+            [
+                "unit_anim",
+                "Map_Entangle_Unit"
             ]
         ]
     }

@@ -200,7 +200,7 @@
                 "starting_items": [
                     [
                         "Luna",
-                        false
+                        true
                     ],
                     [
                         "Herbs",

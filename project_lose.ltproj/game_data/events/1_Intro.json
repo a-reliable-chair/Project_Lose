@@ -8,7 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "6,7level_var;RoutEnemies;1",
+            "level_var;RoutEnemies;1",
+            "level_var;LamonteSkill;0",
             "give_skill;Leod;NPCVision;no_banner",
             "give_skill;Garvey;NPCVision;no_banner",
             "give_skill;Lamonte;NPCVision;no_banner",
@@ -223,6 +224,9 @@
             "level_var;QuinleySkill;0",
             "level_var;SaraidSkill;0",
             "level_var;BrokenBarrel;0",
+            "",
+            "give_item;Leod;AngelFeather;no_banner;droppable",
+            "give_item;Brassfield;AngelFeather;no_banner;droppable",
             "",
             "prep;1;Before An Impossible Battlefield"
         ]
