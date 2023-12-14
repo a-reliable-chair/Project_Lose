@@ -243,7 +243,7 @@
             "    remove_item;Emberson;Incinerate;no_banner",
             "    remove_item;Emberson;Fire;no_banner",
             "    give_item;Emberson;Incinerate;droppable;no_banner",
-            "    give_item;Emberson;Cataclysm;no_banner",
+            "    give_item;Emberson;Fire;no_banner",
             "else",
             "    add_unit;Sub_3;7, 0;immediate;push;north",
             "end",
