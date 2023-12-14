@@ -474,7 +474,7 @@
         ],
         "minimap": "Wall",
         "platform": "Deck",
-        "background": "BlackBackground",
+        "background": "Village1Evening",
         "mtype": "Fence",
         "opaque": false,
         "status": null
