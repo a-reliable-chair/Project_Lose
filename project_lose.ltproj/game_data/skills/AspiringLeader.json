@@ -3,10 +3,10 @@
         "nid": "AspiringLeader",
         "name": "Aspiring Leader",
         "desc": "After initiating an attack, allies within 3 tiles gain 15 EXP.",
-        "icon_nid": "Skills",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
-            0,
-            0
+            1,
+            8
         ],
         "components": [
             [

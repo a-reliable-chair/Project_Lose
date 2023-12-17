@@ -2,20 +2,24 @@
     {
         "nid": "DivineConduit",
         "name": "Divine Conduit",
-        "desc": "Restores (User's MAG * 2) HP to adjacent ally.",
-        "icon_nid": "Skills",
+        "desc": "Free action, once per turn move an ally within MAG to another square.\nRequires line of sight.",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
-            0,
+            1,
             0
         ],
         "components": [
             [
                 "ability",
-                "Heal"
+                "Warp"
             ],
             [
                 "class_skill",
                 null
+            ],
+            [
+                "charges_per_turn",
+                1
             ]
         ]
     }

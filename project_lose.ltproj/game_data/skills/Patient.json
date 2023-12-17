@@ -3,10 +3,10 @@
         "nid": "Patient",
         "name": "Patient",
         "desc": "This unit waits patiently for 1 turn before moving.",
-        "icon_nid": "NonPlayerSkills",
+        "icon_nid": "NonPlayerSkills2",
         "icon_index": [
-            0,
-            3
+            1,
+            1
         ],
         "components": [
             [

@@ -3,10 +3,10 @@
         "nid": "Bungle",
         "name": "Bungle",
         "desc": "Always attacks second. When initiating combat, fully restore HP on takedowns.",
-        "icon_nid": "Skills",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [

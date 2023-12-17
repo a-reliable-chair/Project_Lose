@@ -3,10 +3,10 @@
         "nid": "Protector",
         "name": "Protector",
         "desc": "Does not incur rescue penalties while rescuing Trainees.",
-        "icon_nid": "Skills",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
-            0,
-            0
+            1,
+            9
         ],
         "components": [
             [

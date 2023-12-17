@@ -3,10 +3,10 @@
         "nid": "CantoSharp",
         "name": "Canto Sharp",
         "desc": "Unit can attack or move in either order.",
-        "icon_nid": "Skills",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
-            1,
-            4
+            0,
+            3
         ],
         "components": [
             [

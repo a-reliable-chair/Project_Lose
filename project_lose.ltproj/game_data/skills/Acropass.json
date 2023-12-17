@@ -3,10 +3,10 @@
         "nid": "Acropass",
         "name": "Acropass",
         "desc": "Terrain movement cost reduced to 1, can pass through enemy units.",
-        "icon_nid": "Skills",
+        "icon_nid": "Statuses",
         "icon_index": [
-            3,
-            10
+            0,
+            0
         ],
         "components": [
             [

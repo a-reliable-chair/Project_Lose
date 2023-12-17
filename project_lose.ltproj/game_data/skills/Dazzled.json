@@ -3,10 +3,10 @@
         "nid": "Dazzled",
         "name": "Dazzled",
         "desc": "-20 Hit.",
-        "icon_nid": null,
+        "icon_nid": "Statuses",
         "icon_index": [
             0,
-            0
+            7
         ],
         "components": [
             [

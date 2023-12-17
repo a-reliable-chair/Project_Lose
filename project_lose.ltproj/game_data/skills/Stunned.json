@@ -3,10 +3,10 @@
         "nid": "Stunned",
         "name": "Stunned",
         "desc": "Unit cannot act.",
-        "icon_nid": "Skills",
+        "icon_nid": "Statuses",
         "icon_index": [
-            4,
-            8
+            2,
+            6
         ],
         "components": [
             [

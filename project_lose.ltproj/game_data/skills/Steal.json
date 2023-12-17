@@ -3,10 +3,10 @@
         "nid": "Steal",
         "name": "Steal",
         "desc": "Steal items from enemies.",
-        "icon_nid": "Skills",
+        "icon_nid": "NonPlayerSkills2",
         "icon_index": [
-            7,
-            10
+            0,
+            2
         ],
         "components": [
             [

@@ -3,10 +3,10 @@
         "nid": "Suppressed",
         "name": "Suppressed",
         "desc": "Unit's MOV is reduced by half.",
-        "icon_nid": "Negative",
+        "icon_nid": "Statuses",
         "icon_index": [
-            1,
-            0
+            2,
+            7
         ],
         "components": [
             [

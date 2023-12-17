@@ -1,17 +1,17 @@
 [
     {
-        "nid": "Palisade",
-        "name": "Palisade",
+        "nid": "Cover",
+        "name": "Cover",
         "desc": "Aura. Allies within 3 tiles gain +15 Avoid.",
-        "icon_nid": "Skills",
+        "icon_nid": "Statuses",
         "icon_index": [
             0,
-            0
+            4
         ],
         "components": [
             [
                 "aura",
-                "PalisadeChild"
+                "CoveredChild"
             ],
             [
                 "aura_range",

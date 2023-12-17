@@ -48,6 +48,10 @@
             [
                 "map_cast_anim",
                 "Map_Refine_Cast"
+            ],
+            [
+                "eval_target_restrict_2",
+                "target.team == 'player'"
             ]
         ]
     }

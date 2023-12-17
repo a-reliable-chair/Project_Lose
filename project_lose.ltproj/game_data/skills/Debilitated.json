@@ -3,10 +3,10 @@
         "nid": "Debilitated",
         "name": "Debilitated",
         "desc": "-2 to all stats.",
-        "icon_nid": null,
+        "icon_nid": "Statuses",
         "icon_index": [
             0,
-            0
+            8
         ],
         "components": [
             [

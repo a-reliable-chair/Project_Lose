@@ -39,7 +39,7 @@
             ],
             [
                 "uses",
-                10
+                14
             ],
             [
                 "uses_options",
@@ -65,10 +65,6 @@
             [
                 "text_color",
                 "purple"
-            ],
-            [
-                "event_after_combat_even_miss",
-                "Global Tidecall"
             ],
             [
                 "self_status_on_hit",

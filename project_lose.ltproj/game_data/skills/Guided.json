@@ -3,10 +3,10 @@
         "nid": "Guided",
         "name": "Guided",
         "desc": "This unit has +15 hit.",
-        "icon_nid": null,
+        "icon_nid": "PersonalSkills",
         "icon_index": [
             0,
-            0
+            9
         ],
         "components": [
             [

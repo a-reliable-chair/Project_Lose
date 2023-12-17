@@ -3,10 +3,10 @@
         "nid": "Jinxed",
         "name": "Jinxed",
         "desc": "-2 Damage.",
-        "icon_nid": "Negative",
+        "icon_nid": "Statuses",
         "icon_index": [
-            0,
-            0
+            2,
+            8
         ],
         "components": [
             [

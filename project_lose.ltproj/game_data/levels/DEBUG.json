@@ -58,8 +58,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    6
+                    11,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -123,8 +123,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    7
+                    11,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -162,8 +162,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    8
+                    9,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -188,8 +188,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    8
+                    8,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -201,8 +201,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    9
+                    4,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -226,7 +226,12 @@
                 "level": 1,
                 "klass": "PegasusKnight",
                 "faction": "Soldier",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Iron Sword",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
@@ -285,13 +290,13 @@
                 "faction": "Soldier",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "other",
+                "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    7
+                    10,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -380,7 +385,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    9,
+                    3
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -388,22 +396,22 @@
                 "nid": "106",
                 "variant": null,
                 "level": 2,
-                "klass": "Soldier",
-                "faction": "Soldier",
+                "klass": "Thief",
+                "faction": "Looter",
                 "starting_items": [
                     [
-                        "Steel Lance",
+                        "Iron_Knife",
                         false
                     ]
                 ],
                 "starting_skills": [],
-                "team": "other",
+                "team": "enemy",
                 "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    10
+                    9,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -501,6 +509,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

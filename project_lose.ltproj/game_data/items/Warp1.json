@@ -1,7 +1,7 @@
 [
     {
         "nid": "Warp1",
-        "name": "Warp1",
+        "name": "Warp",
         "desc": "Move an ally within MAG to another square.\nRequires line of sight.",
         "icon_nid": null,
         "icon_index": [

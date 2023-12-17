@@ -3,7 +3,7 @@
         "nid": "Mitigate",
         "name": "Mitigate",
         "desc": "+2 DEF.",
-        "icon_nid": "Skills",
+        "icon_nid": "Mitigate",
         "icon_index": [
             0,
             0

@@ -3,9 +3,9 @@
         "nid": "RES",
         "name": "Resist+",
         "desc": "Resistance temporarily increased. ",
-        "icon_nid": "Skills",
+        "icon_nid": "Stats",
         "icon_index": [
-            5,
+            0,
             5
         ],
         "components": [

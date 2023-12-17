@@ -3,10 +3,10 @@
         "nid": "MAG",
         "name": "Magic+",
         "desc": "Magic temporarily increased. ",
-        "icon_nid": "Skills",
+        "icon_nid": "Stats",
         "icon_index": [
-            5,
-            5
+            0,
+            1
         ],
         "components": [
             [

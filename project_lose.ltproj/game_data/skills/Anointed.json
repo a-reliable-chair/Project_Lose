@@ -3,10 +3,10 @@
         "nid": "Anointed",
         "name": "Anointed",
         "desc": "+1 to all stats. Trainees only.",
-        "icon_nid": null,
+        "icon_nid": "Statuses",
         "icon_index": [
             0,
-            0
+            1
         ],
         "components": [
             [

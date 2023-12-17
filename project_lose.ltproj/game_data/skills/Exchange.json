@@ -3,10 +3,10 @@
         "nid": "Exchange",
         "name": "Exchange",
         "desc": "Free action. Twice per turn, unit can trade with distant allies.\nUnit has convoy access.",
-        "icon_nid": "Skills",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
-            0,
-            0
+            1,
+            1
         ],
         "components": [
             [

@@ -3,10 +3,10 @@
         "nid": "HeartofFire",
         "name": "Heart Of Flames",
         "desc": "+1 Damage. Fire affinity only.",
-        "icon_nid": null,
+        "icon_nid": "Statuses",
         "icon_index": [
-            0,
-            0
+            1,
+            2
         ],
         "components": [
             [

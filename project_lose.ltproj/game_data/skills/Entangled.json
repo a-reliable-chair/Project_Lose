@@ -3,9 +3,9 @@
         "nid": "Entangled",
         "name": "Entangled",
         "desc": "-20 Avoid.",
-        "icon_nid": null,
+        "icon_nid": "Statuses",
         "icon_index": [
-            0,
+            1,
             0
         ],
         "components": [

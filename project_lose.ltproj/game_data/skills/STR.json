@@ -3,10 +3,10 @@
         "nid": "STR",
         "name": "Strength+",
         "desc": "Strength temporarily increased. ",
-        "icon_nid": "Skills",
+        "icon_nid": "Stats",
         "icon_index": [
-            5,
-            5
+            0,
+            0
         ],
         "components": [
             [

@@ -3,10 +3,10 @@
         "nid": "Bolstered",
         "name": "Bolstered",
         "desc": "This unit takes no damage during their next combat.",
-        "icon_nid": "Skills",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
-            0,
-            0
+            1,
+            4
         ],
         "components": [
             [

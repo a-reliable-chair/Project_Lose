@@ -3,10 +3,10 @@
         "nid": "DEF",
         "name": "Defense+",
         "desc": "Defense temporarily increased. ",
-        "icon_nid": "Skills",
+        "icon_nid": "Stats",
         "icon_index": [
-            5,
-            5
+            0,
+            4
         ],
         "components": [
             [

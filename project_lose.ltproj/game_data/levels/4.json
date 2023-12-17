@@ -1566,7 +1566,7 @@
                     1
                 ],
                 "sub_nid": "<yellow>Visit</>",
-                "condition": "unit.team == 'player'",
+                "condition": "unit.team == 'player' and unit.nid != 'Thrall'",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -1583,7 +1583,7 @@
                     1
                 ],
                 "sub_nid": "<yellow>Visit</>",
-                "condition": "unit.team == 'player'",
+                "condition": "unit.team == 'player' and unit.nid != 'Thrall'",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false

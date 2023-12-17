@@ -3,10 +3,10 @@
         "nid": "Guidance",
         "name": "Guidance",
         "desc": "Aura: Allies within 3 tiles have +15 hit.",
-        "icon_nid": "Skills",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
             0,
-            0
+            9
         ],
         "components": [
             [

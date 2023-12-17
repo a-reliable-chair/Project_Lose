@@ -72,12 +72,7 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [
-            [
-                1,
-                "Steal"
-            ]
-        ],
+        "learned_skills": [],
         "wexp_gain": {
             "Sword": [
                 true,

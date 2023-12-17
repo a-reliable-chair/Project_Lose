@@ -3,10 +3,10 @@
         "nid": "HeartofRadiance",
         "name": "Heart Of Radiance",
         "desc": "+15 Avoid. Light affinity only.",
-        "icon_nid": null,
+        "icon_nid": "Statuses",
         "icon_index": [
-            0,
-            0
+            1,
+            6
         ],
         "components": [
             [

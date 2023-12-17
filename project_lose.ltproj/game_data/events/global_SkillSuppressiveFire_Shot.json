@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;not skill_system.check_ally(unit, u('Garvey'))",
+            "if;not skill_system.check_ally(unit, u('Garvey')) and unit.faction != 'Looter'",
             "    give_skill;Garvey;GarveyOverride;;no_banner",
             "    interact_unit;Garvey;{unit}",
             "    remove_skill;Garvey;GarveyOverride;no_banner",

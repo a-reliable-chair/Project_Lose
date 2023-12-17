@@ -3,10 +3,10 @@
         "nid": "LCK",
         "name": "Luck+",
         "desc": "Luck temporarily increased. ",
-        "icon_nid": "Skills",
+        "icon_nid": "Statuses",
         "icon_index": [
-            5,
-            5
+            2,
+            0
         ],
         "components": [
             [

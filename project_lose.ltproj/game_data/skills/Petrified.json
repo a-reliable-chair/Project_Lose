@@ -3,10 +3,10 @@
         "nid": "Petrified",
         "name": "Petrified",
         "desc": "Unit cannot act, and has drastically reduced Avoid and Crit Avoid.",
-        "icon_nid": "Skills",
+        "icon_nid": "Statuses",
         "icon_index": [
             2,
-            10
+            2
         ],
         "components": [
             [

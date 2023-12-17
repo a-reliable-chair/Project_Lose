@@ -47,7 +47,7 @@
             ],
             [
                 "uses",
-                12
+                14
             ],
             [
                 "uses_options",
@@ -68,7 +68,7 @@
             ],
             [
                 "status_on_equip",
-                "Palisade"
+                "Cover"
             ],
             [
                 "map_cast_anim",

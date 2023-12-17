@@ -3,10 +3,10 @@
         "nid": "Inspired",
         "name": "Inspired",
         "desc": "+2 to all stats. Decays over time.",
-        "icon_nid": null,
+        "icon_nid": "Statuses",
         "icon_index": [
-            0,
-            0
+            1,
+            7
         ],
         "components": [
             [

@@ -14,6 +14,8 @@
     "Canto": "Class",
     "CantoSharp": "Personals",
     "CloseCounter": "Non-PlayerSkills",
+    "Cover": "Weapon",
+    "CoveredChild": "Weapon",
     "Cursed": "Negative Effects",
     "DEF": "Stats",
     "Dazzled": "Negative Effects",
@@ -37,6 +39,7 @@
     "GarveyOverride": "Personals",
     "Guidance": "Personals",
     "Guided": "Personals",
+    "Healer": "Personals",
     "HeartofDarkness": "Accessories",
     "HeartofFire": "Accessories",
     "HeartofFrost": "Accessories",
@@ -59,8 +62,6 @@
     "NoAvoid": "Terrain",
     "NoEXP": "Non-PlayerSkills",
     "NonLethal": "Weapon",
-    "Palisade": "Weapon",
-    "PalisadeChild": "Weapon",
     "PassCh4": "Non-PlayerSkills",
     "Patient": "Non-PlayerSkills",
     "Peak": "Terrain",
@@ -89,6 +90,5 @@
     "Throne": "Terrain",
     "Tidecall": "Weapon",
     "Vantage": "Non-PlayerSkills",
-    "Warden": "Weapon",
-    "Warp": "Personals"
+    "Warden": "Weapon"
 }

@@ -12,6 +12,10 @@
             [
                 "defense_speed",
                 10
+            ],
+            [
+                "hidden",
+                null
             ]
         ]
     }

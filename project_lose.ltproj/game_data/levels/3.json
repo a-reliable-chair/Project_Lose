@@ -267,7 +267,7 @@
                 "faction": "Villager",
                 "starting_items": [
                     [
-                        "Fortify",
+                        "Galebow",
                         false
                     ]
                 ],
@@ -509,7 +509,7 @@
                 "faction": "Villager",
                 "starting_items": [
                     [
-                        "Galebow",
+                        "Fortify",
                         false
                     ]
                 ],
@@ -1058,6 +1058,10 @@
                     [
                         "Luna",
                         false
+                    ],
+                    [
+                        "Elixir",
+                        true
                     ]
                 ],
                 "starting_skills": [],
@@ -1160,7 +1164,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Steal"
+                ],
                 "team": "enemy",
                 "ai": "Ch4_Thief",
                 "roam_ai": null,
@@ -1181,7 +1187,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Steal"
+                ],
                 "team": "enemy",
                 "ai": "Ch4_Thief",
                 "roam_ai": null,
@@ -1202,7 +1210,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Steal"
+                ],
                 "team": "enemy",
                 "ai": "Ch4_Thief",
                 "roam_ai": null,
@@ -1223,7 +1233,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Steal"
+                ],
                 "team": "enemy",
                 "ai": "Ch4_Thief",
                 "roam_ai": null,
@@ -1409,7 +1421,7 @@
                     1
                 ],
                 "sub_nid": "<yellow>Visit</>",
-                "condition": "unit.team == 'player'",
+                "condition": "unit.team == 'player' and unit.nid != 'Thrall'",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -1426,7 +1438,7 @@
                     1
                 ],
                 "sub_nid": "<yellow>Visit</>",
-                "condition": "unit.team == 'player'",
+                "condition": "unit.team == 'player' and unit.nid != 'Thrall'",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -1443,7 +1455,7 @@
                     1
                 ],
                 "sub_nid": "<yellow>Visit</>",
-                "condition": "unit.team == 'player'",
+                "condition": "unit.team == 'player' and unit.nid != 'Thrall'",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -1758,6 +1770,11 @@
                 }
             }
         ],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

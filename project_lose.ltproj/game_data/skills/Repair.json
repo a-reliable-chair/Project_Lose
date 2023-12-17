@@ -3,10 +3,10 @@
         "nid": "Repair",
         "name": "Repair",
         "desc": "Repairs selected weapon in ally's inventory.\nUnit has convoy access.",
-        "icon_nid": "Skills",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
-            0,
-            0
+            1,
+            5
         ],
         "components": [
             [

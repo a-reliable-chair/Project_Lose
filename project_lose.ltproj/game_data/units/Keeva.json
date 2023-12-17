@@ -8,14 +8,14 @@
         "klass": "Bishop",
         "tags": [],
         "bases": {
-            "HP": 20,
+            "HP": 25,
             "STR": 0,
             "MAG": 5,
             "SKL": 5,
             "SPD": 4,
             "LCK": 0,
-            "DEF": 3,
-            "RES": 7,
+            "DEF": 5,
+            "RES": 8,
             "CON": 8,
             "MOV": 5
         },
@@ -53,7 +53,12 @@
                 false
             ]
         ],
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Anticrit"
+            ]
+        ],
         "unit_notes": [],
         "wexp_gain": {
             "Sword": [

@@ -6,7 +6,7 @@
         "icon_nid": "PersonalSkills",
         "icon_index": [
             1,
-            2
+            3
         ],
         "components": [
             [
@@ -16,6 +16,10 @@
             [
                 "time",
                 1
+            ],
+            [
+                "unit_anim",
+                "Tidecaller"
             ]
         ]
     }

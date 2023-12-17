@@ -3,10 +3,10 @@
         "nid": "SKL",
         "name": "Skill+",
         "desc": "Skill temporarily increased. ",
-        "icon_nid": "Skills",
+        "icon_nid": "Stats",
         "icon_index": [
-            5,
-            5
+            0,
+            2
         ],
         "components": [
             [

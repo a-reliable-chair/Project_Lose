@@ -3,10 +3,10 @@
         "nid": "SPD",
         "name": "Speed+",
         "desc": "Speed temporarily increased. ",
-        "icon_nid": "Skills",
+        "icon_nid": "Stats",
         "icon_index": [
-            5,
-            5
+            0,
+            3
         ],
         "components": [
             [

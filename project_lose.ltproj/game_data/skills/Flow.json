@@ -3,19 +3,15 @@
         "nid": "Flow",
         "name": "Flow",
         "desc": "After killing an enemy on player phase, unit acts again,\nsacrificing their defenses until next turn.",
-        "icon_nid": "Skills",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
-            0,
-            0
+            1,
+            2
         ],
         "components": [
             [
                 "class_skill",
                 null
-            ],
-            [
-                "event_after_initiated_combat",
-                "Global SkillFlow"
             ],
             [
                 "galeforce",

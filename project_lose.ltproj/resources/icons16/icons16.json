@@ -65,15 +65,7 @@
         "subicon_dict": {}
     },
     {
-        "nid": "PersonalSkills",
-        "subicon_dict": {}
-    },
-    {
         "nid": "Negative",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "NonPlayerSkills",
         "subicon_dict": {}
     },
     {
@@ -86,6 +78,34 @@
     },
     {
         "nid": "{AtelierLabs} Cleanse",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Aspiring Leader",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "PersonalSkills",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Statuses",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Miracle",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Mitigate",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "NonPlayerSkills2",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Stats",
         "subicon_dict": {}
     }
 ]

@@ -3,10 +3,10 @@
         "nid": "Cursed",
         "name": "Cursed",
         "desc": "You've met with a terrible fate, haven't you? -2 DEF/RES/LUK. Stackable.",
-        "icon_nid": null,
+        "icon_nid": "Statuses",
         "icon_index": [
             0,
-            0
+            6
         ],
         "components": [
             [

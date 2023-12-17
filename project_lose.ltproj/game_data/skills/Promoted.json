@@ -3,10 +3,10 @@
         "nid": "Promoted",
         "name": "Promoted",
         "desc": "+5 HP, +1 STR/MAG/SKL/DEF/RES.",
-        "icon_nid": "Skills",
+        "icon_nid": "NonPlayerSkills2",
         "icon_index": [
-            0,
-            0
+            1,
+            2
         ],
         "components": [
             [

@@ -3,10 +3,10 @@
         "nid": "Thrall",
         "name": "Thrall",
         "desc": "This unit has been revived with reduced stats!",
-        "icon_nid": "Skills",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
             0,
-            0
+            5
         ],
         "components": [
             [
