@@ -3,10 +3,10 @@
         "nid": "Drunk",
         "name": "Drunk",
         "desc": "+4 LUK.",
-        "icon_nid": "Stats",
+        "icon_nid": "Statuses",
         "icon_index": [
-            0,
-            6
+            2,
+            0
         ],
         "components": [
             [

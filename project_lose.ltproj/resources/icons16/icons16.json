@@ -81,7 +81,7 @@
         "subicon_dict": {}
     },
     {
-        "nid": "Aspiring Leader",
+        "nid": "NonPlayerSkills2",
         "subicon_dict": {}
     },
     {
@@ -89,23 +89,11 @@
         "subicon_dict": {}
     },
     {
-        "nid": "Statuses",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "Miracle",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "Mitigate",
-        "subicon_dict": {}
-    },
-    {
-        "nid": "NonPlayerSkills2",
-        "subicon_dict": {}
-    },
-    {
         "nid": "Stats",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Statuses",
         "subicon_dict": {}
     }
 ]

@@ -3,10 +3,10 @@
         "nid": "Mitigate",
         "name": "Mitigate",
         "desc": "+2 DEF.",
-        "icon_nid": "Mitigate",
+        "icon_nid": "Statuses",
         "icon_index": [
-            0,
-            0
+            2,
+            1
         ],
         "components": [
             [

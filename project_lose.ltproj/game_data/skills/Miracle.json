@@ -3,10 +3,10 @@
         "nid": "Miracle",
         "name": "True Miracle",
         "desc": "Unit's HP cannot fall below 1 for 1 turn. Completely recover health next turn.",
-        "icon_nid": "Miracle",
+        "icon_nid": "Statuses",
         "icon_index": [
             0,
-            0
+            2
         ],
         "components": [
             [
