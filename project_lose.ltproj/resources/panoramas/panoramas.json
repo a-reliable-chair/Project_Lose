@@ -8,10 +8,6 @@
         1
     ],
     [
-        "info_menu_background",
-        1
-    ],
-    [
         "House",
         1
     ],
@@ -169,6 +165,10 @@
     ],
     [
         "OceanNight",
+        1
+    ],
+    [
+        "info_menu_background",
         1
     ]
 ]

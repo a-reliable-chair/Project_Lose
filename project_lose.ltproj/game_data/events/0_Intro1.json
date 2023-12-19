@@ -36,7 +36,7 @@
             "wait;250",
             "move_unit;Elspeth;7, 7;normal;push;120",
             "wait;250",
-            "sound;Unlock",
+            "sound;Unlock;1",
             "show_layer;Mid",
             "wait;250",
             "move_unit;Elspeth;7, 9;normal;push;120",
