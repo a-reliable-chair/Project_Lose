@@ -209,7 +209,7 @@
     },
     {
         "nid": "Rating_desc",
-        "text": "Holistic combat rating."
+        "text": "The sum of all stats excluding HP, CON and MOV."
     },
     {
         "nid": "Ftg_desc",
@@ -241,7 +241,7 @@
     },
     {
         "nid": "Level_desc",
-        "text": "Unit level. How experienced a unit is."
+        "text": "Unit level. How experienced a unit is. Cap: 10."
     },
     {
         "nid": "Exp_desc",

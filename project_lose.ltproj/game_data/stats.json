@@ -44,7 +44,7 @@
         "name": "Luck",
         "maximum": 10,
         "desc": "Each point gives +5 hit, crit, avoid, and crit avoid.",
-        "position": "left",
+        "position": "right",
         "growth_colors": false
     },
     {
