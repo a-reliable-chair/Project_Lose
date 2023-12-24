@@ -445,7 +445,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    5,
+                    7
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -484,6 +487,19 @@
                 "starting_position": [
                     10,
                     9
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Yamcha",
+                "team": "enemy",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    9,
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false

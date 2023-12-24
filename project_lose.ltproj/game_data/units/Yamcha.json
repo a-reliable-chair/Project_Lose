@@ -1,0 +1,44 @@
+[
+    {
+        "nid": "Yamcha",
+        "name": "Yamcha",
+        "desc": "Now this is epic.",
+        "variant": null,
+        "level": 8,
+        "klass": "Warrior",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "STR": 8,
+            "MAG": 3,
+            "SKL": 7,
+            "SPD": 9,
+            "LCK": 0,
+            "DEF": 4,
+            "RES": 3,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {},
+        "stat_cap_modifiers": {},
+        "starting_items": [],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Axe": [
+                false,
+                41,
+                41
+            ],
+            "Bow": [
+                false,
+                41,
+                41
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Yamcha",
+        "affinity": "None",
+        "fields": []
+    }
+]
