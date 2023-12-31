@@ -45,8 +45,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    4
+                    10,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -110,8 +110,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    9
+                    9,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -271,7 +271,7 @@
                 "faction": "Soldier",
                 "starting_items": [],
                 "starting_skills": [],
-                "team": "player",
+                "team": "enemy2",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
@@ -288,15 +288,20 @@
                 "level": 2,
                 "klass": "Knight",
                 "faction": "Soldier",
-                "starting_items": [],
+                "starting_items": [
+                    [
+                        "Iron Lance",
+                        false
+                    ]
+                ],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    2
+                    7,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -328,7 +333,7 @@
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron Sword",
+                        "Lancereaver",
                         false
                     ]
                 ],
@@ -348,14 +353,9 @@
                 "nid": "104",
                 "variant": null,
                 "level": 1,
-                "klass": "Fighter",
+                "klass": "Soldier",
                 "faction": "Soldier",
-                "starting_items": [
-                    [
-                        "Hand Axe",
-                        false
-                    ]
-                ],
+                "starting_items": [],
                 "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
@@ -371,12 +371,12 @@
             {
                 "nid": "105",
                 "variant": null,
-                "level": 7,
-                "klass": "Mage",
+                "level": 10,
+                "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron Bow",
+                        "Iron Lance",
                         false
                     ]
                 ],
@@ -525,6 +525,11 @@
             }
         ],
         "unit_groups": [],
-        "ai_groups": []
+        "ai_groups": [
+            {
+                "nid": "",
+                "trigger_threshold": 1
+            }
+        ]
     }
 ]

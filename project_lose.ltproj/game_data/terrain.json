@@ -309,7 +309,7 @@
         ],
         "minimap": "Wall",
         "platform": "Wall",
-        "background": "BlackBackground",
+        "background": "Village1Evening",
         "mtype": "Fence",
         "opaque": false,
         "status": null

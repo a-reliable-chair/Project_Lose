@@ -45,6 +45,10 @@
             [
                 "wexp_multiplier",
                 0
+            ],
+            [
+                "movement_type",
+                "Fliers"
             ]
         ]
     }

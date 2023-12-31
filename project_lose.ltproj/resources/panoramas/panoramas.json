@@ -168,7 +168,19 @@
         1
     ],
     [
-        "info_menu_background",
+        "info_menu_background_player",
+        1
+    ],
+    [
+        "info_menu_background_enemy",
+        1
+    ],
+    [
+        "info_menu_background_enemy2",
+        1
+    ],
+    [
+        "info_menu_background_other",
         1
     ]
 ]

@@ -26,6 +26,10 @@
                 2
             ],
             [
+                "damage",
+                0
+            ],
+            [
                 "hit",
                 5
             ],
@@ -49,8 +53,16 @@
                 }
             ],
             [
+                "crit",
+                0
+            ],
+            [
                 "eval_warning",
                 "'Flying' in unit.tags"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ],
             [
                 "alternate_damage_formula",

@@ -2,7 +2,7 @@
     {
         "nid": "Enthrall",
         "name": "Enthrall",
-        "desc": "When initiating an attack, any killed enemy revives on the player team.",
+        "desc": "When initiating an attack, any killed enemy revives on the player team. Limit: 1.",
         "icon_nid": "PersonalSkills",
         "icon_index": [
             0,

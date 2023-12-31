@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "level_var;RoutEnemies;1",
-            "level_var;LamonteSkill;0",
+            "level_var;LamonteSkill;1",
             "give_skill;Leod;NPCVision;no_banner",
             "give_skill;Garvey;NPCVision;no_banner",
             "give_skill;Lamonte;NPCVision;no_banner",

@@ -72,6 +72,10 @@
             [
                 "map_cast_anim",
                 "Map_Incinerate_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
             ]
         ]
     }

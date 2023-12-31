@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "change_team;Thrall;other",
             "kill_unit;Thrall;immediate"
         ]
     }
