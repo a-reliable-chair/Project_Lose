@@ -1,0 +1,95 @@
+[
+    {
+        "nid": "HMFlair",
+        "name": "<purple>Flair</purple>",
+        "desc": "Elwynn Only.\nSteals an unequipped item from target.\nCan't miss, double, or kill.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "uses",
+                4
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Light"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Elwynn"
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ],
+            [
+                "status_on_hit",
+                "NonLethal"
+            ],
+            [
+                "steal",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Flair"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Flair_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ]
+        ]
+    }
+]

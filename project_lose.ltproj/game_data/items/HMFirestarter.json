@@ -1,0 +1,98 @@
+[
+    {
+        "nid": "HMFirestarter",
+        "name": "<purple>Firestarter</purple>",
+        "desc": "Saraid Only.\nSets terrain ablaze after combat.\nCannot double.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            8
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                15
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "uses",
+                6
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "prf_unit",
+                [
+                    "Saraid"
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3.0,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true
+                }
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "status_on_equip",
+                "Firestarter"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Firestarter_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ]
+        ]
+    }
+]

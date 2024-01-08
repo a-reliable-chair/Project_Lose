@@ -118,6 +118,11 @@
             "level_var;LamonteSkill;0",
             "game_var;DavenportDead;0",
             "",
+            "if;game.mode.nid != 'Normal'",
+            "    change_stats;Davenport;STR,1,SKL,1,DEF,1,RES,1;immediate",
+            "    change_stats;Cawthorne;STR,1,SKL,1,DEF,1,RES,1;immediate",
+            "end",
+            "",
             "prep;1;Before An Impossible Battlefield",
             ""
         ]

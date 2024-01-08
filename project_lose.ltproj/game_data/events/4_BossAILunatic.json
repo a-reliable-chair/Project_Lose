@@ -1,0 +1,29 @@
+[
+    {
+        "name": "BossAILunatic",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.mode.nid == 'Lunatic'",
+        "commands": [],
+        "only_once": false,
+        "priority": 21,
+        "_source": [
+            "if;game.turncount == 7 and u('Keeva').position and game.check_alive('Keeva')",
+            "    move_cursor;Keeva",
+            "    flicker_cursor;Keeva",
+            "    add_portrait;Keeva;Left",
+            "    speak;Keeva;Shallcross AI change!",
+            "    remove_portrait;Keeva",
+            "    change_ai;Keeva;Yolo",
+            "end",
+            "if;game.turncount == 8 and u('Shallcross').position and game.check_alive('Shallcross')",
+            "    move_cursor;Shallcross",
+            "    flicker_cursor;Shallcross",
+            "    add_portrait;Shallcross;Left",
+            "    speak;Shallcross;Shallcross AI change!",
+            "    remove_portrait;Shallcross",
+            "    change_ai;Shallcross;Yolo",
+            "end"
+        ]
+    }
+]

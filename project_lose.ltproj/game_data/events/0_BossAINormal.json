@@ -1,9 +1,9 @@
 [
     {
-        "name": "AckermanAIChange",
+        "name": "BossAINormal",
         "trigger": "phase_change",
         "level_nid": "0",
-        "condition": "game.turncount == 8",
+        "condition": "game.turncount == 7 and game.mode.nid != 'Normal'",
         "commands": [],
         "only_once": true,
         "priority": 20,

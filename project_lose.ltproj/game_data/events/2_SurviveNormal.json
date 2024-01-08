@@ -1,9 +1,9 @@
 [
     {
-        "name": "Survive",
+        "name": "SurviveNormal",
         "trigger": "turn_change",
         "level_nid": "2",
-        "condition": "game.turncount == 9",
+        "condition": "game.turncount == 9 game.mode.nid == 'Normal'",
         "commands": [],
         "only_once": false,
         "priority": 20,

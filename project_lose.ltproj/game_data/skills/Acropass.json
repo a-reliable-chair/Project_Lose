@@ -11,7 +11,7 @@
         "components": [
             [
                 "condition",
-                "unit.nid == 'Raelin'"
+                "unit.nid == 'Raelin' or unit.nid == 'Ailsa'"
             ],
             [
                 "movement_type",

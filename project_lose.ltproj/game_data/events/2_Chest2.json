@@ -19,6 +19,12 @@
             "    inc_game_var;GotReclaimer;1",
             "    inc_game_var;TunnelVision;1",
             "    inc_level_var;PlayerOpenChest;1",
+            "    if;game.mode.nid != 'Normal'",
+            "        modify_item_component;{unit};TheReclaimer;weapon_rank;S",
+            "    end",
+            "end",
+            "if;unit.team == 'enemy' and game.mode.nid == 'Lunatic'",
+            "    remove_item;{unit};TheReclaimer;no_banner",
             "end",
             "has_traded;{unit}"
         ]

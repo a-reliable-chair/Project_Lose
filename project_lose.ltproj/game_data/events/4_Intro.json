@@ -305,6 +305,12 @@
             "level_var;LaisrenDeployed;0",
             "level_var;TraineeDeployed;0",
             "",
+            "if;game.mode.nid != 'Normal'",
+            "    give_skill;Cawthorne;CawMiracle;no_banner",
+            "    modify_item_component;Keeva;TheAlmighty;weapon_rank;S",
+            "    modify_item_component;Shallcross;TheConqueror;weapon_rank;S",
+            "end",
+            "",
             "prep;1;Before An Impossible Battlefield"
         ]
     }

@@ -61,7 +61,8 @@
             "give_item;Shayla;TheDefiler;no_banner",
             "map_anim;Map_Suppressive_Fire;10, 10;permanent",
             "map_anim;Map_Suppressive_Fire;12, 13;permanent",
-            "base;title_background"
+            "#base;title_background",
+            "prep"
         ]
     }
 ]

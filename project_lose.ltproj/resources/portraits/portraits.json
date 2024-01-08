@@ -230,12 +230,12 @@
     {
         "nid": "Davenport",
         "blinking_offset": [
-            16,
+            24,
             24
         ],
         "smiling_offset": [
             16,
-            40
+            32
         ],
         "info_offset": 0
     },

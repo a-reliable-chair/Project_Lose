@@ -16,8 +16,8 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "Escape With All,Turns Left {eval:9-game.turncount}",
-            "win": "Escape With All,Within 8 Turns",
+            "simple": "Escape With All,Turns Left {eval:11-game.turncount}",
+            "win": "Escape With All,Within 10 Turns",
             "loss": "Two Player Units Die,Last Player Unit Dies,Or Time Out"
         },
         "roam": false,

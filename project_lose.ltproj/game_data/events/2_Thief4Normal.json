@@ -1,9 +1,9 @@
 [
     {
-        "name": "Turn7Rein",
+        "name": "Thief4Normal",
         "trigger": "turn_change",
         "level_nid": "2",
-        "condition": "game.turncount == 7",
+        "condition": "game.turncount == 6 and game.mode.nid == 'Normal'",
         "commands": [],
         "only_once": false,
         "priority": 20,

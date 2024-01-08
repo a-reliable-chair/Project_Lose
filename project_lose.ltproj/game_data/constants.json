@@ -197,7 +197,7 @@
     ],
     [
         "convoy_on_death",
-        true
+        false
     ],
     [
         "repair_shop",

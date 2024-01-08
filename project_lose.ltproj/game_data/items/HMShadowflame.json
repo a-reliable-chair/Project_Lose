@@ -1,0 +1,99 @@
+[
+    {
+        "nid": "HMShadowflame",
+        "name": "<purple>Shadowflame</purple>",
+        "desc": "Quinley Only.\nPermanently reduces target's LUK, DEF and RES by 2. Stacks.",
+        "icon_nid": "Anima",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                2
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                0
+            ],
+            [
+                "hit",
+                0
+            ],
+            [
+                "uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Anima"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    224,
+                    96,
+                    0
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Quinley"
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "battle_cast_anim",
+                "Shadowflame"
+            ],
+            [
+                "status_on_hit",
+                "Cursed"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Shadowflame_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,99 @@
+[
+    {
+        "nid": "HMDisaster",
+        "name": "<purple>Disaster</purple>",
+        "desc": "Carlin Only.\nAfter any interaction with another unit, Backdash: 1.",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                15
+            ],
+            [
+                "crit",
+                35
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    72,
+                    0,
+                    65
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                6
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "prf_unit",
+                [
+                    "Carlin"
+                ]
+            ],
+            [
+                "text_color",
+                "purple"
+            ],
+            [
+                "battle_cast_anim",
+                "Disaster"
+            ],
+            [
+                "backdash_on_end_combat",
+                1
+            ],
+            [
+                "map_cast_anim",
+                "Map_Disaster_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ]
+        ]
+    }
+]

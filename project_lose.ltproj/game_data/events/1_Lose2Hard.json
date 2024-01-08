@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Lose2Hard",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 10",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.mode.nid != 'Normal'",
+            "    speak;;You took too long to clear the enemies!;;;hint",
+            "    lose_game",
+            "end"
+        ]
+    }
+]

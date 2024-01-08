@@ -127,6 +127,12 @@
             "game_var;GotReclaimer;0",
             "game_var;EmbersonDead;0",
             "",
+            "if;game.mode.nid != 'Normal'",
+            "    change_objective_win;Survive 7 Turns",
+            "    change_objective_simple;Survive,Turns Left {eval:8-game.turncount}",
+            "    change_stats;Emberson;MAG,1,SKL,1,DEF,1,RES,1;immediate",
+            "end",
+            "",
             "prep;1;Before An Impossible Battlefield"
         ]
     }

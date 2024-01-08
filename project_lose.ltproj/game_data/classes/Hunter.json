@@ -2,7 +2,7 @@
     {
         "nid": "Hunter",
         "name": "Hunter",
-        "desc": "Woodsman capable of easily traversing rough terrain.",
+        "desc": "Woodsman capable of easily traversing rough terrain.\nCan see further in the dark.",
         "tier": 1,
         "movement_group": "Hunter",
         "promotes_from": null,
@@ -71,7 +71,12 @@
             "CON": 20,
             "MOV": 30
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Vision"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

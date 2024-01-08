@@ -1,0 +1,16 @@
+[
+    {
+        "name": "InventoryToConvoy",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "game.mode.nid == 'Normal' and unit.team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 21,
+        "_source": [
+            "for;item;[item.uid for item in unit.items]",
+            "    move_item;{unit};Convoy;{item}",
+            "endf"
+        ]
+    }
+]

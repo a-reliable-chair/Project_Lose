@@ -1,9 +1,9 @@
 [
     {
-        "name": "Turn4Rein",
+        "name": "Thief3Hard",
         "trigger": "turn_change",
         "level_nid": "2",
-        "condition": "game.turncount == 4",
+        "condition": "game.turncount == 3 and game.mode.nid != 'Normal'",
         "commands": [],
         "only_once": false,
         "priority": 20,

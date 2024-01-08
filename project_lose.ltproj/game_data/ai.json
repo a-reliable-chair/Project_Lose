@@ -718,6 +718,34 @@
         "roam_ai": false
     },
     {
+        "nid": "Heal2",
+        "behaviours": [
+            {
+                "action": "Support",
+                "target": "Ally",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": null,
+                "view_range": -3,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            }
+        ],
+        "priority": 15,
+        "offense_bias": 2.0,
+        "roam_ai": false
+    },
+    {
         "nid": "Keeva",
         "behaviours": [
             {

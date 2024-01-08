@@ -13,6 +13,7 @@
     "Burning": "Negative Effects",
     "Canto": "Class",
     "CantoSharp": "Personals",
+    "CawMiracle": "Weapon",
     "CloseCounter": "Non-PlayerSkills",
     "Cover": "Weapon",
     "CoveredChild": "Weapon",
@@ -79,7 +80,6 @@
     "SPD1": "Stats",
     "SPD2": "Stats",
     "SPD3": "Stats",
-    "SPD4": "Stats",
     "STR": "Stats",
     "Shove": "Personals",
     "Steal": "Non-PlayerSkills",
@@ -90,5 +90,6 @@
     "Throne": "Terrain",
     "Tidecall": "Weapon",
     "Vantage": "Non-PlayerSkills",
+    "Vision": "Class",
     "Warden": "Weapon"
 }

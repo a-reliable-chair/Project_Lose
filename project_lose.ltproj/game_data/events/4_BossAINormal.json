@@ -1,9 +1,9 @@
 [
     {
-        "name": "BossAIChanges",
+        "name": "BossAINormal",
         "trigger": "turn_change",
         "level_nid": "4",
-        "condition": "True",
+        "condition": "game.mode.nid == 'Normal'",
         "commands": [],
         "only_once": false,
         "priority": 21,

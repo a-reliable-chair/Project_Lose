@@ -1,6 +1,6 @@
 [
     {
-        "name": "Lose",
+        "name": "Lose1",
         "trigger": "unit_death",
         "level_nid": "1",
         "condition": "unit.team == 'player'",

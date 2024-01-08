@@ -169,7 +169,9 @@
             "add_region;Formation3;2, 4;1,1;formation",
             "add_region;Formation4;4, 2;1,1;formation",
             "add_region;Formation5;2, 2;1,1;formation",
-            "game_var;_convoy;True",
+            "if;game.mode.nid != 'Lunatic'",
+            "    game_var;_convoy;True",
+            "end",
             "game_var;_supports;True",
             "change_ai;Ackerman;AttackNoMove",
             "",
@@ -189,7 +191,11 @@
             "add_lore;BuildingSupports",
             "add_lore;SupportBonuses",
             "set_custom_options;Codex;true;Open the Codex;Menu_Codex",
-            "",
+            "if;game.mode.nid != 'Normal'",
+            "    change_objective_win;Escape With All,Within 8 Turns",
+            "    change_objective_simple;Escape With All,Turns Left {eval:9-game.turncount}",
+            "    change_stats;Ackerman;STR,1,SKL,1,DEF,1,RES,1;immediate",
+            "end",
             "prep;1;Before An Impossible Battlefield"
         ]
     }

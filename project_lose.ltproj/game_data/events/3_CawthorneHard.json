@@ -1,9 +1,9 @@
 [
     {
-        "name": "Turn5Cawthorne",
+        "name": "CawthorneHard",
         "trigger": "turn_change",
         "level_nid": "3",
-        "condition": "game.turncount == 5",
+        "condition": "game.turncount == 4 and game.mode.nid != 'Normal'",
         "commands": [],
         "only_once": false,
         "priority": 20,
@@ -29,6 +29,9 @@
             "    speak;Cawthorne;Dead already, Osgar?",
             "    remove_portrait;Cawthorne",
             "    add_region;Tavern;16,8;1,1;event;Tavern;only_once",
+            "end",
+            "if;game.mode.nid != 'Normal'",
+            "    modify_item_component;Cawthorne;TheDefiler;weapon_rank;S",
             "end"
         ]
     }

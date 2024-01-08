@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Thief3Normal",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 4 and game.mode.nid == 'Normal'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;12, 12",
+            "add_unit;Thief_3;12, 12;immediate",
+            "flicker_cursor;Thief_3"
+        ]
+    }
+]

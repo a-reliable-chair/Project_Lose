@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Thief4Hard",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 5 and game.mode.nid != 'Normal'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;8, 21",
+            "add_unit;Thief_4;8, 21;immediate",
+            "flicker_cursor;Thief_4",
+            "wait;250"
+        ]
+    }
+]

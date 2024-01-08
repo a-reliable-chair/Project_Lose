@@ -56,7 +56,7 @@
             "    elif;unit.wexp['Dark'] > 0",
             "        give_item;{unit};Jinx;no_banner",
             "    end",
-            "elif;len(unit.items) == 0 and game.level.nid == '2' or game.level.nid == 'DEBUG'",
+            "elif;len(unit.items) == 0 and game.level.nid == '2' or game.level.nid == '3'",
             "    if;unit.wexp['Sword'] > 0",
             "        give_item;{unit};Steel Sword;no_banner",
             "    elif;unit.wexp['Lance'] > 0",
