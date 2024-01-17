@@ -1715,6 +1715,33 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "BotLeftRR",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "5,8": "21"
+                },
+                "sprite_grid": {}
+            },
+            {
+                "nid": "BotRightRR",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "9,8": "Arena"
+                },
+                "sprite_grid": {}
+            },
+            {
+                "nid": "TopRightRR",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "14,4": "35"
+                },
+                "sprite_grid": {}
             }
         ],
         "tilesets": [

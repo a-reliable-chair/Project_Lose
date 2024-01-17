@@ -1,0 +1,14 @@
+[
+    {
+        "name": "LastTurnHard",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 7 and game.mode.nid != 'Normal'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_objective_simple;Survive:,<green>Last Turn</>"
+        ]
+    }
+]

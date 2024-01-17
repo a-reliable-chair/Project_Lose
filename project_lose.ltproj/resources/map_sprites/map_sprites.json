@@ -24,11 +24,11 @@
     "PirateAilsa",
     "Monk",
     "Cleric",
+    "Troubadour",
     "ClericElspeth",
     "Mage",
     "MageQuinley",
     "Shaman",
-    "Blacksmith",
     "Warrior",
     "Hero",
     "Sage",
@@ -48,5 +48,6 @@
     "Villager (F) (Woman) Dead {IS}",
     "Villager (F) (Woman) Dead2 {IS}",
     "Villager (M) (Man) Dead",
-    "Villager (M) (Man) Dead2 {IS}"
+    "Villager (M) (Man) Dead2 {IS}",
+    "Blacksmith"
 ]

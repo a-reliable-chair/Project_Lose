@@ -10,6 +10,13 @@
         "_source": [
             "create_record;NormalCleared;False",
             "create_record;HardCleared;False",
+            "",
+            "# For playtesters!",
+            "update_record;NormalCleared;True",
+            "update_record;HardCleared;True",
+            "unlock_difficulty;Hard",
+            "unlock_difficulty;Lunatic",
+            "",
             "create_achievement;1;Flashback 1;Clear chapter 1 to view hint",
             "create_achievement;2;Flashback 2;Clear chapter 1 to view hint",
             "create_achievement;3;Flashback 3;Clear chapter 1 to view hint",

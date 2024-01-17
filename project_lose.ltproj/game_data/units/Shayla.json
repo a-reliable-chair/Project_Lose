@@ -10,15 +10,15 @@
             "Youth"
         ],
         "bases": {
-            "HP": 15,
-            "STR": 4,
+            "HP": 4,
+            "STR": 1,
             "MAG": 0,
-            "SKL": 4,
-            "SPD": 3,
+            "SKL": 1,
+            "SPD": 1,
             "LCK": 3,
-            "DEF": 1,
-            "CON": 7,
-            "MOV": 5,
+            "DEF": 0,
+            "CON": -1,
+            "MOV": 0,
             "RES": 1
         },
         "growths": {
@@ -45,20 +45,7 @@
             "DEF": 0,
             "RES": 0
         },
-        "starting_items": [
-            [
-                "Iron Axe",
-                false
-            ],
-            [
-                "HeartOfLightning",
-                false
-            ],
-            [
-                "Herbs",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [
             [
                 1,
@@ -87,7 +74,7 @@
             ],
             "Axe": [
                 false,
-                1,
+                0,
                 251
             ],
             "Bow": [

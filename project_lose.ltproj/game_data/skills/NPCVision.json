@@ -11,7 +11,7 @@
         "components": [
             [
                 "sight_range_bonus",
-                -4
+                -8
             ],
             [
                 "hidden",

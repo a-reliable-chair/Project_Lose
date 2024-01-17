@@ -18,8 +18,8 @@
             "LCK": 5,
             "DEF": 6,
             "RES": 4,
-            "CON": 12,
-            "MOV": 7
+            "CON": 11,
+            "MOV": 6
         },
         "growths": {
             "HP": 0,

@@ -11,16 +11,16 @@
             "Raelin"
         ],
         "bases": {
-            "HP": 11,
-            "STR": 3,
+            "HP": 1,
+            "STR": 0,
             "MAG": 0,
-            "SKL": 4,
-            "SPD": 4,
+            "SKL": 0,
+            "SPD": 2,
             "LCK": 3,
             "DEF": 1,
-            "CON": 4,
-            "MOV": 5,
-            "RES": 3
+            "CON": -2,
+            "MOV": 0,
+            "RES": 1
         },
         "growths": {
             "HP": 55,
@@ -46,20 +46,7 @@
             "DEF": 0,
             "RES": 0
         },
-        "starting_items": [
-            [
-                "Iron Lance",
-                false
-            ],
-            [
-                "Javelin",
-                false
-            ],
-            [
-                "HeartOfFrost",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [
             [
                 1,
@@ -79,7 +66,7 @@
             ],
             "Lance": [
                 true,
-                1,
+                0,
                 251
             ],
             "Axe": [

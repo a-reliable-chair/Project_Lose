@@ -1,0 +1,41 @@
+[
+    {
+        "name": "HouseElspeth1",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "transition;Close",
+            "change_background;House",
+            "transition;Open",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Elspeth;Right",
+            "speak;Woman1;Hi Elspeth!",
+            "multi_remove_portrait;Woman1;Elspeth",
+            "transition;Close;1000;255, 255, 255",
+            "# Flashback",
+            "music;But A Memory",
+            "change_background;House",
+            "transition;open;500;255, 255, 255",
+            "add_portrait;Woman1;Left",
+            "add_portrait;Elspeth;Right",
+            "speak;Woman1;Flashback!",
+            "multi_remove_portrait;Woman1;Elspeth",
+            "transition;close",
+            "change_background",
+            "transition;Open",
+            "give_item;Elspeth;GuardianAngel",
+            "",
+            "give_exp;Elspeth;40",
+            "",
+            "if;not has_achievement('13')",
+            "    update_achievement;13;Flashback: Elspeth and Orla;Achievement desc.",
+            "    complete_achievement;13;1;banner",
+            "end",
+            ""
+        ]
+    }
+]

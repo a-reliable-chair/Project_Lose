@@ -434,7 +434,7 @@
             {
                 "nid": "Enemy_1",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Shaman",
                 "faction": "Soldier",
                 "starting_items": [
@@ -455,7 +455,7 @@
             {
                 "nid": "Enemy_2",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Cavalier",
                 "faction": "Soldier",
                 "starting_items": [
@@ -480,7 +480,7 @@
             {
                 "nid": "Enemy_3",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Fighter",
                 "faction": "Soldier",
                 "starting_items": [
@@ -501,7 +501,7 @@
             {
                 "nid": "Enemy_4",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Myrmidon",
                 "faction": "Soldier",
                 "starting_items": [
@@ -522,7 +522,7 @@
             {
                 "nid": "Enemy_5",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Knight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -543,7 +543,7 @@
             {
                 "nid": "Enemy_6",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Fighter",
                 "faction": "Soldier",
                 "starting_items": [
@@ -564,7 +564,7 @@
             {
                 "nid": "Enemy_7",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Fighter",
                 "faction": "Soldier",
                 "starting_items": [
@@ -589,7 +589,7 @@
             {
                 "nid": "Enemy_8",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Knight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -614,7 +614,7 @@
             {
                 "nid": "Enemy_9",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Monk",
                 "faction": "Soldier",
                 "starting_items": [
@@ -635,7 +635,7 @@
             {
                 "nid": "Enemy_10",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
@@ -656,7 +656,7 @@
             {
                 "nid": "Enemy_11",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Cavalier",
                 "faction": "Soldier",
                 "starting_items": [
@@ -677,7 +677,7 @@
             {
                 "nid": "Enemy_12",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Myrmidon",
                 "faction": "Soldier",
                 "starting_items": [
@@ -698,7 +698,7 @@
             {
                 "nid": "Enemy_13",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
@@ -721,7 +721,7 @@
             {
                 "nid": "Enemy_14",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Myrmidon",
                 "faction": "Soldier",
                 "starting_items": [
@@ -744,7 +744,7 @@
             {
                 "nid": "Enemy_15",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Knight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -767,7 +767,7 @@
             {
                 "nid": "Enemy_16",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Fighter",
                 "faction": "Soldier",
                 "starting_items": [
@@ -790,7 +790,7 @@
             {
                 "nid": "Enemy_17",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Mage",
                 "faction": "Soldier",
                 "starting_items": [
@@ -813,7 +813,7 @@
             {
                 "nid": "Enemy_18",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Mercenary",
                 "faction": "Soldier",
                 "starting_items": [
@@ -836,7 +836,7 @@
             {
                 "nid": "Enemy_19",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Dracoknight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -857,7 +857,7 @@
             {
                 "nid": "Enemy_20",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "PegasusKnight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -878,7 +878,7 @@
             {
                 "nid": "Enemy_21",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
@@ -901,7 +901,7 @@
             {
                 "nid": "Enemy_22",
                 "variant": null,
-                "level": 2,
+                "level": 1,
                 "klass": "Mercenary",
                 "faction": "Soldier",
                 "starting_items": [
@@ -920,6 +920,46 @@
                 "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Orla",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Ailsa",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Corridon",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Laisren",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": null,
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [
@@ -934,7 +974,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<yellow>Visit</>",
+                "sub_nid": "Visit",
                 "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,
@@ -951,7 +991,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<yellow>Visit</>",
+                "sub_nid": "Visit",
                 "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,

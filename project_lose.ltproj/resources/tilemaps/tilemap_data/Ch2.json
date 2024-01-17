@@ -3138,6 +3138,24 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "LeftRR",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "3,15": "3"
+                },
+                "sprite_grid": {}
+            },
+            {
+                "nid": "RightRR",
+                "visible": true,
+                "foreground": false,
+                "terrain_grid": {
+                    "17,14": "34"
+                },
+                "sprite_grid": {}
             }
         ],
         "tilesets": [

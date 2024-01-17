@@ -4676,6 +4676,24 @@
                         ]
                     ]
                 }
+            },
+            {
+                "nid": "LeftRR",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "3,3": "12_1"
+                },
+                "sprite_grid": {}
+            },
+            {
+                "nid": "BotRR",
+                "visible": false,
+                "foreground": false,
+                "terrain_grid": {
+                    "15,21": "33"
+                },
+                "sprite_grid": {}
             }
         ],
         "tilesets": [

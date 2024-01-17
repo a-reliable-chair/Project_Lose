@@ -6,7 +6,7 @@
             32
         ],
         "smiling_offset": [
-            24,
+            16,
             48
         ],
         "info_offset": 0
@@ -26,11 +26,11 @@
     {
         "nid": "Shayla",
         "blinking_offset": [
-            24,
+            16,
             32
         ],
         "smiling_offset": [
-            24,
+            16,
             48
         ],
         "info_offset": 0
@@ -156,14 +156,14 @@
         "info_offset": 0
     },
     {
-        "nid": "Cathal",
+        "nid": "Laisren",
         "blinking_offset": [
             24,
-            32
+            24
         ],
         "smiling_offset": [
-            24,
-            48
+            16,
+            40
         ],
         "info_offset": 0
     },
@@ -430,17 +430,5 @@
             48
         ],
         "info_offset": 0
-    },
-    {
-        "nid": "Yamcha",
-        "blinking_offset": [
-            0,
-            0
-        ],
-        "smiling_offset": [
-            0,
-            0
-        ],
-        "info_offset": 8
     }
 ]

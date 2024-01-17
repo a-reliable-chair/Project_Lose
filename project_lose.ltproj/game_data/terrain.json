@@ -405,6 +405,21 @@
         "status": "Avoid10"
     },
     {
+        "nid": "12_1",
+        "name": "<yellow>Laisren's</>",
+        "color": [
+            0,
+            160,
+            248
+        ],
+        "minimap": "House",
+        "platform": "House",
+        "background": "Village1Evening",
+        "mtype": "Normal",
+        "opaque": false,
+        "status": "Avoid10"
+    },
+    {
         "nid": "20",
         "name": "<yellow>Leod's</>",
         "color": [

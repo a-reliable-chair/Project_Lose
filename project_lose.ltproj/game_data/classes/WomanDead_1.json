@@ -125,7 +125,7 @@
             0
         ],
         "map_sprite_nid": "Villager (F) (Woman) Dead2 {IS}",
-        "combat_anim_nid": null,
+        "combat_anim_nid": "",
         "fields": []
     }
 ]

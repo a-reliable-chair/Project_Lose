@@ -1076,7 +1076,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<yellow>Visit</>",
+                "sub_nid": "Visit",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -1093,7 +1093,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<yellow>Visit</>",
+                "sub_nid": "Visit",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,
@@ -1110,7 +1110,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<yellow>Visit</>",
+                "sub_nid": "Visit",
                 "condition": "True",
                 "time_left": null,
                 "only_once": true,

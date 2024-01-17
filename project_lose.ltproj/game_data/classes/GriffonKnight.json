@@ -1,7 +1,7 @@
 [
     {
         "nid": "GriffonKnight",
-        "name": "Griffon Knight",
+        "name": "Griffon K.",
         "desc": "Well rounded fliers that're vulnerable to bows.",
         "tier": 1,
         "movement_group": "Fliers",
@@ -22,7 +22,7 @@
             "LCK": 0,
             "DEF": 1,
             "RES": 1,
-            "CON": 6,
+            "CON": 8,
             "MOV": 6
         },
         "growths": {

@@ -10,16 +10,16 @@
             "Adult"
         ],
         "bases": {
-            "HP": 12,
+            "HP": 5,
             "STR": 0,
-            "MAG": 4,
-            "SKL": 4,
-            "SPD": 3,
+            "MAG": 2,
+            "SKL": -1,
+            "SPD": -1,
             "LCK": 1,
             "DEF": 2,
-            "RES": 3,
-            "CON": 8,
-            "MOV": 5
+            "RES": 0,
+            "CON": 2,
+            "MOV": 0
         },
         "growths": {
             "HP": 55,
@@ -45,20 +45,7 @@
             "DEF": 0,
             "RES": 0
         },
-        "starting_items": [
-            [
-                "Flash",
-                false
-            ],
-            [
-                "Shimmer",
-                false
-            ],
-            [
-                "Herbs",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [
             [
                 1,
@@ -71,10 +58,6 @@
             [
                 1,
                 "ElwynnSkill"
-            ],
-            [
-                1,
-                "Vision"
             ]
         ],
         "unit_notes": [],
@@ -106,7 +89,7 @@
             ],
             "Light": [
                 false,
-                11,
+                0,
                 251
             ],
             "Anima": [

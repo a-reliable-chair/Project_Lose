@@ -75,6 +75,10 @@
             [
                 "alternate_resist_formula",
                 "ZERO"
+            ],
+            [
+                "wexp",
+                0
             ]
         ]
     }

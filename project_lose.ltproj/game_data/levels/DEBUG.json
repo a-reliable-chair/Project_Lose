@@ -71,14 +71,27 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    8
+                    10,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
             },
             {
                 "nid": "Elwynn",
+                "team": "player",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    5,
+                    9
+                ],
+                "starting_traveler": null,
+                "generic": false
+            },
+            {
+                "nid": "Saraid",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
@@ -91,26 +104,13 @@
                 "generic": false
             },
             {
-                "nid": "Saraid",
-                "team": "player",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    6,
-                    8
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
                 "nid": "Quinley",
                 "team": "player",
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
+                    10,
                     4
                 ],
                 "starting_traveler": null,
@@ -123,7 +123,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
+                    6,
                     4
                 ],
                 "starting_traveler": null,
@@ -136,8 +136,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    5
+                    8,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -149,7 +149,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
+                    5,
                     7
                 ],
                 "starting_traveler": null,
@@ -162,8 +162,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    9,
-                    2
+                    7,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -188,8 +188,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    2
+                    5,
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -202,7 +202,7 @@
                 "ai_group": "",
                 "starting_position": [
                     4,
-                    5
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -213,10 +213,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    7,
-                    9
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -237,10 +234,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    6,
-                    10
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -257,7 +251,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    12,
+                    4,
                     4
                 ],
                 "starting_traveler": null,
@@ -275,10 +269,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    6,
-                    7
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -286,22 +277,22 @@
                 "nid": "107",
                 "variant": null,
                 "level": 2,
-                "klass": "Knight",
+                "klass": "Dracoknight",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Iron Axe",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
                     7,
-                    4
+                    9
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -318,10 +309,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    5,
-                    10
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -329,11 +317,11 @@
                 "nid": "109",
                 "variant": null,
                 "level": 2,
-                "klass": "Myrmidon",
+                "klass": "GriffonKnight",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Lancereaver",
+                        "Iron Lance",
                         false
                     ]
                 ],
@@ -342,10 +330,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    10,
-                    3
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -361,10 +346,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    8,
-                    3
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -385,10 +367,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    9,
-                    3
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -409,10 +388,7 @@
                 "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    9,
-                    8
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -424,7 +400,7 @@
                 "ai_group": "",
                 "starting_position": [
                     9,
-                    10
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -436,7 +412,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
+                    6,
                     8
                 ],
                 "starting_traveler": null,
@@ -448,10 +424,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    5,
-                    7
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -461,10 +434,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    2,
-                    9
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -474,10 +444,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    6,
-                    5
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -487,23 +454,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    10,
-                    9
-                ],
-                "starting_traveler": null,
-                "generic": false
-            },
-            {
-                "nid": "Yamcha",
-                "team": "enemy",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    9,
-                    7
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             }

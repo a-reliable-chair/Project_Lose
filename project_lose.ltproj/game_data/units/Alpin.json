@@ -10,15 +10,15 @@
             "Youth"
         ],
         "bases": {
-            "HP": 13,
-            "STR": 3,
+            "HP": 4,
+            "STR": 1,
             "MAG": 0,
-            "SKL": 4,
-            "SPD": 4,
+            "SKL": 0,
+            "SPD": 1,
             "LCK": 2,
-            "DEF": 2,
-            "CON": 6,
-            "MOV": 5,
+            "DEF": 1,
+            "CON": -1,
+            "MOV": 0,
             "RES": 0
         },
         "growths": {
@@ -45,20 +45,7 @@
             "DEF": 0,
             "RES": 0
         },
-        "starting_items": [
-            [
-                "Iron Sword",
-                false
-            ],
-            [
-                "HeartOfFire",
-                false
-            ],
-            [
-                "Herbs",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [
             [
                 1,
@@ -73,7 +60,7 @@
         "wexp_gain": {
             "Sword": [
                 true,
-                1,
+                0,
                 251
             ],
             "Lance": [

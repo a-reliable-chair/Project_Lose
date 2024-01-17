@@ -1,0 +1,17 @@
+[
+    {
+        "name": "ModesSelect",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "choice;PlayerReverse;Enable Weapon Reversal Mode For <red>Player</red> Units?;Reversal,Double,No Reversal",
+            "choice;EnemyReverse;Enable Weapon Reversal Mode For <red>Enemy</red> Units?;Reversal,Double,No Reversal",
+            "choice;ReverseRecruitment;Enable <red>Reverse</red> Recruitment?;Yes,No",
+            "trigger_script;Global ModesReview"
+        ]
+    }
+]

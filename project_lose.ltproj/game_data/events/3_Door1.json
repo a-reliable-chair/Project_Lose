@@ -1,7 +1,7 @@
 [
     {
         "name": "Door1",
-        "trigger": "<yellow>Door</>",
+        "trigger": "Door",
         "level_nid": "3",
         "condition": "region.nid == 'Door1'",
         "commands": [],
@@ -18,7 +18,6 @@
             "if;not has_achievement('22')",
             "    update_achievement;22;Where'd You Get That Key?!;Opened the door next to Corridon's house in Ch4",
             "    complete_achievement;22;1;banner",
-            "    inc_game_var;AchievementCount;1",
             "end",
             "has_traded;{unit}",
             "inc_game_var;TunnelVision;1"

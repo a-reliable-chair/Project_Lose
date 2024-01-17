@@ -131,10 +131,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    19,
-                    3
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -144,10 +141,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    18,
-                    4
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -157,10 +151,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    19,
-                    4
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -639,7 +630,7 @@
             {
                 "nid": "Soldier_1",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Fighter",
                 "faction": "Soldier",
                 "starting_items": [
@@ -663,7 +654,7 @@
             {
                 "nid": "Soldier_2",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Knight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -691,7 +682,7 @@
             {
                 "nid": "Soldier_3",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Monk",
                 "faction": "Soldier",
                 "starting_items": [
@@ -715,7 +706,7 @@
             {
                 "nid": "Soldier_4",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Mage",
                 "faction": "Soldier",
                 "starting_items": [
@@ -739,7 +730,7 @@
             {
                 "nid": "Soldier_5",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Cavalier",
                 "faction": "Soldier",
                 "starting_items": [
@@ -767,7 +758,7 @@
             {
                 "nid": "Soldier_6",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
@@ -791,7 +782,7 @@
             {
                 "nid": "Soldier_7",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "PegasusKnight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -819,7 +810,7 @@
             {
                 "nid": "Soldier_8",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
@@ -847,7 +838,7 @@
             {
                 "nid": "Soldier_9",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Soldier",
                 "faction": "Soldier",
                 "starting_items": [
@@ -875,7 +866,7 @@
             {
                 "nid": "Soldier_10",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Myrmidon",
                 "faction": "Soldier",
                 "starting_items": [
@@ -899,7 +890,7 @@
             {
                 "nid": "Soldier_11",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Mage",
                 "faction": "Soldier",
                 "starting_items": [
@@ -923,7 +914,7 @@
             {
                 "nid": "Soldier_12",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Cleric",
                 "faction": "Soldier",
                 "starting_items": [
@@ -947,7 +938,7 @@
             {
                 "nid": "Soldier_13",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Knight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -975,7 +966,7 @@
             {
                 "nid": "Soldier_14",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "GriffonKnight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -999,7 +990,7 @@
             {
                 "nid": "Soldier_15",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Mercenary",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1027,7 +1018,7 @@
             {
                 "nid": "Soldier_16",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1051,7 +1042,7 @@
             {
                 "nid": "Soldier_17",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Shaman",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1079,7 +1070,7 @@
             {
                 "nid": "Soldier_18",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1103,7 +1094,7 @@
             {
                 "nid": "Soldier_19",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Mage",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1127,7 +1118,7 @@
             {
                 "nid": "Soldier_20",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Fighter",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1155,7 +1146,7 @@
             {
                 "nid": "Thief_1",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Thief",
                 "faction": "Looter",
                 "starting_items": [
@@ -1178,7 +1169,7 @@
             {
                 "nid": "Thief_2",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Thief",
                 "faction": "Looter",
                 "starting_items": [
@@ -1201,7 +1192,7 @@
             {
                 "nid": "Thief_3",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Thief",
                 "faction": "Looter",
                 "starting_items": [
@@ -1224,7 +1215,7 @@
             {
                 "nid": "Thief_4",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Thief",
                 "faction": "Looter",
                 "starting_items": [
@@ -1247,7 +1238,7 @@
             {
                 "nid": "Rein_2",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Pirate",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1268,7 +1259,7 @@
             {
                 "nid": "Rein_3",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Pirate",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1289,7 +1280,7 @@
             {
                 "nid": "Rein_4",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Cavalier",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1314,7 +1305,7 @@
             {
                 "nid": "Rein_5",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Monk",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1335,7 +1326,7 @@
             {
                 "nid": "Rein_6",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1360,7 +1351,7 @@
             {
                 "nid": "Rein_7",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "Dracoknight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1385,7 +1376,7 @@
             {
                 "nid": "Rein_9",
                 "variant": null,
-                "level": 4,
+                "level": 1,
                 "klass": "PegasusKnight",
                 "faction": "Soldier",
                 "starting_items": [
@@ -1420,7 +1411,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<yellow>Visit</>",
+                "sub_nid": "Visit",
                 "condition": "unit.team == 'player' and unit.nid != 'Thrall'",
                 "time_left": null,
                 "only_once": true,
@@ -1437,7 +1428,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<yellow>Visit</>",
+                "sub_nid": "Visit",
                 "condition": "unit.team == 'player' and unit.nid != 'Thrall'",
                 "time_left": null,
                 "only_once": true,
@@ -1454,7 +1445,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<yellow>Visit</>",
+                "sub_nid": "Visit",
                 "condition": "unit.team == 'player' and unit.nid != 'Thrall'",
                 "time_left": null,
                 "only_once": true,
@@ -1556,7 +1547,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "<yellow>Door</>",
+                "sub_nid": "Door",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,

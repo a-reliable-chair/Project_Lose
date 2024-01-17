@@ -1,7 +1,7 @@
 [
     {
         "nid": "PegasusKnight",
-        "name": "Pegasus Knight",
+        "name": "Pegasus K.",
         "desc": "Airborne knights who resist magic but are weak against bows.",
         "tier": 1,
         "movement_group": "Fliers",

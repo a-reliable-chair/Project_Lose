@@ -33,7 +33,7 @@
             "DEF": 35,
             "RES": 35,
             "CON": 0,
-            "MOV": 0
+            "MOV": 35
         },
         "stat_cap_modifiers": {
             "MOV": 0,
@@ -47,12 +47,7 @@
             "DEF": 0,
             "RES": 0
         },
-        "starting_items": [
-            [
-                "Elixir",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [
             [
                 1,

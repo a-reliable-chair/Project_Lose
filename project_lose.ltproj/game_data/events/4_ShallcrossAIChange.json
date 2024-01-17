@@ -8,12 +8,13 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "if;game.check_alive('Shallcross')",
+            "if;game.check_alive('Shallcross') and {v:ShallcrossCharge} == 0",
             "flicker_cursor;Shallcross",
             "change_ai;Shallcross;Yolo",
             "add_portrait;Shallcross;Left",
             "speak;Shallcross;Brazen, are we?|Very well, I won't hold back.",
-            "remove_portrait;Shallcross"
+            "remove_portrait;Shallcross",
+            "inc_level_var;ShallcrossCharge;1"
         ]
     }
 ]

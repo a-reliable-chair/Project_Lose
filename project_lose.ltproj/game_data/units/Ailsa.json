@@ -10,16 +10,16 @@
             "Adult"
         ],
         "bases": {
-            "HP": 14,
-            "STR": 3,
+            "HP": 7,
+            "STR": 0,
             "MAG": 0,
-            "SKL": 6,
-            "SPD": 7,
+            "SKL": 1,
+            "SPD": 3,
             "LCK": 2,
             "DEF": 1,
-            "RES": 5,
-            "CON": 9,
-            "MOV": 5
+            "RES": 3,
+            "CON": 4,
+            "MOV": 0
         },
         "growths": {
             "HP": 60,
@@ -45,20 +45,7 @@
             "DEF": 0,
             "RES": 0
         },
-        "starting_items": [
-            [
-                "Steel Lance",
-                false
-            ],
-            [
-                "Javelin",
-                false
-            ],
-            [
-                "Herbs",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [
             [
                 1,
@@ -82,7 +69,7 @@
             ],
             "Lance": [
                 false,
-                21,
+                0,
                 251
             ],
             "Axe": [

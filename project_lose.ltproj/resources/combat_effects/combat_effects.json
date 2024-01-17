@@ -379,6 +379,12 @@
                         null
                     ],
                     [
+                        "sound",
+                        [
+                            "DemonKingRoar"
+                        ]
+                    ],
+                    [
                         "frame",
                         [
                             8,
@@ -704,6 +710,12 @@
                         ]
                     ],
                     [
+                        "sound",
+                        [
+                            "Divine3"
+                        ]
+                    ],
+                    [
                         "frame",
                         [
                             2,
@@ -871,6 +883,12 @@
                         "blend",
                         [
                             false
+                        ]
+                    ],
+                    [
+                        "sound",
+                        [
+                            "Forblaze2"
                         ]
                     ],
                     [
@@ -7867,7 +7885,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "MonkRune"
                         ]
                     ],
                     [
@@ -7889,7 +7907,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Lightning1"
                         ]
                     ],
                     [
@@ -7908,7 +7926,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Lightning2"
                         ]
                     ],
                     [
@@ -8218,7 +8236,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "MonkRune"
                         ]
                     ],
                     [
@@ -8240,7 +8258,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Luce2"
                         ]
                     ],
                     [
@@ -8259,7 +8277,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Luce3"
                         ]
                     ],
                     [
@@ -8549,7 +8567,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "MonkRune"
                         ]
                     ],
                     [
@@ -8874,7 +8892,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "MonkRune"
                         ]
                     ],
                     [
@@ -8896,25 +8914,13 @@
                     [
                         "sound",
                         [
-                            null
+                            "Aureola1"
                         ]
                     ],
                     [
                         "frame",
                         [
                             0,
-                            null
-                        ]
-                    ],
-                    [
-                        "wait",
-                        [
-                            0
-                        ]
-                    ],
-                    [
-                        "sound",
-                        [
                             null
                         ]
                     ],
@@ -9438,7 +9444,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "MonkRune"
                         ]
                     ],
                     [
@@ -9460,7 +9466,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Purge2"
                         ]
                     ],
                     [
@@ -9479,7 +9485,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Purge3"
                         ]
                     ],
                     [
@@ -10069,7 +10075,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "MonkRune"
                         ]
                     ],
                     [
@@ -10091,7 +10097,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Aura2"
                         ]
                     ],
                     [
@@ -10110,7 +10116,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Aura3"
                         ]
                     ],
                     [
@@ -10440,7 +10446,7 @@
                     [
                         "sound",
                         [
-                            "FireCharge"
+                            "SageRune"
                         ]
                     ],
                     [
@@ -10468,7 +10474,7 @@
                     [
                         "sound",
                         [
-                            "FireHit"
+                            "StoneHit"
                         ]
                     ],
                     [
@@ -11095,7 +11101,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "SageRune"
                         ]
                     ],
                     [
@@ -11117,7 +11123,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "FireCharge"
                         ]
                     ],
                     [
@@ -11136,7 +11142,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "FireHit"
                         ]
                     ],
                     [
@@ -11526,7 +11532,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "SageRune"
                         ]
                     ],
                     [
@@ -11546,28 +11552,15 @@
                         null
                     ],
                     [
-                        "sound",
-                        [
-                            null
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            0,
-                            null
-                        ]
-                    ],
-                    [
                         "wait",
                         [
-                            0
+                            1
                         ]
                     ],
                     [
                         "sound",
                         [
-                            null
+                            "Thunder"
                         ]
                     ],
                     [
@@ -11857,7 +11850,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "SageRune"
                         ]
                     ],
                     [
@@ -11879,7 +11872,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Whistle"
                         ]
                     ],
                     [
@@ -11898,7 +11891,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Wind"
                         ]
                     ],
                     [
@@ -12156,7 +12149,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "ShamanRune"
                         ]
                     ],
                     [
@@ -12178,7 +12171,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "FireCharge"
                         ]
                     ],
                     [
@@ -12197,7 +12190,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "FireHit"
                         ]
                     ],
                     [
@@ -12547,7 +12540,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "SageRune"
                         ]
                     ],
                     [
@@ -12569,7 +12562,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Forblaze1"
                         ]
                     ],
                     [
@@ -12588,7 +12581,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Forblaze2"
                         ]
                     ],
                     [
@@ -12826,7 +12819,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "ShamanRune"
                         ]
                     ],
                     [
@@ -12848,7 +12841,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "GorgonScream"
                         ]
                     ],
                     [
@@ -12867,7 +12860,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Ereshkigal1"
                         ]
                     ],
                     [
@@ -13144,7 +13137,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "ShamanRune"
                         ]
                     ],
                     [
@@ -13166,7 +13159,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Attack Hit 3"
                         ]
                     ],
                     [
@@ -13185,7 +13178,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "CrimsonEye"
                         ]
                     ],
                     [
@@ -13435,7 +13428,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "ShamanRune"
                         ]
                     ],
                     [
@@ -13457,7 +13450,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Luna1"
                         ]
                     ],
                     [
@@ -13476,7 +13469,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Luna2"
                         ]
                     ],
                     [
@@ -13846,7 +13839,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "ShamanRune"
                         ]
                     ],
                     [
@@ -13979,7 +13972,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "ShamanRune"
                         ]
                     ],
                     [
@@ -14001,7 +13994,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Forblaze1"
                         ]
                     ],
                     [
@@ -14020,7 +14013,7 @@
                     [
                         "sound",
                         [
-                            null
+                            "Forblaze2"
                         ]
                     ],
                     [

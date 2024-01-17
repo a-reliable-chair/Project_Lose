@@ -11,7 +11,6 @@
             "if;not has_achievement('20') and u('Cawthorne').get_hp() < u('Cawthorne').get_max_hp() ",
             "    update_achievement;20;That's Not How You Play The Game!;Damaged Cawthorne in Ch4",
             "    complete_achievement;20;1;banner",
-            "    inc_game_var;AchievementCount;1",
             "end"
         ]
     }

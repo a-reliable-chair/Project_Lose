@@ -125,7 +125,7 @@
     ],
     [
         "unit_stats_as_bonus",
-        false
+        true
     ],
     [
         "enemy_leveling",
@@ -193,6 +193,10 @@
     ],
     [
         "talk_display",
+        false
+    ],
+    [
+        "show_abilities",
         false
     ],
     [

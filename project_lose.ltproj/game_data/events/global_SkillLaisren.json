@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "for;Adjacent_Ally;[u.nid for u in get_allies_within_distance('Laisren', dist = 3) if u.nid != 'Laisren']",
-            "    give_exp;{Adjacent_Ally};15;silent",
+            "    give_exp;{Adjacent_Ally};20;silent",
             "endf"
         ]
     }

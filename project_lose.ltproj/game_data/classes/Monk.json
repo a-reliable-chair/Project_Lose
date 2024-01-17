@@ -16,7 +16,7 @@
             "HP": 7,
             "STR": 0,
             "MAG": 2,
-            "SKL": 6,
+            "SKL": 5,
             "SPD": 4,
             "LCK": 0,
             "DEF": 0,
@@ -72,7 +72,12 @@
             "CON": 20,
             "MOV": 15
         },
-        "learned_skills": [],
+        "learned_skills": [
+            [
+                1,
+                "Vision"
+            ]
+        ],
         "wexp_gain": {
             "Sword": [
                 false,

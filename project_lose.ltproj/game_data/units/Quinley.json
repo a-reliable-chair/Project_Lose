@@ -10,16 +10,16 @@
             "Adult"
         ],
         "bases": {
-            "HP": 11,
+            "HP": 3,
             "STR": 0,
-            "MAG": 4,
-            "SKL": 4,
-            "SPD": 4,
+            "MAG": 1,
+            "SKL": -1,
+            "SPD": 1,
             "LCK": 4,
             "DEF": 0,
-            "RES": 3,
-            "CON": 5,
-            "MOV": 5
+            "RES": 1,
+            "CON": 0,
+            "MOV": 0
         },
         "growths": {
             "HP": 50,
@@ -45,20 +45,7 @@
             "DEF": 0,
             "RES": 0
         },
-        "starting_items": [
-            [
-                "Entangle",
-                false
-            ],
-            [
-                "Fire",
-                false
-            ],
-            [
-                "HeartOfDarkness",
-                false
-            ]
-        ],
+        "starting_items": [],
         "learned_skills": [
             [
                 1,
@@ -107,7 +94,7 @@
             ],
             "Anima": [
                 false,
-                11,
+                0,
                 251
             ],
             "Dark": [
