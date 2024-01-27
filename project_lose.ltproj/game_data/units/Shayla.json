@@ -3,9 +3,9 @@
         "nid": "Shayla",
         "name": "Shayla",
         "desc": "A clumsy young lass who hopes to adventure the world.\nGutsy and fearless.",
-        "variant": "",
+        "variant": "Female",
         "level": 1,
-        "klass": "ShaylaVillager",
+        "klass": "Journeyman",
         "tags": [
             "Youth"
         ],

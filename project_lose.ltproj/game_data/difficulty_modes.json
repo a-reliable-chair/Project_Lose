@@ -2,7 +2,7 @@
     {
         "nid": "Normal",
         "name": "Normal",
-        "color": "blue",
+        "color": "green",
         "permadeath_choice": "Classic",
         "growths_choice": "Random",
         "rng_choice": "Classic",
@@ -87,7 +87,7 @@
     {
         "nid": "Hard",
         "name": "Hard",
-        "color": "green",
+        "color": "red",
         "permadeath_choice": "Classic",
         "growths_choice": "Random",
         "rng_choice": "Classic",
@@ -167,12 +167,12 @@
         "enemy_autolevels": 0,
         "boss_autolevels": 0,
         "promoted_autolevels_fraction": 1.0,
-        "start_locked": false
+        "start_locked": true
     },
     {
         "nid": "Lunatic",
         "name": "Lunatic",
-        "color": "red",
+        "color": "blue",
         "permadeath_choice": "Classic",
         "growths_choice": "Random",
         "rng_choice": "Classic",
@@ -249,9 +249,9 @@
             "MOV": 0
         },
         "player_autolevels": 0,
-        "enemy_autolevels": 1,
+        "enemy_autolevels": 0,
         "boss_autolevels": 0,
         "promoted_autolevels_fraction": 1.0,
-        "start_locked": false
+        "start_locked": true
     }
 ]

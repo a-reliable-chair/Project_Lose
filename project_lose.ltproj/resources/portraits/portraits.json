@@ -12,18 +12,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Carlin",
-        "blinking_offset": [
-            24,
-            32
-        ],
-        "smiling_offset": [
-            24,
-            48
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Shayla",
         "blinking_offset": [
             16,
@@ -43,6 +31,18 @@
         ],
         "smiling_offset": [
             16,
+            48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Carlin",
+        "blinking_offset": [
+            32,
+            32
+        ],
+        "smiling_offset": [
+            24,
             48
         ],
         "info_offset": 0

@@ -108,5 +108,13 @@
     {
         "nid": "Spited",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Tidecaller",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Hindered",
+        "subicon_dict": {}
     }
 ]

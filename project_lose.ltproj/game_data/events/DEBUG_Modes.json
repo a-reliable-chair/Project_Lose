@@ -3,14 +3,16 @@
         "name": "Modes",
         "trigger": "level_start",
         "level_nid": "DEBUG",
-        "condition": "True",
+        "condition": "",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
+            "base;default_background",
             "trigger_script;Global ModesSelect",
             "give_item;Garvey;Spite;no_banner",
-            "give_item;Saraid;Firestick;no_banner"
+            "give_item;Saraid;Firestick;no_banner",
+            "give_item;Ailsa;Tidecaller;no_banner"
         ]
     }
 ]

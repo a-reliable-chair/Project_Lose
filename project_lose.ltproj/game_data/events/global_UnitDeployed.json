@@ -22,6 +22,7 @@
             "level_var;OrlaDeployed;0",
             "level_var;AilsaDeployed;0",
             "level_var;CorridonDeployed;0",
+            "level_var;LaisrenDeployed;0",
             "",
             "# Check if deployed",
             "if; u('Alpin').position",
@@ -62,6 +63,9 @@
             "end",
             "if; u('Corridon').position",
             "    inc_level_var;CorridonDeployed;1",
+            "end",
+            "if; u('Laisren').position",
+            "    inc_level_var;LaisrenDeployed;1",
             "end"
         ]
     }

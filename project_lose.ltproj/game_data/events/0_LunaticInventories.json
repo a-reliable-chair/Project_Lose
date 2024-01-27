@@ -1,0 +1,41 @@
+[
+    {
+        "name": "LunaticInventories",
+        "trigger": null,
+        "level_nid": "0",
+        "condition": "",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'{v:EnemyReverse}' == 'Reversal'",
+            "    remove_item;Enemy_7;Iron Axe;no_banner",
+            "    give_item;Enemy_7;EmeraldAxe;no_banner",
+            "    remove_item;Enemy_8;Steel Lance;no_banner",
+            "    give_item;Enemy_8;Javelin;no_banner",
+            "    remove_item;Rein_2;Iron Sword;no_banner",
+            "    give_item;Rein_2;RubySword;no_banner",
+            "    remove_item;Rein_5;EmeraldAxe;no_banner",
+            "    give_item;Rein_5;Hand Axe;no_banner",
+            "elif;'{v:EnemyReverse}' == 'Double'",
+            "    remove_item;Enemy_7;Iron Sword;no_banner",
+            "    give_item;Enemy_7;RubySword;no_banner",
+            "    remove_item;Enemy_8;Steel Axe;no_banner",
+            "    give_item;Enemy_8;Hand Axe;no_banner",
+            "    remove_item;Rein_2;Iron Lance;no_banner",
+            "    give_item;Rein_2;SapphireLance;no_banner",
+            "    remove_item;Rein_5;RubySword;no_banner",
+            "    give_item;Rein_5;Steel Blade;no_banner",
+            "elif;'{v:EnemyReverse}' == 'No Reversal'",
+            "    remove_item;Enemy_7;Iron Lance;no_banner",
+            "    give_item;Enemy_7;SapphireLance;no_banner",
+            "    remove_item;Enemy_8;Steel Sword;no_banner",
+            "    give_item;Enemy_8;Steel Blade;no_banner",
+            "    remove_item;Rein_2;Iron Axe;no_banner",
+            "    give_item;Rein_2;EmeraldAxe;no_banner",
+            "    remove_item;Rein_5;SapphireLance;no_banner",
+            "    give_item;Rein_5;Javelin;no_banner",
+            "end"
+        ]
+    }
+]

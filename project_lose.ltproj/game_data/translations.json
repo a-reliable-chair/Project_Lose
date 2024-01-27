@@ -386,5 +386,9 @@
     {
         "nid": "_attribution",
         "text": "Created By A_Reliable_Chair"
+    },
+    {
+        "nid": "Normal_desc",
+        "text": "Normal mode!"
     }
 ]

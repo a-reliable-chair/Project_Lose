@@ -6,7 +6,7 @@
         "condition": "game.mode.nid != 'Normal'",
         "commands": [],
         "only_once": false,
-        "priority": 21,
+        "priority": 22,
         "_source": [
             "if;game.turncount == 2 and u('Brassfield').position and game.check_alive('Brassfield') and game.get_unit('Brassfield').team == 'enemy'",
             "    move_cursor;Brassfield",
@@ -48,7 +48,27 @@
             "    speak;Cawthorne;Cawthorne AI change!",
             "    remove_portrait;Cawthorne",
             "    change_ai;Cawthorne;Yolo",
-            "end"
+            "end",
+            "if;game.mode.nid == 'Lunatic'",
+            "    if;game.turncount == 5 and u('Keeva').position and game.check_alive('Keeva')",
+            "        move_cursor;Keeva",
+            "        flicker_cursor;Keeva",
+            "        add_portrait;Keeva;Left",
+            "        speak;Keeva;Shallcross AI change!",
+            "        remove_portrait;Keeva",
+            "        change_ai;Keeva;Yolo",
+            "    end",
+            "    if;game.turncount == 6 and u('Shallcross').position and game.check_alive('Shallcross') and {v:ShallcrossCharge} == 0",
+            "        move_cursor;Shallcross",
+            "        flicker_cursor;Shallcross",
+            "        add_portrait;Shallcross;Left",
+            "        speak;Shallcross;Shallcross AI change!",
+            "        remove_portrait;Shallcross",
+            "        change_ai;Shallcross;Yolo",
+            "        inc_level_var;ShallcrossCharge;1",
+            "    end",
+            "end",
+            ""
         ]
     }
 ]

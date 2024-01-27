@@ -60,6 +60,10 @@
             [
                 "ignore_line_of_sight",
                 null
+            ],
+            [
+                "battle_cast_anim",
+                "Wind"
             ]
         ]
     }

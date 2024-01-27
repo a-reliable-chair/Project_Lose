@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Skill_Start",
+        "trigger": "level_start",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "level_var;Potshot;0",
+            "level_var;Enthrall;0",
+            "level_var;Lifeline;0"
+        ]
+    }
+]

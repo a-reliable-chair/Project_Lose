@@ -14,7 +14,8 @@
             "speak;SoldierBlue;Shouldn't we go look for loot?",
             "speak;SoldierRed;We wait until they're all busy and then we move.",
             "bop_portrait;SoldierBlue",
-            "speak;SoldierBlue;Got it!"
+            "speak;SoldierBlue;Got it!",
+            ""
         ]
     }
 ]

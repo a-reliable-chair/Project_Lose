@@ -15,6 +15,9 @@
             "    s;Alpin;I'm here!",
             "    remove_portrait;Alpin",
             "    inc_level_var;TraineeDeployed;1",
+            "    if;'{v:ReverseRecruitment}' == 'Yes'",
+            "        inc_level_var;GotohDeployed;1",
+            "    end",
             "end",
             "if; u('Carlin').position",
             "    flicker_cursor;Carlin",
@@ -96,7 +99,9 @@
             "    add_portrait;Laisren;Right",
             "    s;Laisren;I'm here!",
             "    remove_portrait;Laisren",
-            "    inc_level_var;LaisrenDeployed;1",
+            "    if;'{v:ReverseRecruitment}' == 'No'",
+            "        inc_level_var;GotohDeployed;1",
+            "    end",
             "end"
         ]
     }

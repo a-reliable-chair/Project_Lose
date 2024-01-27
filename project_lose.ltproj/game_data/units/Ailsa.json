@@ -22,14 +22,14 @@
             "MOV": 0
         },
         "growths": {
-            "HP": 60,
-            "STR": 25,
+            "HP": 0,
+            "STR": 10,
             "MAG": 0,
-            "SKL": 30,
-            "SPD": 35,
+            "SKL": 10,
+            "SPD": 15,
             "LCK": 10,
-            "DEF": 15,
-            "RES": 20,
+            "DEF": 5,
+            "RES": 0,
             "CON": 0,
             "MOV": 10
         },
@@ -57,7 +57,7 @@
             ],
             [
                 1,
-                "Beachcomber"
+                "RisingTide"
             ]
         ],
         "unit_notes": [],

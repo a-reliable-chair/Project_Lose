@@ -11,7 +11,10 @@
             "add_portrait;Cawthorne;Left",
             "speak;Cawthorne;ded",
             "remove_portrait;Cawthorne",
-            "inc_level_var;CawthorneDead;1"
+            "inc_level_var;CawthorneDead;1",
+            "if;game.mode.nid == 'Normal'",
+            "    win_game",
+            "end"
         ]
     }
 ]

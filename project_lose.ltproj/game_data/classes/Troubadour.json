@@ -136,7 +136,7 @@
             0
         ],
         "map_sprite_nid": "Troubadour",
-        "combat_anim_nid": "Cleric",
+        "combat_anim_nid": "Troubadour",
         "fields": []
     }
 ]

@@ -3141,7 +3141,7 @@
             },
             {
                 "nid": "LeftRR",
-                "visible": true,
+                "visible": false,
                 "foreground": false,
                 "terrain_grid": {
                     "3,15": "3"
@@ -3150,7 +3150,7 @@
             },
             {
                 "nid": "RightRR",
-                "visible": true,
+                "visible": false,
                 "foreground": false,
                 "terrain_grid": {
                     "17,14": "34"

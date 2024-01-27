@@ -8,9 +8,9 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "choice;PlayerReverse;Enable Weapon Reversal Mode For <red>Player</red> Units?;Reversal,Double,No Reversal",
-            "choice;EnemyReverse;Enable Weapon Reversal Mode For <red>Enemy</red> Units?;Reversal,Double,No Reversal",
-            "choice;ReverseRecruitment;Enable <red>Reverse</red> Recruitment?;Yes,No",
+            "choice;PlayerReverse;Enable Weapon Reversal Mode For <red>Player</red> Units?;No Reversal,Reversal,Double",
+            "choice;EnemyReverse;Enable Weapon Reversal Mode For <red>Enemy</red> Units?;No Reversal,Reversal,Double",
+            "choice;ReverseRecruitment;Enable <red>Reverse</red> Recruitment?;No,Yes",
             "trigger_script;Global ModesReview"
         ]
     }

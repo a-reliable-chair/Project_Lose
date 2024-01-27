@@ -24,12 +24,12 @@
             "    transition;Open",
             "    give_item;{unit};DEFBooster",
             "    give_exp;{unit};10",
+            "    inc_game_var;InstructionsUnclear;1",
             "end",
             "sound;Unlock",
             "show_layer;Left",
             "has_traded;{unit}",
-            "inc_game_var;TunnelVision;1",
-            "inc_game_var;InstructionsUnclear;1"
+            "inc_game_var;TunnelVision;1"
         ]
     }
 ]

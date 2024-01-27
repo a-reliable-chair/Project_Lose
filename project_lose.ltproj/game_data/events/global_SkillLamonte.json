@@ -8,8 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;{v:LamonteSkill} == 0",
-            "    inc_level_var;LamonteSkill;1",
+            "if;{v:Lifeline} == 0",
+            "    inc_level_var;Lifeline;1",
             "    interact_unit;Lamonte;{position};--,end;LifelineCast;force_no_animation",
             "end"
         ]

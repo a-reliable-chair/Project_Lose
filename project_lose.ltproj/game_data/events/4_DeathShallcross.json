@@ -16,7 +16,9 @@
             "    update_achievement;30;Stop Breaking The Game;You killed Shallcross... Somehow...",
             "    complete_achievement;30;1;banner",
             "end",
-            "win_game"
+            "if;game.mode.nid == 'Normal'",
+            "    win_game",
+            "end"
         ]
     }
 ]

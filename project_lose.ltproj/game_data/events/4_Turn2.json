@@ -13,7 +13,19 @@
             "change_ai;Enemy_5;Yolo",
             "change_ai;Enemy_8;Yolo",
             "change_ai;Enemy_10;Yolo",
-            "change_ai;Enemy_12;Yolo"
+            "change_ai;Enemy_12;Yolo",
+            "",
+            "",
+            "move_cursor;0, 10",
+            "wait;250",
+            "add_unit;T3Rein_2;0, 10;immediate;push;west",
+            "wait;250",
+            "",
+            "move_cursor;3, 0",
+            "wait;250",
+            "add_unit;T3Rein_1;3, 0;immediate;push;north",
+            "wait;250",
+            ""
         ]
     }
 ]

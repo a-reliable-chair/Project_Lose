@@ -3,7 +3,7 @@
         "name": "LastTurn",
         "trigger": "turn_change",
         "level_nid": "4",
-        "condition": "game.turncount == 10",
+        "condition": "game.turncount == 9",
         "commands": [],
         "only_once": false,
         "priority": 20,

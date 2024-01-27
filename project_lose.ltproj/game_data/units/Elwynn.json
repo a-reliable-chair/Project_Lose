@@ -22,14 +22,14 @@
             "MOV": 0
         },
         "growths": {
-            "HP": 55,
+            "HP": 0,
             "STR": 0,
-            "MAG": 30,
-            "SKL": 25,
-            "SPD": 20,
+            "MAG": 15,
+            "SKL": 15,
+            "SPD": 0,
             "LCK": 10,
-            "DEF": 15,
-            "RES": 35,
+            "DEF": 5,
+            "RES": 5,
             "CON": 0,
             "MOV": 5
         },

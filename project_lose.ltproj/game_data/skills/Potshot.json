@@ -12,6 +12,10 @@
             [
                 "class_skill",
                 null
+            ],
+            [
+                "event_after_initiated_combat",
+                "Global SkillPotshot"
             ]
         ]
     }

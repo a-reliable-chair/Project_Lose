@@ -3,9 +3,9 @@
         "nid": "Alpin",
         "name": "Alpin",
         "desc": "An energetic young lad. Dreams of joining the army of [KINGDOM] someday.",
-        "variant": "",
+        "variant": "Alpin",
         "level": 1,
-        "klass": "AlpinVillager",
+        "klass": "Villager",
         "tags": [
             "Youth"
         ],

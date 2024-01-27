@@ -93,5 +93,35 @@
         "Thanks For Playing",
         true,
         false
+    ],
+    [
+        "Onward",
+        true,
+        false
+    ],
+    [
+        "Little Bitta Hype",
+        false,
+        false
+    ],
+    [
+        "Hard Habit To Break",
+        false,
+        false
+    ],
+    [
+        "Hello Monday",
+        true,
+        false
+    ],
+    [
+        "Jammin'",
+        true,
+        false
+    ],
+    [
+        "Let It Burn, I'm Groovin'",
+        true,
+        false
     ]
 ]

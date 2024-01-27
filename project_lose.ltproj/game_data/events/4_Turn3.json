@@ -8,15 +8,16 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "move_cursor;3, 0",
+            "move_cursor;21, 0",
             "wait;250",
-            "add_unit;T3Rein_1;3, 0;immediate;push;north",
+            "add_unit;T4Rein_1;18, 0;immediate;push;north",
             "wait;250",
             "",
-            "move_cursor;0, 10",
+            "move_cursor;2, 0",
             "wait;250",
-            "add_unit;T3Rein_2;0, 10;immediate;push;west",
-            "wait;250"
+            "add_unit;T4Rein_2;2, 0;immediate;push;north",
+            "wait;250",
+            ""
         ]
     }
 ]

@@ -5,7 +5,7 @@
         "desc": "A magically gifted youngster from [TOWN].\nEnergetic and sporatic.",
         "variant": "",
         "level": 1,
-        "klass": "CarlinVillager",
+        "klass": "Pupil",
         "tags": [
             "Youth"
         ],

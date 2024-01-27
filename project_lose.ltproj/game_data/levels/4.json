@@ -16,7 +16,7 @@
             "enemy2_battle": null
         },
         "objective": {
-            "simple": "Survive,Left {eval:11-game.turncount}",
+            "simple": "Survive,Left {eval:10-game.turncount}",
             "win": "Survive",
             "loss": "All Player Units Die"
         },

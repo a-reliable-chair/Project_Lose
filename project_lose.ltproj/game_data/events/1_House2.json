@@ -10,8 +10,10 @@
         "_source": [
             "if;'{v:ReverseRecruitment}' == 'Yes' and unit.nid == 'Lamonte'",
             "    trigger_script;Global HouseLamonte",
+            "elif;'{v:ReverseRecruitment}' == 'Yes' and unit.nid == 'Elspeth'",
+            "    trigger_script;Global HouseElspeth1",
             "elif;'{v:ReverseRecruitment}' == 'No' and unit.nid == 'Elwynn'",
-            "    trigger_script;Global HouseElwynn1",
+            "    trigger_script;Global HouseElwynn2",
             "elif;'{v:ReverseRecruitment}' == 'No' and unit.nid == 'Quinley'",
             "    trigger_script;Global HouseQuinley",
             "else",
@@ -26,12 +28,12 @@
             "    transition;Open",
             "    give_item;{unit};MAGBooster",
             "    give_exp;{unit};10",
+            "    inc_game_var;InstructionsUnclear;1",
             "end",
             "sound;Unlock",
             "show_layer;Right",
             "has_traded;{unit}",
-            "inc_game_var;TunnelVision;1",
-            "inc_game_var;InstructionsUnclear;1"
+            "inc_game_var;TunnelVision;1"
         ]
     }
 ]

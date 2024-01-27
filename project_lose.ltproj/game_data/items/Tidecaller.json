@@ -2,7 +2,7 @@
     {
         "nid": "Tidecaller",
         "name": "<purple>Tidecaller</purple>",
-        "desc": "Ailsa Only.\nAfter initiating combat, Ailsa gains 100% crit for 1 turn.",
+        "desc": "Ailsa Only.\nWhile equipped, unit adds it's Crit to Avoid.",
         "icon_nid": "BossWeaps",
         "icon_index": [
             0,
@@ -35,7 +35,7 @@
             ],
             [
                 "crit",
-                20
+                5
             ],
             [
                 "uses",
@@ -67,16 +67,16 @@
                 "purple"
             ],
             [
-                "self_status_on_hit",
-                "Tidecall"
-            ],
-            [
                 "map_cast_anim",
                 "Map_Lance_Cast"
             ],
             [
                 "ignore_line_of_sight",
                 null
+            ],
+            [
+                "status_on_equip",
+                "Tidecall"
             ]
         ]
     }
