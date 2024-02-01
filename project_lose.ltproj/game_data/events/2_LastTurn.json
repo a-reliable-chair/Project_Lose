@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;(game.turncount == 7 and game.mode.nid != 'Normal) or (game.turncount == 8 and game.mode.nid == 'Normal')",
+            "if;(game.turncount == 7 and game.mode.nid != 'Normal') or (game.turncount == 8 and game.mode.nid == 'Normal')",
             "    change_objective_simple;Survive:,<green>Last Turn</>",
             "end"
         ]

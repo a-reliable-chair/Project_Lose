@@ -312,6 +312,19 @@
                 "action": "Attack",
                 "target": "Enemy",
                 "target_spec": [
+                    "ID",
+                    "Leod"
+                ],
+                "view_range": -4,
+                "invert_targeting": false,
+                "roam_speed": 100,
+                "desired_proximity": 0,
+                "condition": ""
+            },
+            {
+                "action": "Attack",
+                "target": "Enemy",
+                "target_spec": [
                     "Team",
                     "enemy2"
                 ],
@@ -332,7 +345,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<yellow>Chest</>",
+                "target_spec": "Chest",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -342,7 +355,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<yellow>Door</>",
+                "target_spec": "Door",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -352,7 +365,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<yellow>Entrance</>",
+                "target_spec": "Entrance",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -380,7 +393,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<yellow>Chest</>",
+                "target_spec": "Chest",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -390,7 +403,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<yellow>Entrance</>",
+                "target_spec": "Entrance",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -400,7 +413,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "<yellow>Door</>",
+                "target_spec": "Door",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,

@@ -389,7 +389,10 @@
                 "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    8,
+                    7
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -410,7 +413,10 @@
                 "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    8,
+                    5
+                ],
                 "starting_traveler": null,
                 "generic": true
             },

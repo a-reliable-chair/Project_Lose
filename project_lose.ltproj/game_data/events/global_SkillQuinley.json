@@ -37,7 +37,7 @@
             "    give_skill;Thrall;Canto;no_banner",
             "    give_skill;Thrall;Shove;no_banner",
             "    add_unit;{unit};Quinley;warp;closest",
-            "    inc_level_var;QuinleySkill;1",
+            "    inc_level_var;Enthrall;1",
             "    wait;200",
             "end",
             "if;len(unit.items) == 0 and game.level.nid == '1'",

@@ -12,6 +12,7 @@
             "speak;{unit};Got it!",
             "remove_portrait;{unit}",
             "give_item;{unit};RelicKey",
+            "inc_level_var;GotKeys;1",
             "give_exp;{unit};20",
             "has_traded;{unit}"
         ]

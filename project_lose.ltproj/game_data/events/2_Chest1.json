@@ -17,7 +17,6 @@
             "    remove_portrait;{unit}",
             "    give_exp;{unit};20",
             "    inc_game_var;TunnelVision;1",
-            "    inc_level_var;PlayerOpenChest;1",
             "end",
             "if;unit.team == 'enemy' and game.mode.nid == 'Lunatic'",
             "    remove_item;{unit};BlessedRing;no_banner",

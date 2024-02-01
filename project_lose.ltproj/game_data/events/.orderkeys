@@ -22,6 +22,7 @@
     "3_Escape_Thief",
     "3_Escape_Player",
     "0_FightAckerman",
+    "DEBUG_FightAckerman_1",
     "4_FightAckerman",
     "4_FightWynnflaedAckerman",
     "1_FightBrassfield",
@@ -201,5 +202,6 @@
     "global_Spite",
     "DEBUG_Modes",
     "global_Jukebox",
-    "global_Skill_Start"
+    "global_Skill_Start",
+    "DEBUG_New_Event"
 ]

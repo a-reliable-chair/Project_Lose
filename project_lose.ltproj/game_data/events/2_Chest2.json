@@ -18,7 +18,6 @@
             "    remove_portrait;{unit}",
             "    inc_game_var;GotReclaimer;1",
             "    inc_game_var;TunnelVision;1",
-            "    inc_level_var;PlayerOpenChest;1",
             "    if;game.mode.nid != 'Normal'",
             "        modify_item_component;{unit};TheReclaimer;weapon_rank;S",
             "    end",

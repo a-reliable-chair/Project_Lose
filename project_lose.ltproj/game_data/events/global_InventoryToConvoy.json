@@ -8,9 +8,11 @@
         "only_once": false,
         "priority": 21,
         "_source": [
-            "for;item;[item.uid for item in unit.items]",
-            "    move_item;{unit};Convoy;{item}",
-            "endf"
+            "if;unit.nid != 'Thrall'",
+            "    for;item;[item.uid for item in unit.items]",
+            "        move_item;{unit};Convoy;{item}",
+            "    endf",
+            "end"
         ]
     }
 ]

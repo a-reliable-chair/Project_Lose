@@ -448,6 +448,9 @@
             "    wait;500",
             "    remove_unit;Laisren;fade;south",
             "    wait;500",
+            "end",
+            "if;not has_achievement('19')",
+            "    update_achievement;19;Didn't Even Need 'Em;Acquire both chest items without getting the Relic Key in Ch3",
             "end"
         ]
     }

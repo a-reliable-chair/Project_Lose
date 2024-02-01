@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;(game.turncount == 8 and game.mode.nid != 'Normal') or (game.turncount == 9 game.mode.nid == 'Normal')",
+            "if;(game.turncount == 8 and game.mode.nid != 'Normal') or (game.turncount == 9 and game.mode.nid == 'Normal')",
             "    if;game.check_alive('Emberson')",
             "        move_cursor;Emberson",
             "        flicker_cursor;Emberson",

@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;target.team == 'enemy' and item.nid == 'Firestick'",
+            "if;(target.team == 'enemy' and item.nid == 'Firestick') or (target.team == 'enemy' and item.nid == 'Firestarter')",
             "    lvar;FireStart_Pos;unit2.position",
             "end"
         ]

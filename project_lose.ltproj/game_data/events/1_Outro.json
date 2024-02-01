@@ -312,6 +312,7 @@
             "        remove_portrait;Lamonte",
             "        # Lamonte kills Garvey",
             "        set_current_hp;Garvey;5",
+            "    inc_level_var;Lifeline;1",
             "        interact_unit;Lamonte;Garvey;crit1,end;Junk;force_no_animation",
             "        flicker_cursor;Lamonte",
             "        change_team;Lamonte;player",

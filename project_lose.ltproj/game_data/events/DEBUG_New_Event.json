@@ -1,0 +1,14 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "combat_start",
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui"
+        ]
+    }
+]
