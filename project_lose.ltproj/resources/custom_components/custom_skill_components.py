@@ -29,11 +29,11 @@ class StartAndEndEventInitiate(SkillComponent):
         if value:
             self.value.update(value)
 
-    def start_combat(self, playback, unit, item, target, mode):
+    def start_combat(self, playback, unit, item, target, item2, mode):
         if mode == 'attack':
             game.events.trigger_specific_event(self.value.get('start_event'), unit, target, unit.position, {'item': item, 'mode': mode})
     
-    def end_combat(self, playback, unit: UnitObject, item, target: UnitObject, mode):
+    def end_combat(self, playback, unit: UnitObject, item, target: UnitObject, item2, mode):
         if mode == 'attack':
             game.events.trigger_specific_event(self.value.get('end_event'), unit, target, unit.position, {'item': item, 'mode': mode})
 

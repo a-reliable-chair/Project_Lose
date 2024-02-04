@@ -16,9 +16,10 @@
             "        lvar;ValidLocs;{v:ValidLocs} + [v for v in game.target_system.get_adjacent_positions({sets_r_cringe}) if v not in {v:ValidLocs}]",
             "    endf",
             "endf",
-            "map_anim;Target_3x3;{e:u('Garvey').position};permanent",
+            "#map_anim;Target_3x3;{e:u('Garvey').position};permanent",
             "for;cross;[p for p in {v:ValidLocs} if not game.board.get_unit(p)]",
             "    add_region;{e:'Garve_' + str({v:GarveySpots})};{cross};1,1;event;Garvey_Shot;interrupt_move",
+            "    map_anim;Map_Suppressive_Fire;{e:'Garve_' + str({v:GarveySpots})};permanent",
             "    inc_level_var;GarveySpots",
             "endf"
         ]

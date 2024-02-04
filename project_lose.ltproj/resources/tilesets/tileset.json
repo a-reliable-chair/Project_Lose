@@ -2364,5 +2364,30 @@
         "nid": "Ch2",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "Ch1Tweaks",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Ch2Tweaks",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Ch4Tweaks",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Ch5Tweaks",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Ch3Tweaks",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

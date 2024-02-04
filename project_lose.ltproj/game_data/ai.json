@@ -388,54 +388,6 @@
         "roam_ai": false
     },
     {
-        "nid": "Ch3_Thief_2",
-        "behaviours": [
-            {
-                "action": "Interact",
-                "target": "Event",
-                "target_spec": "Chest",
-                "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "Interact",
-                "target": "Event",
-                "target_spec": "Entrance",
-                "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "Interact",
-                "target": "Event",
-                "target_spec": "Door",
-                "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            },
-            {
-                "action": "Interact",
-                "target": "Event",
-                "target_spec": "Escape",
-                "view_range": -4,
-                "invert_targeting": false,
-                "roam_speed": 100,
-                "desired_proximity": 0,
-                "condition": ""
-            }
-        ],
-        "priority": 12,
-        "offense_bias": 2.0,
-        "roam_ai": false
-    },
-    {
         "nid": "Ch4_Yolo",
         "behaviours": [
             {

@@ -389,6 +389,14 @@
     },
     {
         "nid": "Normal_desc",
-        "text": "Normal mode!"
+        "text": "Weenie Hut Jr."
+    },
+    {
+        "nid": "Hard_desc",
+        "text": "+Enemy Growths -Turn Counts      No Convoy On Death"
+    },
+    {
+        "nid": "Lunatic_desc",
+        "text": "++Enemy Growths No Convoy       And Even More Bullshit!"
     }
 ]

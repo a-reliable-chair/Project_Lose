@@ -60,7 +60,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Quinley",
+        "nid": "Saraid",
         "blinking_offset": [
             24,
             24
@@ -72,7 +72,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Saraid",
+        "nid": "Quinley",
         "blinking_offset": [
             24,
             24
@@ -243,11 +243,11 @@
         "nid": "Cawthorne",
         "blinking_offset": [
             24,
-            32
+            16
         ],
         "smiling_offset": [
             24,
-            48
+            32
         ],
         "info_offset": 0
     },

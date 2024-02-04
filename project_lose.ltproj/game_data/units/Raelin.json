@@ -3,7 +3,7 @@
         "nid": "Raelin",
         "name": "Raelin",
         "desc": "The shut-in daughter of a fisherman.\nTimid and cautious.",
-        "variant": "Female",
+        "variant": "Raelin",
         "level": 1,
         "klass": "Recruit",
         "tags": [

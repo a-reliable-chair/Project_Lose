@@ -203,5 +203,6 @@
     "DEBUG_Modes",
     "global_Jukebox",
     "global_Skill_Start",
-    "DEBUG_New_Event"
+    "DEBUG_New_Event",
+    "4_AchievementChecks"
 ]
