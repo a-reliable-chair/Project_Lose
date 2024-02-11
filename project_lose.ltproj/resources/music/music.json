@@ -128,5 +128,15 @@
         "After Hours",
         false,
         false
+    ],
+    [
+        "Church House Rock",
+        true,
+        false
+    ],
+    [
+        "Dealings In The Dark",
+        true,
+        false
     ]
 ]
