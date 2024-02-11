@@ -2,7 +2,7 @@
     {
         "nid": "Cover",
         "name": "Cover",
-        "desc": "Aura. Allies within 3 tiles gain +15 Avoid.",
+        "desc": "Aura. Allies within 3 tiles gain half of Lamonte's DEF.",
         "icon_nid": "Statuses",
         "icon_index": [
             0,

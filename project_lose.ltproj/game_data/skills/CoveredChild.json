@@ -2,16 +2,21 @@
     {
         "nid": "CoveredChild",
         "name": "Covered",
-        "desc": "+15 Avoid.",
+        "desc": "DEF boosted.",
         "icon_nid": "Statuses",
         "icon_index": [
             0,
-            5
+            4
         ],
         "components": [
             [
-                "avoid",
-                15
+                "stat_change_expression",
+                [
+                    [
+                        "DEF",
+                        "u('Lamonte').stats['DEF']/2"
+                    ]
+                ]
             ]
         ]
     }
