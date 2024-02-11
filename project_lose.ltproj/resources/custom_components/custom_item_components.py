@@ -48,7 +48,7 @@ class DrawBackOnEndCombatInitiate(ItemComponent):
             return new_position_user, new_position_target
         return None, None
     
-    def end_combat(self, playback, unit, item, target, mode):
+    def end_combat(self, playback, unit, item, target, item2, mode):
         if not skill_system.ignore_forced_movement(unit) and not skill_system.ignore_forced_movement(target) and mode and mode == 'attack':
             new_position_user, new_position_target = self._check_draw_back(target, unit, self.value)
             if new_position_user and new_position_target:
@@ -76,7 +76,7 @@ class BackdashOnEndCombat(ItemComponent):
             return npos
         return None
 
-    def end_combat(self, playback, unit, item, target, mode):
+    def end_combat(self, playback, unit, item, target, item2, mode):
         if target and not skill_system.ignore_forced_movement(unit):
             new_position = self._check_dash(target, unit, self.value)
             if new_position:

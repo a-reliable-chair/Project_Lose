@@ -33,7 +33,7 @@
             "    remove_item;Soldier_15;Steel Axe;no_banner",
             "    give_item;Soldier_15;EmeraldAxe;no_banner",
             "    give_item;Soldier_18;Debilitate;no_banner",
-            "    change_ai;Soldier_18;Heal2",
+            "    change_ai;Soldier_18;Status",
             "elif;'{v:EnemyReverse}' == 'No Reversal'",
             "    give_item;Soldier_2;Steel Blade;no_banner",
             "    remove_item;Soldier_4;Axereaver;no_banner",
@@ -47,7 +47,7 @@
             "    remove_item;Soldier_15;Steel Sword;no_banner",
             "    give_item;Soldier_15;RubySword;no_banner",
             "    give_item;Soldier_18;Debilitate;no_banner",
-            "    change_ai;Soldier_18;Heal2",
+            "    change_ai;Soldier_18;Status",
             "end"
         ]
     }

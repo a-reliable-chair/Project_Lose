@@ -8,7 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;{v:RoutEnemies} == 0 and len(game.get_enemy_units()) == 2 and game.check_alive('Brassfield') and game.check_alive('Leod')",
+            "if;{v:RoutEnemies} == 0 and len(game.get_enemy_units()) == 2 and game.check_alive('Brassfield') and game.check_alive('Leod') and game.get_unit('Brassfield').team == 'enemy'",
             "    flicker_cursor;Brassfield",
             "    add_portrait;Brassfield;Right",
             "    speak;Brassfield;My squad's dead. I'm out.",
@@ -17,7 +17,7 @@
             "    remove_unit;Brassfield;immediate;south",
             "    inc_level_var;RoutEnemies;1",
             "    win_game",
-            "elif;{v:RoutEnemies} == 0 and len(game.get_enemy_units()) == 1 and game.check_alive('Brassfield')",
+            "elif;{v:RoutEnemies} == 0 and len(game.get_enemy_units()) == 1 and game.check_alive('Brassfield') and game.get_unit('Brassfield').team == 'enemy'",
             "    flicker_cursor;Brassfield",
             "    add_portrait;Brassfield;Right",
             "    speak;Brassfield;My squad's dead. I'm out.",

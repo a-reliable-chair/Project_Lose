@@ -12,7 +12,9 @@
             "trigger_script;Global ModesSelect",
             "give_item;Garvey;Spite;no_banner",
             "give_item;Saraid;Firestick;no_banner",
-            "give_item;Ailsa;Tidecaller;no_banner"
+            "give_item;Ailsa;Tidecaller;no_banner",
+            "give_item;Elwynn;Nova;no_banner",
+            "give_item;Carlin;Disaster;no_banner"
         ]
     }
 ]

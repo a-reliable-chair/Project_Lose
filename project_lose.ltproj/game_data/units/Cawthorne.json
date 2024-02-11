@@ -19,7 +19,7 @@
             "DEF": 9,
             "CON": 13,
             "MOV": 5,
-            "RES": 2
+            "RES": 0
         },
         "growths": {
             "HP": 0,

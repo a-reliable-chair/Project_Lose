@@ -8,9 +8,11 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Davenport;Left",
-            "speak;Davenport;Davenport Battle Quote!",
-            "remove_portrait;Davenport",
+            "if;game.get_unit('Davenporr').team == 'enemy'",
+            "    add_portrait;Davenport;Left",
+            "    speak;Davenport;Davenport Battle Quote!",
+            "    remove_portrait;Davenport",
+            "end",
             ""
         ]
     }

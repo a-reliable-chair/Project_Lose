@@ -5,7 +5,7 @@
         "maximum": 25,
         "desc": "The unit is removed from the battle if HP reaches 0.",
         "position": "hidden",
-        "growth_colors": false
+        "growth_colors": true
     },
     {
         "nid": "STR",
@@ -13,7 +13,7 @@
         "maximum": 10,
         "desc": "Each point increases physical damage by 1.",
         "position": "left",
-        "growth_colors": false
+        "growth_colors": true
     },
     {
         "nid": "MAG",
@@ -21,7 +21,7 @@
         "maximum": 10,
         "desc": "Each point increases magic damage and healing by 1.",
         "position": "left",
-        "growth_colors": false
+        "growth_colors": true
     },
     {
         "nid": "SKL",
@@ -29,7 +29,7 @@
         "maximum": 10,
         "desc": "Each point increases hit by 20.",
         "position": "left",
-        "growth_colors": false
+        "growth_colors": true
     },
     {
         "nid": "SPD",
@@ -37,7 +37,7 @@
         "maximum": 10,
         "desc": "Each point gives +5 avoid. Doubling threshold: 1.",
         "position": "left",
-        "growth_colors": false
+        "growth_colors": true
     },
     {
         "nid": "LCK",
@@ -45,7 +45,7 @@
         "maximum": 10,
         "desc": "Each point gives +5 hit, crit, avoid, and crit avoid.",
         "position": "right",
-        "growth_colors": false
+        "growth_colors": true
     },
     {
         "nid": "DEF",
@@ -53,7 +53,7 @@
         "maximum": 10,
         "desc": "Each point reduces incoming physical damage by 1.",
         "position": "left",
-        "growth_colors": false
+        "growth_colors": true
     },
     {
         "nid": "RES",
@@ -61,7 +61,7 @@
         "maximum": 10,
         "desc": "Each point decreases incoming magic damage by 1.",
         "position": "left",
-        "growth_colors": false
+        "growth_colors": true
     },
     {
         "nid": "CON",
@@ -77,6 +77,6 @@
         "maximum": 15,
         "desc": "The distance you can move in one turn. Can be increased by leveling up!",
         "position": "right",
-        "growth_colors": false
+        "growth_colors": true
     }
 ]

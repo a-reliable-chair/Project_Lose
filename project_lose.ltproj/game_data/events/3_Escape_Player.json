@@ -16,6 +16,9 @@
             "    update_achievement;23;Mom, Can We Keep Him?;Escaped with a Thrall in Ch4",
             "    complete_achievement;23;1;banner",
             "end",
+            "if;unit.nid == 'Davenport'",
+            "    inc_game_var;DavenportRecruited;1",
+            "end",
             "if;len(game.get_player_units()) == 0",
             "    win_game",
             "end"

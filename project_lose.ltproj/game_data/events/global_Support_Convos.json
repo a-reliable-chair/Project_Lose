@@ -9,7 +9,13 @@
         "priority": 20,
         "_source": [
             "s;;These units are now supporting!;;;hint",
-            "has_traded;{unit}"
+            "has_traded;{unit}",
+            "inc_game_var;YouSupported",
+            "",
+            "if;not has_achievement('34') and {v:YouSupported} == 4",
+            "    update_achievement;34;The Buddy System;In a single playthrough make 4 support pairs",
+            "    complete_achievement;34;1;banner",
+            "end"
         ]
     }
 ]

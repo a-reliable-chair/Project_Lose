@@ -8,8 +8,8 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "change_ai;Thief_1;Ch3_Thief_1",
-            "change_ai;Thief_2;Ch3_Thief_1",
+            "change_ai;Thief_1;Ch3_Thief",
+            "change_ai;Thief_2;Ch3_Thief",
             ""
         ]
     }

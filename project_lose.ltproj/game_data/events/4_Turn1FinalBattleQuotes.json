@@ -102,6 +102,12 @@
             "    if;'{v:ReverseRecruitment}' == 'No'",
             "        inc_level_var;GotohDeployed;1",
             "    end",
+            "if; u('Davenport').position and game.get_unit('Davenport').team == 'player'",
+            "    flicker_cursor;Davenport",
+            "    add_portrait;Davenport;Right",
+            "    s;Davenport;I'm here!",
+            "    remove_portrait;Davenport",
+            "end",
             "end"
         ]
     }

@@ -13,7 +13,7 @@
             "remove_portrait;Keeva",
             "inc_level_var;KeevaDead;1",
             "if;not has_achievement('27')",
-            "    update_achievement;27;You Weren't Supposed To Do That...;Defeated Keeva in Ch5",
+            "    update_achievement;27;A Traitor's Death;Defeated Keeva in Ch5",
             "    complete_achievement;27;1;banner",
             "end"
         ]

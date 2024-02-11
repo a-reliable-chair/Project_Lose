@@ -128,6 +128,14 @@
             "    speak;Brassfield;Filler!!",
             "    remove_portrait;Brassfield",
             "    inc_level_var;CawthorneBrassfield;1",
+            "elif;({v:CawthorneDavenport} == 0 and unit.nid == 'Davenport') or ({v:CawthorneDavenport} == 0 and unit2.nid == 'Davenport')",
+            "    add_portrait;Cawthorne;Left",
+            "    speak;Cawthorne;Filler",
+            "    remove_portrait;Cawthorne",
+            "    add_portrait;Davenport;Right",
+            "    speak;Davenport;Filler!!",
+            "    remove_portrait;Davenport",
+            "    inc_level_var;CawthorneDavenport;1",
             "end"
         ]
     }

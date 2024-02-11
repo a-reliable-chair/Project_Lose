@@ -97,8 +97,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    11
+                    7,
+                    8
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -149,8 +149,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    9
+                    14,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -213,10 +213,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    5,
-                    7
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -237,7 +234,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    8,
+                    8
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -255,7 +255,7 @@
                 "ai_group": "",
                 "starting_position": [
                     9,
-                    4
+                    5
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -293,10 +293,7 @@
                 "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    6,
-                    9
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -312,10 +309,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    10,
-                    5
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -336,10 +330,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    5,
-                    9
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -347,29 +338,25 @@
                 "nid": "104",
                 "variant": null,
                 "level": 1,
-                "klass": "Soldier",
+                "klass": "Cleric",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Physic_1",
                         false
                     ],
                     [
-                        "Mace",
-                        true
-                    ],
-                    [
-                        "Iron Sword",
+                        "Debilitate",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Yolo",
+                "ai": "Status",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
+                    6,
                     9
                 ],
                 "starting_traveler": null,
@@ -379,11 +366,11 @@
                 "nid": "105",
                 "variant": null,
                 "level": 10,
-                "klass": "Soldier",
+                "klass": "Mage",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Iron Lance",
+                        "Fire",
                         false
                     ]
                 ],
@@ -392,10 +379,7 @@
                 "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    8,
-                    7
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -416,10 +400,7 @@
                 "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    8,
-                    5
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -429,10 +410,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    9,
-                    6
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -442,10 +420,7 @@
                 "ai": "AttackNoMove",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    6,
-                    6
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },
@@ -455,10 +430,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    4,
-                    8
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": false
             },

@@ -19,7 +19,7 @@
             "    if;u('Davenport').position and game.check_alive('Davenport')",
             "        speak;Cawthorne;Time for some fun!|Osgar! Don't bother stopping them, they won't get far!",
             "        remove_portrait;Cawthorne",
-            "        add_region;Tavern;16,8;1,1;event;Tavern;only_once",
+            "        add_region;Tavern;16,8;1,1;event;Visit;only_once",
             "        move_cursor;Davenport",
             "        flicker_cursor;Davenport",
             "        add_portrait;Davenport;Left",
@@ -29,10 +29,10 @@
             "    else",
             "        speak;Cawthorne;Dead already, Osgar?",
             "        remove_portrait;Cawthorne",
-            "        add_region;Tavern;16,8;1,1;event;Tavern;only_once",
+            "        add_region;Tavern;16,8;1,1;event;Visit;only_once",
             "    end",
             "    if;game.mode.nid != 'Normal'",
-            "        modify_item_component;Cawthorne;TheDefiler;weapon_rank;S",
+            "        modify_item_component;Cawthorne;TheDefiler;weapon_rank;'S'",
             "    end",
             "end"
         ]

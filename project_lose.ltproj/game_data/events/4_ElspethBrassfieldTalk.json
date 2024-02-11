@@ -21,7 +21,11 @@
             "change_team;Brassfield;player",
             "remove_talk;Elspeth;Brassfield",
             "set_name;Brassfield;Wynnflaed",
-            "game_var;BrassfieldRecruited;1"
+            "game_var;BrassfieldRecruited;1",
+            "if;not has_achievement('41')",
+            "    update_achievement;41;A Cause Worth Dying For;Recruited Wynnflaed in Ch5",
+            "    complete_achievement;41;1;banner",
+            "end"
         ]
     }
 ]

@@ -48,6 +48,7 @@
             "    give_item;Quinley;HeartOfDarkness;no_banner",
             "    # Elsepth",
             "    set_wexp;Elspeth;Staff;21;no_banner",
+            "    give_item;Elspeth;Heal;no_banner",
             "    give_item;Elspeth;ChurchKey;no_banner",
             "    # Lamonte",
             "    set_wexp;Lamonte;Lance;21;no_banner",

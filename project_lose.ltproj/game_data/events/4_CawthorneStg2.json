@@ -16,7 +16,8 @@
             "remove_skill;Cawthorne;CawMiracle;no_banner",
             "change_stats;Cawthorne;STR,2,SKL,2,SPD,2;immediate",
             "set_current_hp;Cawthorne;25",
-            "change_ai;Cawthorne;Yolo"
+            "change_ai;Cawthorne;Yolo",
+            "inc_level_var;CawthorneStg2;1"
         ]
     }
 ]

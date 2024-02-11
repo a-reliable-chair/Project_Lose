@@ -340,7 +340,7 @@
         "roam_ai": false
     },
     {
-        "nid": "Ch3_Thief_1",
+        "nid": "Ch3_Thief",
         "behaviours": [
             {
                 "action": "Interact",
@@ -683,13 +683,13 @@
         "roam_ai": false
     },
     {
-        "nid": "Heal2",
+        "nid": "Status",
         "behaviours": [
             {
                 "action": "Support",
                 "target": "Ally",
                 "target_spec": null,
-                "view_range": -3,
+                "view_range": -2,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,
@@ -698,8 +698,11 @@
             {
                 "action": "Attack",
                 "target": "Enemy",
-                "target_spec": null,
-                "view_range": -3,
+                "target_spec": [
+                    "Team",
+                    "player"
+                ],
+                "view_range": -2,
                 "invert_targeting": false,
                 "roam_speed": 100,
                 "desired_proximity": 0,

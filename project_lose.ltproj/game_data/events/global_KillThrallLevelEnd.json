@@ -9,7 +9,17 @@
         "priority": 20,
         "_source": [
             "change_team;Thrall;other",
-            "kill_unit;Thrall;immediate"
+            "kill_unit;Thrall;immediate",
+            "if;game.get_unit('Brassfield').team == 'player' and game.level.nid == '1'",
+            "    change_team;Brassfield;enemy",
+            "    kill_unit;Brassfield;immediate",
+            "    inc_level_var;Enthrall;-1",
+            "end",
+            "if;game.get_unit('Emberson').team == 'player' and game.level.nid == '2'",
+            "    change_team;Emberson;enemy",
+            "    kill_unit;Emberson;immediate",
+            "    inc_level_var;Enthrall;-1",
+            "end"
         ]
     }
 ]

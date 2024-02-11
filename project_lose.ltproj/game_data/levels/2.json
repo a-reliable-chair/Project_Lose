@@ -639,7 +639,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Ch3_Thief_1",
+                "ai": "Ch3_Thief",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -658,13 +658,13 @@
                         true
                     ],
                     [
-                        "Iron Sword",
+                        "Lockpick",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Ch3_Thief_1",
+                "ai": "Ch3_Thief",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": null,
@@ -1347,40 +1347,6 @@
                 ],
                 "size": [
                     2,
-                    1
-                ],
-                "sub_nid": "Escape",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Escape_Thief2",
-                "region_type": "event",
-                "position": [
-                    0,
-                    15
-                ],
-                "size": [
-                    1,
-                    3
-                ],
-                "sub_nid": "Escape",
-                "condition": "unit.team == 'enemy'",
-                "time_left": null,
-                "only_once": false,
-                "interrupt_move": false
-            },
-            {
-                "nid": "Escape_Thief32",
-                "region_type": "event",
-                "position": [
-                    12,
-                    12
-                ],
-                "size": [
-                    1,
                     1
                 ],
                 "sub_nid": "Escape",

@@ -2,7 +2,7 @@
     {
         "nid": "TheAlmighty",
         "name": "<blue>The Almighty</>",
-        "desc": "Effective Vs. Non-casters.\nCannot Be Countered.",
+        "desc": "Effective Vs. Non-casters.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -31,7 +31,7 @@
             ],
             [
                 "damage",
-                4
+                3
             ],
             [
                 "hit",
@@ -75,10 +75,6 @@
                     "effective_bonus_damage": 0,
                     "show_effectiveness_flash": true
                 }
-            ],
-            [
-                "cannot_be_countered",
-                null
             ],
             [
                 "item_tags",

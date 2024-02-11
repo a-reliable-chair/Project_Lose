@@ -32,8 +32,7 @@
             "end",
             "sound;Unlock",
             "show_layer;Left",
-            "has_traded;{unit}",
-            "inc_game_var;TunnelVision;1"
+            "has_traded;{unit}"
         ]
     }
 ]

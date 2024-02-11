@@ -16,11 +16,10 @@
             "give_item;{unit};Nova",
             "give_exp;{unit};40",
             "if;not has_achievement('22')",
-            "    update_achievement;22;Where'd You Get That Key?!;Opened the door next to Corridon's house in Ch4",
+            "    update_achievement;22;Where'd You Get That Key?!;Opened the door next to Corridon's in Ch4",
             "    complete_achievement;22;1;banner",
             "end",
-            "has_traded;{unit}",
-            "inc_game_var;TunnelVision;1"
+            "has_traded;{unit}"
         ]
     }
 ]

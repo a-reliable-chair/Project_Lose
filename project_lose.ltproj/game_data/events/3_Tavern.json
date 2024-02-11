@@ -18,8 +18,7 @@
             "    update_achievement;21;Every Party Needs A Pooper;Visited the tavern in Ch4",
             "    complete_achievement;21;1;banner",
             "end",
-            "has_traded;{unit}",
-            "inc_game_var;TunnelVision;1"
+            "has_traded;{unit}"
         ]
     }
 ]

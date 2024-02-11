@@ -8,11 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;game.level.nid == '0'",
-            "    for;enemy_generics;[u for u in game.level.units if u.team in ['enemy', 'enemy2'] and u.generic]",
-            "        autolevel_to;{enemy_generics};1;random",
-            "    endf",
-            "elif;game.level.nid == '1'",
+            "if;game.level.nid == '1'",
             "    for;enemy_generics;[u for u in game.level.units if u.team in ['enemy', 'enemy2'] and u.generic]",
             "        autolevel_to;{enemy_generics};2;random",
             "    endf",
