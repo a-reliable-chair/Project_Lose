@@ -59,11 +59,11 @@
             "create_achievement;38;Gamewide 8;Clear the game to view hint",
             "create_achievement;39;Gamewide 9;Clear the game to view hint",
             "create_achievement;40;Gamewide 10;Clear the game to view hint",
-            "create_achievement;41;Secret 1;Clear the game on Lunatic to view hint",
-            "create_achievement;42;Secret 2;Clear the game on Lunatic to view hint",
-            "create_achievement;43;Secret 3;Clear the game on Lunatic to view hint",
-            "create_achievement;44;Secret 4;Clear the game on Lunatic to view hint",
-            "create_achievement;45;Secret 5;Clear the game on Lunatic to view hint"
+            "create_achievement;41;Modes 1;Clear the game to view hint",
+            "create_achievement;42;Modes 2;Clear the game to view hint",
+            "create_achievement;43;Secret 1;Clear the game on Hard to view hint",
+            "create_achievement;44;Secret 2;Clear the game on Hard to view hint",
+            "create_achievement;45;Completionist;Unlock all other achievements"
         ]
     }
 ]

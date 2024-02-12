@@ -120,5 +120,9 @@
     {
         "nid": "{2WB} (Icon Blitz 1) Heal",
         "subicon_dict": {}
+    },
+    {
+        "nid": "{Endelphia} Flask",
+        "subicon_dict": {}
     }
 ]

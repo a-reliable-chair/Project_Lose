@@ -44,13 +44,21 @@
             "    update_achievement;38;Do Them Dirty, In Front Of They Squad;Killed all lieutenants and Cawthorne in Ch5",
             "    complete_achievement;38;1;banner",
             "end",
-            "if;not has_achievement('39') and {v:CawthorneStg2} == 1 and game.mode.nid == 'Hard'",
+            "if;not has_achievement('39') and {v:CawthorneStg2} == 1 and game.mode.nid == 'Hard' and '{v:ReverseRecruitment}' == 'No'",
             "    update_achievement;39;Hardly Trying;Trigger Cawthorne's 2nd stage and survive (Hard)",
             "    complete_achievement;39;1;banner",
             "end",
-            "if;not has_achievement('40') and {v:CawthorneStg2} == 1 and game.mode.nid == 'Lunatic'",
+            "if;not has_achievement('40') and {v:CawthorneStg2} == 1 and game.mode.nid == 'Lunatic' and '{v:ReverseRecruitment}' == 'No'",
             "    update_achievement;40;Absolute Lunatic;Trigger Cawthorne's 2nd stage and survive (Lunatic)",
             "    complete_achievement;40;1;banner",
+            "end",
+            "if;not has_achievement('41') and {v:CawthorneStg2} == 1 and game.mode.nid == 'Hard' and '{v:ReverseRecruitment}' == 'Yes'",
+            "    update_achievement;41;Fully Accommodating;Trigger Cawthorne's 2nd stage and survive (Hard, RR)",
+            "    complete_achievement;41;1;banner",
+            "end",
+            "if;not has_achievement('42') and {v:CawthorneStg2} == 1 and game.mode.nid == 'Lunatic' and '{v:ReverseRecruitment}' == 'Yes'",
+            "    update_achievement;42;Relative Sane;Trigger Cawthorne's 2nd stage and survive (Lunatic, RR)",
+            "    complete_achievement;42;1;banner",
             "end"
         ]
     }

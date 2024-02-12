@@ -3,10 +3,10 @@
         "nid": "Flask",
         "name": "<yellow>Flask</>",
         "desc": "Free Action.\nAdults only! +4 LUK for 3 turns. \nChapter Uses: 1",
-        "icon_nid": "Consumable",
+        "icon_nid": "{Endelphia} Flask",
         "icon_index": [
             0,
-            3
+            0
         ],
         "components": [
             [

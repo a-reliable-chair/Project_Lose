@@ -206,5 +206,6 @@
     "global_Jukebox",
     "global_Skill_Start",
     "DEBUG_New_Event",
-    "4_AchievementChecks"
+    "4_AchievementChecks",
+    "global_New_Event"
 ]
