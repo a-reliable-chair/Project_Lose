@@ -19,7 +19,7 @@
             "if;unit.nid == 'Davenport'",
             "    inc_game_var;DavenportRecruited;1",
             "end",
-            "if;len(game.get_player_units()) == 0",
+            "if;len(game.get_player_units()) == 0 or (len(game.get_player_units()) == 1 and u('Thrall').position)",
             "    win_game",
             "end"
         ]
