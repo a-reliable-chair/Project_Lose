@@ -14,9 +14,9 @@
             "remove_portrait;{unit}",
             "give_item;{unit};Duskfall",
             "give_exp;{unit};40",
-            "if;not has_achievement('21')",
-            "    update_achievement;21;Every Party Needs A Pooper;Visited the tavern in Ch4",
-            "    complete_achievement;21;1;banner",
+            "if;not has_achievement('22')",
+            "    update_achievement;22;Every Party Needs A Pooper;Visited the tavern in Ch4",
+            "    complete_achievement;22;1;banner",
             "end",
             "has_traded;{unit}"
         ]

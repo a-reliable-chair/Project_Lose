@@ -13,7 +13,9 @@
             "remove_portrait;{unit}",
             "give_item;{unit};RelicKey",
             "inc_level_var;GotKeys;1",
-            "give_exp;{unit};20",
+            "if;unit.nid != 'Thrall'",
+            "    give_exp;{unit};20",
+            "end",
             "has_traded;{unit}"
         ]
     }

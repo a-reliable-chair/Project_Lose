@@ -2,7 +2,7 @@
     {
         "nid": "RESBooster",
         "name": "<yellow>RES++</>",
-        "desc": "Free Action.\nGrants 3 diminishing resistance.",
+        "desc": "Grants 3 diminishing resistance. Free Action.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,

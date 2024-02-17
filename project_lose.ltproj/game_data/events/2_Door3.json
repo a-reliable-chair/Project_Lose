@@ -10,7 +10,7 @@
         "_source": [
             "sound;Unlock",
             "show_layer;BotDoor",
-            "if;unit.team == 'player'",
+            "if;unit.team == 'player' and unit.nid != 'Thrall'",
             "    give_exp;{unit};20",
             "end",
             "has_traded;{unit}",

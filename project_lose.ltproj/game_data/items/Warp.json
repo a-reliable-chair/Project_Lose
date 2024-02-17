@@ -2,7 +2,7 @@
     {
         "nid": "Warp",
         "name": "<yellow>Warp</yellow>",
-        "desc": "Move an ally within MAG to another square.\nRequires line of sight.",
+        "desc": "Move an ally within MAG to another square.\nRequires line of sight.\nFree Action.",
         "icon_nid": null,
         "icon_index": [
             0,

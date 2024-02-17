@@ -12,6 +12,8 @@
             "    trigger_script;Global HouseCarlin",
             "elif;'{v:ReverseRecruitment}' == 'No' and unit.nid == 'Corridon'",
             "    trigger_script;Global HouseCorridon",
+            "elif;unit.nid == 'Thrall'",
+            "    trigger_script;Global HouseThrall",
             "else",
             "    transition;Close",
             "    change_background;House",

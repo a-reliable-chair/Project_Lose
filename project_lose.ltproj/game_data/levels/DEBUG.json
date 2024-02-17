@@ -33,7 +33,7 @@
                 "ai_group": "",
                 "starting_position": [
                     6,
-                    11
+                    7
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -162,8 +162,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    11
+                    5,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -213,7 +213,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    6,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -356,8 +359,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    9
+                    4,
+                    10
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -410,7 +413,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    5,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -420,7 +426,10 @@
                 "ai": "AttackNoMove",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    9,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": false
             },

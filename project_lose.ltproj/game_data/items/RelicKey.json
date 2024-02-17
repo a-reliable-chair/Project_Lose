@@ -2,7 +2,7 @@
     {
         "nid": "RelicKey",
         "name": "<yellow>Relic Key</>",
-        "desc": "Opens chests containing holy relics of the church.",
+        "desc": "Opens chests containing holy relics of the church.\nFree Action.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,

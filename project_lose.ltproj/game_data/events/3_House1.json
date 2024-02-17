@@ -12,6 +12,8 @@
             "    trigger_script;Global HouseLaisren",
             "elif;'{v:ReverseRecruitment}' == 'No' and unit.nid == 'Alpin'",
             "    trigger_script;Global HouseAlpin",
+            "elif;unit.nid == 'Thrall'",
+            "    trigger_script;Global HouseThrall",
             "else",
             "    transition;Close",
             "    change_background;House",

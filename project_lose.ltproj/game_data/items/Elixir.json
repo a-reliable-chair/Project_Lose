@@ -2,7 +2,7 @@
     {
         "nid": "Elixir",
         "name": "<yellow>Elixir</>",
-        "desc": "Free Action.\nFully recovers HP.",
+        "desc": "Fully recovers HP. Free Action.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,

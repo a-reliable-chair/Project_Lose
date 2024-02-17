@@ -8,11 +8,6 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "move_cursor;Ackerman",
-            "flicker_cursor;Ackerman",
-            "add_portrait;Ackerman;Right",
-            "speak;Ackerman;[I'm going to charge at some point].",
-            "remove_portrait;Ackerman",
             "move_cursor;Elwynn",
             "flicker_cursor;Elwynn",
             "add_portrait;Elwynn;Left",

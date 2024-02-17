@@ -2,7 +2,7 @@
     {
         "nid": "Whirlwind",
         "name": "<purple>Whirlwind</purple>",
-        "desc": "Orla Only.\nAttack twice per turn. Can target same target twice.",
+        "desc": "Orla Only.\nOn hit, move behind target.\nCannot counter or be countered.",
         "icon_nid": "Axe",
         "icon_index": [
             0,
@@ -63,14 +63,6 @@
                 ]
             ],
             [
-                "multi_target",
-                2
-            ],
-            [
-                "allow_same_target",
-                null
-            ],
-            [
                 "text_color",
                 "purple"
             ],
@@ -80,6 +72,18 @@
             ],
             [
                 "ignore_line_of_sight",
+                null
+            ],
+            [
+                "pivot",
+                1
+            ],
+            [
+                "cannot_be_countered",
+                null
+            ],
+            [
+                "cannot_counter",
                 null
             ]
         ]

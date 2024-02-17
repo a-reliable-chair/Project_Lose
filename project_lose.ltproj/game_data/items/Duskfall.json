@@ -68,16 +68,16 @@
                 null
             ],
             [
-                "event_on_hit",
-                "Global DuskfallAnim"
-            ],
-            [
                 "ignore_line_of_sight",
                 null
             ],
             [
                 "never_use_battle_animation",
                 null
+            ],
+            [
+                "map_target_cast_anim",
+                "Map_Duskfall_Cast"
             ]
         ]
     }

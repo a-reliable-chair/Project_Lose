@@ -16,6 +16,8 @@
             "    trigger_script;Global HouseLamonte",
             "elif;'{v:ReverseRecruitment}' == 'No' and {v:LeodDead} == 1",
             "    trigger_script;Global HouseGarvey",
+            "elif;unit.nid == 'Thrall'",
+            "    trigger_script;Global HouseThrall",
             "else",
             "    transition;Close",
             "    change_background;House",

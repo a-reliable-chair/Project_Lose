@@ -1412,7 +1412,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
-                "condition": "unit.team == 'player' and unit.nid != 'Thrall'",
+                "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -1429,7 +1429,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
-                "condition": "unit.team == 'player' and unit.nid != 'Thrall'",
+                "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false
@@ -1446,7 +1446,7 @@
                     1
                 ],
                 "sub_nid": "Visit",
-                "condition": "unit.team == 'player' and unit.nid != 'Thrall'",
+                "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false

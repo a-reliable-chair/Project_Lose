@@ -113,7 +113,6 @@
     "0_Turn3Rein",
     "0_Turn4Rein",
     "0_Turn5Rein",
-    "0_BossAI",
     "global_SkillQuinley",
     "global_DeathThrall",
     "global_KillThrallLevelEnd",
@@ -179,7 +178,6 @@
     "global_Level_2",
     "global_Level_3",
     "global_Level_4",
-    "global_DuskfallAnim",
     "global_CheckLevel",
     "global_CheckWRank",
     "4_BossDeathChecks",
@@ -207,5 +205,10 @@
     "global_Skill_Start",
     "DEBUG_New_Event",
     "4_AchievementChecks",
-    "global_New_Event"
+    "global_Completion",
+    "0_New_Event",
+    "4_GotohSupports",
+    "global_SoulRend",
+    "global_HouseThrall",
+    "global_GrantHiddenMiracle"
 ]

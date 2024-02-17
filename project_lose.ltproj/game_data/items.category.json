@@ -1,7 +1,6 @@
 {
     "Acroband": "Accessories",
     "AngelFeather": "Consumables",
-    "AxeOfWoe": "Prfs",
     "Axereaver": "Lances",
     "BlessedRing": "Accessories",
     "Bolster": "Abilities",
@@ -43,6 +42,7 @@
     "HeartOfGales": "Accessories",
     "HeartOfLightning": "Accessories",
     "HeartOfRadiance": "Accessories",
+    "Heartache": "Prfs",
     "Herbs": "Consumables",
     "Hinder": "Staves",
     "Horseslayer": "Lances",
@@ -100,6 +100,7 @@
     "Silver Bow": "Bows",
     "Silver Lance": "Lances",
     "Silver Sword": "Swords",
+    "SoulRend": "Consumables",
     "Spite": "Prfs",
     "Steal": "Abilities",
     "Steel Axe": "Axes",

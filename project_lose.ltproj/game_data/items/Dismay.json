@@ -2,7 +2,7 @@
     {
         "nid": "Dismay",
         "name": "<purple>Dismay</purple>",
-        "desc": "Elspeth Only.\nStuns all enemies within MAG * 2 tiles for 1 turn.",
+        "desc": "Stuns all enemies within MAG * 2 tiles for 1 turn.\nElspeth Only.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

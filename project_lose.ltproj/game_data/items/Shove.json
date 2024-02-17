@@ -2,7 +2,7 @@
     {
         "nid": "Shove",
         "name": "<yellow>Shove</>",
-        "desc": "Free action. Shove target 1 tile.",
+        "desc": "Shove target 1 tile.\nFree action.",
         "icon_nid": "Skills",
         "icon_index": [
             0,

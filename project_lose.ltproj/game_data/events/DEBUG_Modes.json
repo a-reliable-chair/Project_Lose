@@ -14,8 +14,10 @@
             "give_item;Saraid;Firestick;no_banner",
             "give_item;Ailsa;Tidecaller;no_banner",
             "give_item;Elwynn;Nova;no_banner",
-            "give_item;Carlin;Disaster;no_banner",
-            "give_item;Lamonte;Palus;no_banner"
+            "give_item;Carlin;Duskfall;no_banner",
+            "give_item;Lamonte;Palus;no_banner",
+            "give_item;Orla;Whirlwind;no_banner",
+            "give_item;Alpin;SoulRend;no_banner"
         ]
     }
 ]

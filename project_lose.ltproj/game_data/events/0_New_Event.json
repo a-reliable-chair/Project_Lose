@@ -1,0 +1,14 @@
+[
+    {
+        "name": "New Event",
+        "trigger": "unit_select",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "#map_anim;Map_Unique_Visit;5,8;no_block;permanent"
+        ]
+    }
+]

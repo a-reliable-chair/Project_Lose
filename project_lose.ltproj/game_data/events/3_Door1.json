@@ -15,9 +15,9 @@
             "remove_portrait;{unit}",
             "give_item;{unit};Nova",
             "give_exp;{unit};40",
-            "if;not has_achievement('22')",
-            "    update_achievement;22;Where'd You Get That Key?!;Opened the door next to Corridon's in Ch4",
-            "    complete_achievement;22;1;banner",
+            "if;not has_achievement('23')",
+            "    update_achievement;23;Where'd You Get That Key?!;Opened the door next to Corridon's in Ch4",
+            "    complete_achievement;23;1;banner",
             "end",
             "has_traded;{unit}"
         ]

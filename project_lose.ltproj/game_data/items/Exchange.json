@@ -2,7 +2,7 @@
     {
         "nid": "Exchange",
         "name": "<yellow>Exchange</>",
-        "desc": "Free action. Trade with allies up to (MAG * 2) tiles away.",
+        "desc": "Trade with allies up to (MAG * 2) tiles away.\nFree action. ",
         "icon_nid": "Staff",
         "icon_index": [
             0,

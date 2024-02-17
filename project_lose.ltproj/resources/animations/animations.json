@@ -964,11 +964,11 @@
     },
     {
         "nid": "Map_Evanesce_Cast",
-        "frame_x": 3,
+        "frame_x": 4,
         "frame_y": 2,
-        "num_frames": 6,
-        "speed": 75,
-        "frame_times": "1,1,1,1,1,1",
+        "num_frames": 8,
+        "speed": 100,
+        "frame_times": "1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -977,16 +977,7 @@
         "frame_y": 3,
         "num_frames": 9,
         "speed": 75,
-        "frame_times": "1,1,1,1,1,1,1,1,1",
-        "use_frame_time": false
-    },
-    {
-        "nid": "Map_Duskfall_Cast",
-        "frame_x": 2,
-        "frame_y": 2,
-        "num_frames": 4,
-        "speed": 75,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1",
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     },
     {
@@ -1000,6 +991,15 @@
     },
     {
         "nid": "Map_Devilry_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Duskfall_Cast",
         "frame_x": 3,
         "frame_y": 3,
         "num_frames": 9,
@@ -1098,15 +1098,6 @@
         "use_frame_time": false
     },
     {
-        "nid": "Map_Suppressive_Fire",
-        "frame_x": 3,
-        "frame_y": 2,
-        "num_frames": 6,
-        "speed": 75,
-        "frame_times": "1,1,1,1,1,1",
-        "use_frame_time": false
-    },
-    {
         "nid": "Map_Bolster_Unit",
         "frame_x": 4,
         "frame_y": 2,
@@ -1194,6 +1185,33 @@
         "num_frames": 4,
         "speed": 150,
         "frame_times": "1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Unique_Visit",
+        "frame_x": 5,
+        "frame_y": 2,
+        "num_frames": 10,
+        "speed": 150,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Suppressive_Fire",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Soul_Rend",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     }
 ]
