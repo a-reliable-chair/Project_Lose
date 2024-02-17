@@ -471,8 +471,7 @@
             "    change_music;enemy2_phase;Inevitable Fate Pt. 1",
             "    change_music;other_phase;Inevitable Fate Pt. 1",
             "end",
-            "game_var;ReverseRecruitment;'No'",
-            "game_var;_supports;True",
+            "",
             "trigger_script;4 GotohSupports",
             "",
             "prep;1;Before An Impossible Battlefield"
