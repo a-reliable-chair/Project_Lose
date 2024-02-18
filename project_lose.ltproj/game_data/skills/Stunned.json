@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "time",
-                1
-            ],
-            [
                 "unselectable",
                 null
             ],
@@ -33,6 +29,10 @@
             [
                 "negative",
                 null
+            ],
+            [
+                "end_time",
+                1
             ]
         ]
     }

@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "time",
-                3
-            ],
-            [
                 "unselectable",
                 null
             ],
@@ -41,6 +37,10 @@
             [
                 "crit_avoid",
                 -100
+            ],
+            [
+                "end_time",
+                3
             ]
         ]
     }

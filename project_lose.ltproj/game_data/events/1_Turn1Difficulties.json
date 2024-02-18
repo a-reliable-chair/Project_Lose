@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Turn1Difficulties",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.mode.nid != 'Normal'",
+            "    s;;On Hard and Lunatic you have 10 turns to route the fodder.;;;hint",
+            "end",
+            "if;game.mode.nid == 'Lunatic'",
+            "    s;;On Lunatic, all vision granted from doors are removed...;;;hint",
+            "end"
+        ]
+    }
+]

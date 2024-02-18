@@ -26,6 +26,7 @@
             "        speak;Davenport;Sir!",
             "        remove_portrait;Davenport",
             "        change_ai;Davenport;Ch4_AttackNoMove",
+            "        alert;Davenport will remain stationary!",
             "    else",
             "        speak;Cawthorne;Dead already, Osgar?",
             "        remove_portrait;Cawthorne",

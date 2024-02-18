@@ -210,5 +210,9 @@
     "4_GotohSupports",
     "global_SoulRend",
     "global_HouseThrall",
-    "global_GrantHiddenMiracle"
+    "global_GrantHiddenMiracle",
+    "1_Turn1Difficulties",
+    "2_Turn1Difficulties",
+    "3_Turn1Difficulties",
+    "4_Turn1Difficulties"
 ]

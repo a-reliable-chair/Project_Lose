@@ -20,7 +20,13 @@
             "flicker_cursor;9, 8",
             "move_cursor;14, 4",
             "flicker_cursor;14, 4",
-            "move_cursor;Alpin"
+            "move_cursor;Alpin",
+            "if;game.mode.nid == 'Hard'",
+            "    s;;On Hard you have <red>8 turns</red> to escape.{w}{clear}Unit inventories don't go to the convoy on death.|Also, Prf weapons have less uses...;;;hint",
+            "end",
+            "if;game.mode.nid == 'Lunatic'",
+            "    s;;On Lunatic, you have <red>8 turns</red> to escape.{w}{clear}There's no convoy at all...|Also, Prf weapons have less uses...{w}{clear}There are less droppables in the game and some enemies have altered inventories.;;;hint",
+            "end"
         ]
     }
 ]
