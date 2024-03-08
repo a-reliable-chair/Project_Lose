@@ -2,7 +2,7 @@
     {
         "nid": "TheConqueror",
         "name": "<blue>The Conqueror</>",
-        "desc": "Ignores weapon triangle.\nUses Magic at range.",
+        "desc": "Ignores weapon triangle.\nUses MAG and targets RES at range.",
         "icon_nid": "Sword",
         "icon_index": [
             0,
@@ -44,10 +44,6 @@
             [
                 "weapon_type",
                 "Sword"
-            ],
-            [
-                "text_color",
-                "blue"
             ],
             [
                 "magic_at_range",

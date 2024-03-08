@@ -35,9 +35,11 @@
             "end",
             "",
             "if;'{v:PlayerReverse}' == 'Reversal'",
-            "    modify_item_component;Elwynn;Flair;weapon_type;'Anima'",
+            "    add_item_component;Elwynn;Flair;weapon_type;'Anima'",
             "elif;'{v:PlayerReverse}' == 'Double'",
-            "    modify_item_component;Elwynn;Flair;weapon_type;'Dark'",
+            "    add_item_component;Elwynn;Flair;weapon_type;'Dark'",
+            "else",
+            "    add_item_component;Elwynn;Flair;weapon_type;'Light'",
             "end",
             "",
             "give_exp;Elwynn;40",
@@ -45,7 +47,8 @@
             "if;not has_achievement('6')",
             "    update_achievement;6;Flashback: Elspeth and Elwynn;Achievement desc.",
             "    complete_achievement;6;1;banner",
-            "end"
+            "end",
+            ""
         ]
     }
 ]

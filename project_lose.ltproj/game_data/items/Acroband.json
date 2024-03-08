@@ -3,19 +3,15 @@
         "nid": "Acroband",
         "name": "<purple>Acroband</purple>",
         "desc": "Raelin and Ailsa Only.\nGrants Acrobat and Pass while held.",
-        "icon_nid": "Lance",
+        "icon_nid": "Acroband",
         "icon_index": [
             0,
-            8
+            0
         ],
         "components": [
             [
                 "status_on_hold",
                 "Acropass"
-            ],
-            [
-                "text_color",
-                "purple"
             ]
         ]
     }

@@ -3,19 +3,15 @@
         "nid": "Dismay",
         "name": "<purple>Dismay</purple>",
         "desc": "Stuns all enemies within MAG * 2 tiles for 1 turn.\nElspeth Only.",
-        "icon_nid": "Staff",
+        "icon_nid": "PRFs",
         "icon_index": [
             0,
-            7
+            2
         ],
         "components": [
             [
                 "spell",
                 null
-            ],
-            [
-                "weapon_type",
-                "Staff"
             ],
             [
                 "magic",
@@ -38,7 +34,7 @@
             ],
             [
                 "exp",
-                66
+                100
             ],
             [
                 "status_on_hit",
@@ -51,10 +47,6 @@
                     0,
                     255
                 ]
-            ],
-            [
-                "text_color",
-                "purple"
             ],
             [
                 "ignore_line_of_sight",
@@ -75,6 +67,12 @@
             [
                 "never_use_battle_animation",
                 null
+            ],
+            [
+                "prf_unit",
+                [
+                    "Elspeth"
+                ]
             ]
         ]
     }

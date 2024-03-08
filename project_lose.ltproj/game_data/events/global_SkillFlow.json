@@ -8,7 +8,14 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "give_skill;Orla;FlowState;no_banner"
+            "if;{v:Flow} == 0",
+            "    give_skill;Orla;FlowState;no_banner",
+            "    sound;Battle Cry",
+            "    has_finished;Orla",
+            "    reset;Orla",
+            "    set_skill_data;Orla;Flow;charge;0",
+            "    inc_level_var;Flow;1",
+            "end"
         ]
     }
 ]

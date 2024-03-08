@@ -261,7 +261,7 @@
             "    change_music;other_phase;Sanctuary Ablaze",
             "end",
             "",
-            "prep;1;Before An Impossible Battlefield"
+            "prep;1;Before An Impossible Battlefield;Codex,Achievements;true,true;Menu_Codex,CallAchievements"
         ]
     }
 ]

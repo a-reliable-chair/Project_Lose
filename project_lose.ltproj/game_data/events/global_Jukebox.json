@@ -130,12 +130,12 @@
             "        change_music;other_phase;Hello Monday",
             "    elif;'{v:Jukebox}' == 'Keep It Classic!'",
             "        music_clear",
-            "        music;Inevitable Fate Pt. 1",
+            "        music;Inevitable Fate",
             "        location_card;Inevitable Fate",
-            "        change_music;player_phase;Inevitable Fate Pt. 1",
-            "        change_music;enemy_phase;Inevitable Fate Pt. 1",
-            "        change_music;enemy2_phase;Inevitable Fate Pt. 1",
-            "        change_music;other_phase;Inevitable Fate Pt. 1",
+            "        change_music;player_phase;Inevitable Fate",
+            "        change_music;enemy_phase;Inevitable Fate",
+            "        change_music;enemy2_phase;Inevitable Fate",
+            "        change_music;other_phase;Inevitable Fate",
             "    end",
             "end"
         ]

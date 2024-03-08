@@ -21,9 +21,9 @@
             "end",
             "remove_portrait;Davenport",
             "inc_game_var;DavenportDead;1",
-            "if;not has_achievement('41') and {v:LieutenantInChapter} == 4",
-            "    update_achievement;41;One After One, By The Star-Dogged Moon;Killed all lieutenants in their starting chapters",
-            "    complete_achievement;41;1",
+            "if;not has_achievement('40') and {v:LieutenantInChapter} == 4",
+            "    update_achievement;40;One After One, By The Star-Dogged Moon;Killed all lieutenants in their starting chapters",
+            "    complete_achievement;40;1",
             "    inc_game_var;AchievementCount;1",
             "end"
         ]

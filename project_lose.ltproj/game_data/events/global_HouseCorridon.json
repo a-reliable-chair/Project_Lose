@@ -35,7 +35,8 @@
             "if;not has_achievement('11')",
             "    update_achievement;11;Flashback: Corridon;Achievement desc.",
             "    complete_achievement;11;1;banner",
-            "end"
+            "end",
+            ""
         ]
     }
 ]

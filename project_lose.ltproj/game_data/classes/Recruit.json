@@ -13,12 +13,12 @@
         "max_level": 10,
         "bases": {
             "HP": 9,
-            "STR": 3,
+            "STR": 2,
             "MAG": 0,
             "SKL": 4,
-            "SPD": 2,
+            "SPD": 4,
             "LCK": 0,
-            "DEF": 1,
+            "DEF": 0,
             "RES": 2,
             "CON": 6,
             "MOV": 5

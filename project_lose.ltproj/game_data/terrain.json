@@ -39,7 +39,7 @@
         ],
         "minimap": "Grass",
         "platform": "Plains",
-        "background": "Field",
+        "background": "FieldRain",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -99,7 +99,7 @@
         ],
         "minimap": "Forest",
         "platform": "Forest",
-        "background": "Forest_1",
+        "background": "ForestRain",
         "mtype": "Forest",
         "opaque": false,
         "status": "Forest"
@@ -114,7 +114,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Night",
+        "background": "RoadNight",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -129,7 +129,7 @@
         ],
         "minimap": "Bridge",
         "platform": "Bridge",
-        "background": "Bridge",
+        "background": "BridgeEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -144,7 +144,7 @@
         ],
         "minimap": "Bridge",
         "platform": "Bridge",
-        "background": "Bridge",
+        "background": "BridgeNight",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -159,7 +159,7 @@
         ],
         "minimap": "Floor",
         "platform": "Floor",
-        "background": "CastleNight",
+        "background": "Castle3",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -174,7 +174,7 @@
         ],
         "minimap": "Floor",
         "platform": "Floor",
-        "background": "Bridge",
+        "background": "BridgeEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -189,7 +189,7 @@
         ],
         "minimap": "Floor",
         "platform": "Floor",
-        "background": "CastleNight",
+        "background": "Castle1",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -204,7 +204,7 @@
         ],
         "minimap": "Floor",
         "platform": "Floor",
-        "background": "Castle2Night",
+        "background": "Castle2",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -219,7 +219,7 @@
         ],
         "minimap": "Floor",
         "platform": "Floor",
-        "background": "Castle2Night",
+        "background": "Castle2",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -234,7 +234,7 @@
         ],
         "minimap": "Sand",
         "platform": "Road",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -249,7 +249,7 @@
         ],
         "minimap": "Sand",
         "platform": "Road",
-        "background": "Village1Night",
+        "background": "RoadNight",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -264,7 +264,7 @@
         ],
         "minimap": "Sand",
         "platform": "Road",
-        "background": "Village1",
+        "background": "RoadRain",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -279,7 +279,7 @@
         ],
         "minimap": "Pillar",
         "platform": "Pillar",
-        "background": "Castle3Night",
+        "background": "Castle3",
         "mtype": "Pillar",
         "opaque": false,
         "status": "Forest"
@@ -309,7 +309,7 @@
         ],
         "minimap": "Wall",
         "platform": "Wall",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Fence",
         "opaque": false,
         "status": null
@@ -324,7 +324,7 @@
         ],
         "minimap": "Sand",
         "platform": "Sand",
-        "background": "combat_arena",
+        "background": "SandEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid5"
@@ -339,7 +339,7 @@
         ],
         "minimap": "Sand",
         "platform": "Sand",
-        "background": "combat_arena",
+        "background": "SandRain",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid5"
@@ -354,7 +354,7 @@
         ],
         "minimap": "Sea",
         "platform": "Sea",
-        "background": "OceanEvening",
+        "background": "SeaEvening",
         "mtype": "Sea",
         "opaque": false,
         "status": "Avoid10"
@@ -369,7 +369,7 @@
         ],
         "minimap": "Sea",
         "platform": "Sea",
-        "background": "Ocean",
+        "background": "SeaRain",
         "mtype": "Sea",
         "opaque": false,
         "status": "Avoid10"
@@ -384,7 +384,7 @@
         ],
         "minimap": "Sea",
         "platform": "Sea",
-        "background": "OceanNight",
+        "background": "SeaNight",
         "mtype": "Sea",
         "opaque": false,
         "status": "Avoid10"
@@ -399,7 +399,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -414,7 +414,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -429,7 +429,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -444,7 +444,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1",
+        "background": "RoadRain",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -459,7 +459,7 @@
         ],
         "minimap": "Cliff",
         "platform": "Cliff",
-        "background": "Peaks2Evening",
+        "background": "CragEvening",
         "mtype": "Cliff",
         "opaque": false,
         "status": null
@@ -474,7 +474,7 @@
         ],
         "minimap": "Cliff",
         "platform": "Cliff",
-        "background": "Peaks2",
+        "background": "CragRain",
         "mtype": "Cliff",
         "opaque": false,
         "status": null
@@ -489,7 +489,7 @@
         ],
         "minimap": "Wall",
         "platform": "Deck",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Fence",
         "opaque": false,
         "status": null
@@ -504,7 +504,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -519,7 +519,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Night",
+        "background": "RoadNight",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -534,7 +534,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1",
+        "background": "RoadRain",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -549,7 +549,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -564,7 +564,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -579,7 +579,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -594,7 +594,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Night",
+        "background": "RoadNight",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -609,7 +609,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1",
+        "background": "RoadRain",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -624,7 +624,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -639,7 +639,7 @@
         ],
         "minimap": "House",
         "platform": "House",
-        "background": "Village1Evening",
+        "background": "RoadEvening",
         "mtype": "Normal",
         "opaque": false,
         "status": "Avoid10"
@@ -654,7 +654,7 @@
         ],
         "minimap": "Chest",
         "platform": "Chest",
-        "background": "Castle2Night",
+        "background": "Castle1",
         "mtype": "Normal",
         "opaque": false,
         "status": null
@@ -759,7 +759,7 @@
         ],
         "minimap": "Mountain",
         "platform": "Mountain",
-        "background": "Peaks2",
+        "background": "CragRain",
         "mtype": "Hill",
         "opaque": false,
         "status": "Mountain"
@@ -774,7 +774,7 @@
         ],
         "minimap": "Desert",
         "platform": "Sand",
-        "background": "combat_arena",
+        "background": "SandRain",
         "mtype": "Desert",
         "opaque": false,
         "status": "Avoid10"

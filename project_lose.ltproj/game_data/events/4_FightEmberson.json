@@ -8,9 +8,11 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Emberson;Left",
-            "speak;Emberson;Wait a minute!{br}Wh-who are you?",
-            "remove_portrait;Emberson"
+            "hide_combat_ui",
+            "add_portrait;Emberson;LeftCorner",
+            "speak;Emberson;Wait a minute!{br}Wh-who are you?;center;;boss_convo_left",
+            "remove_portrait;Emberson",
+            "show_combat_ui"
         ]
     }
 ]

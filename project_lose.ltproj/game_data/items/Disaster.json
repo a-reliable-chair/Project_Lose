@@ -42,10 +42,6 @@
                 null
             ],
             [
-                "weapon_type",
-                "Dark"
-            ],
-            [
                 "map_hit_add_blend",
                 [
                     72,
@@ -75,10 +71,6 @@
                 ]
             ],
             [
-                "text_color",
-                "purple"
-            ],
-            [
                 "battle_cast_anim",
                 "Disaster"
             ],
@@ -93,6 +85,10 @@
             [
                 "ignore_line_of_sight",
                 null
+            ],
+            [
+                "wexp",
+                2
             ]
         ]
     }

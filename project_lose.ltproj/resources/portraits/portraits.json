@@ -134,7 +134,7 @@
     {
         "nid": "Orla",
         "blinking_offset": [
-            24,
+            32,
             24
         ],
         "smiling_offset": [
@@ -144,7 +144,7 @@
         "info_offset": 0
     },
     {
-        "nid": "Corridon (LittleKyng)",
+        "nid": "Corridon",
         "blinking_offset": [
             16,
             16
@@ -428,6 +428,270 @@
         "smiling_offset": [
             24,
             48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "DavenportFace",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Osgar",
+        "blinking_offset": [
+            24,
+            16
+        ],
+        "smiling_offset": [
+            24,
+            32
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "GGeneral",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "GSoldier",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            16,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Thief1",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Thief2",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            24,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TArcher",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TCavalier",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TCleric",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TFighter",
+        "blinking_offset": [
+            0,
+            40
+        ],
+        "smiling_offset": [
+            0,
+            40
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TGriffon",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TKnight",
+        "blinking_offset": [
+            56,
+            0
+        ],
+        "smiling_offset": [
+            56,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TMage",
+        "blinking_offset": [
+            56,
+            0
+        ],
+        "smiling_offset": [
+            56,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TMercenary",
+        "blinking_offset": [
+            56,
+            0
+        ],
+        "smiling_offset": [
+            56,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TMonk",
+        "blinking_offset": [
+            56,
+            0
+        ],
+        "smiling_offset": [
+            56,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TMyrmidon",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TPegasus",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TPirate",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TShaman",
+        "blinking_offset": [
+            56,
+            0
+        ],
+        "smiling_offset": [
+            56,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TSoldier",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TThief",
+        "blinking_offset": [
+            56,
+            0
+        ],
+        "smiling_offset": [
+            56,
+            0
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "TWyvern",
+        "blinking_offset": [
+            0,
+            0
+        ],
+        "smiling_offset": [
+            0,
+            0
         ],
         "info_offset": 0
     }

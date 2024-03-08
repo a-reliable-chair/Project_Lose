@@ -13,7 +13,7 @@
             "add_portrait;Elwynn;Left",
             "speak;Elwynn;[We must go to the church ASAP]",
             "remove_portrait;Elwynn",
-            "speak;;Houses are labeled by which unit lives there{semicolon}|They or somebody close to them may have a unique experience when visiting.;;;hint",
+            "speak;;Houses are labeled by which unit lives there{semicolon}|They or somebody close to them may have a unique experience when visiting.{w}{clear}Visit tiles will highlight upon unit select if they have a unique visit.;;;hint",
             "move_cursor;5, 8",
             "flicker_cursor;5, 8",
             "move_cursor;9, 8",

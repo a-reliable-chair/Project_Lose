@@ -54,7 +54,7 @@
             ],
             [
                 "map_target_cast_anim",
-                "Map_Soul_Rend"
+                "Map_SoulRend_Cast"
             ],
             [
                 "event_after_combat_even_miss",

@@ -486,7 +486,7 @@
             "    change_music;enemy2_phase;Skirmish In The Shadows",
             "    change_music;other_phase;Skirmish In The Shadows",
             "end",
-            "prep;1;Before An Impossible Battlefield"
+            "prep;1;Before An Impossible Battlefield;Codex,Achievements;true,true;Menu_Codex,CallAchievements"
         ]
     }
 ]

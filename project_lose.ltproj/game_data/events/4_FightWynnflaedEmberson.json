@@ -8,12 +8,14 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Emberson;Left",
-            "speak;Emberson;I always knew you never had it in you, wench.",
+            "hide_combat_ui",
+            "add_portrait;Emberson;LeftCorner",
+            "speak;Emberson;I always knew you never had it in you, wench.;center;;boss_convo_left",
             "remove_portrait;Emberson",
-            "add_portrait;Brassfield;Right",
-            "speak;Brassfield;Your words are worthless.",
-            "remove_portrait;Brassfield"
+            "add_portrait;Brassfield;RightCorner",
+            "speak;Brassfield;Your words are worthless.;center;;boss_convo_right",
+            "remove_portrait;Brassfield",
+            "show_combat_ui"
         ]
     }
 ]

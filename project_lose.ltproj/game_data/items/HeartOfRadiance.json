@@ -1,7 +1,7 @@
 [
     {
         "nid": "HeartOfRadiance",
-        "name": "<orange>Heart Of Radiance</orange>",
+        "name": "<light-orange>Heart Of Radiance</light-orange>",
         "desc": "Holy affinity only.\n+15 Avoid. ",
         "icon_nid": "Accessory",
         "icon_index": [
@@ -12,10 +12,6 @@
             [
                 "status_on_hold",
                 "HeartofRadiance"
-            ],
-            [
-                "text_color",
-                "orange"
             ]
         ]
     }

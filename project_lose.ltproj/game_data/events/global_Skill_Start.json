@@ -10,7 +10,8 @@
         "_source": [
             "level_var;Potshot;0",
             "level_var;Enthrall;0",
-            "level_var;Lifeline;0"
+            "level_var;Lifeline;0",
+            "level_var;Flow;0"
         ]
     }
 ]

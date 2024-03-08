@@ -2,7 +2,7 @@
     {
         "nid": "SuppressiveFire",
         "name": "Suppressive Fire",
-        "desc": "Once per enemy phase, attack an enemy that moves within\n3 tiles and cut their remaining movement in half.\nDoesn't affect Thieves.",
+        "desc": "Once per enemy phase, attack an enemy that moves within 3 tiles and cut their remaining movement in half.\nDoesn't affect Thieves.",
         "icon_nid": "PersonalSkills",
         "icon_index": [
             0,

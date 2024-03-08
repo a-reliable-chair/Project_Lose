@@ -3,19 +3,15 @@
         "nid": "GuardianAngel",
         "name": "<purple>Guardian Angel</purple>",
         "desc": "Target ally's HP cannot fall below 1 for 1 turn.\nCompletely recover health on the following turn.\nElspeth Only.",
-        "icon_nid": "Staff",
+        "icon_nid": "PRFs",
         "icon_index": [
-            0,
-            8
+            1,
+            2
         ],
         "components": [
             [
                 "spell",
                 null
-            ],
-            [
-                "weapon_type",
-                "Staff"
             ],
             [
                 "magic",
@@ -69,10 +65,6 @@
                 [
                     "Elspeth"
                 ]
-            ],
-            [
-                "text_color",
-                "purple"
             ],
             [
                 "ignore_line_of_sight",

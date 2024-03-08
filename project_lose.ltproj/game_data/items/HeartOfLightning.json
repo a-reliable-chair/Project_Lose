@@ -1,7 +1,7 @@
 [
     {
         "nid": "HeartOfLightning",
-        "name": "<orange>Heart Of Lightning</orange>",
+        "name": "<light-orange>Heart Of Lightning</light-orange>",
         "desc": "Thunder affinity only.\n+10 Crit. ",
         "icon_nid": "Accessory",
         "icon_index": [
@@ -12,10 +12,6 @@
             [
                 "status_on_hold",
                 "HeartofLightning"
-            ],
-            [
-                "text_color",
-                "orange"
             ]
         ]
     }

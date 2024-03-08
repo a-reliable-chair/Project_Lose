@@ -3,10 +3,10 @@
         "nid": "Exp",
         "name": "<yellow>EXP++</>",
         "desc": "Grants 50 EXP. Free Action.",
-        "icon_nid": "Consumable",
+        "icon_nid": "Consumables2",
         "icon_index": [
             0,
-            2
+            4
         ],
         "components": [
             [

@@ -2,13 +2,21 @@
     {
         "nid": "Cover",
         "name": "Cover",
-        "desc": "Aura. Allies within 3 tiles gain half of Lamonte's DEF.",
+        "desc": "Aura. Allies within 3 tiles gain half of Lamonte's DEF. <red>Disabled</red> if Lamonte can't afford the <red>HP cost</red>.",
         "icon_nid": "Statuses",
         "icon_index": [
             0,
             4
         ],
         "components": [
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "hide_aura",
+                null
+            ],
             [
                 "aura",
                 "CoveredChild"
@@ -22,12 +30,8 @@
                 "ally"
             ],
             [
-                "show_aura",
-                [
-                    255,
-                    255,
-                    255
-                ]
+                "condition",
+                "True if u('Lamonte').get_hp() > (u('Lamonte').get_stat('DEF')/2) else False"
             ]
         ]
     }

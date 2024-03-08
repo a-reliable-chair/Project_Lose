@@ -50,12 +50,7 @@
         false
     ],
     [
-        "Inevitable Fate Pt. 1",
-        false,
-        false
-    ],
-    [
-        "Inevitable Fate Pt. 2",
+        "Inevitable Fate",
         false,
         false
     ],
@@ -100,8 +95,23 @@
         false
     ],
     [
+        "Dealings In The Dark",
+        true,
+        false
+    ],
+    [
+        "Church House Rock",
+        true,
+        false
+    ],
+    [
         "Little Bitta Hype",
         false,
+        false
+    ],
+    [
+        "Obligatory Beach Episode",
+        true,
         false
     ],
     [
@@ -110,7 +120,12 @@
         false
     ],
     [
-        "Hello Monday",
+        "After Hours",
+        false,
+        false
+    ],
+    [
+        "Let It Burn, I'm Groovin'",
         true,
         false
     ],
@@ -120,27 +135,7 @@
         false
     ],
     [
-        "Let It Burn, I'm Groovin'",
-        true,
-        false
-    ],
-    [
-        "After Hours",
-        false,
-        false
-    ],
-    [
-        "Church House Rock",
-        true,
-        false
-    ],
-    [
-        "Dealings In The Dark",
-        true,
-        false
-    ],
-    [
-        "Obligatory Beach Episode",
+        "Hello Monday",
         true,
         false
     ]

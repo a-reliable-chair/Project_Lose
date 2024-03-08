@@ -19,7 +19,6 @@
             "music;Another Slow Day",
             "change_tilemap;School",
             "if;'{v:ReverseRecruitment}' == 'Yes'",
-            "    give_skill;Laisren;AspiringLeader;no_banner",
             "    add_unit;Elspeth;10, 1;immediate",
             "    add_unit;Elwynn;8, 1;immediate",
             "    add_unit;Laisren;11, 3;immediate",
@@ -386,6 +385,7 @@
             "    change_team;Ailsa;player",
             "    change_team;Elspeth;player",
             "    give_skill;Elspeth;Guidance;no_banner",
+            "    give_skill;Laisren;AspiringLeader;no_banner",
             "else",
             "    add_unit;Elwynn;10, 1;immediate",
             "    add_unit;Elspeth;8, 1;immediate",
@@ -782,18 +782,20 @@
             "game_var;NoDeaths;0",
             "game_var;LieutenantInChapter;0",
             "game_var;LieutenantInEndgame;0",
+            "game_var;PrfAcquired;0",
             "",
             "add_lore;WeaponTriangle",
             "add_lore;Stats",
+            "add_lore;StatColors",
             "add_lore;Equations",
             "add_lore;WeaponRanks",
             "add_lore;BuildingSupports",
             "add_lore;SupportBonuses",
-            "set_custom_options;Codex;true;Open the Codex;Menu_Codex",
+            "set_custom_options;Codex,Achievements;true,true;Open the Codex.,Check Achievements.;Menu_Codex,CallAchievements",
             "",
             "if;RECORDS.get(\"NormalCleared\")",
             "    inc_game_var;Jukebox;True",
-            "    set_custom_options;Jukebox;true;Change the tunes!;Jukebox",
+            "    set_custom_options;Codex,Achievements,Jukebox;true,true,true;Open the Codex.,Check Achievements.,Change the tunes!;Menu_Codex,CallAchievements,Jukebox",
             "end",
             "",
             "if;game.mode.nid != 'Normal'",
@@ -818,7 +820,7 @@
             "end",
             "",
             "",
-            "prep;1;Before An Impossible Battlefield"
+            "prep;1;Before An Impossible Battlefield;Codex,Achievements;true,true;Menu_Codex,CallAchievements"
         ]
     }
 ]

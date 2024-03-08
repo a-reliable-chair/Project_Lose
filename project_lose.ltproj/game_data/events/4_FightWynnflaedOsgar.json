@@ -1,0 +1,32 @@
+[
+    {
+        "name": "FightWynnflaedOsgar",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == \"Davenport\" and unit2.nid == 'Brassfield') or (unit.nid == \"Brassfield\" and unit2.nid == 'Davenport')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;game.get_unit('Brassfield').team == 'enemy' and game.get_unit('Davenport').team == 'player'",
+            "    hide_combat_ui",
+            "    add_portrait;Brassfield;LeftCorner",
+            "    speak;Brassfield;Osgar...;center;;boss_convo_left",
+            "    remove_portrait;Brassfield",
+            "    add_portrait;Davenport;RightCorner",
+            "    speak;Davenport;Wynnflaed...Forgive me.|This is my home...;center;;boss_convo_right",
+            "    remove_portrait;Davenport",
+            "    show_combat_ui",
+            "elif;game.get_unit('Brassfield').team == 'player' and game.get_unit('Davenport').team == 'enemy'",
+            "    hide_combat_ui",
+            "    add_portrait;Davenport;LeftCorner",
+            "    speak;Davenport;Brassfield...;center;;boss_convo_left",
+            "    remove_portrait;Davenport",
+            "    add_portrait;Brassfield;RightCorner",
+            "    speak;Brassfield;I've made my choice, Osgard.|Prepare yourself.;center;;boss_convo_right",
+            "    remove_portrait;Brassfield",
+            "    show_combat_ui",
+            "end"
+        ]
+    }
+]

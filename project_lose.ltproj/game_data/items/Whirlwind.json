@@ -3,10 +3,10 @@
         "nid": "Whirlwind",
         "name": "<purple>Whirlwind</purple>",
         "desc": "Orla Only.\nOn hit, move behind target.\nCannot counter or be countered.",
-        "icon_nid": "Axe",
+        "icon_nid": "PRFs",
         "icon_index": [
-            0,
-            10
+            1,
+            0
         ],
         "components": [
             [
@@ -53,18 +53,10 @@
                 null
             ],
             [
-                "weapon_type",
-                "Axe"
-            ],
-            [
                 "prf_unit",
                 [
                     "Orla"
                 ]
-            ],
-            [
-                "text_color",
-                "purple"
             ],
             [
                 "map_cast_anim",
@@ -85,6 +77,10 @@
             [
                 "cannot_counter",
                 null
+            ],
+            [
+                "wexp",
+                2
             ]
         ]
     }

@@ -15,7 +15,7 @@
             "alert;The target lost all their skills!",
             "if;unit2.nid == 'Cawthorne' or unit2.nid == 'Shallcross'",
             "    if;not has_achievement('42')",
-            "        update_achievement;42;Vincible;Removed Diving Blessing from Cawthorne or Shallcross",
+            "        update_achievement;42;Vincible;Removed Divine Blessing from Cawthorne or Shallcross",
             "        complete_achievement;42;1;banner",
             "    end",
             "end"

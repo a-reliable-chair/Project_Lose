@@ -3,10 +3,10 @@
         "nid": "HeartofLightning",
         "name": "Heart Of Lightning",
         "desc": "+10 Crit. Thunder affinity only.",
-        "icon_nid": "Statuses",
+        "icon_nid": "AnimaStatus",
         "icon_index": [
-            1,
-            5
+            0,
+            3
         ],
         "components": [
             [

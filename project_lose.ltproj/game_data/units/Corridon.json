@@ -8,7 +8,6 @@
         "klass": "Blacksmith",
         "tags": [
             "Convoy",
-            "AdjConvoy",
             "Adult"
         ],
         "bases": {
@@ -30,10 +29,10 @@
             "SKL": 0,
             "SPD": 15,
             "LCK": 35,
-            "DEF": 35,
-            "RES": 35,
+            "DEF": 25,
+            "RES": 25,
             "CON": 0,
-            "MOV": 35
+            "MOV": 25
         },
         "stat_cap_modifiers": {
             "MOV": 0,
@@ -68,6 +67,10 @@
             [
                 1,
                 "Play"
+            ],
+            [
+                1,
+                "ConvoyAura"
             ]
         ],
         "unit_notes": [],
@@ -119,7 +122,7 @@
             ]
         },
         "alternate_classes": [],
-        "portrait_nid": "Corridon (LittleKyng)",
+        "portrait_nid": "Corridon",
         "affinity": "Light",
         "fields": []
     }

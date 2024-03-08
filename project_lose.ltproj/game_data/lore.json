@@ -11,28 +11,35 @@
         "name": "Caps",
         "title": "Stat Caps",
         "category": "Mechanics",
-        "text": "HP: 20 for T1, 25 for T2{br}All Others: 10{br}All Units have MOV Growths!"
+        "text": "HP: <yellow-green>20</> for T1, <yellow-green>25</> for T2{br}All Others: <yellow-green>10</>{br}All Units have <yellow-green>MOV</> Growths!"
+    },
+    {
+        "nid": "StatColors",
+        "name": "Stat Colors",
+        "title": "Stat Colors",
+        "category": "Mechanics",
+        "text": "As characters gain stats through level ups, the color of the stat changes:{br}<yellow>Yellow: Base</>{br}<light-orange>Orange: +1</>{br}<yellow-green>Green: +2</>{br}<blue>Blue: +3</>{br}<purple>Purple >3</>"
     },
     {
         "nid": "Equations",
         "name": "Equations",
         "title": "Equations",
         "category": "Mechanics",
-        "text": "Hit: SKL*20 + LCK*5{br}Avo: SPD*5 + LCK*5{br}Crit Avo: LCK*10{br}Doubling Threshold: 1 SPD{br}Crit Damage: x2{br}Effectiveness: x3"
+        "text": "<purple>Hit</>: <yellow>SKL</>*<blue>20</> + <yellow>LCK</>*<blue>5</>{br}<purple>Avo</>: <yellow>SPD</>*<blue>5</> + <yellow>LCK</>*<blue>5</>{br}<purple>Crit Avo</>: <yellow>LCK</>*<blue>10</>{br}<purple>Doubling Threshold</>: <blue>1</> <yellow>SPD</>{br}<purple>Crit Damage</>: <blue>x2</>{br}<purple>Effectiveness</>: <blue>x3</>"
     },
     {
         "nid": "WeaponTriangle",
         "name": "Wep. Triangle",
         "title": "Weapon Triangle",
         "category": "Mechanics",
-        "text": "Advantage:{br}+1 Mt / +10 Hit{br}Disadvantage:{br}-1 Mt / -10 Hit"
+        "text": "<purple>Advantage</>:{br}<blue>+1</> <yellow>Mt</> / <blue>+10</> <yellow>Hit</>{br}<purple>Disadvantage</>:{br}<light-orange>-1</> <yellow>Mt</> / <light-orange>-10</> <yellow>Hit</>"
     },
     {
         "nid": "WeaponRanks",
         "name": "Wep. Ranks",
         "title": "Weapon Ranks",
         "category": "Mechanics",
-        "text": "Weapons don't require weapon ranks. Instead, characters gain Hit at rank A and S:{br}{br}A Rank: +10 Hit{br}S Rank: +20 Hit"
+        "text": "Most weapons don't require weapon ranks. Instead, characters gain Hit at rank A and S:{br}{br}A Rank: <yellow-green>+10 Hit</>{br}S Rank: <yellow-green>+20 Hit</>"
     },
     {
         "nid": "Burning",
@@ -46,19 +53,12 @@
         "name": "Free Actions",
         "title": "Free Actions",
         "category": "Mechanics",
-        "text": "Any item, ability, or command with yellow text doesn't end a player unit's turn. They can even attack afterwards!"
+        "text": "Any item, ability, or command with <yellow>yellow</> text doesn't end a player unit's turn. They can even attack afterwards!"
     },
     {
-        "nid": "Bolster",
-        "name": "Bolster",
-        "title": "Bolster",
-        "category": "Mechanics",
-        "text": "Corridon's Bolster ability gives an ally temporary HP for 2 turns.{br}At the end of the effect their Max HP reduces to its original value."
-    },
-    {
-        "nid": "Repair",
-        "name": "Repair",
-        "title": "Repair",
+        "nid": "Prfs",
+        "name": "Prfs",
+        "title": "Prf Weapons",
         "category": "Mechanics",
         "text": ""
     },
@@ -67,13 +67,13 @@
         "name": "Building",
         "title": "Building Supports",
         "category": "Supports",
-        "text": "Units can support with any other playable unit but are limited to 1 support partner at a time.{br}Supports are unlocked after a chapter where both units are deployed.\nEach pair only has 1 support rank.{br}If either unit dies, the support is broken; allowing the surviving unit to support with a different unit."
+        "text": "Units can support with any other playable unit but are limited to <yellow-green>1 support partner</> at a time.{br}Supports are unlocked after a chapter where both units are deployed.\nEach pair only has 1 support rank.{br}If either unit <red-orange>dies</>, the support is <red-orange>broken</>; allowing the surviving unit to support with a different unit."
     },
     {
         "nid": "SupportBonuses",
         "name": "Bonuses",
         "title": "Support Bonuses",
         "category": "Supports",
-        "text": "Units gain a bonus based on their partner's affinity while within 3 tiles of eachother.\nFire: +1 Damage{br}Wind:+1 Attack Speed{br}Ice: -1 Damage Received{br}Thunder: +10 Crit{br}Light: +10 Avoid{br}Dark: +10 Hit"
+        "text": "Units gain a bonus based on their partner's affinity while <blue>within 3 tiles</> of each other.\n<purple>Fire</>: <blue>+2</> <yellow>Damage</>{br}<purple>Wind</>:<blue>+2</> <yellow>Attack Speed</>{br}<purple>Ice</>: <blue>-2</> <yellow>Damage Received</>{br}<purple>Thunder</>: <blue>+15</> <yellow>Crit</>{br}<purple>Light</>: <blue>+15</> <yellow>Avoid</>{br}<purple>Dark</>: <blue>+15</> <yellow>Hit</>"
     }
 ]

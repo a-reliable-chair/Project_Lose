@@ -3,10 +3,10 @@
         "nid": "SPDBooster",
         "name": "<yellow>SPD++</>",
         "desc": "Grants 2 diminishing speed. Free Action.",
-        "icon_nid": "Consumable",
+        "icon_nid": "Consumables2",
         "icon_index": [
-            0,
-            2
+            1,
+            1
         ],
         "components": [
             [

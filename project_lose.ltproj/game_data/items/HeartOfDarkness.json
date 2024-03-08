@@ -1,7 +1,7 @@
 [
     {
         "nid": "HeartOfDarkness",
-        "name": "<orange>Heart Of Darkness</orange>",
+        "name": "<light-orange>Heart Of Darkness</light-orange>",
         "desc": "Dark affinity only.\n+15 Hit. ",
         "icon_nid": "Accessory",
         "icon_index": [
@@ -12,10 +12,6 @@
             [
                 "status_on_hold",
                 "HeartofDarkness"
-            ],
-            [
-                "text_color",
-                "orange"
             ]
         ]
     }

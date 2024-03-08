@@ -468,11 +468,7 @@
                 "klass": "Fighter",
                 "faction": "Soldier",
                 "starting_items": [],
-                "starting_skills": [
-                    "Cursed",
-                    "Cursed",
-                    "Cursed"
-                ],
+                "starting_skills": [],
                 "team": "enemy",
                 "ai": "None",
                 "roam_ai": null,

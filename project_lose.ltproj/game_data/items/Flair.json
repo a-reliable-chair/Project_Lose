@@ -45,10 +45,6 @@
                 null
             ],
             [
-                "weapon_type",
-                "Light"
-            ],
-            [
                 "map_hit_add_blend",
                 [
                     255,
@@ -65,10 +61,6 @@
                 [
                     "Elwynn"
                 ]
-            ],
-            [
-                "text_color",
-                "purple"
             ],
             [
                 "status_on_hit",
@@ -89,6 +81,10 @@
             [
                 "ignore_line_of_sight",
                 null
+            ],
+            [
+                "wexp",
+                5
             ]
         ]
     }

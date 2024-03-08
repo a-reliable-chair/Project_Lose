@@ -37,14 +37,14 @@
             "MOV": 0
         },
         "growth_bonus": {
-            "HP": 0,
+            "HP": 55,
             "STR": 0,
-            "MAG": 0,
-            "SKL": 0,
-            "SPD": 0,
+            "MAG": 15,
+            "SKL": 10,
+            "SPD": 20,
             "LCK": 0,
-            "DEF": 0,
-            "RES": 0,
+            "DEF": 10,
+            "RES": 30,
             "CON": 0,
             "MOV": 0
         },

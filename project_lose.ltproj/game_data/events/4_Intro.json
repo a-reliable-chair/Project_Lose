@@ -388,10 +388,10 @@
             "    remove_item;Davenport;AngelFeather;no_banner",
             "    remove_item;Davenport;WardensCleaver;no_banner",
             "    remove_item;Davenport;Silver Lance;no_banner",
-            "    remove_item;Davenport;EtherealBlade;no_banner",
+            "    remove_item;Davenport;Silver Sword;no_banner",
             "    give_item;Davenport;WardensCleaver;droppable;no_banner",
             "    give_item;Davenport;Silver Lance;no_banner",
-            "    give_item;Davenport;EtherealBlade;no_banner",
+            "    give_item;Davenport;Silver Sword;no_banner",
             "else",
             "    add_unit;Sub_4;2, 0;immediate;push;north",
             "end",
@@ -466,15 +466,15 @@
             "    change_music;enemy2_phase;Hello Monday",
             "    change_music;other_phase;Hello Monday",
             "else",
-            "    change_music;player_phase;Inevitable Fate Pt. 1",
-            "    change_music;enemy_phase;Inevitable Fate Pt. 1",
-            "    change_music;enemy2_phase;Inevitable Fate Pt. 1",
-            "    change_music;other_phase;Inevitable Fate Pt. 1",
+            "    change_music;player_phase;Inevitable Fate",
+            "    change_music;enemy_phase;Inevitable Fate",
+            "    change_music;enemy2_phase;Inevitable Fate",
+            "    change_music;other_phase;Inevitable Fate",
             "end",
             "",
             "trigger_script;4 GotohSupports",
             "",
-            "prep;1;Before An Impossible Battlefield"
+            "prep;1;Before An Impossible Battlefield;Codex,Achievements;true,true;Menu_Codex,CallAchievements"
         ]
     }
 ]

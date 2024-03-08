@@ -3,9 +3,9 @@
         "nid": "DivineConduit",
         "name": "Divine Conduit",
         "desc": "Free action, once per turn move an ally within MAG to another square.\nRequires line of sight.",
-        "icon_nid": "PersonalSkills",
+        "icon_nid": "DivineConduit",
         "icon_index": [
-            1,
+            0,
             0
         ],
         "components": [

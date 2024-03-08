@@ -8,9 +8,11 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Ackerman;Left",
-            "speak;Ackerman;FILLER!",
-            "remove_portrait;Ackerman"
+            "hide_combat_ui",
+            "add_portrait;Ackerman;LeftCorner",
+            "speak;Ackerman;FILLER!;center;;boss_convo_left",
+            "remove_portrait;Ackerman",
+            "show_combat_ui"
         ]
     }
 ]

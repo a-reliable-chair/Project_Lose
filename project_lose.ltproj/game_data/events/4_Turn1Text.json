@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn1Text",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 21,
+        "_source": [
+            "s;;Cawthorne and his lieutenants will start <red>charging</red> as time goes on.{w}{clear}The turn after they each get defeated, <red>reinforcements</red> will appear!{w}{clear}If any of the lieutenants were defeated in previous chapters,|they'll be replaced with a buffed generic enemy.;;;hint",
+            "if;game.mode.nid != 'Normal'",
+            "    s;;On Hard and Lunatic Cawthorne has a <red>Second Stage</red>.|He and his lieutenants also <red>charge</red> earlier.;;;hint",
+            "end",
+            "if;game.mode.nid == 'Lunatic'",
+            "    s;;On Lunatic, Keeva and Shallcross also <red>charge</red> at some point...;;;hint",
+            "end"
+        ]
+    }
+]

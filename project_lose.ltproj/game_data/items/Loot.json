@@ -38,10 +38,6 @@
                 "target.team == 'other'"
             ],
             [
-                "event_after_combat_on_hit",
-                "Global Ch4PlayerLoot"
-            ],
-            [
                 "never_use_battle_animation",
                 null
             ]

@@ -16,6 +16,10 @@
             [
                 "negative",
                 null
+            ],
+            [
+                "unit_anim",
+                "Map_SoulRend_Unit"
             ]
         ]
     }

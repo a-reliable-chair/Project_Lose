@@ -8,9 +8,11 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Cawthorne;Left",
-            "speak;Cawthorne;Filler die!",
-            "remove_portrait;Cawthorne"
+            "hide_combat_ui",
+            "add_portrait;Cawthorne;LeftCorner",
+            "speak;Cawthorne;Filler die!;center;;boss_convo_left",
+            "remove_portrait;Cawthorne",
+            "show_combat_ui"
         ]
     }
 ]

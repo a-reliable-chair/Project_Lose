@@ -33,10 +33,6 @@
                 null
             ],
             [
-                "text_color",
-                "yellow"
-            ],
-            [
                 "map_hit_add_blend",
                 [
                     255,

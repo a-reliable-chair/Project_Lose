@@ -1,7 +1,7 @@
 [
+    "Journeyman",
     "Villager",
     "Recruit",
-    "Journeyman",
     "Pupil",
     "Pupil_1",
     "Pupil_2",
@@ -10,8 +10,8 @@
     "Knight",
     "Soldier",
     "Lancer",
-    "Fighter",
     "Pirate",
+    "Fighter",
     "Cavalier",
     "PegasusKnight",
     "Dracoknight",
@@ -43,5 +43,6 @@
     "Boy",
     "Girl",
     "Horse",
-    "Cat"
+    "Cat",
+    "Bnuy"
 ]

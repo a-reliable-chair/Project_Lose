@@ -3,10 +3,10 @@
         "nid": "Elixir",
         "name": "<yellow>Elixir</>",
         "desc": "Fully recovers HP. Free Action.",
-        "icon_nid": "Consumable",
+        "icon_nid": "Consumables2",
         "icon_index": [
             0,
-            1
+            5
         ],
         "components": [
             [

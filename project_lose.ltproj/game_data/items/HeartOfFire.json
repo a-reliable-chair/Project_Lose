@@ -1,8 +1,8 @@
 [
     {
         "nid": "HeartOfFire",
-        "name": "<orange>Heart Of Flames</orange>",
-        "desc": "Fire affinity only.\n+1 Damage. ",
+        "name": "<light-orange>Heart Of Flames</light-orange>",
+        "desc": "Fire affinity only.\n+1 STR/MAG. ",
         "icon_nid": "Accessory",
         "icon_index": [
             0,
@@ -12,10 +12,6 @@
             [
                 "status_on_hold",
                 "HeartofFire"
-            ],
-            [
-                "text_color",
-                "orange"
             ]
         ]
     }

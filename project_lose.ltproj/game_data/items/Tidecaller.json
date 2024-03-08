@@ -3,10 +3,10 @@
         "nid": "Tidecaller",
         "name": "<purple>Tidecaller</purple>",
         "desc": "Ailsa Only.\nWhile equipped, unit adds it's Crit to Avoid.",
-        "icon_nid": "BossWeaps",
+        "icon_nid": "PRFs",
         "icon_index": [
             0,
-            4
+            0
         ],
         "components": [
             [
@@ -53,18 +53,10 @@
                 null
             ],
             [
-                "weapon_type",
-                "Lance"
-            ],
-            [
                 "prf_unit",
                 [
                     "Ailsa"
                 ]
-            ],
-            [
-                "text_color",
-                "purple"
             ],
             [
                 "map_cast_anim",
@@ -77,6 +69,10 @@
             [
                 "status_on_equip",
                 "Tidecall"
+            ],
+            [
+                "wexp",
+                2
             ]
         ]
     }

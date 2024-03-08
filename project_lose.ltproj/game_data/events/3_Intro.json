@@ -199,8 +199,6 @@
             "move_cursor;21, 0",
             "transition;open",
             "change_ai;Davenport;Ch4_AttackInRange",
-            "add_lore;Bolster",
-            "add_lore;Repair",
             "level_var;DeadPlayers;0",
             "game_var;DavenportDead;0",
             "game_var;DavenportRecruited;0",
@@ -249,7 +247,7 @@
             "    change_music;other_phase;Periphery Of Mayhem",
             "end",
             "",
-            "prep;1;Before An Impossible Battlefield"
+            "prep;1;Before An Impossible Battlefield;Codex,Achievements;true,true;Menu_Codex,CallAchievements"
         ]
     }
 ]

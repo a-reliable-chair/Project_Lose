@@ -3,10 +3,10 @@
         "nid": "MAGBooster",
         "name": "<yellow>MAG++</>",
         "desc": "Grants 2 diminishing magic. Free Action.",
-        "icon_nid": "Consumable",
+        "icon_nid": "Consumables2",
         "icon_index": [
-            0,
-            2
+            1,
+            0
         ],
         "components": [
             [

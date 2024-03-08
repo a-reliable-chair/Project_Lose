@@ -128,6 +128,14 @@
             "    speak;Brassfield;Filler!!",
             "    remove_portrait;Brassfield",
             "    inc_level_var;ShallcrossBrassfield;1",
+            "elif;({v:ShallcrossDavenport} == 0 and unit.nid == 'Davenport') or ({v:ShallcrossDavenport} == 0 and unit2.nid == 'Davenport')",
+            "    add_portrait;Shallcross;Left",
+            "    speak;Shallcross;Filler",
+            "    remove_portrait;Shallcross",
+            "    add_portrait;Davenport;Right",
+            "    speak;Davenport;Filler!!",
+            "    remove_portrait;Davenport",
+            "    inc_level_var;ShallcrossDavenport;1",
             "end"
         ]
     }

@@ -3,10 +3,10 @@
         "nid": "STRBooster",
         "name": "<yellow>STR++</>",
         "desc": "Grants 2 diminishing strength. Free Action.",
-        "icon_nid": "Consumable",
+        "icon_nid": "Consumables2",
         "icon_index": [
             0,
-            2
+            0
         ],
         "components": [
             [

@@ -3,7 +3,7 @@
         "nid": "LCKBooster",
         "name": "<yellow>LCK++</>",
         "desc": "Grants 4 diminishing luck. Free Action.",
-        "icon_nid": "Consumable",
+        "icon_nid": "Consumables2",
         "icon_index": [
             0,
             2

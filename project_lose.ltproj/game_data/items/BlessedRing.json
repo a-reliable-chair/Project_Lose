@@ -1,7 +1,7 @@
 [
     {
         "nid": "BlessedRing",
-        "name": "<orange>Blessed Ring</orange>",
+        "name": "<light-orange>Blessed Ring</light-orange>",
         "desc": "Trainees Only.\n+1 to all stats. ",
         "icon_nid": "Accessory",
         "icon_index": [
@@ -12,10 +12,6 @@
             [
                 "status_on_hold",
                 "Anointed"
-            ],
-            [
-                "text_color",
-                "orange"
             ]
         ]
     }

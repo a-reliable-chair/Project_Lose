@@ -10,16 +10,16 @@
             "Adult"
         ],
         "bases": {
-            "HP": 5,
+            "HP": 12,
             "STR": 0,
-            "MAG": 2,
-            "SKL": -1,
-            "SPD": -1,
+            "MAG": 4,
+            "SKL": 4,
+            "SPD": 3,
             "LCK": 1,
             "DEF": 2,
-            "RES": 0,
+            "RES": 3,
             "CON": 2,
-            "MOV": 0
+            "MOV": 5
         },
         "growths": {
             "HP": 0,

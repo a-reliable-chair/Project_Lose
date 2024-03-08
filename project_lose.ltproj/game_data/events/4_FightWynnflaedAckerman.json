@@ -8,12 +8,14 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Ackerman;Left",
-            "speak;Ackerman;Traitor!",
+            "hide_combat_ui",
+            "add_portrait;Ackerman;LeftCorner",
+            "speak;Ackerman;Traitor!;center;;boss_convo_left",
             "remove_portrait;Ackerman",
-            "add_portrait;Brassfield;Right",
-            "speak;Brassfield;FILLER!",
-            "remove_portrait;Brassfield"
+            "add_portrait;Brassfield;RightCorner",
+            "speak;Brassfield;FILLER!;center;;boss_convo_right",
+            "remove_portrait;Brassfield",
+            "show_combat_ui"
         ]
     }
 ]

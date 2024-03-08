@@ -2,11 +2,11 @@
     {
         "nid": "HeartofFire",
         "name": "Heart Of Flames",
-        "desc": "+1 Damage. Fire affinity only.",
-        "icon_nid": "Statuses",
+        "desc": "+1 STR/MAG. Fire affinity only.",
+        "icon_nid": "AnimaStatus",
         "icon_index": [
-            1,
-            2
+            0,
+            0
         ],
         "components": [
             [
@@ -14,12 +14,21 @@
                 "unit.affinity == 'Fire'"
             ],
             [
-                "damage",
-                1
-            ],
-            [
                 "hidden_if_inactive",
                 null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        1
+                    ],
+                    [
+                        "MAG",
+                        1
+                    ]
+                ]
             ]
         ]
     }

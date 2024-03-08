@@ -6,8 +6,8 @@
         "bg_tilemap": null,
         "party": "Eirika",
         "music": {
-            "player_phase": "Inevitable Fate Pt. 1",
-            "enemy_phase": "Inevitable Fate Pt. 1",
+            "player_phase": "Inevitable Fate",
+            "enemy_phase": "Inevitable Fate",
             "other_phase": null,
             "enemy2_phase": null,
             "player_battle": null,

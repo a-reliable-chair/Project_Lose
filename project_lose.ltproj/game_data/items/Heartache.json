@@ -3,10 +3,10 @@
         "nid": "Heartache",
         "name": "<purple>Heartache</purple>",
         "desc": "Shayla Only.\n+2 DEF.",
-        "icon_nid": "Axe",
+        "icon_nid": "PRFs",
         "icon_index": [
-            0,
-            8
+            1,
+            1
         ],
         "components": [
             [
@@ -42,10 +42,6 @@
                 null
             ],
             [
-                "weapon_type",
-                "Axe"
-            ],
-            [
                 "prf_unit",
                 [
                     "Shayla"
@@ -54,10 +50,6 @@
             [
                 "status_on_equip",
                 "Mitigate"
-            ],
-            [
-                "text_color",
-                "purple"
             ],
             [
                 "uses",
@@ -73,6 +65,10 @@
             [
                 "map_cast_anim",
                 "Map_Axe_Cast"
+            ],
+            [
+                "wexp",
+                2
             ]
         ]
     }

@@ -3,10 +3,10 @@
         "nid": "HeartofGales",
         "name": "Heart Of Gales",
         "desc": "+1 SPD. Wind affinity only.",
-        "icon_nid": "Statuses",
+        "icon_nid": "AnimaStatus",
         "icon_index": [
-            1,
-            4
+            0,
+            1
         ],
         "components": [
             [

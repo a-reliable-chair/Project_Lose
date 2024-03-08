@@ -65,8 +65,6 @@
     "Hinder",
     "MultiPhysic",
     "Fortify",
-    "Dismay",
-    "GuardianAngel",
     "Treat",
     "Bolster",
     "Repair",
@@ -90,6 +88,7 @@
     "HeartOfDarkness",
     "BlessedRing",
     "Acroband",
+    "Bulwark",
     "Herbs",
     "Elixir",
     "Exp",
@@ -113,7 +112,6 @@
     "Bow7",
     "Bow1",
     "Lionheart",
-    "Palus",
     "Tidecaller",
     "Heartache",
     "Whirlwind",
@@ -123,5 +121,7 @@
     "Spite",
     "Flair",
     "Shadowflame",
-    "Disaster"
+    "Disaster",
+    "Dismay",
+    "GuardianAngel"
 ]

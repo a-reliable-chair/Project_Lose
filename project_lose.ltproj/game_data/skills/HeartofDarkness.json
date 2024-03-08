@@ -3,10 +3,10 @@
         "nid": "HeartofDarkness",
         "name": "Heart Of Darkness",
         "desc": "+15 Hit. Dark affinity only.",
-        "icon_nid": "Statuses",
+        "icon_nid": "AnimaStatus",
         "icon_index": [
-            1,
-            1
+            0,
+            4
         ],
         "components": [
             [

@@ -27,10 +27,13 @@
             "change_background",
             "transition;Open",
             "give_item;Quinley;SoulRend",
+            "",
+            "",
             "if;not has_achievement('43')",
             "    update_achievement;43;A Ghastly Visitor;Visited a house with a Thrall",
             "    complete_achievement;43;1;banner",
-            "end"
+            "end",
+            "inc_game_var;InstructionsUnclear;1"
         ]
     }
 ]

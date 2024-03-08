@@ -8,10 +8,12 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "if;game.get_unit('Davenporr').team == 'enemy'",
-            "    add_portrait;Davenport;Left",
-            "    speak;Davenport;Davenport Battle Quote!",
+            "if;game.get_unit('Davenport').team == 'enemy'",
+            "    hide_combat_ui",
+            "    add_portrait;Davenport;LeftCorner",
+            "    speak;Davenport;Davenport Battle Quote!;center;;boss_convo_left",
             "    remove_portrait;Davenport",
+            "    show_combat_ui",
             "end",
             ""
         ]

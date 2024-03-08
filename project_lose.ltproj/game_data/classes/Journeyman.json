@@ -13,10 +13,10 @@
         "max_level": 10,
         "bases": {
             "HP": 10,
-            "STR": 3,
+            "STR": 4,
             "MAG": 0,
-            "SKL": 3,
-            "SPD": 2,
+            "SKL": 4,
+            "SPD": 3,
             "LCK": 0,
             "DEF": 1,
             "RES": 0,

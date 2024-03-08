@@ -10,7 +10,7 @@
             "Ch2Ignore"
         ],
         "bases": {
-            "HP": -2,
+            "HP": 8,
             "STR": 1,
             "MAG": 0,
             "SKL": 1,

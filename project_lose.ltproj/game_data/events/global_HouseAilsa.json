@@ -35,9 +35,11 @@
             "end",
             "",
             "if;'{v:PlayerReverse}' == 'Reversal'",
-            "    modify_item_component;Ailsa;Tidecaller;weapon_type;'Axe'",
+            "    add_item_component;Ailsa;Tidecaller;weapon_type;'Axe'",
             "elif;'{v:PlayerReverse}' == 'Double'",
-            "    modify_item_component;Ailsa;Tidecaller;weapon_type;'Sword'",
+            "    add_item_component;Ailsa;Tidecaller;weapon_type;'Sword'",
+            "else",
+            "    add_item_component;Ailsa;Tidecaller;weapon_type;'Lance'",
             "end",
             "",
             "give_exp;Ailsa;40",
@@ -45,7 +47,8 @@
             "if;not has_achievement('14')",
             "    update_achievement;14;Flashback: Ailsa;Achievement desc.",
             "    complete_achievement;14;1;banner",
-            "end"
+            "end",
+            ""
         ]
     }
 ]

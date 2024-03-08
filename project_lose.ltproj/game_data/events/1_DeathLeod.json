@@ -14,6 +14,7 @@
             "expression;Leod;CloseEyes",
             "remove_portrait;Leod",
             "inc_game_var;LeodDead;1",
+            "alert;Enemies targeting Leod now focus on you!",
             "if;game.check_alive('Enemy_13')",
             "    change_ai;Enemy_13;Ch2_Yolo",
             "    remove_skill;Enemy_13;Bloodlust;no_banner",

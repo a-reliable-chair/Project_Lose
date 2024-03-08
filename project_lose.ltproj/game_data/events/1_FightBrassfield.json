@@ -8,9 +8,12 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Brassfield;Left",
-            "speak;Brassfield;I didn't want it come to this...|Ready your blade. I can't hold back now.",
-            "remove_portrait;Brassfield"
+            "hide_combat_ui",
+            "add_portrait;Brassfield;LeftCorner",
+            "speak;Brassfield;I didn't want it come to this...|Ready your blade. I can't hold back now.;center;;boss_convo_left",
+            "remove_portrait;Brassfield",
+            "show_combat_ui",
+            ""
         ]
     }
 ]

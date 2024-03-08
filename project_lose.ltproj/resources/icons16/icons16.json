@@ -132,5 +132,51 @@
     {
         "nid": "SoulRended",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Repair",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Exchange",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "DivineConduit",
+        "subicon_dict": {
+            "DivineConduit 0, 0": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Aspiring Leader",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Acroband",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "AnimaStatus",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Consumables2",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "SarGarv",
+        "subicon_dict": {
+            "SarGarv 0, 0": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "PRFs",
+        "subicon_dict": {}
     }
 ]

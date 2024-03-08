@@ -33,6 +33,14 @@
             [
                 "end_time",
                 1
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    108,
+                    108,
+                    108
+                ]
             ]
         ]
     }

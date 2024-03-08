@@ -1206,12 +1206,39 @@
         "use_frame_time": false
     },
     {
-        "nid": "Map_Soul_Rend",
+        "nid": "Map_SoulRend_Cast",
         "frame_x": 3,
         "frame_y": 3,
         "num_frames": 9,
         "speed": 75,
         "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_SoulRend_Unit",
+        "frame_x": 2,
+        "frame_y": 2,
+        "num_frames": 4,
+        "speed": 150,
+        "frame_times": "1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Cursed_Unit",
+        "frame_x": 2,
+        "frame_y": 1,
+        "num_frames": 2,
+        "speed": 300,
+        "frame_times": "1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Bulwark",
+        "frame_x": 2,
+        "frame_y": 1,
+        "num_frames": 2,
+        "speed": 450,
+        "frame_times": "1,1",
         "use_frame_time": false
     }
 ]

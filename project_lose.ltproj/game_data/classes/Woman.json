@@ -12,7 +12,7 @@
         ],
         "max_level": 20,
         "bases": {
-            "HP": 10,
+            "HP": 8,
             "STR": 0,
             "MAG": 0,
             "SKL": 0,

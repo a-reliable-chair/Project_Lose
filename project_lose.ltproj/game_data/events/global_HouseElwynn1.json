@@ -34,7 +34,8 @@
             "if;not has_achievement('4')",
             "    update_achievement;4;Flashback: Elwynn;Achievement desc.",
             "    complete_achievement;4;1;banner",
-            "end"
+            "end",
+            ""
         ]
     }
 ]

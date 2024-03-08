@@ -8,10 +8,11 @@
         "only_once": true,
         "priority": 20,
         "_source": [
-            "add_portrait;Davenport;Left",
-            "speak;Davenport;Davenport Battle Quote!",
+            "hide_combat_ui",
+            "add_portrait;Davenport;LeftCorner",
+            "speak;Davenport;Davenport Battle Quote!;center;;boss_convo_left",
             "remove_portrait;Davenport",
-            ""
+            "show_combat_ui"
         ]
     }
 ]

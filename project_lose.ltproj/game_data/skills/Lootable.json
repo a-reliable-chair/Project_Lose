@@ -3,10 +3,10 @@
         "nid": "Lootable",
         "name": "Lootable",
         "desc": "This unit can be looted by player units and thieves!",
-        "icon_nid": "Skills",
+        "icon_nid": "NonPlayerSkills2",
         "icon_index": [
-            11,
-            0
+            0,
+            2
         ],
         "components": [
             [

@@ -10,14 +10,31 @@
         "_source": [
             "#base;default_background",
             "trigger_script;Global ModesSelect",
+            "if;'{v:EnemyReverse}' == 'Reversal'",
+            "    trigger_script;Global GenericsWR",
+            "elif;'{v:EnemyReverse}' == 'Double'",
+            "    trigger_script;Global GenericsDR",
+            "end",
             "give_item;Garvey;Spite;no_banner",
             "give_item;Saraid;Firestick;no_banner",
             "give_item;Ailsa;Tidecaller;no_banner",
             "give_item;Elwynn;Nova;no_banner",
             "give_item;Carlin;Duskfall;no_banner",
-            "give_item;Lamonte;Palus;no_banner",
+            "give_item;Lamonte;Bulwark;no_banner",
             "give_item;Orla;Whirlwind;no_banner",
-            "give_item;Alpin;SoulRend;no_banner"
+            "give_item;Alpin;Lionheart;no_banner",
+            "give_item;Raelin;Acroband;no_banner",
+            "give_item;Elspeth;GuardianAngel;no_banner",
+            "#change_stats;Lamonte;DEF,+1;immediate",
+            "set_growths;Alpin;STR,100,SKL,100,HP,100",
+            "add_lore;WeaponTriangle",
+            "add_lore;Stats",
+            "add_lore;StatColors",
+            "add_lore;Equations",
+            "add_lore;WeaponRanks",
+            "add_lore;BuildingSupports",
+            "add_lore;SupportBonuses",
+            "set_custom_options;Codex,Achievements;true,true;Open the Codex.,Check Achievements.;Menu_Codex,CallAchievements"
         ]
     }
 ]

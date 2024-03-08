@@ -36,9 +36,11 @@
             "end",
             "",
             "if;'{v:PlayerReverse}' == 'Reversal'",
-            "    modify_item_component;Carlin;Disaster;weapon_type;'Light'",
+            "    add_item_component;Carlin;Disaster;weapon_type;'Light'",
             "elif;'{v:PlayerReverse}' == 'Double'",
-            "    modify_item_component;Carlin;Disaster;weapon_type;'Anima'",
+            "    add_item_component;Carlin;Disaster;weapon_type;'Anima'",
+            "else",
+            "    add_item_component;Carlin;Disaster;weapon_type;'Dark'",
             "end",
             "",
             "give_exp;Carlin;40",
@@ -46,7 +48,8 @@
             "if;not has_achievement('3')",
             "    update_achievement;3;Flashback: Carlin;Achievement desc.",
             "    complete_achievement;3;1;banner",
-            "end"
+            "end",
+            ""
         ]
     }
 ]

@@ -61,10 +61,6 @@
                 }
             ],
             [
-                "text_color",
-                "blue"
-            ],
-            [
                 "damage_on_miss",
                 0.5
             ],

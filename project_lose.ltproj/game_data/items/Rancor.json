@@ -67,10 +67,6 @@
                 5
             ],
             [
-                "text_color",
-                "purple"
-            ],
-            [
                 "effective_damage",
                 {
                     "effective_tags": [
@@ -92,6 +88,10 @@
             [
                 "ignore_line_of_sight",
                 null
+            ],
+            [
+                "wexp",
+                2
             ]
         ]
     }
