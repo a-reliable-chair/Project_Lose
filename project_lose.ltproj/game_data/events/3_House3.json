@@ -1,7 +1,7 @@
 [
     {
         "name": "House3",
-        "trigger": "Visit",
+        "trigger": "<yellow>Visit</yellow>",
         "level_nid": "3",
         "condition": "region.nid == 'House3'",
         "commands": [],

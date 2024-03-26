@@ -11,7 +11,7 @@
             "hide_combat_ui",
             "multi_add_portrait;Ackerman;LeftCorner;Carlin;RightCorner",
             "speak;Ackerman;FILLER;center;;boss_convo_left",
-            "s;Carlin;Ur Stinky;center;;boss_convo_right",
+            "s;Carlin;FILLER;center;;boss_convo_right",
             "multi_remove_portrait;Ackerman;Carlin",
             "show_combat_ui",
             ""

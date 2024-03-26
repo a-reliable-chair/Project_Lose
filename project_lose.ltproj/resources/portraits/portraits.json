@@ -252,18 +252,6 @@
         "info_offset": 0
     },
     {
-        "nid": "Shallcross",
-        "blinking_offset": [
-            24,
-            24
-        ],
-        "smiling_offset": [
-            24,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "Keeva",
         "blinking_offset": [
             24,
@@ -272,6 +260,18 @@
         "smiling_offset": [
             24,
             48
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "Shallcross",
+        "blinking_offset": [
+            24,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
         ],
         "info_offset": 0
     },

@@ -1,10 +1,10 @@
 [
     {
-        "nid": "Dummy",
-        "name": "Dummy",
-        "title": "Dummy",
-        "category": "Dummy",
-        "text": "Can not delete last object of it's kind!"
+        "nid": "FreeActions",
+        "name": "Free Actions",
+        "title": "Free Actions",
+        "category": "Mechanics",
+        "text": "Any item, ability, or command with <yellow>yellow</> text doesn't end a player unit's turn. They can even attack afterwards!"
     },
     {
         "nid": "Stats",
@@ -47,20 +47,6 @@
         "title": "Burning",
         "category": "Status Effects",
         "text": "Saraid's Firestarter lights tiles on fire!{br}The fire spreads next turn to adjacent tiles.{br}Units starting their turn on a burning tile take 4 damage.{br}Also, they suffer -1 SKL/SPD/DEF/RES."
-    },
-    {
-        "nid": "FreeActions",
-        "name": "Free Actions",
-        "title": "Free Actions",
-        "category": "Mechanics",
-        "text": "Any item, ability, or command with <yellow>yellow</> text doesn't end a player unit's turn. They can even attack afterwards!"
-    },
-    {
-        "nid": "Prfs",
-        "name": "Prfs",
-        "title": "Prf Weapons",
-        "category": "Mechanics",
-        "text": ""
     },
     {
         "nid": "BuildingSupports",

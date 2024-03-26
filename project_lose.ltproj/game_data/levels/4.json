@@ -1579,7 +1579,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "<yellow>Visit</yellow>",
                 "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,
@@ -1596,7 +1596,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Visit",
+                "sub_nid": "<yellow>Visit</yellow>",
                 "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,

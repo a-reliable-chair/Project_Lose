@@ -1,16 +1,16 @@
 [
     {
         "name": "House",
-        "trigger": "Visit",
+        "trigger": "<yellow>Visit</yellow>",
         "level_nid": "DEBUG",
-        "condition": "region.nid == 'House'",
+        "condition": "region.nid == 'House1'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "add_portrait;Alpin;Left",
-            "speak;Alpin;Filler!",
-            "remove_portrait;Alpin"
+            "add_portrait;{unit};Left",
+            "speak;{unit};Filler!",
+            "remove_portrait;{unit}"
         ]
     }
 ]

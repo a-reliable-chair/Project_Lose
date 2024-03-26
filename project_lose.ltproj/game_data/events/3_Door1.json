@@ -1,7 +1,7 @@
 [
     {
         "name": "Door1",
-        "trigger": "Door",
+        "trigger": "<yellow>Door</yellow>",
         "level_nid": "3",
         "condition": "region.nid == 'Door1'",
         "commands": [],

@@ -483,18 +483,18 @@
         ],
         "regions": [
             {
-                "nid": "Door1",
+                "nid": "House1",
                 "region_type": "event",
                 "position": [
-                    11,
-                    7
-                ],
-                "size": [
-                    2,
+                    13,
                     1
                 ],
-                "sub_nid": "Door",
-                "condition": "unit.can_unlock(region)",
+                "size": [
+                    1,
+                    1
+                ],
+                "sub_nid": "<yellow>Visit</yellow>",
+                "condition": "True",
                 "time_left": null,
                 "only_once": true,
                 "interrupt_move": false

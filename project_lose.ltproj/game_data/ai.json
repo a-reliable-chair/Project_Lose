@@ -345,7 +345,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "Chest",
+                "target_spec": "<yellow>Chest</yellow>",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -355,7 +355,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "Door",
+                "target_spec": "<yellow>Door</yellow>",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,
@@ -365,7 +365,7 @@
             {
                 "action": "Interact",
                 "target": "Event",
-                "target_spec": "Entrance",
+                "target_spec": "<yellow>Entrance</yellow>",
                 "view_range": -4,
                 "invert_targeting": false,
                 "roam_speed": 100,

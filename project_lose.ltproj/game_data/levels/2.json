@@ -1128,7 +1128,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Chest",
+                "sub_nid": "<yellow>Chest</yellow>",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1145,7 +1145,7 @@
                     1,
                     1
                 ],
-                "sub_nid": "Chest",
+                "sub_nid": "<yellow>Chest</yellow>",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1162,7 +1162,7 @@
                     1,
                     3
                 ],
-                "sub_nid": "Door",
+                "sub_nid": "<yellow>Door</yellow>",
                 "condition": "unit.can_unlock(region) and unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,
@@ -1179,7 +1179,7 @@
                     2,
                     4
                 ],
-                "sub_nid": "Door",
+                "sub_nid": "<yellow>Door</yellow>",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1196,7 +1196,7 @@
                     2,
                     3
                 ],
-                "sub_nid": "Entrance",
+                "sub_nid": "<yellow>Entrance</yellow>",
                 "condition": "unit.can_unlock(region)",
                 "time_left": null,
                 "only_once": true,
@@ -1206,14 +1206,14 @@
                 "nid": "FindKey",
                 "region_type": "event",
                 "position": [
-                    14,
-                    4
+                    8,
+                    10
                 ],
                 "size": [
                     1,
                     1
                 ],
-                "sub_nid": "Search",
+                "sub_nid": "<yellow>Search</yellow>",
                 "condition": "unit.team == 'player'",
                 "time_left": null,
                 "only_once": true,

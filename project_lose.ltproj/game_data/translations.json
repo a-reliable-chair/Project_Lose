@@ -52,11 +52,11 @@
         "text": "Give the traveler to an adjacent unit."
     },
     {
-        "nid": "Trade_desc",
+        "nid": "<yellow>Trade</yellow>_desc",
         "text": "Select which unit to trade with."
     },
     {
-        "nid": "Talk_desc",
+        "nid": "<yellow>Talk</yellow>_desc",
         "text": "Select a unit to talk to."
     },
     {
@@ -341,7 +341,7 @@
     },
     {
         "nid": "Visit_desc",
-        "text": "Free Action. Visit a location."
+        "text": "Visit a location."
     },
     {
         "nid": "Armory_desc",
@@ -364,8 +364,8 @@
         "text": "Take an item from an adjacent enemy."
     },
     {
-        "nid": "Shove_desc",
-        "text": "Free action. Push adjacent unit 1 tile away."
+        "nid": "<yellow>Shove</yellow>_desc",
+        "text": "Push adjacent unit 1 tile away."
     },
     {
         "nid": "Pair Up_desc",
@@ -400,7 +400,31 @@
         "text": "++Enemy Growths No Convoy       And Even More Bullshit!"
     },
     {
-        "nid": "Support_desc",
-        "text": "Free Action. Unlock the support between units."
+        "nid": "<yellow>Support</yellow>_desc",
+        "text": "Unlock the support between units."
+    },
+    {
+        "nid": "<yellow>Supply</yellow>_desc",
+        "text": "Access the convoy."
+    },
+    {
+        "nid": "<yellow>Visit</yellow>_desc",
+        "text": "Visit a location."
+    },
+    {
+        "nid": "<yellow>Chest</yellow>_desc",
+        "text": "Open a chest."
+    },
+    {
+        "nid": "<yellow>Door</yellow>_desc",
+        "text": "Open a door."
+    },
+    {
+        "nid": "<yellow>Entrance</yellow>_desc",
+        "text": "Open the entrance..."
+    },
+    {
+        "nid": "<yellow>Search</yellow>_desc",
+        "text": "Find the relic key!"
     }
 ]
