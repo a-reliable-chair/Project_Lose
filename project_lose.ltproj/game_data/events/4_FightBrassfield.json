@@ -3,7 +3,7 @@
         "name": "FightBrassfield",
         "trigger": "combat_start",
         "level_nid": "4",
-        "condition": "(unit.nid == \"Brassfield\" and unit2.team == 'player') or (unit2.nid == \"Brassfield\" and unit.team == 'player')",
+        "condition": "(unit.nid == \"Brassfield\" and unit2.team == 'player' and not has_skill(unit2, 'Thrall')) or (unit2.nid == \"Brassfield\" and unit.team == 'player' and not has_skill(unit, 'Thrall'))",
         "commands": [],
         "only_once": true,
         "priority": 20,
@@ -11,7 +11,7 @@
             "if;game.get_unit('Brassfield').team == 'enemy'",
             "    hide_combat_ui",
             "    add_portrait;Brassfield;LeftCorner",
-            "    speak;Brassfield;I didn't want it come to this...|Ready your blade. I can't hold back now.;center;;boss_convo_left",
+            "    s;Brassfield;I didn't want to do this...{br}but you leave me no choice.|Fight well.{w} Die well.;center;;boss_convo_left",
             "    remove_portrait;Brassfield",
             "    show_combat_ui",
             "end"

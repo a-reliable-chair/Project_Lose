@@ -2,7 +2,7 @@
     {
         "nid": "Leod",
         "name": "Leod",
-        "desc": "Town mayor. Pompous and short tempered.",
+        "desc": "The town's mayor. Pompous and short tempered.",
         "variant": "",
         "level": 1,
         "klass": "Man",
@@ -45,7 +45,12 @@
             "DEF": 0,
             "RES": 0
         },
-        "starting_items": [],
+        "starting_items": [
+            [
+                "AngelFeather",
+                false
+            ]
+        ],
         "learned_skills": [],
         "unit_notes": [],
         "wexp_gain": {

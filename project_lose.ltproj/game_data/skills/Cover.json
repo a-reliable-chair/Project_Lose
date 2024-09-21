@@ -10,10 +10,6 @@
         ],
         "components": [
             [
-                "hidden_if_inactive",
-                null
-            ],
-            [
                 "hide_aura",
                 null
             ],
@@ -28,10 +24,6 @@
             [
                 "aura_target",
                 "ally"
-            ],
-            [
-                "condition",
-                "True if u('Lamonte').get_hp() > (u('Lamonte').get_stat('DEF')/2) else False"
             ]
         ]
     }

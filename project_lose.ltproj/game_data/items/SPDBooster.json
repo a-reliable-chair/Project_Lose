@@ -2,7 +2,7 @@
     {
         "nid": "SPDBooster",
         "name": "<yellow>SPD++</>",
-        "desc": "Grants 2 diminishing speed. Free Action.",
+        "desc": "Grants 2 diminishing speed.",
         "icon_nid": "Consumables2",
         "icon_index": [
             1,

@@ -1,24 +1,23 @@
 [
     {
         "name": "DeathOrla",
-        "trigger": "unit_death",
+        "trigger": "combat_death",
         "level_nid": null,
         "condition": "unit.nid == 'Orla'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "music;Gone...",
-            "add_portrait;Orla;FarRight",
-            "if;game.level.nid == '4'",
-            "    speak;Orla;Endgame deathquote",
+            "if;{v:game_var;Ch5Outro} == 1",
             "else",
-            "    speak;Orla;regular deathquote.",
-            "end",
-            "expression;Orla;CloseEyes",
-            "remove_portrait;Orla",
-            "music_fade_back",
-            "inc_game_var;NoDeaths;1"
+            "    music;Gone...",
+            "    add_portrait;Orla;FarRight",
+            "    s;Orla;Gaah!{w} My arm!{w} I-it won't move...{w}{clear}Damn it!{w} You bastards think this{br}is the last you've seen of me!?|I could fight you all one-handed!{w}{clear}B-but...{w} damn it, I do NOT want to{br}die in this stupid, awful town!|I-I'm falling back.{w} I have to...",
+            "    expression;Orla;CloseEyes",
+            "    remove_portrait;Orla",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "end"
         ]
     }
 ]

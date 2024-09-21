@@ -2,7 +2,7 @@
     {
         "nid": "Refresh",
         "name": "<yellow>Refresh</>",
-        "desc": "Target ally can act again. Free Action.",
+        "desc": "Target ally can act again.",
         "icon_nid": "Consumables2",
         "icon_index": [
             1,

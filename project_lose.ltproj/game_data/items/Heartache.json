@@ -63,10 +63,6 @@
                 }
             ],
             [
-                "map_cast_anim",
-                "Map_Axe_Cast"
-            ],
-            [
                 "wexp",
                 2
             ]

@@ -275,7 +275,7 @@
         "frame_y": 4,
         "num_frames": 20,
         "speed": 75,
-        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23",
+        "frame_times": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,23,1",
         "use_frame_time": true
     },
     {
@@ -1053,15 +1053,6 @@
         "use_frame_time": false
     },
     {
-        "nid": "Map_Conqueror_Cast",
-        "frame_x": 3,
-        "frame_y": 2,
-        "num_frames": 5,
-        "speed": 75,
-        "frame_times": "1,1,1,1,1,1",
-        "use_frame_time": false
-    },
-    {
         "nid": "MapBloodlust",
         "frame_x": 5,
         "frame_y": 2,
@@ -1081,6 +1072,15 @@
     },
     {
         "nid": "Map_ShiningBind_Cast",
+        "frame_x": 3,
+        "frame_y": 3,
+        "num_frames": 9,
+        "speed": 75,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Conqueror_Cast",
         "frame_x": 3,
         "frame_y": 3,
         "num_frames": 9,
@@ -1238,7 +1238,25 @@
         "frame_y": 1,
         "num_frames": 2,
         "speed": 450,
-        "frame_times": "1,1",
+        "frame_times": "1,1,1,1,1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "Map_Unit_Select",
+        "frame_x": 3,
+        "frame_y": 2,
+        "num_frames": 6,
+        "speed": 150,
+        "frame_times": "1,1,1,1,1,1",
+        "use_frame_time": false
+    },
+    {
+        "nid": "ChurchFlame",
+        "frame_x": 5,
+        "frame_y": 2,
+        "num_frames": 9,
+        "speed": 100,
+        "frame_times": "1,1,1,1,1,1,1,1,1",
         "use_frame_time": false
     }
 ]

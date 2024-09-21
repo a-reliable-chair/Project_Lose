@@ -16,7 +16,7 @@
             "    remove_portrait;Shallcross",
             "    inc_level_var;ShallcrossCharge;1",
             "    modify_item_component;Shallcross;TheConqueror;max_range;1",
-            "    s;;Shallcross will only attack adjacent enemies while charging!;;;hint",
+            "    alert;Shallcross will only attack adjacent enemies while charging!",
             "end"
         ]
     }

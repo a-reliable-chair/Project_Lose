@@ -15,6 +15,7 @@
             "if;game.check_alive('Leod')",
             "    flicker_cursor;Leod",
             "    add_portrait;Leod;Left",
+            "    bop_portrait;Leod",
             "    speak;Leod;PLEASE, NO!|I'LL GIVE YOU ALL THE GOLD YOU CAN CARRY!",
             "    remove_portrait;Leod",
             "end",

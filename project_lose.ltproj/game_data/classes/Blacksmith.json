@@ -2,7 +2,7 @@
     {
         "nid": "Blacksmith",
         "name": "Blacksmith",
-        "desc": "Blacksmith desc",
+        "desc": "Lacking in combat prowess these tradesmen bolster their allies on the battlefield and repair arms.",
         "tier": 1,
         "movement_group": "Bandits",
         "promotes_from": null,
@@ -82,7 +82,7 @@
                 251
             ],
             "Axe": [
-                true,
+                false,
                 0,
                 251
             ],
@@ -92,7 +92,7 @@
                 251
             ],
             "Staff": [
-                true,
+                false,
                 1,
                 251
             ],

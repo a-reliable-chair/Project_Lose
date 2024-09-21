@@ -2,7 +2,7 @@
     {
         "nid": "Flask",
         "name": "<yellow>Flask</>",
-        "desc": "Adults only! +4 LUK for 3 turns. \nFree Action. Chapter Uses: 1",
+        "desc": "Adults only! +4 LUK for 3 turns. \nChapter Uses: 2.",
         "icon_nid": "{Endelphia} Flask",
         "icon_index": [
             0,
@@ -33,7 +33,7 @@
             ],
             [
                 "c_uses",
-                1
+                2
             ],
             [
                 "uses_options",

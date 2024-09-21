@@ -3,17 +3,22 @@
         "name": "FightBrassfield",
         "trigger": "combat_start",
         "level_nid": "1",
-        "condition": "(unit.nid == \"Brassfield\" and unit2.team == 'player') or (unit2.nid == \"Brassfield\" and unit.team == 'player')",
+        "condition": "(unit.nid == \"Brassfield\" and unit2.team == 'player' and not has_skill(unit2, 'Thrall')) or (unit2.nid == \"Brassfield\" and unit.team == 'player' and not has_skill(unit, 'Thrall'))",
         "commands": [],
-        "only_once": true,
+        "only_once": false,
         "priority": 20,
         "_source": [
-            "hide_combat_ui",
-            "add_portrait;Brassfield;LeftCorner",
-            "speak;Brassfield;I didn't want it come to this...|Ready your blade. I can't hold back now.;center;;boss_convo_left",
-            "remove_portrait;Brassfield",
-            "show_combat_ui",
-            ""
+            "if;'{v:BrassfieldQuote}' == 0",
+            "    hide_combat_ui",
+            "    add_portrait;Brassfield;LeftCorner",
+            "    speak;Brassfield;{c:expression;Brassfield;CloseEyes}I didn't want it come to this...|{c:expression;Brassfield;HalfCloseEyes}Ready your blade. I can't hold back now.;center;;boss_convo_left",
+            "    remove_portrait;Brassfield",
+            "    show_combat_ui",
+            "    inc_level_var;BrassfieldQuote;1",
+            "end",
+            "if;{v:RaelinVisited} == 1",
+            "    inc_game_var;RaelinBrassfield;1",
+            "end"
         ]
     }
 ]

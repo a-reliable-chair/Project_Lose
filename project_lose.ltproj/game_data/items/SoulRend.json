@@ -2,7 +2,7 @@
     {
         "nid": "SoulRend",
         "name": "<yellow>Soul Rend</yellow>",
-        "desc": "Removes all skills from adjacent enemy.\nFree Action.",
+        "desc": "Removes all skills from target adjacent enemy.",
         "icon_nid": "{Ryan914} Fire III",
         "icon_index": [
             0,

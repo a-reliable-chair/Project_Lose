@@ -9,7 +9,7 @@
         "priority": 21,
         "_source": [
             "if;game.mode.nid != 'Normal'",
-            "    s;;On Hard and Lunatic Cawthorne arrives on <red>Turn 4</red>.;;;hint",
+            "    s;;On Hard and Lunatic Cawthorne arrives earlier.;;;hint",
             "end",
             "if;game.mode.nid == 'Lunatic'",
             "    s;;On Lunatic, anything pilfered by a thief disappears...;;;hint",

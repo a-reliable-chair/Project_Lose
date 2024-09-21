@@ -3,19 +3,26 @@
         "name": "FightOsgarAckerman",
         "trigger": "combat_start",
         "level_nid": "4",
-        "condition": "(unit.nid == \"Ackerman\" and unit2.nid == 'Davenport') or (unit.nid == \"Davenport\" and unit2.nid == 'Ackerman')",
+        "condition": "(unit.nid == \"Ackerman\" and unit2.nid == \"Davenport\" and not has_skill(unit, 'Thrall') and not has_skill(unit2, 'Thrall')) or (unit.nid == \"Davenport\" and unit2.nid == \"Ackerman\" and not has_skill(unit, 'Thrall') and not has_skill(unit2, 'Thrall'))",
         "commands": [],
         "only_once": true,
         "priority": 20,
         "_source": [
             "hide_combat_ui",
             "add_portrait;Ackerman;LeftCorner",
-            "speak;Ackerman;Traitor!;center;;boss_convo_left",
+            "speak;Ackerman;I thought they killed ye, Osgar.|What, homesickness got ye down?;center;;boss_convo_left",
             "remove_portrait;Ackerman",
             "add_portrait;Davenport;RightCorner",
-            "speak;Davenport;FILLER!;center;;boss_convo_right",
+            "speak;Davenport;My service to the Empire has{br}ended.{w} Now, I serve a new power.{w}{clear}I will not let you harm Mistress{br}Quinley.{w} You will all die here.;center;;boss_convo_right",
             "remove_portrait;Davenport",
-            "show_combat_ui"
+            "add_portrait;Ackerman;LeftCorner",
+            "s;Ackerman;Cocky bugger to the very last...|Yer gonna pay for this, traitor!;center;;boss_convo_left",
+            "remove_portrait;Ackerman",
+            "add_portrait;Davenport;RightCorner",
+            "s;Osgar;I've already paid my due.{w} I'm not{br}afraid of you.{w} Do your worst!;center;;boss_convo_right",
+            "remove_portrait;Davenport",
+            "show_combat_ui",
+            ""
         ]
     }
 ]

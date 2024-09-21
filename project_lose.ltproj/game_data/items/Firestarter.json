@@ -1,12 +1,12 @@
 [
     {
         "nid": "Firestarter",
-        "name": "<purple>Firestarter</purple>",
-        "desc": "Saraid Only.\nSets terrain ablaze after combat.\nCannot double.",
-        "icon_nid": "Bow",
+        "name": "<purple>Sacred Fireshot</purple>",
+        "desc": "Saraid Only.\nSets terrain ablaze after combat.\nOnly affects enemies. Cannot double.",
+        "icon_nid": "{AtelierLabs} Firestarter",
         "icon_index": [
             0,
-            8
+            0
         ],
         "components": [
             [
@@ -70,7 +70,8 @@
                     ],
                     "effective_multiplier": 3.0,
                     "effective_bonus_damage": 0,
-                    "show_effectiveness_flash": true
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
                 }
             ],
             [

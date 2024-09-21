@@ -1,0 +1,21 @@
+[
+    {
+        "name": "ClearData",
+        "trigger": null,
+        "level_nid": "DEBUG",
+        "condition": "",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "clear_achievements",
+            "delete_save;0",
+            "delete_save;1",
+            "delete_save;2",
+            "delete_record;NormalCleared",
+            "delete_record;HardCleared",
+            "delete_record;LunaticCleared",
+            ""
+        ]
+    }
+]

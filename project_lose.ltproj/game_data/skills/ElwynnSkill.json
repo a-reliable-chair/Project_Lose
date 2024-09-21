@@ -2,7 +2,7 @@
     {
         "nid": "ElwynnSkill",
         "name": "Treat",
-        "desc": "Free action. Restores (User's MAG + 2) HP.",
+        "desc": "Restores (User's MAG + 2) HP.",
         "icon_nid": "PersonalSkills",
         "icon_index": [
             0,

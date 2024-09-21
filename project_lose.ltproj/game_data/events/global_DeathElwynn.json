@@ -1,24 +1,23 @@
 [
     {
         "name": "DeathElwynn",
-        "trigger": "unit_death",
+        "trigger": "combat_death",
         "level_nid": null,
         "condition": "unit.nid == 'Elwynn'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "music;Gone...",
-            "add_portrait;Elwynn;FarRight",
-            "if;game.level.nid == '4'",
-            "    speak;Elwynn;Endgame deathquote",
+            "if;{v:game_var;Ch5Outro} == 1",
             "else",
-            "    speak;Elwynn;regular deathquote.",
-            "end",
-            "expression;Elwynn;CloseEyes",
-            "remove_portrait;Elwynn",
-            "music_fade_back",
-            "inc_game_var;NoDeaths;1"
+            "    music;Gone...",
+            "    add_portrait;Elwynn;FarRight",
+            "    s;Elwynn;Gk-!{w} That's a nasty hit...{w} Pfeh.|Gonna have to take a backseat here.{w}{clear}No use to anybody like this...|The rest of you, don't stop fighting!",
+            "    expression;Elwynn;CloseEyes",
+            "    remove_portrait;Elwynn",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "end"
         ]
     }
 ]

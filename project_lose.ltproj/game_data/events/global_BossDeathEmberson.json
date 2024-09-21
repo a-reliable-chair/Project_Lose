@@ -1,7 +1,7 @@
 [
     {
         "name": "BossDeathEmberson",
-        "trigger": "unit_death",
+        "trigger": "combat_death",
         "level_nid": null,
         "condition": "unit.nid == \"Emberson\"",
         "commands": [],
@@ -9,13 +9,13 @@
         "priority": 20,
         "_source": [
             "add_portrait;Emberson;Left",
+            "s;Emberson;Ack!{w} No!{w} N-no!{w} You cannot smother my flame!{w} I-I've still got my kindling...|I-I can...{w} still...{w} burn...{w} bright...",
             "if;game.level.nid == '2'",
-            "    speak;Emberson;Emberson Ch3 deathquote",
             "    inc_game_var;LieutenantInChapter;1",
             "elif;game.level.nid == '4'",
-            "    speak;Emberson;Ch5 Emberson deathquote!",
             "    inc_game_var;LieutenantInEndgame;1",
             "end",
+            "expression;Emberson;CloseEyes",
             "remove_portrait;Emberson",
             "inc_game_var;EmbersonDead;1"
         ]

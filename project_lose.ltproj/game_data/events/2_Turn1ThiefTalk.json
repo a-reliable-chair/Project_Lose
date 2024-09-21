@@ -10,11 +10,11 @@
         "_source": [
             "flicker_cursor;Thief_1",
             "multi_add_portrait;Thief1;Left;Thief2;Right",
-            "speak;Thief1;Let's hang back and see how this plays out.",
-            "speak;Thief2;Shouldn't we go look for loot?",
-            "speak;Thief1;We wait until they're all busy and then we move.",
-            "bop_portrait;Thief2",
-            "speak;Thief2;Got it!",
+            "s;Thief1;Ehehe, lookie lookie!{w} The place is practically unguarded!",
+            "s;Thief2;Did they have to light the fire *before* we got started?",
+            "s;Thief1;You know that Emberson bastard -{w} he's as crazy as they come.|Look, all we have to do is wait for the fighting to distract everybody.{w} Then, we swoop in and nab the goods!",
+            "s;Thief2;Good plan!{w} I call dibs on the fancy spear I've heard about!",
+            "s;Thief1;What, that backscratcher?{w} If you really want.|I'm going for all the valuables I can, ehehe!",
             "multi_remove_portrait;Thief1;Thief2",
             "s;;Thieves in this project <red>will never interact with player units</red>.|They just want to get loot, then get out!;;;hint"
         ]

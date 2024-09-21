@@ -12,7 +12,7 @@
             "    change_objective_simple;Escape With All:,<green>Last Turn</>",
             "end",
             "if;(game.turncount == 9 and game.mode.nid != 'Normal') or (game.turncount == 11 and game.mode.nid == 'Normal')",
-            "    speak;;You took too long to escape!;;;hint",
+            "    alert;You took too long to escape!",
             "    lose_game",
             "end"
         ]

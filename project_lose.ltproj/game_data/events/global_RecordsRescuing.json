@@ -1,0 +1,18 @@
+[
+    {
+        "name": "RecordsRescuing",
+        "trigger": "unit_select",
+        "level_nid": null,
+        "condition": "unit.nid == \"Elwynn\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 19,
+        "_source": [
+            "if;not RECORDS.get(\"Rescuing\")",
+            "    speak;;Rescuing a unit normally incurs a <red>-1 SPD</>/<red>SKL</> penalty!{w}{clear}However, these penalties are waived when a <blue>Trainee</> unit is rescued by a <blue>Non-Trainee</> unit!{w}{clear}Also...{w} Units can act after rescuing or any other associated action!;;;hint",
+            "    update_record;Rescuing;True",
+            "    add_lore;Rescuing",
+            "end"
+        ]
+    }
+]

@@ -1,24 +1,23 @@
 [
     {
         "name": "DeathAlpin",
-        "trigger": "unit_death",
+        "trigger": "combat_death",
         "level_nid": null,
         "condition": "unit.nid == 'Alpin'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "music;Gone...",
-            "add_portrait;Alpin;FarRight",
-            "if;game.level.nid == '4'",
-            "    speak;Alpin;Endgame deathquote",
+            "if;{v:game_var;Ch5Outro} == 1",
             "else",
-            "    speak;Alpin;regular deathquote.",
-            "end",
-            "expression;Alpin;CloseEyes",
-            "remove_portrait;Alpin",
-            "music_fade_back",
-            "inc_game_var;NoDeaths;1"
+            "    music;Gone...",
+            "    add_portrait;Alpin;FarRight",
+            "    s;Alpin;M-My hand...{w} I-I can't hold my{br}weapon anymore...{w} i-it hurts...!|I have to fall back.{w} I'm so{br}sorry, everybody...",
+            "    expression;Alpin;CloseEyes",
+            "    remove_portrait;Alpin",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "end"
         ]
     }
 ]

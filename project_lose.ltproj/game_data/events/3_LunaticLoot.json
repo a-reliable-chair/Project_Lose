@@ -3,13 +3,14 @@
         "name": "LunaticLoot",
         "trigger": "unit_wait",
         "level_nid": "3",
-        "condition": "unit.klass == 'Thief' and game.mode.nid == 'Lunatic'",
+        "condition": "unit.klass == 'Thief' and game.mode.nid == 'Lunatic' and unit.team == 'enemy'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
             "for;item;[item.uid for item in unit.items if item.nid not in ['Iron_Knife','Steel_Knife']]",
             "    remove_item;{unit};{item};no_banner",
+            "        alert;The Loot is gone!",
             "endf"
         ]
     }

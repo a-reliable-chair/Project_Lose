@@ -369,176 +369,78 @@
         ]
     },
     {
-        "nid": "ConquerorHit",
+        "nid": "TheConqueror",
         "poses": [
             [
                 "Attack",
                 [
                     [
-                        "pan",
+                        "ignore_pan",
+                        [
+                            false
+                        ]
+                    ],
+                    [
+                        "darken",
                         null
-                    ],
-                    [
-                        "sound",
-                        [
-                            "DemonKingRoar"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            8,
-                            "Conqueror1"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror2"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror3"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror4"
-                        ]
                     ],
                     [
                         "wait",
                         [
-                            1
+                            8
                         ]
                     ],
                     [
-                        "hit_spark",
+                        "pan",
                         null
                     ],
                     [
-                        "start_hit",
-                        null
-                    ],
-                    [
-                        "wait_for_hit",
+                        "wait",
                         [
-                            null,
-                            null
+                            8
+                        ]
+                    ],
+                    [
+                        "enemy_tint",
+                        [
+                            8,
+                            [
+                                248,
+                                248,
+                                248,
+                                255
+                            ]
+                        ]
+                    ],
+                    [
+                        "enemy_effect",
+                        [
+                            "ConquerorHit"
+                        ]
+                    ],
+                    [
+                        "spell_hit",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            44
+                        ]
+                    ],
+                    [
+                        "lighten",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            4
                         ]
                     ],
                     [
                         "end_parent_loop",
                         null
-                    ],
-                    [
-                        "pan",
-                        null
-                    ],
-                    [
-                        "wait",
-                        [
-                            11
-                        ]
-                    ]
-                ]
-            ],
-            [
-                "Critical",
-                [
-                    [
-                        "pan",
-                        null
-                    ],
-                    [
-                        "frame",
-                        [
-                            8,
-                            "Conqueror1"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror2"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror3"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror4"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror5"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror6"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            8,
-                            "Conqueror7"
-                        ]
-                    ],
-                    [
-                        "wait",
-                        [
-                            1
-                        ]
-                    ],
-                    [
-                        "crit_spark",
-                        null
-                    ],
-                    [
-                        "start_hit",
-                        null
-                    ],
-                    [
-                        "wait_for_hit",
-                        [
-                            null,
-                            null
-                        ]
-                    ],
-                    [
-                        "end_parent_loop",
-                        null
-                    ],
-                    [
-                        "pan",
-                        null
-                    ],
-                    [
-                        "wait",
-                        [
-                            11
-                        ]
                     ]
                 ]
             ],
@@ -546,62 +448,35 @@
                 "Miss",
                 [
                     [
-                        "pan",
+                        "ignore_pan",
+                        [
+                            true
+                        ]
+                    ],
+                    [
+                        "darken",
                         null
-                    ],
-                    [
-                        "frame",
-                        [
-                            8,
-                            "Conqueror1"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror2"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror3"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror4"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror5"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            4,
-                            "Conqueror6"
-                        ]
-                    ],
-                    [
-                        "frame",
-                        [
-                            8,
-                            "Conqueror7"
-                        ]
                     ],
                     [
                         "wait",
                         [
-                            1
+                            8
+                        ]
+                    ],
+                    [
+                        "pan",
+                        null
+                    ],
+                    [
+                        "wait",
+                        [
+                            8
+                        ]
+                    ],
+                    [
+                        "enemy_effect",
+                        [
+                            "ConquerorHit"
                         ]
                     ],
                     [
@@ -609,28 +484,130 @@
                         null
                     ],
                     [
-                        "start_hit",
-                        null
-                    ],
-                    [
-                        "wait_for_hit",
+                        "wait",
                         [
-                            null,
-                            null
+                            44
                         ]
                     ],
                     [
-                        "end_parent_loop",
-                        null
-                    ],
-                    [
-                        "pan",
+                        "lighten",
                         null
                     ],
                     [
                         "wait",
                         [
-                            11
+                            4
+                        ]
+                    ],
+                    [
+                        "end_parent_loop",
+                        null
+                    ]
+                ]
+            ]
+        ],
+        "frames": [],
+        "palettes": []
+    },
+    {
+        "nid": "ConquerorHit",
+        "poses": [
+            [
+                "Attack",
+                [
+                    [
+                        "blend",
+                        [
+                            false
+                        ]
+                    ],
+                    [
+                        "sound",
+                        [
+                            "Forblaze2"
+                        ]
+                    ],
+                    [
+                        "frame",
+                        [
+                            4,
+                            "Almighty1"
+                        ]
+                    ],
+                    [
+                        "frame",
+                        [
+                            4,
+                            "Almighty2"
+                        ]
+                    ],
+                    [
+                        "frame",
+                        [
+                            4,
+                            "Almighty3"
+                        ]
+                    ],
+                    [
+                        "frame",
+                        [
+                            4,
+                            "Almighty4"
+                        ]
+                    ],
+                    [
+                        "frame",
+                        [
+                            4,
+                            "Almighty5"
+                        ]
+                    ],
+                    [
+                        "frame",
+                        [
+                            4,
+                            "Almighty6"
+                        ]
+                    ],
+                    [
+                        "frame",
+                        [
+                            4,
+                            "Almighty7"
+                        ]
+                    ],
+                    [
+                        "frame",
+                        [
+                            4,
+                            "Almighty8"
+                        ]
+                    ],
+                    [
+                        "frame",
+                        [
+                            4,
+                            "Almighty9"
+                        ]
+                    ],
+                    [
+                        "frame",
+                        [
+                            4,
+                            "Almighty10"
+                        ]
+                    ],
+                    [
+                        "frame",
+                        [
+                            4,
+                            "Almighty11"
+                        ]
+                    ],
+                    [
+                        "wait",
+                        [
+                            1
                         ]
                     ]
                 ]
@@ -638,62 +615,153 @@
         ],
         "frames": [
             [
-                "Conqueror1",
+                "Almighty1",
                 [
-                    105,
                     0,
-                    93,
-                    96
+                    0,
+                    66,
+                    78
                 ],
                 [
-                    21,
-                    0
+                    112,
+                    33
                 ]
             ],
             [
-                "Conqueror2",
+                "Almighty2",
                 [
-                    198,
+                    66,
                     0,
-                    99,
-                    102
+                    79,
+                    79
                 ],
                 [
-                    15,
-                    0
+                    106,
+                    42
                 ]
             ],
             [
-                "Conqueror3",
+                "Almighty3",
                 [
-                    297,
+                    145,
                     0,
-                    105,
-                    108
+                    129,
+                    109
                 ],
                 [
-                    19,
-                    0
+                    73,
+                    15
                 ]
             ],
             [
-                "Conqueror4",
+                "Almighty4",
                 [
-                    402,
+                    274,
                     0,
-                    109,
-                    112
+                    116,
+                    131
                 ],
                 [
-                    15,
-                    0
+                    91,
+                    9
+                ]
+            ],
+            [
+                "Almighty5",
+                [
+                    390,
+                    0,
+                    130,
+                    132
+                ],
+                [
+                    82,
+                    12
+                ]
+            ],
+            [
+                "Almighty6",
+                [
+                    520,
+                    0,
+                    141,
+                    135
+                ],
+                [
+                    73,
+                    3
+                ]
+            ],
+            [
+                "Almighty7",
+                [
+                    661,
+                    0,
+                    132,
+                    137
+                ],
+                [
+                    78,
+                    2
+                ]
+            ],
+            [
+                "Almighty8",
+                [
+                    793,
+                    0,
+                    135,
+                    141
+                ],
+                [
+                    79,
+                    3
+                ]
+            ],
+            [
+                "Almighty9",
+                [
+                    928,
+                    0,
+                    141,
+                    143
+                ],
+                [
+                    71,
+                    1
+                ]
+            ],
+            [
+                "Almighty10",
+                [
+                    1069,
+                    0,
+                    128,
+                    141
+                ],
+                [
+                    75,
+                    3
+                ]
+            ],
+            [
+                "Almighty11",
+                [
+                    0,
+                    143,
+                    114,
+                    126
+                ],
+                [
+                    75,
+                    5
                 ]
             ]
         ],
         "palettes": [
             [
-                "Conqueror",
-                "New Palette_42"
+                "New Palette",
+                "ConquerorFinal6"
             ]
         ]
     },
@@ -2452,10 +2520,6 @@
                         ]
                     ],
                     [
-                        "hit_spark",
-                        null
-                    ],
-                    [
                         "start_hit",
                         null
                     ],
@@ -3014,10 +3078,6 @@
                             1,
                             "Javelin5"
                         ]
-                    ],
-                    [
-                        "hit_spark",
-                        null
                     ],
                     [
                         "start_hit",
@@ -3580,10 +3640,6 @@
                         ]
                     ],
                     [
-                        "hit_spark",
-                        null
-                    ],
-                    [
                         "start_hit",
                         null
                     ],
@@ -4115,10 +4171,6 @@
                             1,
                             "Javelin4"
                         ]
-                    ],
-                    [
-                        "hit_spark",
-                        null
                     ],
                     [
                         "start_hit",
@@ -4654,10 +4706,6 @@
                         ]
                     ],
                     [
-                        "hit_spark",
-                        null
-                    ],
-                    [
                         "start_hit",
                         null
                     ],
@@ -5189,10 +5237,6 @@
                             1,
                             "Javelin4"
                         ]
-                    ],
-                    [
-                        "hit_spark",
-                        null
                     ],
                     [
                         "start_hit",
@@ -5728,10 +5772,6 @@
                         ]
                     ],
                     [
-                        "hit_spark",
-                        null
-                    ],
-                    [
                         "start_hit",
                         null
                     ],
@@ -6263,10 +6303,6 @@
                             1,
                             "Javelin4"
                         ]
-                    ],
-                    [
-                        "hit_spark",
-                        null
                     ],
                     [
                         "start_hit",

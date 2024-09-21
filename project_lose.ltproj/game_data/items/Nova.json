@@ -67,7 +67,8 @@
                     ],
                     "effective_multiplier": 0.0,
                     "effective_bonus_damage": 0,
-                    "show_effectiveness_flash": false
+                    "show_effectiveness_flash": false,
+                    "weapon_effectiveness_multiplied": true
                 }
             ],
             [

@@ -2,7 +2,7 @@
     {
         "nid": "DEFBooster",
         "name": "<yellow>DEF++</>",
-        "desc": "Grants 3 diminishing defense. Free Action.",
+        "desc": "Grants 3 diminishing defense.",
         "icon_nid": "Consumables2",
         "icon_index": [
             1,

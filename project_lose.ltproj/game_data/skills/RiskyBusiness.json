@@ -2,11 +2,11 @@
     {
         "nid": "RiskyBusiness",
         "name": "Risky Business",
-        "desc": "+15 CRIT if attacking an adjacent opponent.",
-        "icon_nid": "PersonalSkills",
+        "desc": "Unit gains +5 Crit for each point of health loss.",
+        "icon_nid": "RiskyBusiness",
         "icon_index": [
             0,
-            1
+            0
         ],
         "components": [
             [
@@ -14,8 +14,8 @@
                 null
             ],
             [
-                "dynamic_crit_accuracy",
-                "15 if utils.calculate_distance(unit.position, target.position) < 2 else 0"
+                "eval_crit",
+                "(u('Carlin').get_max_hp() - u('Carlin').get_hp())*5"
             ]
         ]
     }

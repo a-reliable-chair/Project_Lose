@@ -1683,10 +1683,27 @@
                     1,
                     1
                 ],
-                "sub_nid": null,
+                "sub_nid": "",
                 "condition": "True",
                 "time_left": null,
                 "only_once": false,
+                "interrupt_move": false
+            },
+            {
+                "nid": "ShaylaMom",
+                "region_type": "event",
+                "position": [
+                    6,
+                    17
+                ],
+                "size": [
+                    2,
+                    2
+                ],
+                "sub_nid": "<yellow>Interact</yellow>",
+                "condition": "unit.nid == 'Shayla'",
+                "time_left": null,
+                "only_once": true,
                 "interrupt_move": false
             }
         ],

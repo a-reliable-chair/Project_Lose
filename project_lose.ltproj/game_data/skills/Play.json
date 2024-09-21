@@ -2,7 +2,7 @@
     {
         "nid": "Play",
         "name": "Play",
-        "desc": "Free Action. Once per turn, refresh target ally.",
+        "desc": "Once per turn, refresh target ally.",
         "icon_nid": "PersonalSkills",
         "icon_index": [
             1,

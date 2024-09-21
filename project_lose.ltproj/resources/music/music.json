@@ -1,10 +1,5 @@
 [
     [
-        "Destined For Failure",
-        true,
-        false
-    ],
-    [
         "Another Slow Day",
         true,
         false
@@ -46,11 +41,6 @@
     ],
     [
         "Periphery Of Mayhem",
-        false,
-        false
-    ],
-    [
-        "Inevitable Fate",
         false,
         false
     ],
@@ -135,7 +125,87 @@
         false
     ],
     [
-        "Hello Monday",
+        "Sanctuary",
+        true,
+        false
+    ],
+    [
+        "Destined For Failure",
+        true,
+        false
+    ],
+    [
+        "A Glimmer Of Hope",
+        true,
+        false
+    ],
+    [
+        "At Hope's End",
+        true,
+        false
+    ],
+    [
+        "Castle Theme",
+        true,
+        false
+    ],
+    [
+        "Days Gone",
+        true,
+        false
+    ],
+    [
+        "Last Laughs",
+        true,
+        false
+    ],
+    [
+        "Inevitable Fate Pt. 1",
+        false,
+        false
+    ],
+    [
+        "Inevitable Fate Pt. 2",
+        false,
+        false
+    ],
+    [
+        "Prep Jam",
+        true,
+        false
+    ],
+    [
+        "TPWD",
+        true,
+        false
+    ],
+    [
+        "Falling Kingdom",
+        true,
+        false
+    ],
+    [
+        "A Memory For Nobody",
+        false,
+        false
+    ],
+    [
+        "Big Battle Boppin'",
+        true,
+        false
+    ],
+    [
+        "Betimed Blossoming",
+        true,
+        false
+    ],
+    [
+        "Memories For Nobody",
+        true,
+        false
+    ],
+    [
+        "Battlefield Blues",
         true,
         false
     ]

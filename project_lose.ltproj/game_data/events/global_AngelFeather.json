@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "change_growths;{unit};HP,10,STR,10,MAG,10,SKL,10,SPD,10,LCK,10,DEF,10,RES,10,MOV,10",
             "alert;Growths boosted!"
         ]
     }

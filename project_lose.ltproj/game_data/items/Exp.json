@@ -2,7 +2,7 @@
     {
         "nid": "Exp",
         "name": "<yellow>EXP++</>",
-        "desc": "Grants 50 EXP. Free Action.",
+        "desc": "Grants 50 EXP.",
         "icon_nid": "Consumables2",
         "icon_index": [
             0,

@@ -2,7 +2,7 @@
     {
         "nid": "Lockpick",
         "name": "<yellow>Lockpick</>",
-        "desc": "Opens chests and doors. Free Action.",
+        "desc": "Opens chests and doors.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,

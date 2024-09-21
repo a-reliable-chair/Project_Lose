@@ -15,7 +15,8 @@
             "if;game.check_alive('Leod')",
             "    flicker_cursor;Leod",
             "    add_portrait;Leod;Right",
-            "    speak;Leod;NOT LIKE THIS! SOMEBODY HELP!",
+            "    bop_portrait;Leod",
+            "    speak;Leod;NOT LIKE THIS!{w} SOMEBODY HELP!",
             "    remove_portrait;Leod",
             "end",
             "inc_level_var;BrokenBarrel;1"

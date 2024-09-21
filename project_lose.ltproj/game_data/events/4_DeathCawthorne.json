@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "add_portrait;Cawthorne;Left",
-            "speak;Cawthorne;ded",
+            "s;Cawthorne;I...{w} am impervious.{w} Impervious.|I...{w} cannot die...{w} Not...|to the likes...{w} of you...",
+            "expression;Cawthorne;CloseEyes",
             "remove_portrait;Cawthorne",
             "inc_level_var;CawthorneDead;1",
             "inc_level_var;TrioKilled;1",

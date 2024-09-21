@@ -2,7 +2,7 @@
     {
         "nid": "Monk",
         "name": "Monk",
-        "desc": "Users of light magic with high resistance.",
+        "desc": "Users of light magic with high resistance.\nTheir radiance grants vision in the dark.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,

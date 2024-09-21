@@ -2,7 +2,7 @@
     {
         "nid": "Protector",
         "name": "Protector",
-        "desc": "Does not incur rescue penalties while rescuing Trainees.",
+        "desc": "Unit is rescuing a <blue>Trainee</> and does not incur rescue penalties.",
         "icon_nid": "PersonalSkills",
         "icon_index": [
             1,
@@ -10,16 +10,16 @@
         ],
         "components": [
             [
-                "class_skill",
-                null
-            ],
-            [
                 "ignore_rescue_penalty",
                 null
             ],
             [
                 "condition",
-                "unit.traveler == 'Alpin' or unit.traveler == 'Carlin' or unit.traveler == 'Shayla' or unit.traveler == 'Zoya'"
+                "unit.traveler == 'Alpin' or unit.traveler == 'Carlin' or unit.traveler == 'Shayla' or unit.traveler == 'Raelin'"
+            ],
+            [
+                "hidden_if_inactive",
+                null
             ]
         ]
     }

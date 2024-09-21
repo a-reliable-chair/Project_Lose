@@ -3,7 +3,7 @@
         "nid": "Warp2",
         "name": "Warp",
         "desc": "Move an ally within MAG to another square.\nRequires line of sight.",
-        "icon_nid": null,
+        "icon_nid": "DivineConduit",
         "icon_index": [
             0,
             0

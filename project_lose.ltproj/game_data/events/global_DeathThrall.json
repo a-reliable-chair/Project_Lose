@@ -1,7 +1,7 @@
 [
     {
         "name": "DeathThrall",
-        "trigger": "unit_death",
+        "trigger": "combat_death",
         "level_nid": null,
         "condition": "get_skill(unit, 'Thrall')",
         "commands": [],

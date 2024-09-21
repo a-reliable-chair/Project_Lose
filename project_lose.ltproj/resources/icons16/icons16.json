@@ -178,5 +178,37 @@
     {
         "nid": "PRFs",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Gift Box",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Bungle",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "RiskyBusiness",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "TraineeSkillUpgrades",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Flail",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "AngelFeather",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "Rescue",
+        "subicon_dict": {}
+    },
+    {
+        "nid": "{AtelierLabs} Firestarter",
+        "subicon_dict": {}
     }
 ]

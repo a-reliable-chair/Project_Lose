@@ -3,10 +3,10 @@
         "nid": "Bolster",
         "name": "Bolster",
         "desc": "Target ally takes no damage in their next combat.",
-        "icon_nid": null,
+        "icon_nid": "PersonalSkills",
         "icon_index": [
-            0,
-            0
+            1,
+            4
         ],
         "components": [
             [

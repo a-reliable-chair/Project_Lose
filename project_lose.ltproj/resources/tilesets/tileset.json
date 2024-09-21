@@ -2389,5 +2389,15 @@
         "nid": "Ch3Tweaks",
         "terrain_grid": {},
         "autotiles": {}
+    },
+    {
+        "nid": "ChurchBurnt",
+        "terrain_grid": {},
+        "autotiles": {}
+    },
+    {
+        "nid": "Full Town Sepia",
+        "terrain_grid": {},
+        "autotiles": {}
     }
 ]

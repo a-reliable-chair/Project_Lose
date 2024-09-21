@@ -2,7 +2,7 @@
     {
         "nid": "Cleric",
         "name": "Cleric",
-        "desc": "Spiritual guides who use sacred staves to heal allies.",
+        "desc": "Spiritual guides who use sacred staves to heal allies.\nTheir radiance grants vision in the dark.",
         "tier": 1,
         "movement_group": "Mages",
         "promotes_from": null,

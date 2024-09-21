@@ -166,25 +166,6 @@
                 "generic": true
             },
             {
-                "nid": "Barrel_2",
-                "variant": null,
-                "level": 1,
-                "klass": "Wall15",
-                "faction": "Wall",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    10,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
                 "nid": "Barrel_3",
                 "variant": null,
                 "level": 1,
@@ -198,25 +179,6 @@
                 "ai_group": "",
                 "starting_position": [
                     11,
-                    14
-                ],
-                "starting_traveler": null,
-                "generic": true
-            },
-            {
-                "nid": "Barrel_4",
-                "variant": null,
-                "level": 1,
-                "klass": "Wall15",
-                "faction": "Wall",
-                "starting_items": [],
-                "starting_skills": [],
-                "team": "enemy2",
-                "ai": "None",
-                "roam_ai": null,
-                "ai_group": "",
-                "starting_position": [
-                    12,
                     14
                 ],
                 "starting_traveler": null,

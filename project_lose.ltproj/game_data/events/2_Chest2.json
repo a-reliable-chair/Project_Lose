@@ -30,6 +30,7 @@
             "end",
             "if;unit.team == 'enemy' and game.mode.nid == 'Lunatic'",
             "    remove_item;{unit};TheReclaimer;no_banner",
+            "        alert;The Reclaimer is gone!",
             "end",
             "has_traded;{unit}"
         ]

@@ -2,7 +2,7 @@
     {
         "nid": "Ackerman",
         "name": "Ackerman",
-        "desc": "Lt. Botwulf Ackerman:",
+        "desc": "Lieutenant Botwulf Ackerman:\nCraves battle and the spoils of war.",
         "variant": "",
         "level": 1,
         "klass": "Warrior",
@@ -111,7 +111,7 @@
         },
         "alternate_classes": [],
         "portrait_nid": "Ackerman",
-        "affinity": "Fire",
+        "affinity": "Thunder",
         "fields": []
     }
 ]

@@ -37,6 +37,10 @@
             [
                 "negative",
                 null
+            ],
+            [
+                "condition",
+                "unit.team == 'enemy'"
             ]
         ]
     }

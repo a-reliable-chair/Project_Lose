@@ -8,12 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "move_cursor;Elwynn",
-            "flicker_cursor;Elwynn",
-            "add_portrait;Elwynn;Left",
-            "speak;Elwynn;[We must go to the church ASAP]",
-            "remove_portrait;Elwynn",
-            "speak;;Houses are labeled by which unit lives there{semicolon}|They or somebody close to them may have a unique experience when visiting.{w}{clear}Visit tiles will highlight upon unit select if they have a unique visit.;;;hint",
+            "speak;;Houses are labeled by which unit lives there{semicolon}|They or somebody close to them may have a unique experience when visiting.{w}{br}Visit tiles will highlight upon unit select if they have a unique visit.;;;hint",
             "move_cursor;5, 8",
             "flicker_cursor;5, 8",
             "move_cursor;9, 8",
@@ -22,10 +17,10 @@
             "flicker_cursor;14, 4",
             "move_cursor;Alpin",
             "if;game.mode.nid == 'Hard'",
-            "    s;;On Hard you have <red>8 turns</red> to escape.{w}{clear}Unit inventories don't go to the convoy on death.|Also, Prf weapons have less uses...;;;hint",
+            "    s;;On Hard you have <red>8 turns</red> to escape.{w}{br}Unit inventories don't go to the convoy on death.|Also, Prf weapons have less uses...;;;hint",
             "end",
             "if;game.mode.nid == 'Lunatic'",
-            "    s;;On Lunatic, you have <red>8 turns</red> to escape.{w}{clear}There's no convoy at all...|Also, Prf weapons have less uses...{w}{clear}There are less droppables in the game and some enemies have altered inventories.;;;hint",
+            "    s;;On Lunatic, you have <red>8 turns</red> to escape.{w}{br}There's no convoy at all...|Also, Prf weapons have less uses...{w}{br}There are less droppables in the game and some enemies have altered inventories.;;;hint",
             "end"
         ]
     }

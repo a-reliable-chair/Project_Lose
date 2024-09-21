@@ -2,7 +2,7 @@
     {
         "nid": "WExp",
         "name": "<yellow>WEXP++</>",
-        "desc": "Grants 15 WEXP. Free Action.",
+        "desc": "Grants 15 WEXP.",
         "icon_nid": "Consumables2",
         "icon_index": [
             1,

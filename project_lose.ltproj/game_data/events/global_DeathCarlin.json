@@ -1,24 +1,23 @@
 [
     {
         "name": "DeathCarlin",
-        "trigger": "unit_death",
+        "trigger": "combat_death",
         "level_nid": null,
         "condition": "unit.nid == 'Carlin'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "music;Gone...",
-            "add_portrait;Carlin;FarRight",
-            "if;game.level.nid == '4'",
-            "    speak;Carlin;Endgame deathquote",
+            "if;{v:game_var;Ch5Outro} == 1",
             "else",
-            "    speak;Carlin;regular deathquote.",
-            "end",
-            "expression;Carlin;CloseEyes",
-            "remove_portrait;Carlin",
-            "music_fade_back",
-            "inc_game_var;NoDeaths;1"
+            "    music;Gone...",
+            "    add_portrait;Carlin;FarRight",
+            "    s;Carlin;Ah shoot, that smarts...{w} I-I don't{br}think I can keep going like this...{w}{clear}Everybody, you'll have to go on{br}without me.{w} S-sorry about this...",
+            "    expression;Carlin;CloseEyes",
+            "    remove_portrait;Carlin",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "end"
         ]
     }
 ]

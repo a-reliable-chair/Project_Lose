@@ -92,6 +92,10 @@
         true
     ],
     [
+        "alt_growth_format",
+        true
+    ],
+    [
         "glancing_hit",
         false
     ],
@@ -261,7 +265,7 @@
     ],
     [
         "title_particles",
-        true
+        false
     ],
     [
         "title_sound",

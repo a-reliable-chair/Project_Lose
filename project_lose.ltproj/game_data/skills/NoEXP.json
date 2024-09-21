@@ -15,7 +15,7 @@
             ],
             [
                 "condition",
-                "unit.team == 'enemy'"
+                "unit.team == 'enemy' or unit.nid == 'Thrall'"
             ],
             [
                 "exp_multiplier",

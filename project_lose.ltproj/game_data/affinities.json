@@ -13,7 +13,7 @@
     {
         "nid": "Fire",
         "name": "Fire",
-        "desc": "Grants support partner +2 might.",
+        "desc": "Grants +2 might.",
         "bonus": [
             {
                 "support_rank": "1",
@@ -36,7 +36,7 @@
     {
         "nid": "Thunder",
         "name": "Thunder",
-        "desc": "Grants support partner +15 crit rate.",
+        "desc": "Grants +15 crit rate.",
         "bonus": [
             {
                 "support_rank": "1",
@@ -59,7 +59,7 @@
     {
         "nid": "Wind",
         "name": "Wind",
-        "desc": "Grants support partner +2 attack speed.",
+        "desc": "Grants +2 attack speed.",
         "bonus": [
             {
                 "support_rank": "1",
@@ -82,7 +82,7 @@
     {
         "nid": "Ice",
         "name": "Ice",
-        "desc": "Reduces support partner's incoming damage by 2.",
+        "desc": "Reduces incoming damage by 2.",
         "bonus": [
             {
                 "support_rank": "1",
@@ -105,7 +105,7 @@
     {
         "nid": "Dark",
         "name": "Dark",
-        "desc": "Grants support partner +15 accuracy.",
+        "desc": "Grants +15 accuracy.",
         "bonus": [
             {
                 "support_rank": "1",
@@ -128,7 +128,7 @@
     {
         "nid": "Light",
         "name": "Light",
-        "desc": "Grants support partner +15 avoid.",
+        "desc": "Grants +15 avoid.",
         "bonus": [
             {
                 "support_rank": "1",

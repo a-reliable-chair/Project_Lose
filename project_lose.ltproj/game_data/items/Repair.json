@@ -3,7 +3,7 @@
         "nid": "Repair",
         "name": "Repair",
         "desc": "Repairs selected weapon in target's inventory.",
-        "icon_nid": null,
+        "icon_nid": "Repair",
         "icon_index": [
             0,
             0

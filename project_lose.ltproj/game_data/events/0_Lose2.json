@@ -9,7 +9,7 @@
         "priority": 20,
         "_source": [
             "if;len(game.get_player_units()) == 0",
-            "    alert;You have lost your only remaining party member.",
+            "    alert;You have lost your only remaining party member!",
             "    lose_game",
             "end"
         ]

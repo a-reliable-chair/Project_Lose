@@ -1,24 +1,23 @@
 [
     {
         "name": "DeathCorridon",
-        "trigger": "unit_death",
+        "trigger": "combat_death",
         "level_nid": null,
         "condition": "unit.nid == 'Corridon'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "music;Gone...",
-            "add_portrait;Corridon;FarRight",
-            "if;game.level.nid == '4'",
-            "    speak;Corridon;Endgame deathquote",
+            "if;{v:game_var;Ch5Outro} == 1",
             "else",
-            "    speak;Corridon;regular deathquote.",
-            "end",
-            "expression;Corridon;CloseEyes",
-            "remove_portrait;Corridon",
-            "music_fade_back",
-            "inc_game_var;NoDeaths;1"
+            "    music;Gone...",
+            "    add_portrait;Corridon;FarRight",
+            "    s;Corridon;Pah...{w} Fool I am, thinking I could{br}actually be of help in a battle...{w}{clear}All I've earned is another wound for{br}my trouble.{w} Haven't learned a thing.|I'll get out of everyone's way...",
+            "    expression;Corridon;CloseEyes",
+            "    remove_portrait;Corridon",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "end"
         ]
     }
 ]

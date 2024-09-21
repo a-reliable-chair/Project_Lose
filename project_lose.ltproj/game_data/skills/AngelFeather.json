@@ -2,56 +2,15 @@
     {
         "nid": "AngelFeather",
         "name": "AngelFeather",
-        "desc": "+10% Growths.",
-        "icon_nid": "Skills",
+        "desc": "+10% Growths.\nCan't stack.",
+        "icon_nid": "AngelFeather",
         "icon_index": [
-            11,
+            0,
             0
         ],
         "components": [
             [
-                "growth_change",
-                [
-                    [
-                        "HP",
-                        10
-                    ],
-                    [
-                        "STR",
-                        10
-                    ],
-                    [
-                        "MAG",
-                        10
-                    ],
-                    [
-                        "SKL",
-                        10
-                    ],
-                    [
-                        "SPD",
-                        10
-                    ],
-                    [
-                        "LCK",
-                        10
-                    ],
-                    [
-                        "DEF",
-                        10
-                    ],
-                    [
-                        "RES",
-                        10
-                    ],
-                    [
-                        "MOV",
-                        10
-                    ]
-                ]
-            ],
-            [
-                "hidden",
+                "class_skill",
                 null
             ]
         ]

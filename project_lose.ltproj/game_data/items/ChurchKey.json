@@ -2,7 +2,7 @@
     {
         "nid": "ChurchKey",
         "name": "<yellow>Church Key</>",
-        "desc": "Opens any door in the church. Free Action.",
+        "desc": "Opens any door in the church.",
         "icon_nid": "Consumable",
         "icon_index": [
             0,

@@ -3,63 +3,147 @@
         "nid": "FreeActions",
         "name": "Free Actions",
         "title": "Free Actions",
-        "category": "Mechanics",
+        "category": "1. Mechanics",
         "text": "Any item, ability, or command with <yellow>yellow</> text doesn't end a player unit's turn. They can even attack afterwards!"
     },
     {
         "nid": "Stats",
         "name": "Caps",
         "title": "Stat Caps",
-        "category": "Mechanics",
+        "category": "1. Mechanics",
         "text": "HP: <yellow-green>20</> for T1, <yellow-green>25</> for T2{br}All Others: <yellow-green>10</>{br}All Units have <yellow-green>MOV</> Growths!"
     },
     {
         "nid": "StatColors",
         "name": "Stat Colors",
         "title": "Stat Colors",
-        "category": "Mechanics",
+        "category": "1. Mechanics",
         "text": "As characters gain stats through level ups, the color of the stat changes:{br}<yellow>Yellow: Base</>{br}<light-orange>Orange: +1</>{br}<yellow-green>Green: +2</>{br}<blue>Blue: +3</>{br}<purple>Purple >3</>"
     },
     {
         "nid": "Equations",
         "name": "Equations",
         "title": "Equations",
-        "category": "Mechanics",
+        "category": "1. Mechanics",
         "text": "<purple>Hit</>: <yellow>SKL</>*<blue>20</> + <yellow>LCK</>*<blue>5</>{br}<purple>Avo</>: <yellow>SPD</>*<blue>5</> + <yellow>LCK</>*<blue>5</>{br}<purple>Crit Avo</>: <yellow>LCK</>*<blue>10</>{br}<purple>Doubling Threshold</>: <blue>1</> <yellow>SPD</>{br}<purple>Crit Damage</>: <blue>x2</>{br}<purple>Effectiveness</>: <blue>x3</>"
+    },
+    {
+        "nid": "Rescuing",
+        "name": "Rescuing",
+        "title": "Rescuing",
+        "category": "1. Mechanics",
+        "text": "Rescuing a unit normally incurs a <red>-1 SPD</>/<red>SKL</> penalty!{br}However, these penalties are waived when a <blue>Trainee</> unit is rescued by a <blue>Non-Trainee</> unit!{br}Units can act after rescuing or any other associated action!"
     },
     {
         "nid": "WeaponTriangle",
         "name": "Wep. Triangle",
         "title": "Weapon Triangle",
-        "category": "Mechanics",
+        "category": "1. Mechanics",
         "text": "<purple>Advantage</>:{br}<blue>+1</> <yellow>Mt</> / <blue>+10</> <yellow>Hit</>{br}<purple>Disadvantage</>:{br}<light-orange>-1</> <yellow>Mt</> / <light-orange>-10</> <yellow>Hit</>"
     },
     {
         "nid": "WeaponRanks",
         "name": "Wep. Ranks",
         "title": "Weapon Ranks",
-        "category": "Mechanics",
+        "category": "1. Mechanics",
         "text": "Most weapons don't require weapon ranks. Instead, characters gain Hit at rank A and S:{br}{br}A Rank: <yellow-green>+10 Hit</>{br}S Rank: <yellow-green>+20 Hit</>"
-    },
-    {
-        "nid": "Burning",
-        "name": "Burning",
-        "title": "Burning",
-        "category": "Status Effects",
-        "text": "Saraid's Firestarter lights tiles on fire!{br}The fire spreads next turn to adjacent tiles.{br}Units starting their turn on a burning tile take 4 damage.{br}Also, they suffer -1 SKL/SPD/DEF/RES."
     },
     {
         "nid": "BuildingSupports",
         "name": "Building",
         "title": "Building Supports",
-        "category": "Supports",
+        "category": "2. Supports",
         "text": "Units can support with any other playable unit but are limited to <yellow-green>1 support partner</> at a time.{br}Supports are unlocked after a chapter where both units are deployed.\nEach pair only has 1 support rank.{br}If either unit <red-orange>dies</>, the support is <red-orange>broken</>; allowing the surviving unit to support with a different unit."
     },
     {
         "nid": "SupportBonuses",
         "name": "Bonuses",
         "title": "Support Bonuses",
-        "category": "Supports",
+        "category": "2. Supports",
         "text": "Units gain a bonus based on their partner's affinity while <blue>within 3 tiles</> of each other.\n<purple>Fire</>: <blue>+2</> <yellow>Damage</>{br}<purple>Wind</>:<blue>+2</> <yellow>Attack Speed</>{br}<purple>Ice</>: <blue>-2</> <yellow>Damage Received</>{br}<purple>Thunder</>: <blue>+15</> <yellow>Crit</>{br}<purple>Light</>: <blue>+15</> <yellow>Avoid</>{br}<purple>Dark</>: <blue>+15</> <yellow>Hit</>"
+    },
+    {
+        "nid": "DiffGeneral",
+        "name": "General",
+        "title": "General",
+        "category": "3. Difficulty",
+        "text": "On <red>Hard</red>:{br}Inventories don't go to{br}convoy <red>on death</red>.{br}Prf weapons have <red>less</red> uses{br}Blessed weapons are <red>S Rank</red>.{br}Enemies have higher growths.\nOn <red>Lunatic</red>:{br}There is <red>no convoy</red>.{br}There are <red>less</red> droppables.{br}Some enemies have edited{br}inventories.{br}Enemies have even higher growths and higher defences."
+    },
+    {
+        "nid": "Ch1",
+        "name": "Ch1",
+        "title": "Chapter 1",
+        "category": "3. Difficulty",
+        "text": "On <red>Hard</red> you have <red>8 turns</red>{br}to escape."
+    },
+    {
+        "nid": "Ch2",
+        "name": "Ch2",
+        "title": "Chapter 2",
+        "category": "3. Difficulty",
+        "text": "On <red>Hard</red> you have <red>10 turns</red>{br}to clear{br}{br}On <red>Lunatic</red> vision granted{br}from doors is <red>removed</red>"
+    },
+    {
+        "nid": "Ch3",
+        "name": "Ch3",
+        "title": "Chapter 3",
+        "category": "3. Difficulty",
+        "text": "On <red>Hard</red> you have to{br}survive for <red>7 turns</red>.{br}{br}On <red>Lunatic</red> any item pilfered{br}by thieves <red>disappears</red>."
+    },
+    {
+        "nid": "Ch4",
+        "name": "Ch4",
+        "title": "Chapter 4",
+        "category": "3. Difficulty",
+        "text": "On <red>Hard</red> Cawthorne{br}arrives <red>earlier</red>.{br}{br}On <red>Lunatic</red> any item pilfered{br}by thieves <red>disappears</red>."
+    },
+    {
+        "nid": "Ch5",
+        "name": "Ch5",
+        "title": "Chapter 5",
+        "category": "3. Difficulty",
+        "text": "On <red>Hard</red> Cawthorne has a <red>Second Stage</red>; He and his{br}lieutenants <red>charge earlier</red>.{br}{br}On <red>Lunatic</red> Shallcross and Keeva also <red>charge</red>."
+    },
+    {
+        "nid": "BonusModes",
+        "name": "Modes",
+        "title": "Bonus Modes",
+        "category": "4. Modes",
+        "text": "<blue>Weapon Reversal</blue> Modes:{br}You can select <blue>WR</blue>/<blue>DR</blue> for player units and enemy units independently.{br}<blue>Reverse Recruitment</blue> Mode is also independent!{br}Customize your playthrough!\n<blue>PRF Weapons</blue> change accordingly for player <blue>WR</blue>/<blue>DR</blue>.{br}Droppable weapons also change accordingly for enemy <blue>WR</blue>/<blue>DR</blue>."
+    },
+    {
+        "nid": "WeaponReversal",
+        "name": "W.Reversal",
+        "title": "Weapon Reversal",
+        "category": "4. Modes",
+        "text": "In <blue>Weapon Reversal</blue> Mode:{br}Units change classes to one that has weapon triangle advantage over their original class.{br}Bow units become staffers and vice versa.\n"
+    },
+    {
+        "nid": "DoubleReversal",
+        "name": "D.Reversal",
+        "title": "Double Reversal",
+        "category": "4. Modes",
+        "text": "In <blue>Double Reversal</blue> Mode:{br}Units change classes to one that their original class has weapon triangle advantage over.{br}Bow and staff units retain their original classes."
+    },
+    {
+        "nid": "ReverseRecruitment",
+        "name": "R.Recruitment",
+        "title": "Reverse Recruitment",
+        "category": "4. Modes",
+        "text": "In <blue>Reverse Recruitment</blue> mode player units are recruited in <red>reverse</red> order.{br}Player units are autoleveled accordingly.{br}Their houses are even reversed accordingly!\nFor the purposes of events:{br}<blue>Elspeth</blue> replaces <blue>Elwynn</blue>.{br<blue>Quinley</blue> replaces <blue>Lamonte</blue>, and <blue>Saraid</blue> replaces <blue>Garvey</blue>.{br}<blue>Alpin</blue> replaces <blue>Laisren</blue> as the <red>Gotoh</red>."
+    },
+    {
+        "nid": "ThrallVisits",
+        "name": "Thrall Visits",
+        "title": "Thrall Visits",
+        "category": "5. Misc.",
+        "text": "When a <blue>Thrall</> visit a house <blue>Quinley</> acquires a powerful consumable. Instead of triggering the regular visit.{br}Thralls can visit any house, and these count as <red>generic visits</> for the <green>Instructions Unclear</> Achievement.\n<blue>Soul Rend</> removes all skills on an adjacent enemy."
+    },
+    {
+        "nid": "Burning",
+        "name": "Burning",
+        "title": "Burning",
+        "category": "5. Misc.",
+        "text": "<blue>Saraid</>'s Firestarter sets tiles ablaze with holy firee!{br}The fire spreads next turn to adjacent tiles.{br}<red>Enemy Units</> starting their turn on a burning tile take 4 damage.{br}Also, they suffer -1 SKL/SPD/DEF/RES."
     }
 ]

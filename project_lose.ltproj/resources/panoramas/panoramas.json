@@ -84,27 +84,7 @@
         1
     ],
     [
-        "title_background",
-        1
-    ],
-    [
         "YourDidIt",
-        1
-    ],
-    [
-        "info_menu_background_player",
-        1
-    ],
-    [
-        "info_menu_background_enemy",
-        1
-    ],
-    [
-        "info_menu_background_enemy2",
-        1
-    ],
-    [
-        "info_menu_background_other",
         1
     ],
     [
@@ -197,6 +177,62 @@
     ],
     [
         "CreditEnd",
+        1
+    ],
+    [
+        "title_background",
+        1
+    ],
+    [
+        "PierSepia",
+        1
+    ],
+    [
+        "TownSepia",
+        1
+    ],
+    [
+        "TownNight",
+        1
+    ],
+    [
+        "TownNightSepia",
+        1
+    ],
+    [
+        "House2",
+        1
+    ],
+    [
+        "House2Sepia",
+        1
+    ],
+    [
+        "RoomSepia",
+        1
+    ],
+    [
+        "Tavern",
+        1
+    ],
+    [
+        "info_menu_background_enemy",
+        1
+    ],
+    [
+        "info_menu_background_enemy2",
+        1
+    ],
+    [
+        "info_menu_background_other",
+        1
+    ],
+    [
+        "info_menu_background_player",
+        1
+    ],
+    [
+        "SeaSepia",
         1
     ]
 ]

@@ -15,6 +15,7 @@
             "    give_item;Alpin;Iron Lance;no_banner",
             "    give_item;Alpin;Herbs;no_banner",
             "    give_item;Alpin;HeartOfFire;no_banner",
+            "    give_skill;Alpin;Flail_Axe;no_banner",
             "    # Carlin",
             "    change_class;Carlin;Pupil_1;silent",
             "    set_wexp;Carlin;Light;1;no_banner",
@@ -108,6 +109,7 @@
             "    give_item;Alpin;Iron Axe;no_banner",
             "    give_item;Alpin;Herbs;no_banner",
             "    give_item;Alpin;HeartOfFire;no_banner",
+            "    give_skill;Alpin;Flail_Sword;no_banner",
             "    # Carlin",
             "    change_class;Carlin;Pupil_2;silent",
             "    set_wexp;Carlin;Anima;1;no_banner",
@@ -187,6 +189,7 @@
             "    give_item;Alpin;Iron Sword;no_banner",
             "    give_item;Alpin;Herbs;no_banner",
             "    give_item;Alpin;HeartOfFire;no_banner",
+            "    give_skill;Alpin;Flail_Lance;no_banner",
             "    # Carlin",
             "    set_wexp;Carlin;Dark;1;no_banner",
             "    give_item;Carlin;Jinx;no_banner",
@@ -380,6 +383,7 @@
             "    give_item;Alpin;Silver Lance;no_banner",
             "    give_item;Alpin;Axereaver;no_banner",
             "    give_item;Alpin;Elixir;no_banner",
+            "    give_skill;Alpin;Flail_Axe;no_banner",
             "elif;'{v:ReverseRecruitment}' == 'Yes' and '{v:PlayerReverse}' == 'Double'",
             "    # Laisren",
             "    autolevel_to;Laisren;1;fixed",
@@ -494,6 +498,7 @@
             "    give_item;Alpin;Silver Axe;no_banner",
             "    give_item;Alpin;Swordreaver;no_banner",
             "    give_item;Alpin;Elixir;no_banner",
+            "    give_skill;Alpin;Flail_Sword;no_banner",
             "elif;'{v:ReverseRecruitment}' == 'Yes' and '{v:PlayerReverse}' == 'No Reversal'",
             "    # Laisren",
             "    autolevel_to;Laisren;1;fixed",
@@ -598,6 +603,7 @@
             "    give_item;Alpin;Silver Sword;no_banner",
             "    give_item;Alpin;Lancereaver;no_banner",
             "    give_item;Alpin;Elixir;no_banner",
+            "    give_skill;Alpin;Flail_Lance;no_banner",
             "end"
         ]
     }

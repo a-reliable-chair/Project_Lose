@@ -1,24 +1,23 @@
 [
     {
         "name": "DeathElspeth",
-        "trigger": "unit_death",
+        "trigger": "combat_death",
         "level_nid": null,
         "condition": "unit.nid == 'Elspeth'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "music;Gone...",
-            "add_portrait;Elspeth;FarRight",
-            "if;game.level.nid == '4'",
-            "    speak;Elspeth;Endgame deathquote",
+            "if;{v:game_var;Ch5Outro} == 1",
             "else",
-            "    speak;Elspeth;regular deathquote.",
-            "end",
-            "expression;Elspeth;CloseEyes",
-            "remove_portrait;Elspeth",
-            "music_fade_back",
-            "inc_game_var;NoDeaths;1"
+            "    music;Gone...",
+            "    add_portrait;Elspeth;FarRight",
+            "    s;Elspeth;A-ah...{w} no!{w} The Goddess's light...|even her protection has waned...{w}{clear}These wounds will be the death of{br}me if I don't get to safety...|All of you, you must keep fighting!|The hope of Eislinn rests with you!",
+            "    expression;Elspeth;CloseEyes",
+            "    remove_portrait;Elspeth",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "end"
         ]
     }
 ]

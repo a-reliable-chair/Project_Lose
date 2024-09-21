@@ -2,11 +2,11 @@
     {
         "nid": "Loot",
         "name": "<yellow>Loot</>",
-        "desc": "Loot the body, get the stuff.",
-        "icon_nid": "Skills",
+        "desc": "Trade with target NPC.",
+        "icon_nid": "NonPlayerSkills2",
         "icon_index": [
-            11,
-            0
+            0,
+            2
         ],
         "components": [
             [

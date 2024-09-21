@@ -2,11 +2,11 @@
     {
         "nid": "Play",
         "name": "<yellow>Play</>",
-        "desc": "Refreshes target. Free Action. ",
-        "icon_nid": "Skills",
+        "desc": "Refreshes target.",
+        "icon_nid": "PersonalSkills",
         "icon_index": [
-            11,
-            0
+            1,
+            6
         ],
         "components": [
             [

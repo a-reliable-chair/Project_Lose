@@ -2,7 +2,7 @@
     {
         "nid": "SKLBooster",
         "name": "<yellow>SKL++</>",
-        "desc": "Grants 2 diminishing skill. Free Action.",
+        "desc": "Grants 2 diminishing skill.",
         "icon_nid": "Consumables2",
         "icon_index": [
             0,

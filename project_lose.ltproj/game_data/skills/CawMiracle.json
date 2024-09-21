@@ -2,7 +2,7 @@
     {
         "nid": "CawMiracle",
         "name": "Miracle",
-        "desc": "Something happens when he's about to die...",
+        "desc": "Something happens when he's about to die...\n<red>Cannot</red> be removed.",
         "icon_nid": "Statuses",
         "icon_index": [
             0,

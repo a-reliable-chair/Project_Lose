@@ -9,7 +9,8 @@
         "priority": 20,
         "_source": [
             "add_portrait;Keeva;Left",
-            "speak;Keeva;ded",
+            "s;Keeva;B-but...{w} Our plans...|We will..{w} not...{w} be...|denied...",
+            "expression;Keeva;CloseEyes",
             "remove_portrait;Keeva",
             "inc_level_var;KeevaDead;1",
             "inc_level_var;TrioKilled;1",

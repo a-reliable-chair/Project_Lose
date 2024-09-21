@@ -36,19 +36,19 @@
         "text": "No turnwheel uses remaining!"
     },
     {
-        "nid": "Rescue_desc",
+        "nid": "<yellow>Rescue</yellow>_desc",
         "text": "Select a unit to rescue."
     },
     {
-        "nid": "Take_desc",
+        "nid": "<yellow>Take</yellow>_desc",
         "text": "Take the traveler from an adjacent unit."
     },
     {
-        "nid": "Drop_desc",
+        "nid": "<yellow>Drop</yellow>_desc",
         "text": "Select which tile to drop the unit into."
     },
     {
-        "nid": "Give_desc",
+        "nid": "<yellow>Give</yellow>_desc",
         "text": "Give the traveler to an adjacent unit."
     },
     {
@@ -385,19 +385,19 @@
     },
     {
         "nid": "_attribution",
-        "text": "Created By A_Reliable_Chair"
+        "text": ""
     },
     {
         "nid": "Normal_desc",
-        "text": "Weenie Hut Jr."
+        "text": "An introductory dfficulty."
     },
     {
         "nid": "Hard_desc",
-        "text": "+Enemy Growths -Turn Counts      No Convoy On Death"
+        "text": "Hard."
     },
     {
         "nid": "Lunatic_desc",
-        "text": "++Enemy Growths No Convoy       And Even More Bullshit!"
+        "text": "Lose."
     },
     {
         "nid": "<yellow>Support</yellow>_desc",

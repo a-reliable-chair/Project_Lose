@@ -1,0 +1,33 @@
+[
+    {
+        "name": "AchievementChecks1",
+        "trigger": null,
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;not has_achievement('25') and {v:TraineeDeployed} == 4 and game.check_alive('Alpin') and game.check_alive('Carlin') and game.check_alive('Shayla') and game.check_alive('Raelin')",
+            "    update_achievement;25;Beaten By A Buncha Kids;Deployed all trainees in Ch5 and had them survive",
+            "    complete_achievement;25;1;banner",
+            "end",
+            "if;not has_achievement('26') and {v:TraineeDeployed} == 0",
+            "    update_achievement;26;One Less War Crime;Cleared Ch5 without deploying any trainees",
+            "    complete_achievement;26;1;banner",
+            "end",
+            "if;not has_achievement('27') and {v:GotohDeployed} == 0",
+            "    update_achievement;27;Gotoh The Bench;Cleared Ch5 without deploying your Gotoh",
+            "    complete_achievement;27;1;banner",
+            "end",
+            "if;not has_achievement('35') and {v:YouSupported} == 0",
+            "    update_achievement;35;Everyone's An Edgelord;Cleared the game without using any supports",
+            "    complete_achievement;35;1;banner",
+            "end",
+            "if;not has_achievement('39') and {v:NoDeaths} == 0",
+            "    update_achievement;39;All That For Nothing;No playable unit deaths in a playthrough",
+            "    complete_achievement;39;1;banner",
+            "end"
+        ]
+    }
+]

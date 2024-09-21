@@ -3,7 +3,7 @@
         "name": "FightDavenport",
         "trigger": "combat_start",
         "level_nid": "3",
-        "condition": "(unit.nid == \"Davenport\" and unit2.team == 'player') or (unit2.nid == \"Davenport\" and unit.team == 'player')",
+        "condition": "(unit.nid == \"Davenport\" and unit2.team == 'player' and not has_skill(unit2, 'Thrall')) or (unit2.nid == \"Davenport\" and unit.team == 'player' and and not has_skill(unit, 'Thrall'))",
         "commands": [],
         "only_once": true,
         "priority": 20,

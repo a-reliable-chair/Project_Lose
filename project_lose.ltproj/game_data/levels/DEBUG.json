@@ -187,7 +187,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    8,
+                    4
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -198,7 +201,7 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
+                    4,
                     4
                 ],
                 "starting_traveler": null,
@@ -210,7 +213,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    9,
+                    7
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -247,7 +253,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    11,
+                    2
+                ],
                 "starting_traveler": null,
                 "generic": true
             },
@@ -316,7 +325,9 @@
                         false
                     ]
                 ],
-                "starting_skills": [],
+                "starting_skills": [
+                    "Promoted"
+                ],
                 "team": "enemy",
                 "ai": "Yolo",
                 "roam_ai": null,
@@ -407,7 +418,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    10,
+                    8
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -417,7 +431,10 @@
                 "ai": "AttackNoMove",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    10,
+                    6
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -440,7 +457,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    7,
+                    9
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -450,7 +470,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    11,
+                    7
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -460,7 +483,10 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    12,
+                    7
+                ],
                 "starting_traveler": null,
                 "generic": false
             },
@@ -476,9 +502,25 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": null,
+                "starting_position": [
+                    12,
+                    2
+                ],
                 "starting_traveler": null,
                 "generic": true
+            },
+            {
+                "nid": "Leod",
+                "team": "other",
+                "ai": "None",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    4
+                ],
+                "starting_traveler": null,
+                "generic": false
             }
         ],
         "regions": [

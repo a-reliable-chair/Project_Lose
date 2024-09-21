@@ -1,7 +1,7 @@
 [
     {
         "name": "BossDeathAckerman",
-        "trigger": "unit_death",
+        "trigger": "combat_death",
         "level_nid": null,
         "condition": "unit.nid == \"Ackerman\"",
         "commands": [],
@@ -9,11 +9,10 @@
         "priority": 20,
         "_source": [
             "add_portrait;Ackerman;Left",
+            "speak;Ackerman;Whuh...{w} h-how...?{w} Yer just a...|buncha...{w} kids...",
             "if;game.level.nid == '0'",
-            "    speak;Ackerman;Beaten...|by a... buncha... kids...",
             "    inc_game_var;LieutenantInChapter;1",
             "elif;game.level.nid == '4'",
-            "    speak;Ackerman;Ch5 Ackerman deathquote!",
             "    inc_game_var;LieutenantInEndgame;1",
             "end",
             "expression;Ackerman;CloseEyes",

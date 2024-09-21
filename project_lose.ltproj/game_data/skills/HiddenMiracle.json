@@ -2,7 +2,7 @@
     {
         "nid": "HiddenMiracle",
         "name": "True Miracle",
-        "desc": "Unit's HP cannot fall below 1 for 1 turn.",
+        "desc": "Unit's HP cannot fall below 1 for 1 turn. <red>Cannot</red> be removed.",
         "icon_nid": "Statuses",
         "icon_index": [
             0,

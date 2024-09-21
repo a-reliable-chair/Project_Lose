@@ -1,24 +1,23 @@
 [
     {
         "name": "DeathRaelin",
-        "trigger": "unit_death",
+        "trigger": "combat_death",
         "level_nid": null,
         "condition": "unit.nid == 'Raelin'",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
-            "music;Gone...",
-            "add_portrait;Raelin;FarRight",
-            "if;game.level.nid == '4'",
-            "    speak;Raelin;Endgame deathquote",
+            "if;{v:game_var;Ch5Outro} == 1",
             "else",
-            "    speak;Raelin;regular deathquote.",
-            "end",
-            "expression;Raelin;CloseEyes",
-            "remove_portrait;Raelin",
-            "music_fade_back",
-            "inc_game_var;NoDeaths;1"
+            "    music;Gone...",
+            "    add_portrait;Raelin;FarRight",
+            "    s;Raelin;Ow!{w} O-ow!!{w} I-I'm gonna die{br}if I keep fighting like this!{w}{clear}I give up!{w} I'm sorry, but I don't{br}want to die like this! I'm running!",
+            "    expression;Raelin;CloseEyes",
+            "    remove_portrait;Raelin",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "end"
         ]
     }
 ]
