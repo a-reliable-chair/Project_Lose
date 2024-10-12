@@ -8,15 +8,18 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "for;Adjacent_Ally;[u.nid for u in get_allies_within_distance('Laisren', dist = 3) if u.nid != 'Laisren']",
-            "    map_anim;Map_EXP_Cast;{Adjacent_Ally}",
-            "    if;u('{Adjacent_Ally}').get_exp() >= 90",
-            "        give_exp;{Adjacent_Ally};10",
-            "    else",
-            "        give_exp;{Adjacent_Ally};10;silent",
-            "        sound;Experience Gain",
-            "    end",
-            "endf"
+            "if;{v:Ch5Outro} == 1",
+            "else",
+            "    for;Adjacent_Ally;[u.nid for u in get_allies_within_distance('Laisren', dist = 3) if u.nid != 'Laisren']",
+            "        map_anim;Map_EXP_Cast;{Adjacent_Ally}",
+            "        if;u('{Adjacent_Ally}').get_exp() >= 90",
+            "            give_exp;{Adjacent_Ally};10",
+            "        else",
+            "            give_exp;{Adjacent_Ally};10;silent",
+            "            sound;Experience Gain",
+            "        end",
+            "    endf",
+            "end"
         ]
     }
 ]

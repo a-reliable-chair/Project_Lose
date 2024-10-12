@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "Hinder",
+        "name": "Hinder",
+        "desc": "Reduces target's stats by 1 for 1 turn.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "status_on_hit",
+                "Hindered"
+            ],
+            [
+                "map_hit_sub_blend",
+                [
+                    180,
+                    48,
+                    14
+                ]
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ]
+        ]
+    }
+]

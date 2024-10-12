@@ -1,0 +1,105 @@
+[
+    {
+        "nid": "Omnipotence",
+        "name": "Omnipotence",
+        "desc": "Effective against caster units.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                5
+            ],
+            [
+                "weapon_type",
+                "Light"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                6
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "crit",
+                20
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Caster"
+                    ],
+                    "effective_multiplier": 3.0,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "eval_warning",
+                "'Caster' in unit.tags"
+            ],
+            [
+                "battle_cast_anim",
+                "Omnipotence"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Omnipotence_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ]
+        ]
+    }
+]

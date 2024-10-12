@@ -1,0 +1,26 @@
+[
+    {
+        "name": "DeathAilsa",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Ailsa'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:game_var;Ch5Outro} == 1",
+            "else",
+            "    hide_combat_ui",
+            "    music;Gone...",
+            "    add_portrait;Ailsa;RightCorner",
+            "    expression;Ailsa;HalfCloseEyes",
+            "    s;Ailsa;...{w} Finally.{w} I knew this day was{br}coming, just...{w} not like this...{w}{clear}...{w} Raelin...{w} No.{w} I'm not dying here.{w} Not while I still have to keep the kid safe.|Even if I can't fight like this, I can't just leave her all alone.{w}{clear}I'll keep on living.{w} For now.;center;;boss_convo_right",
+            "    expression;Ailsa;CloseEyes",
+            "    remove_portrait;Ailsa",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "    show_combat_ui",
+            "end"
+        ]
+    }
+]

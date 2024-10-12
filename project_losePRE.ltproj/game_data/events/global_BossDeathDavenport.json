@@ -1,0 +1,41 @@
+[
+    {
+        "name": "BossDeathDavenport",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "unit.nid == \"Davenport\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "if;{v:DavenportRecruited} == 1",
+            "    add_portrait;Osgar;RightCorner",
+            "    music;Gone...",
+            "    s;Osgar;You think you can take me down?{w} After{br}all Mistress Quinley's done for me?|No.{w} I will not let you taste victory.{w}{clear}Mistress, I will join you at your{br}side.{w} Even with my wounds so severe,|I will keep you safe until the end.;center;;boss_convo_right",
+            "    expression;Osgar;CloseEyes",
+            "    remove_portrait;Osgar",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "else",
+            "    add_portrait;Davenport;LeftCorner",
+            "    s;Davenport;My life...{w} for the empire...|Is this...{w} all my life is worth...?;center;;boss_convo_left",
+            "    if;game_level.nid == '3' ",
+            "        inc_game_var;LieutenantInChapter;1",
+            "    elif;game.level.nid == '4'",
+            "        inc_game_var;LieutenantInEndgame;1",
+            "    end",
+            "    remove_portrait;Davenport",
+            "end",
+            "",
+            "inc_game_var;DavenportDead;1",
+            "",
+            "if;not has_achievement('40') and {v:LieutenantInChapter} == 4",
+            "    update_achievement;40;One After One, By The Star-Dogged Moon;Killed all lieutenants in their starting chapters",
+            "    complete_achievement;40;1",
+            "    inc_game_var;AchievementCount;1",
+            "end",
+            "show_combat_ui"
+        ]
+    }
+]

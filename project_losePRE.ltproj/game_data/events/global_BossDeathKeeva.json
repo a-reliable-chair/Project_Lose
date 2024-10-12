@@ -1,0 +1,29 @@
+[
+    {
+        "name": "BossDeathKeeva",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "unit.nid == \"Keeva\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "hide_combat_ui",
+            "add_portrait;Keeva;LeftCorner",
+            "s;Keeva;B-but...{w} Our plans...|We will..{w} not...{w} be...|denied...;center;;boss_convo_left",
+            "expression;Keeva;CloseEyes",
+            "remove_portrait;Keeva",
+            "inc_level_var;KeevaDead;1",
+            "inc_level_var;TrioKilled;1",
+            "show_combat_ui",
+            "if;not has_achievement('28')",
+            "    update_achievement;28;A Traitor's Death;Defeated Keeva in Ch5",
+            "    complete_achievement;28;1;banner",
+            "end",
+            "if;not has_achievement('32') and {v:TrioKilled} == 3",
+            "    update_achievement;32;Well, That Was Easy;Defeated Cawthorne, Keeva, and Shallcross in Ch5",
+            "    complete_achievement;32;1;banner",
+            "end"
+        ]
+    }
+]

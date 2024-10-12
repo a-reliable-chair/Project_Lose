@@ -1,0 +1,20 @@
+[
+    {
+        "name": "ModesConfirm",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "choice;Confirmation;Play With These Settings?;Yes,No",
+            "if;'{v:Confirmation}' == 'No'",
+            "    alert;Start over!",
+            "    trigger_script;Global ModesSelect",
+            "else",
+            "    trigger_script;Global ModesEdits",
+            "end"
+        ]
+    }
+]

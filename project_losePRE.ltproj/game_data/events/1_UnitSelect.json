@@ -1,0 +1,41 @@
+[
+    {
+        "name": "UnitSelect",
+        "trigger": "unit_select",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'{v:ReverseRecruitment}' == 'Yes'",
+            "    if;unit.nid == \"Elspeth\"",
+            "        if;{v:ElwynnHouse} == 0",
+            "            map_anim;Map_Unit_Select;3,15;permanent",
+            "        end",
+            "        if;{v:ElspethHouse} == 0",
+            "            map_anim;Map_Unit_Select;17,14;permanent",
+            "        end",
+            "    elif;unit.nid == \"Lamonte\" and {v:ElspethHouse} == 0",
+            "        map_anim;Map_Unit_Select;17,14;permanent",
+            "        ",
+            "    elif;unit.nid == \"Garvey\" and {v:ElwynnHouse} == 0",
+            "        map_anim;Map_Unit_Select;3,15;permanent",
+            "    end",
+            "else",
+            "    if;unit.nid == \"Elwynn\"",
+            "        if;{v:ElwynnHouse} == 0",
+            "            map_anim;Map_Unit_Select;3,15;permanent",
+            "        end",
+            "        if;{v:ElspethHouse} == 0",
+            "            map_anim;Map_Unit_Select;17,14;permanent",
+            "        end",
+            "    elif;unit.nid == \"Saraid\" and {v:ElwynnHouse} == 0",
+            "        map_anim;Map_Unit_Select;3,15;permanent",
+            "    elif;unit.nid == \"Quinley\" and {v:ElspethHouse} == 0",
+            "        map_anim;Map_Unit_Select;17,14;permanent",
+            "    end",
+            "end"
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Turn7Charge",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 7",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.check_alive('Brassfield') and u('Brassfield').team == 'enemy'",
+            "    flicker_cursor;Brassfield",
+            "    add_portrait;Brassfield;Right",
+            "    s;Brassfield;...{w}{c:expression:Brassfield;CloseEyes} This can't go on forever.|Get this disgrace over with...",
+            "    remove_portrait;Brassfield",
+            "else;",
+            "    add_portrait;SoldierRed;Right",
+            "    s;SoldierRed;Everyone, close in on them!",
+            "    remove_portrait;SoldierRed",
+            "end",
+            "alert;All remaining enemies are charging!",
+            "for;enemy_generics;[u for u in game.level.units if u.team in ['enemy', 'enemy2'] and u.generic]",
+            "    change_ai;{enemy_generics};Ch2_Yolo",
+            "endf"
+        ]
+    }
+]

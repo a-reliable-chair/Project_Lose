@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Turn5",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;21, 0",
+            "wait;250",
+            "add_unit;T6Rein_1;18, 0;immediate;push;south",
+            "wait;250",
+            "",
+            "move_cursor;17, 0",
+            "wait;250",
+            "add_unit;T6Rein_2;12, 0;immediate;push;north",
+            "wait;250",
+            "",
+            "move_cursor;7, 0",
+            "wait;250",
+            "add_unit;T7Rein_1;7, 0;immediate;push;north",
+            "wait;250",
+            ""
+        ]
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Door2",
+        "trigger": "<yellow>Door</yellow>",
+        "level_nid": "2",
+        "condition": "region.nid == 'Door2'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "show_layer;MidDoor",
+            "if;unit.team == 'player' and unit.nid != 'Thrall'",
+            "    give_exp;{unit};20",
+            "end",
+            "has_traded;{unit}"
+        ]
+    }
+]

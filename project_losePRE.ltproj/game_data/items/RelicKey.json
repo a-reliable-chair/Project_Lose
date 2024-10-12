@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "RelicKey",
+        "name": "<yellow>Relic Key</>",
+        "desc": "Opens chests containing holy relics of the church.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "can_unlock",
+                "region.nid.startswith('Chest')"
+            ],
+            [
+                "attack_after_combat",
+                null
+            ]
+        ]
+    }
+]

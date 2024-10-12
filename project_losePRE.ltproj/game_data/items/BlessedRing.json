@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "BlessedRing",
+        "name": "<light-orange>Blessed Ring</light-orange>",
+        "desc": "Trainees Only.\n+1 to all stats. ",
+        "icon_nid": "Accessory",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "Anointed"
+            ]
+        ]
+    }
+]

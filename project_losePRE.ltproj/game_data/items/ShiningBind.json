@@ -1,0 +1,89 @@
+[
+    {
+        "nid": "ShiningBind",
+        "name": "Shining Bind",
+        "desc": "Petrifies target.\nCan't double.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "hit",
+                15
+            ],
+            [
+                "weapon_type",
+                "Light"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                2
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "status_on_hit",
+                "Petrified"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "no_double",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "ShiningBind"
+            ],
+            [
+                "map_cast_anim",
+                "Map_ShiningBind_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ]
+        ]
+    }
+]

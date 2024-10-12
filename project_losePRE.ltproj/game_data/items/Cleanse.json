@@ -1,0 +1,78 @@
+[
+    {
+        "nid": "Cleanse",
+        "name": "Cleanse",
+        "desc": "Fully heals target ally and removes all negative statuses.\nRange: 1 - (MAG * 4).",
+        "icon_nid": "{AtelierLabs} Cleanse",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                22
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAG4"
+            ],
+            [
+                "unrepairable",
+                null
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ],
+            [
+                "restore",
+                null
+            ],
+            [
+                "equation_heal",
+                "TWENTYFIVE"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Heal_Cast"
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ]
+        ]
+    }
+]

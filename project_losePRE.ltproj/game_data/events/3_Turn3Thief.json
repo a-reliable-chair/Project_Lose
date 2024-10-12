@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn3Thief",
+        "trigger": "turn_change",
+        "level_nid": "3",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;0, 18",
+            "wait;250",
+            "add_unit;Thief_1;0, 18;immediate;push;west",
+            "wait;500"
+        ]
+    }
+]

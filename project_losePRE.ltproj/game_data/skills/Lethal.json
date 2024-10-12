@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Lethal",
+        "name": "Lethal",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "unit_flickering_tint",
+                [
+                    255,
+                    0,
+                    255
+                ]
+            ],
+            [
+                "unit_anim",
+                "Map_Bolster_Unit"
+            ],
+            [
+                "hidden",
+                null
+            ]
+        ]
+    }
+]

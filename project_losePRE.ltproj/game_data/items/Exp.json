@@ -1,0 +1,65 @@
+[
+    {
+        "nid": "Exp",
+        "name": "<yellow>EXP++</>",
+        "desc": "Grants 50 EXP.",
+        "icon_nid": "Consumables2",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    255
+                ]
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "PureWater"
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global EXP++"
+            ],
+            [
+                "map_cast_anim",
+                "Map_EXP_Cast"
+            ]
+        ]
+    }
+]

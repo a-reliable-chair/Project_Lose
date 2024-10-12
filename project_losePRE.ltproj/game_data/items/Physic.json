@@ -1,0 +1,85 @@
+[
+    {
+        "nid": "Physic",
+        "name": "Physic",
+        "desc": "Restores an ally's HP from up to (MAG * 2) tiles away.\nChapter Uses: 3.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "wexp",
+                3
+            ],
+            [
+                "exp",
+                22
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAG2"
+            ],
+            [
+                "unrepairable",
+                null
+            ],
+            [
+                "c_uses",
+                3
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ],
+            [
+                "equation_heal",
+                "MAG2"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Heal_Cast"
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ]
+        ]
+    }
+]

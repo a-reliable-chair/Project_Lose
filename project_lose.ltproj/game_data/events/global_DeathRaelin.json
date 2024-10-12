@@ -8,15 +8,18 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;{v:game_var;Ch5Outro} == 1",
+            "if;{v:Ch5Outro} == 1",
             "else",
+            "    hide_combat_ui",
             "    music;Gone...",
-            "    add_portrait;Raelin;FarRight",
-            "    s;Raelin;Ow!{w} O-ow!!{w} I-I'm gonna die{br}if I keep fighting like this!{w}{clear}I give up!{w} I'm sorry, but I don't{br}want to die like this! I'm running!",
+            "    add_portrait;Raelin;RightCorner",
+            "    expression;Raelin;HalfCloseEyes",
+            "    s;Raelin;Ow!{w} O-ow!!{w} I-I'm gonna die if I keep fighting like this!{w}{clear}I give up!{w} I'm sorry, but I don't want to die like this!|I'm running!;center;;boss_convo_right",
             "    expression;Raelin;CloseEyes",
             "    remove_portrait;Raelin",
             "    music_fade_back",
             "    inc_game_var;NoDeaths;1",
+            "    show_combat_ui",
             "end"
         ]
     }

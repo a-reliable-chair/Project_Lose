@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Lose2",
+        "trigger": "unit_death",
+        "level_nid": "3",
+        "condition": "unit.team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;len(game.get_player_units()) == 0",
+            "    alert;You have lost your only remaining party member.",
+            "    lose_game",
+            "end"
+        ]
+    }
+]

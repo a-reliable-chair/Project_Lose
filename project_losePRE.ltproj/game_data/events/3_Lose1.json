@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Lose1",
+        "trigger": "unit_death",
+        "level_nid": "3",
+        "condition": "unit.team == 'player'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit.nid != 'Thrall'",
+            "    inc_level_var;DeadPlayers;1",
+            "end",
+            "if;{v:DeadPlayers} == 4",
+            "    alert;You have lost too many members of your party.",
+            "    lose_game",
+            "end"
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "name": "BossDeathBrassfieldTrigger",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == \"Brassfield\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "trigger_script;Global BossDeathBrassfield"
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "name": "FightEmberson",
+        "trigger": "combat_start",
+        "level_nid": "2",
+        "condition": "(unit.nid == \"Emberson\" and unit2.team == 'player') or (unit2.nid == \"Emberson\" and unit.team == 'player' )",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:BossMusic} == 0",
+            "    music;With Everything At Stake",
+            "    change_music;player_phase;With Everything At Stake",
+            "    change_music;enemy_phase;With Everything At Stake",
+            "    change_music;other_phase;With Everything At Stake",
+            "    change_music;enemy2_phase;With Everything At Stake",
+            "    set_custom_options;Codex,Achievements;true,true;Open the Codex.,Check Achievements.;Menu_Codex,CallAchievements",
+            "    inc_level_var;BossMusic;1",
+            "end",
+            "if;{v:EmbersonQuote} == 0",
+            "    hide_combat_ui",
+            "    add_portrait;Emberson;LeftCorner",
+            "    s;Emberson;You are all just flickering embers floating in the wind.{w}{clear}Allow me to be the one to finally snuff your flame out!;center;;boss_convo_left",
+            "    remove_portrait;Emberson",
+            "    show_combat_ui",
+            "    inc_level_var;EmbersonQuote;1",
+            "end",
+            "if;unit.nid == \"Raelin\" or unit2.nid == \"Raelin\"",
+            "    if;{v:RaelinVisited} == 1 and {v:RaelinEmberson} == 0",
+            "        inc_level_var;RaelinEmberson;1",
+            "    end",
+            "end"
+        ]
+    }
+]

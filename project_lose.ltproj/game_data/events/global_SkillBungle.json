@@ -8,8 +8,11 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "map_anim;Map_Heal_Cast;Shayla;no_block",
-            "sound;Heal1"
+            "if;{v:Ch5Outro} == 1",
+            "else",
+            "    map_anim;Map_Heal_Cast;Shayla;no_block",
+            "    sound;Heal1",
+            "end"
         ]
     }
 ]

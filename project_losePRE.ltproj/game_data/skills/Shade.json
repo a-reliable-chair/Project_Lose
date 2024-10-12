@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Shade",
+        "name": "Shade",
+        "desc": "Reduces the likelihood of the user being targeted by enemies.\t",
+        "icon_nid": "TraineeSkillUpgrades",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "modify_ai_priority",
+                0.01
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "CawthorneDamaged",
+        "trigger": "combat_end",
+        "level_nid": "3",
+        "condition": "(unit.nid == \"Cawthorne\" and unit2.team == 'player') or (unit2.nid == \"Cawthorne\" and unit.team == 'player')",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;u('Cawthorne').get_hp() < u('Cawthorne').get_max_hp() ",
+            "    add_portrait;Cawthorne;Right",
+            "    s;Cawthorne;What the hell?!{br}How?!|This changes things...",
+            "    remove_portrait;Cawthorne",
+            "    wait;250",
+            "    remove_unit;Cawthorne;warp",
+            "    wait;250",
+            "    if;u('Davenport').position and game.check_alive('Davenport')",
+            "        move_cursor;Davenport",
+            "        flicker_cursor;Davenport",
+            "        add_portrait;Davenport;Left",
+            "        speak;Davenport;...Sir!?",
+            "        remove_portrait;Davenport",
+            "        change_ai;Davenport;Ch4_Yolo",
+            "        alert;Davenport is now on the attack!",
+            "    end",
+            "    if;not has_achievement('21')",
+            "        update_achievement;21;That's Not How You Play The Game!;Damaged Cawthorne in Ch4",
+            "        complete_achievement;21;1;banner",
+            "    end",
+            "end"
+        ]
+    }
+]

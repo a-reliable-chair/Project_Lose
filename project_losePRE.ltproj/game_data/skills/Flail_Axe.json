@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Flail_Axe",
+        "name": "Flail",
+        "desc": "Gain <blue>Brave</> when fighting enemies equipped with axes.",
+        "icon_nid": "Flail",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "dynamic_multiattacks",
+                "1 if target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Axe' else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

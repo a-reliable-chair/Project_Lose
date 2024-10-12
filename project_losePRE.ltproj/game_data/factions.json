@@ -1,0 +1,92 @@
+[
+    {
+        "nid": "Soldier",
+        "name": "Soldier",
+        "desc": "Soldiers of the invading empire.",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Promoted",
+        "name": "New Promote",
+        "desc": "This unit is standing in for their fallen superior.",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Cutthroat",
+        "name": "Cutthroat",
+        "desc": "A member of Bazba's Bandits, who roam this region.",
+        "icon_nid": "BanditEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Bandit",
+        "name": "Bandit",
+        "desc": "One of the bandits who have laid claim to the Carcino territories.",
+        "icon_nid": "NeutralEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wall",
+        "name": "Wall",
+        "desc": "",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Thrall",
+        "name": "Thrall",
+        "desc": "An undead husk of a person.",
+        "icon_nid": "MonsterEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Villager",
+        "name": "Villager",
+        "desc": "A civilian caught in the tides of war.",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Kingdom",
+        "name": "Kingdom",
+        "desc": "Kingdom Soldier.",
+        "icon_nid": "KnightEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Looter",
+        "name": "Looter",
+        "desc": "Underhanded thugs who loot amidst the chaos.",
+        "icon_nid": "BlankEmblem",
+        "icon_index": [
+            0,
+            0
+        ]
+    }
+]

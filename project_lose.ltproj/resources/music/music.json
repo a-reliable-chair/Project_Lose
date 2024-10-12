@@ -1,5 +1,15 @@
 [
     [
+        "Destined For Failure",
+        true,
+        false
+    ],
+    [
+        "Days Gone",
+        true,
+        false
+    ],
+    [
         "Another Slow Day",
         true,
         false
@@ -10,12 +20,72 @@
         false
     ],
     [
+        "Last Laughs",
+        true,
+        false
+    ],
+    [
         "Imperial Audacity",
         true,
         false
     ],
     [
+        "But A Memory",
+        false,
+        false
+    ],
+    [
         "Pandemonium",
+        true,
+        false
+    ],
+    [
+        "A Glimmer Of Hope",
+        true,
+        false
+    ],
+    [
+        "Sanctuary",
+        true,
+        false
+    ],
+    [
+        "Castle Theme",
+        true,
+        false
+    ],
+    [
+        "For The Greater Good",
+        true,
+        false
+    ],
+    [
+        "At Hope's End",
+        true,
+        false
+    ],
+    [
+        "Memories For Nobody",
+        true,
+        false
+    ],
+    [
+        "A Memory For Nobody",
+        false,
+        false
+    ],
+    [
+        "Merely A Footnote",
+        true,
+        false
+    ],
+    [
+        "Falling Kingdom",
+        true,
+        false
+    ],
+    [
+        "The Darkest Timeline",
         true,
         false
     ],
@@ -45,37 +115,12 @@
         false
     ],
     [
-        "Gone...",
-        true,
-        false
-    ],
-    [
-        "...And Forgotten",
-        true,
-        false
-    ],
-    [
-        "But A Memory",
+        "Inevitable Fate",
         false,
         false
     ],
     [
-        "For The Greater Good",
-        true,
-        false
-    ],
-    [
-        "Merely A Footnote",
-        true,
-        false
-    ],
-    [
-        "The Darkest Timeline",
-        true,
-        false
-    ],
-    [
-        "Thanks For Playing",
+        "Prep Jam",
         true,
         false
     ],
@@ -105,8 +150,13 @@
         false
     ],
     [
-        "Hard Habit To Break",
-        false,
+        "TPWD",
+        true,
+        false
+    ],
+    [
+        "Battlefield Blues",
+        true,
         false
     ],
     [
@@ -125,72 +175,27 @@
         false
     ],
     [
-        "Sanctuary",
-        true,
-        false
-    ],
-    [
-        "Destined For Failure",
-        true,
-        false
-    ],
-    [
-        "A Glimmer Of Hope",
-        true,
-        false
-    ],
-    [
-        "At Hope's End",
-        true,
-        false
-    ],
-    [
-        "Castle Theme",
-        true,
-        false
-    ],
-    [
-        "Days Gone",
-        true,
-        false
-    ],
-    [
-        "Last Laughs",
-        true,
-        false
-    ],
-    [
-        "Inevitable Fate Pt. 1",
-        false,
-        false
-    ],
-    [
-        "Inevitable Fate Pt. 2",
-        false,
-        false
-    ],
-    [
-        "Prep Jam",
-        true,
-        false
-    ],
-    [
-        "TPWD",
-        true,
-        false
-    ],
-    [
-        "Falling Kingdom",
-        true,
-        false
-    ],
-    [
-        "A Memory For Nobody",
-        false,
-        false
-    ],
-    [
         "Big Battle Boppin'",
+        true,
+        false
+    ],
+    [
+        "Gone...",
+        true,
+        false
+    ],
+    [
+        "...And Forgotten",
+        true,
+        false
+    ],
+    [
+        "With Every Odd Against Us",
+        true,
+        false
+    ],
+    [
+        "With Everything At Stake",
         true,
         false
     ],
@@ -200,12 +205,7 @@
         false
     ],
     [
-        "Memories For Nobody",
-        true,
-        false
-    ],
-    [
-        "Battlefield Blues",
+        "Thanks For Playing",
         true,
         false
     ]

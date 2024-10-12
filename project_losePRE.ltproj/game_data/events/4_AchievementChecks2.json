@@ -1,0 +1,41 @@
+[
+    {
+        "name": "AchievementChecks2",
+        "trigger": null,
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;not has_achievement('29') and {v:CawthorneDead} == 0",
+            "    update_achievement;29;Merely A Footnote;Cleared Ch5 without killing Cawthorne",
+            "    complete_achievement;29;1;banner",
+            "end",
+            "if;not has_achievement('30') and {v:CawthorneDead} == 1",
+            "    update_achievement;30;The Darkest Timeline;Cleared Ch5 after killing Cawthorne",
+            "    complete_achievement;30;1;banner",
+            "end",
+            "if;not has_achievement('41') and {v:LieutenantInEndgame} == 4 and {v:CawthorneDead} == 1",
+            "    update_achievement;41;Do Them Dirty;Defeated all lieutenants and Cawthorne in Ch5",
+            "    complete_achievement;41;1;banner",
+            "end",
+            "if;not has_achievement('44') and {v:CawthorneStg2} == 1 and game.mode.nid == 'Hard' and '{v:ReverseRecruitment}' == 'No'",
+            "    update_achievement;44;Hardly Trying;Trigger Cawthorne's 2nd stage and survive (Hard)",
+            "    complete_achievement;44;1;banner",
+            "end",
+            "if;not has_achievement('45') and {v:CawthorneStg2} == 1 and game.mode.nid == 'Lunatic' and '{v:ReverseRecruitment}' == 'No'",
+            "    update_achievement;45;Absolutely Lunatic;Trigger Cawthorne's 2nd stage and survive (Lunatic)",
+            "    complete_achievement;45;1;banner",
+            "end",
+            "if;not has_achievement('46') and {v:CawthorneStg2} == 1 and game.mode.nid == 'Hard' and '{v:ReverseRecruitment}' == 'Yes'",
+            "    update_achievement;46;Fully Accommodating;Trigger Cawthorne's 2nd stage and survive (Hard, RR)",
+            "    complete_achievement;46;1;banner",
+            "end",
+            "if;not has_achievement('47') and {v:CawthorneStg2} == 1 and game.mode.nid == 'Lunatic' and '{v:ReverseRecruitment}' == 'Yes'",
+            "    update_achievement;47;Relatively Sane;Trigger Cawthorne's 2nd stage and survive (Lunatic, RR)",
+            "    complete_achievement;47;1;banner",
+            "end"
+        ]
+    }
+]

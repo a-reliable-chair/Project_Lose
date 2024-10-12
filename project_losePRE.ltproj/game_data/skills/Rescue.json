@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "Rescue",
+        "name": "Rescue",
+        "desc": "Unit is rescuing a <blue>non-Trainee</> and incurs rescue penalties.\n-1 SKL/SPD.",
+        "icon_nid": "Rescue",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        -1
+                    ],
+                    [
+                        "SPD",
+                        -1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

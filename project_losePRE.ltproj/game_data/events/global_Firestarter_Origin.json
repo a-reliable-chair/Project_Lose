@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Firestarter_Origin",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.level_vars.get('FireStart_Pos', 0) != 0",
+            "    add_region;{e:'Firestarter_' + '{v:FireCounter}'};{v:FireStart_Pos};1,1;status;Burning",
+            "    inc_level_var;FireCounter;1",
+            "    map_anim;Burning;{v:FireStart_Pos};overlay;permanent",
+            "end",
+            ""
+        ]
+    }
+]

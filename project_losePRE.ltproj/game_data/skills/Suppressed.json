@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Suppressed",
+        "name": "Suppressed",
+        "desc": "Unit's MOV is reduced by half.",
+        "icon_nid": "Statuses",
+        "icon_index": [
+            2,
+            7
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "MOV",
+                        "int(unit.get_field('Supression')) if unit.get_field('Supression') else 0"
+                    ]
+                ]
+            ],
+            [
+                "lost_on_endstep",
+                null
+            ]
+        ]
+    }
+]

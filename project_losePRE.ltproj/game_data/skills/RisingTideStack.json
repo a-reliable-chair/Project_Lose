@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "RisingTideStack",
+        "name": "Rising Tide",
+        "desc": "This unit has +5 Crit per stack.",
+        "icon_nid": "PersonalSkills",
+        "icon_index": [
+            1,
+            3
+        ],
+        "components": [
+            [
+                "stack",
+                999
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

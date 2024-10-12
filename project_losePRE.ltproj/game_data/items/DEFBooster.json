@@ -1,0 +1,65 @@
+[
+    {
+        "nid": "DEFBooster",
+        "name": "<yellow>DEF++</>",
+        "desc": "Grants 3 diminishing defense.",
+        "icon_nid": "Consumables2",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    85,
+                    255,
+                    255
+                ]
+            ],
+            [
+                "status_on_hit",
+                "DEF"
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "PureWater"
+            ],
+            [
+                "map_cast_anim",
+                "Map_DEF_Cast"
+            ]
+        ]
+    }
+]

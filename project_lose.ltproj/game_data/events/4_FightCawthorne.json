@@ -3,11 +3,20 @@
         "name": "FightCawthorne",
         "trigger": "combat_start",
         "level_nid": "4",
-        "condition": "(unit.nid == \"Cawthorne\" and unit2.nid != \"Brassfield\" and unit2.nid != \"Davenport\" and not has_skill(unit2, 'Thrall')) or (unit2.nid == \"Cawthorne\" and unit.nid != \"Brassfield\" and unit.nid != \"Davenport\" and not has_skill(unit, 'Thrall'))",
+        "condition": "(unit.nid == \"Cawthorne\" and unit2.nid != \"Brassfield\" and unit2.nid != \"Davenport\") or (unit2.nid == \"Cawthorne\" and unit.nid != \"Brassfield\" and unit.nid != \"Davenport\")",
         "commands": [],
         "only_once": false,
         "priority": 20,
         "_source": [
+            "if;{v:BossMusic} == 0",
+            "    music;With Everything At Stake",
+            "    change_music;player_phase;With Everything At Stake",
+            "    change_music;enemy_phase;With Everything At Stake",
+            "    change_music;other_phase;With Everything At Stake",
+            "    change_music;enemy2_phase;With Everything At Stake",
+            "    set_custom_options;Codex,Achievements;true,true;Open the Codex.,Check Achievements.;Menu_Codex,CallAchievements",
+            "    inc_level_var;BossMusic;1",
+            "end",
             "if;unit.nid == \"Laisren\" or unit2.nid == \"Laisren\"",
             "    if;{v:CawthorneLaisren} == 0 and has_item(\"TheReclaimer\", nid=\"Laisren\")",
             "        hide_combat_ui",
@@ -34,8 +43,7 @@
             "    remove_portrait;Cawthorne",
             "    show_combat_ui",
             "    inc_level_var;CawthorneGeneric;1",
-            "end",
-            ""
+            "end"
         ]
     }
 ]

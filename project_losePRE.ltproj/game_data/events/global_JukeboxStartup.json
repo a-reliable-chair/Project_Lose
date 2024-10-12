@@ -1,0 +1,19 @@
+[
+    {
+        "name": "JukeboxStartup",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "choice;Jukebox;Play Alternate Map/Prep Themes?;I Wanna Rock!,Play Some Grooves!,Keep It Classic!",
+            "choice;JukeboxStart;Play With These Jams?;Yes,No",
+            "if;'{v:JukeboxStart}' == 'No'",
+            "    alert;You can always change your decision later!",
+            "    trigger_script;Global JukeboxStartup",
+            "end"
+        ]
+    }
+]

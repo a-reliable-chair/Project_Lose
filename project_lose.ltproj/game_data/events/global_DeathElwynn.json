@@ -8,15 +8,18 @@
         "only_once": false,
         "priority": 20,
         "_source": [
-            "if;{v:game_var;Ch5Outro} == 1",
+            "if;{v:Ch5Outro} == 1",
             "else",
+            "    hide_combat_ui",
             "    music;Gone...",
-            "    add_portrait;Elwynn;FarRight",
-            "    s;Elwynn;Gk-!{w} That's a nasty hit...{w} Pfeh.|Gonna have to take a backseat here.{w}{clear}No use to anybody like this...|The rest of you, don't stop fighting!",
+            "    add_portrait;Elwynn;RightCorner",
+            "    expression;Elwynn;HalfCloseEyes",
+            "    s;Elwynn;Gk-!{w} That's a nasty hit...{w} Pfeh.|Gonna have to take a backseat here.{w}{clear}No use to anybody like this...|The rest of you, don't stop fighting!;center;;boss_convo_right",
             "    expression;Elwynn;CloseEyes",
             "    remove_portrait;Elwynn",
             "    music_fade_back",
             "    inc_game_var;NoDeaths;1",
+            "    show_combat_ui",
             "end"
         ]
     }

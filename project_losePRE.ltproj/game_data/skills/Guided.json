@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Guided",
+        "name": "Guided",
+        "desc": "This unit has +15 hit.",
+        "icon_nid": "PersonalSkills",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "hit",
+                15
+            ]
+        ]
+    }
+]
