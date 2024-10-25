@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Repair",
+        "name": "Repair",
+        "desc": "Repairs selected weapon in ally's inventory.\nUnit has convoy access.",
+        "icon_nid": "Repair",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Repair"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "name": "FightOsgarAckerman",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == \"Ackerman\" and unit2.nid == \"Davenport\") or (unit.nid == \"Davenport\" and unit2.nid == \"Ackerman\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;(not has_skill(unit, 'Thrall')) and (not has_skill(unit2, 'Thrall'))",
+            "    hide_combat_ui",
+            "    add_portrait;Ackerman;LeftCorner",
+            "    speak;Ackerman;I thought they killed ye, Osgar.|What, homesickness got ye down?;center;;boss_convo_left",
+            "    remove_portrait;Ackerman",
+            "    add_portrait;Osgar;RightCorner",
+            "    speak;Osgar;My service to the Empire has ended.{w} Now, I serve a new power.{w}{clear}I will not let you harm Mistress Quinley.{w} You will all die here.;center;;boss_convo_right",
+            "    remove_portrait;Osgar",
+            "    add_portrait;Ackerman;LeftCorner",
+            "    s;Ackerman;Cocky bugger to the very last...|Yer gonna pay for this, traitor!;center;;boss_convo_left",
+            "    remove_portrait;Ackerman",
+            "    add_portrait;Osgar;RightCorner",
+            "    s;Osgar;I've already paid my due.{w} I'm not afraid of you.{w} Do your worst!;center;;boss_convo_right",
+            "    remove_portrait;Osgar",
+            "    show_combat_ui",
+            "end"
+        ]
+    }
+]

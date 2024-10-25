@@ -1,0 +1,18 @@
+[
+    {
+        "name": "RecordsStats",
+        "trigger": "unit_level_up",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": true,
+        "priority": 19,
+        "_source": [
+            "if;not RECORDS.get(\"StatColors\")",
+            "    speak;;As characters gain stats through level ups, the color of the stat changes!|Check the Codex for more info!;;;hint;;;text",
+            "    update_record;StatColors;True",
+            "    add_lore;StatColors",
+            "end"
+        ]
+    }
+]

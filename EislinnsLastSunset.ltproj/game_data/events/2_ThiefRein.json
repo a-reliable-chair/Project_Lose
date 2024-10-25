@@ -1,0 +1,25 @@
+[
+    {
+        "name": "ThiefRein",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;(game.turncount == 3 and game.mode.nid != 'Normal') or (game.turncount == 4 and game.mode.nid == 'Normal')",
+            "    move_cursor;12, 12",
+            "    add_unit;Thief_3;12, 12;immediate",
+            "    flicker_cursor;Thief_3",
+            "    wait;250",
+            "end",
+            "if;(game.turncount == 5 and game.mode.nid != 'Normal') or (game.turncount == 6 and game.mode.nid == 'Normal')",
+            "    move_cursor;8, 21",
+            "    add_unit;Thief_4;8, 21;immediate",
+            "    flicker_cursor;Thief_4",
+            "    wait;250",
+            "end"
+        ]
+    }
+]

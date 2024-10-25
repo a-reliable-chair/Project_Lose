@@ -1,0 +1,26 @@
+[
+    {
+        "name": "DeathCorridon",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Corridon'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:Ch5Outro} == 1",
+            "else",
+            "    hide_combat_ui",
+            "    music;Gone...",
+            "    add_portrait;Corridon;RightCorner",
+            "    expression;Corridon;HalfCloseEyes",
+            "    s;Corridon;Pah...{w} Fool I am, thinking I could actually be of help in a battle...{w}{clear}All I've earned is another wound for my trouble.{w} Haven't learned a thing.|I'll get out of everyone's way...;center;;boss_convo_right",
+            "    expression;Corridon;CloseEyes",
+            "    remove_portrait;Corridon",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "    show_combat_ui",
+            "end"
+        ]
+    }
+]

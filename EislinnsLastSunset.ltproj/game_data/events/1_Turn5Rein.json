@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Turn5Rein",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 5",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;4, 17",
+            "wait;250",
+            "add_group;Rein4;Rein4;immediate;push",
+            "flicker_cursor;3, 17",
+            "flicker_cursor;4, 17",
+            "wait;250",
+            "add_portrait;SoldierRed;Left",
+            "speak;SoldierRed;That one hiding in the boxes looks rich!|Let's get 'im!",
+            "remove_portrait;SoldierRed",
+            "move_cursor;5, 0",
+            "wait;250",
+            "flicker_cursor;5, 0",
+            "move_cursor;12, 0",
+            "flicker_cursor;12, 0",
+            "wait;250"
+        ]
+    }
+]

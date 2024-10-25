@@ -1,0 +1,116 @@
+[
+    {
+        "nid": "Elwynn",
+        "name": "Elwynn",
+        "desc": "A former vagabond turned holy monk.\nStern and generally unpleasant.",
+        "variant": "",
+        "level": 1,
+        "klass": "Monk",
+        "tags": [
+            "Adult"
+        ],
+        "bases": {
+            "HP": 12,
+            "STR": 0,
+            "MAG": 4,
+            "SKL": 4,
+            "SPD": 3,
+            "LCK": 1,
+            "DEF": 2,
+            "RES": 3,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 0,
+            "STR": 0,
+            "MAG": 15,
+            "SKL": 15,
+            "SPD": 0,
+            "LCK": 10,
+            "DEF": 5,
+            "RES": 5,
+            "CON": 0,
+            "MOV": 5
+        },
+        "stat_cap_modifiers": {
+            "MOV": 0,
+            "HP": 0,
+            "STR": 0,
+            "MAG": 0,
+            "CON": 0,
+            "LCK": 0,
+            "SKL": 0,
+            "SPD": 0,
+            "DEF": 0,
+            "RES": 0
+        },
+        "starting_items": [],
+        "learned_skills": [
+            [
+                1,
+                "Protector"
+            ],
+            [
+                1,
+                "Shove"
+            ],
+            [
+                1,
+                "ElwynnSkill"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0,
+                251
+            ],
+            "Lance": [
+                true,
+                0,
+                251
+            ],
+            "Axe": [
+                false,
+                0,
+                251
+            ],
+            "Bow": [
+                false,
+                0,
+                251
+            ],
+            "Staff": [
+                false,
+                0,
+                251
+            ],
+            "Light": [
+                false,
+                0,
+                251
+            ],
+            "Anima": [
+                false,
+                0,
+                251
+            ],
+            "Dark": [
+                false,
+                0,
+                251
+            ],
+            "Default": [
+                false,
+                0,
+                251
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Elwynn",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "nid": "AlpinSupportChild",
+        "name": "Support Partner: Alpin",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "condition",
+                "get_support_rank(unit, 'Alpin') == '1'"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,66 @@
+[
+    {
+        "nid": "Motivate",
+        "name": "<yellow>Motivate</>",
+        "desc": "Refreshes target ally and grants them +1 to all stats for 1 turn.",
+        "icon_nid": "PersonalSkills",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "exp",
+                11
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    85,
+                    255
+                ]
+            ],
+            [
+                "refresh",
+                null
+            ],
+            [
+                "cooldown",
+                1
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Play_Cast"
+            ],
+            [
+                "status_on_hit",
+                "Motivated"
+            ],
+            [
+                "eval_target_restrict_2",
+                "target.team == 'player'"
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ]
+        ]
+    }
+]

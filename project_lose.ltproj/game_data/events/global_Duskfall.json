@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Duskfall",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;non_bosses;[u for u in game.level.units if u.team in 'enemy' and u.generic]",
+            "    sound;Eclipse3",
+            "    map_anim;Map_Duskfall_Unit;{non_bosses}",
+            "    set_current_hp;{non_bosses};{e:u('{non_bosses}').get_hp() - (u('{non_bosses}').get_hp()//2)}",
+            "endf",
+            "",
+            "if;unit.nid == 'Carlin'",
+            "    give_exp;Carlin;100",
+            "elif;unit.nid == 'Quinley'",
+            "    give_exp;Quinley;100",
+            "end"
+        ]
+    }
+]

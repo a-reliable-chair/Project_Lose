@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Entangled",
+        "name": "Entangled",
+        "desc": "-20 Avoid.",
+        "icon_nid": "Statuses",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "avoid",
+                -20
+            ],
+            [
+                "unit_anim",
+                "Map_Entangle_Unit"
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

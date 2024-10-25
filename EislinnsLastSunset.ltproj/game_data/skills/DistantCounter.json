@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "DistantCounter",
+        "name": "Distant Counter",
+        "desc": "Unit can counter from any distance.",
+        "icon_nid": "NonPlayerSkills2",
+        "icon_index": [
+            1,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "distant_counter",
+                null
+            ]
+        ]
+    }
+]

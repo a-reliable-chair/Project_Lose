@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "RangePlus2",
+        "name": "RangePlus2",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "modify_maximum_range",
+                2
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "name": "UnitSelect",
+        "trigger": "unit_select",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'{v:ReverseRecruitment}' == 'Yes'",
+            "    if;unit.nid == \"Orla\" and {v:ShaylaHouse} == 0",
+            "        map_anim;Map_Unit_Select;5,8;permanent",
+            "    elif;unit.nid == \"Aisla\" and {v:RaelinHouse} == 0",
+            "        map_anim;Map_Unit_Select;9,8;permanent",
+            "    elif;unit.nid == \"Corridon\" and {v:CarlinHouse} == 0",
+            "        map_anim;Map_Unit_Select;14,4;permanent",
+            "    end",
+            "else",
+            "    if;unit.nid == \"Shayla\" and {v:ShaylaHouse} == 0",
+            "        map_anim;Map_Unit_Select;5,8;permanent",
+            "    elif;unit.nid == \"Raelin\" and {v:RaelinHouse} == 0",
+            "        map_anim;Map_Unit_Select;9,8;permanent",
+            "    elif;unit.nid == \"Carlin\" and {v:CarlinHouse} == 0",
+            "        map_anim;Map_Unit_Select;14,4;permanent",
+            "    end",
+            "end",
+            ""
+        ]
+    }
+]

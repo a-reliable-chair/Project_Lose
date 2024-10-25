@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Turn4Rein",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;19, 9",
+            "wait;250",
+            "add_group;Rein3;Rein3;immediate;push",
+            "flicker_cursor;19, 9",
+            "flicker_cursor;19, 4",
+            "wait;250",
+            "add_portrait;SoldierRed;Right",
+            "speak;SoldierRed;Grab anything that isn't bolted down!",
+            "remove_portrait;SoldierRed"
+        ]
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Exchange",
+        "name": "Exchange",
+        "desc": "Twice per turn, unit can trade with <red>any</red> distant ally.\nUnit has convoy access.",
+        "icon_nid": "Exchange",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "ability",
+                "Exchange"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "charges_per_turn",
+                2
+            ]
+        ]
+    }
+]

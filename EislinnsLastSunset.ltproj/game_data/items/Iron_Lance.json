@@ -1,0 +1,54 @@
+[
+    {
+        "nid": "Iron Lance",
+        "name": "Iron Lance",
+        "desc": "",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "hit",
+                5
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "map_cast_anim",
+                "Map_Lance_Cast"
+            ]
+        ]
+    }
+]

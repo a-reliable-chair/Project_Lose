@@ -1,0 +1,28 @@
+[
+    {
+        "name": "WEXP++",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Sword'",
+            "    give_wexp;{unit2};Sword;15",
+            "elif;target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Lance'",
+            "    give_wexp;{unit2};Lance;15",
+            "elif;target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Axe'",
+            "    give_wexp;{unit2};Axe;15",
+            "elif;target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Bow'",
+            "    give_wexp;{unit2};Bow;15",
+            "elif;target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Light'",
+            "    give_wexp;{unit2};Light;15",
+            "elif;target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Anima'",
+            "    give_wexp;{unit2};Anima;15",
+            "elif;target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Dark'",
+            "    give_wexp;{unit2};Dark;15",
+            "end"
+        ]
+    }
+]

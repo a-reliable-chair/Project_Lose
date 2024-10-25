@@ -1,0 +1,26 @@
+[
+    {
+        "name": "FightWynnflaedAckerman",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == \"Ackerman\" and unit2.nid == \"Brassfield\") or (unit.nid == \"Brassfield\" and unit2.nid == \"Ackerman\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;(not has_skill(unit, 'Thrall')) and (not has_skill(unit2, 'Thrall'))",
+            "    hide_combat_ui",
+            "    add_portrait;Ackerman;LeftCorner",
+            "    speak;Ackerman;Eh?{w} Ye lost yer mind, girl?|Yer fightin' fer the wrong side!;center;;boss_convo_left",
+            "    remove_portrait;Ackerman",
+            "    add_portrait;Brassfield;RightCorner",
+            "    speak;Brassfield;No, Botwulf.{w} Not this time.{w}{clear}This time, I'm finally fighting for something worth my blade.;center;;boss_convo_right",
+            "    remove_portrait;Brassfield",
+            "    add_portrait;Ackerman;LeftCorner",
+            "    s;Ackerman;Pfeh!{w} Ye've really gone n' lost it!{w}{clear}Don't worry yer pretty little head, though{semicolon}{w} I'll put ye outta yer misery!;center;;boss_convo_left",
+            "    remove_portrait;Ackerman",
+            "    show_combat_ui",
+            "end"
+        ]
+    }
+]

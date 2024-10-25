@@ -1,0 +1,33 @@
+[
+    {
+        "name": "UnitWait",
+        "trigger": "unit_wait",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'{v:ReverseRecruitment}' == 'Yes'",
+            "    if;unit.nid == \"Elwynn\"",
+            "        remove_map_anim;Map_Unit_Select;9,1;no_warn",
+            "        remove_map_anim;Map_Unit_Select;15,0;no_warn",
+            "    elif;unit.nid == \"Shayla\"",
+            "        remove_map_anim;Map_Unit_Select;9,1;no_warn",
+            "    elif;unit.nid == \"Raelin\"",
+            "        remove_map_anim;Map_Unit_Select;15,0;no_warn",
+            "    end",
+            "else",
+            "    if;unit.nid == \"Elspeth\"",
+            "        remove_map_anim;Map_Unit_Select;9,1;no_warn",
+            "        remove_map_anim;Map_Unit_Select;15,0;no_warn",
+            "    elif;unit.nid == \"Orla\"",
+            "        remove_map_anim;Map_Unit_Select;9,1;no_warn",
+            "    elif;unit.nid == \"Ailsa\"",
+            "        remove_map_anim;Map_Unit_Select;15,0;no_warn",
+            "    end",
+            "end",
+            ""
+        ]
+    }
+]

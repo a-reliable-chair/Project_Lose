@@ -1,0 +1,47 @@
+[
+    {
+        "nid": "Burning",
+        "name": "Burning",
+        "desc": "On fire! 3 damage each turn.\n-1 SKL/SPD/DEF/RES.",
+        "icon_nid": "Statuses",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "upkeep_damage",
+                3
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        -1
+                    ],
+                    [
+                        "SPD",
+                        -1
+                    ],
+                    [
+                        "DEF",
+                        -1
+                    ],
+                    [
+                        "RES",
+                        -1
+                    ]
+                ]
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "condition",
+                "unit.team == 'enemy'"
+            ]
+        ]
+    }
+]

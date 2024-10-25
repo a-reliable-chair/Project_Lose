@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn3Rein",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;0, 2",
+            "wait;250",
+            "add_unit;Rein_1;0, 2;immediate;push;west",
+            "wait;250",
+            "move_cursor;0, 10",
+            "add_unit;Rein_2;0, 10;immediate;push;west",
+            "wait;250"
+        ]
+    }
+]

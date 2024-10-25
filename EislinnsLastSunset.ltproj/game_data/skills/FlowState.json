@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "FlowState",
+        "name": "Flow State",
+        "desc": "Unit's defenses are reduced to 0 until next turn!",
+        "icon_nid": "PersonalSkills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "stat_multiplier",
+                [
+                    [
+                        "DEF",
+                        0.0
+                    ],
+                    [
+                        "RES",
+                        0
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ],
+            [
+                "unit_flickering_tint",
+                [
+                    184,
+                    0,
+                    0
+                ]
+            ]
+        ]
+    }
+]

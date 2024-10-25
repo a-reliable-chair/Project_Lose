@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Lose2",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.turncount == 10 and game.mode.nid != 'Normal'",
+            "    change_objective_simple;Rout Fodder,<green>Last Turn</>",
+            "end",
+            "if;game.turncount == 11 and game.mode.nid != 'Normal'",
+            "    alert;You took too long to clear the enemies!",
+            "    lose_game",
+            "end"
+        ]
+    }
+]

@@ -1,0 +1,21 @@
+[
+    {
+        "name": "FightDavenport",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == \"Davenport\" and unit2.nid != \"Brassfield\") or (unit.nid != \"Brassfield\" and unit.nid == \"Davenport\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;game.get_unit('Davenport').team == 'enemy'",
+            "    hide_combat_ui",
+            "    add_portrait;Davenport;LeftCorner",
+            "    s;Davenport;You were lucky to get past me once.{w}{clear}And it looks to me that your{br}luck's run out.{w} Such a shame.;center;;boss_convo_left",
+            "    remove_portrait;Davenport",
+            "    show_combat_ui",
+            "end",
+            ""
+        ]
+    }
+]

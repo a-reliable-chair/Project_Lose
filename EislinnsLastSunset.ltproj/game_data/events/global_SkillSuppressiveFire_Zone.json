@@ -1,0 +1,27 @@
+[
+    {
+        "name": "SkillSuppressiveFire_Zone",
+        "trigger": "enemy_turn_change",
+        "level_nid": null,
+        "condition": "u('Garvey').position",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "lvar;GarveySpots;0",
+            "lvar;ValidLocs;[x for x in game.target_system.get_adjacent_positions(u('Garvey').position)]",
+            "lvar;GarvPosition;u('Garvey').position",
+            "for;size;range(2)",
+            "    for;sets_r_cringe;{v:ValidLocs}",
+            "        lvar;ValidLocs;{v:ValidLocs} + [v for v in game.target_system.get_adjacent_positions({sets_r_cringe}) if v not in {v:ValidLocs}]",
+            "    endf",
+            "endf",
+            "#map_anim;Target_3x3;{e:u('Garvey').position};permanent",
+            "for;cross;[p for p in {v:ValidLocs} if not game.board.get_unit(p)]",
+            "    add_region;{e:'Garve_' + str({v:GarveySpots})};{cross};1,1;event;Garvey_Shot;interrupt_move",
+            "    map_anim;Map_Suppressive_Fire;{e:'Garve_' + str({v:GarveySpots})};permanent",
+            "    inc_level_var;GarveySpots",
+            "endf"
+        ]
+    }
+]

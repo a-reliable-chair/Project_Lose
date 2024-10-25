@@ -1,0 +1,18 @@
+[
+    {
+        "name": "RaelinResolve",
+        "trigger": "combat_end",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:RaelinAckerman} == 1 and game.check_alive('Raelin')",
+            "    alert;Raelin strengthens her resolve!",
+            "    inc_level_var;RaelinAckerman;1",
+            "    inc_game_var;RaelinBoss;1",
+            "end"
+        ]
+    }
+]

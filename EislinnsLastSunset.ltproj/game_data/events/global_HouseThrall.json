@@ -1,0 +1,27 @@
+[
+    {
+        "name": "HouseThrall",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "give_item;Quinley;SoulRend",
+            "",
+            "",
+            "if;not has_achievement('43')",
+            "    update_achievement;43;A Ghastly Visitor;But how did the Thrall make that...?",
+            "    complete_achievement;43;1;banner",
+            "end",
+            "inc_game_var;InstructionsUnclear;1",
+            "",
+            "if;not RECORDS.get(\"ThrallVisit\")",
+            "    speak;;If a Thrall visits a house, the regular visit is replaced by Quinley acquiring <yellow>Soul Rend</>.{w}{clear}These visits are considered <red>generic</> for the <green>Instructions Unclear</> Achievement.;;;hint;;;text",
+            "    update_record;ThrallVisit;True",
+            "    add_lore;ThrallVisits",
+            "end"
+        ]
+    }
+]

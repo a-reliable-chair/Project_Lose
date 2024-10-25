@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Motivate",
+        "name": "Motivate",
+        "desc": "Once per turn, refresh target ally and grant them +1 to all stats for 1 turn.",
+        "icon_nid": "PersonalSkills",
+        "icon_index": [
+            1,
+            7
+        ],
+        "components": [
+            [
+                "ability",
+                "Motivate"
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Door3",
+        "trigger": "<yellow>Entrance</yellow>",
+        "level_nid": "2",
+        "condition": "region.nid == 'Door3'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "sound;Unlock",
+            "show_layer;BotDoor",
+            "if;unit.team == 'player' and unit.nid != 'Thrall'",
+            "    give_exp;{unit};20",
+            "end",
+            "has_traded;{unit}",
+            "if;game.check_alive('Emberson')",
+            "    move_cursor;Emberson",
+            "    flicker_cursor;Emberson",
+            "    add_portrait;Emberson;Left",
+            "    speak;Emberson;Ah-ha!{w} Smoked 'em out boys!|Time for the fun part!",
+            "    remove_portrait;Emberson",
+            "    change_ai;Emberson;Yolo",
+            "end"
+        ]
+    }
+]

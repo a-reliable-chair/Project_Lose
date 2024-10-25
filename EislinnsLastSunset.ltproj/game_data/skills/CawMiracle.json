@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "CawMiracle",
+        "name": "Miracle",
+        "desc": "Something happens when he's about to die...\n<red>Cannot</red> be removed.",
+        "icon_nid": "Statuses",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "TrueMiracle",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

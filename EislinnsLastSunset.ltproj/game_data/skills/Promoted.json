@@ -1,0 +1,51 @@
+[
+    {
+        "nid": "Promoted",
+        "name": "Promoted",
+        "desc": "+5 HP, +1 STR/MAG/SKL/DEF/RES.",
+        "icon_nid": "NonPlayerSkills2",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "HP",
+                        5
+                    ],
+                    [
+                        "STR",
+                        1
+                    ],
+                    [
+                        "MAG",
+                        1
+                    ],
+                    [
+                        "SKL",
+                        1
+                    ],
+                    [
+                        "DEF",
+                        1
+                    ],
+                    [
+                        "RES",
+                        1
+                    ]
+                ]
+            ],
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "unit_anim",
+                "Map_MiniBoss_icon"
+            ]
+        ]
+    }
+]

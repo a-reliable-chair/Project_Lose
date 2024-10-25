@@ -1,0 +1,21 @@
+[
+    {
+        "name": "StaffRangePlusWait",
+        "trigger": "unit_wait",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "if;unit.wexp['Staff'] >= 31 and not get_skill(unit, 'RangePlus1') and not get_skill(unit, 'RangePlus2')",
+            "    alert;Range +1!",
+            "    give_skill;{unit};RangePlus1;no_banner",
+            "elif;unit.wexp['Staff'] == 41 and not get_skill(unit, 'RangePlus2')",
+            "    alert;Range +1!",
+            "    remove_skill;{unit};RangePlus1",
+            "    give_skill;{unit};RangePlus2;no_banner",
+            "end"
+        ]
+    }
+]

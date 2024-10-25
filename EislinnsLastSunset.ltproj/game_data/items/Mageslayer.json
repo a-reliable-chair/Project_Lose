@@ -1,0 +1,85 @@
+[
+    {
+        "nid": "Mageslayer",
+        "name": "Mageslayer",
+        "desc": "Effective against caster units.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "hit",
+                5
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                8
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "crit",
+                5
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Caster"
+                    ],
+                    "effective_multiplier": 3.0,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "eval_warning",
+                "'Caster' in unit.tags"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Sword_Cast"
+            ]
+        ]
+    }
+]

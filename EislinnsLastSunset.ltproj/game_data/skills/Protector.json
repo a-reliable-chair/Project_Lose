@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Protector",
+        "name": "Protector",
+        "desc": "Unit is rescuing a <blue>Trainee</> and does not incur rescue penalties.",
+        "icon_nid": "PersonalSkills",
+        "icon_index": [
+            1,
+            9
+        ],
+        "components": [
+            [
+                "ignore_rescue_penalty",
+                null
+            ],
+            [
+                "condition",
+                "unit.traveler == 'Alpin' or unit.traveler == 'Carlin' or unit.traveler == 'Shayla' or unit.traveler == 'Raelin'"
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ]
+        ]
+    }
+]

@@ -1,0 +1,61 @@
+[
+    {
+        "nid": "Thrall",
+        "name": "Thrall",
+        "desc": "This unit has been revived with reduced stats!",
+        "icon_nid": "PersonalSkills",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "stat_change_expression",
+                [
+                    [
+                        "HP",
+                        "1-unit.stats['HP']"
+                    ],
+                    [
+                        "DEF",
+                        "-unit.stats['DEF']"
+                    ],
+                    [
+                        "RES",
+                        "-unit.stats['RES']"
+                    ],
+                    [
+                        "LCK",
+                        "-unit.stats['LCK']"
+                    ],
+                    [
+                        "SPD",
+                        "-unit.stats['SPD']"
+                    ]
+                ]
+            ],
+            [
+                "cannot_trade",
+                null
+            ],
+            [
+                "exp_multiplier",
+                0
+            ],
+            [
+                "wexp_multiplier",
+                0
+            ],
+            [
+                "movement_type",
+                "Fliers"
+            ],
+            [
+                "has_tags",
+                [
+                    "Thrall"
+                ]
+            ]
+        ]
+    }
+]

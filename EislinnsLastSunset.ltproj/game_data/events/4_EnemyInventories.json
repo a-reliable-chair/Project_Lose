@@ -1,0 +1,26 @@
+[
+    {
+        "name": "EnemyInventories",
+        "trigger": "level_start",
+        "level_nid": "4",
+        "condition": "",
+        "commands": [],
+        "only_once": false,
+        "priority": 21,
+        "_source": [
+            "if;game.mode.nid != 'Lunatic' and '{v:EnemyReverse}' == 'Reversal'",
+            "    # Reversal Enemy Inventories",
+            "elif;game.mode.nid == 'Lunatic' and '{v:EnemyReverse}' == 'Reversal'",
+            "    # Reversal Lunatic Enemy Inventories",
+            "elif;game.mode.nid != 'Lunatic' and '{v:EnemyReverse}' == 'Double'",
+            "    # Double Reversal Enemy Inventories",
+            "elif;game.mode.nid == 'Lunatic' and '{v:EnemyReverse}' == 'Double'",
+            "    # Double Reversal Lunatic Inventories",
+            "elif;game.mode.nid == 'Lunatic' and '{v:EnemyReverse}' == 'No Reversal'",
+            "    # Lunatic Enemy Inventories",
+            "else",
+            "    # Regular enemy Inventories",
+            "end"
+        ]
+    }
+]
