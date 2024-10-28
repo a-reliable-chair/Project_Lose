@@ -45,7 +45,7 @@
             "sound;Forblaze2",
             "remove_portrait;SCarlin",
             "\t# Carlin fires the spell at a training dummy, but it goes wide, incinerating a fence and blasting him backwards",
-            "s;SCarlin;Aw heck...{w} That wasn't right.",
+            "s;Carlin;Aw heck...{w} That wasn't right.",
             "s;SCarlinGrandpa;You...{w} you fool boy!{w} What did I just tell you!",
             "add_portrait;SCarlin;Left",
             "s;SCarlin;Huh?{w} What're you so upset about?{w} It's just a fence.|I'll even fix it myself, promise!",

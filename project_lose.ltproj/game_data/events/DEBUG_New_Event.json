@@ -1,0 +1,40 @@
+[
+    {
+        "name": "New Event",
+        "trigger": null,
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "    s;;With his thirst for revenge sated,{w}\u2028Laisren had doomed the land to an age of darkness and subjugation.{w} And so,{w}\u2028the sun sets on Eislinn.{w} The town with darkness in its heart,{w} a darkness so deep and so vile{w} that it infects even its noblest and gentlest hearts...;center;;hint;;;text",
+            "end",
+            "",
+            "",
+            "",
+            "trigger_script;Global DeadUnitsRekill",
+            "",
+            "end_skip",
+            "",
+            "if;not RECORDS.get(\"NormalCleared\")",
+            "    unlock_difficulty;Hard",
+            "    speak;;You've unlocked:{br}<red>Hard Mode</>!;;;hint;;;text",
+            "    speak;;You've unlocked:{br}<purple>The Jukebox</>!|You can now change map and prep themes from the menu.;;;hint;;;text",
+            "    update_record;NormalCleared;True",
+            "end",
+            "if;game.mode.nid == 'Hard' and not RECORDS.get(\"HardCleared\")",
+            "    unlock_difficulty;Lunatic",
+            "    speak;;You unlocked:{br}<red>Lunatic Mode</>!;;;hint;;;text",
+            "    speak;;You've unlocked:{br}<purple>Bonus Modes</>!|You can now select <light-orange>Weapon Reversal</>, <orange>Double Reversal</>, and <red>Reverse Recruitment</> modes.;;;hint;;;text",
+            "    update_record;HardCleared;True",
+            "    update_record;BonusModes;True",
+            "end",
+            "",
+            "if;game.mode.nid == 'Lunatic' and not RECORDS.get(\"LunaticCleared\")",
+            "    speak;;You've unlocked:{br}<purple>Credits</>!|You can view them in the <green>Extras</> menu.;;;hint;;;text",
+            "    update_record;LunaticCleared;True",
+            "end"
+        ]
+    }
+]

@@ -4,7 +4,7 @@
         "name": "Free Actions",
         "title": "Free Actions",
         "category": "1. Mechanics",
-        "text": "Any item, ability, or command with <yellow>yellow</> text doesn't end a player unit's turn{br}They can even attack afterwards!"
+        "text": "Any item, ability, or command with <yellow>yellow</> text doesn't end a player unit's turn.{br}{br}They can even attack afterwards!"
     },
     {
         "nid": "Stats",
@@ -32,7 +32,7 @@
         "name": "Rescuing",
         "title": "Rescuing",
         "category": "1. Mechanics",
-        "text": "Rescuing a unit normally incurs a <red>-1 SPD</>/<red>SKL</> penalty{br}However, these penalties are waived when a <blue>Trainee</> unit is rescued by a <blue>Non-Trainee</> unit{br}Units can act after rescuing or any other associated action"
+        "text": "Rescuing a unit normally incurs a <red>-1 SPD</>/<red>SKL</> penalty.{br}{br}Units can act after rescuing or any other associated action.\nRescue penalties are waived when a <blue>Trainee</> unit is rescued by a <blue>Non-Trainee</> unit."
     },
     {
         "nid": "WeaponTriangle",
@@ -46,7 +46,7 @@
         "name": "Wep. Ranks",
         "title": "Weapon Ranks",
         "category": "1. Mechanics",
-        "text": "Most weapons don't require weapon ranks. Instead, characters gain Hit at rank A and S:{br}{br}A Rank: <yellow-green>+10 Hit</>{br}S Rank: <yellow-green>+20 Hit</>"
+        "text": "Most weapons don't require weapon ranks. Instead, characters gain Hit at rank A and S:{br}{br}A Rank: <yellow-green>+10 Hit</>{br}S Rank: <yellow-green>+20 Hit</>\nStaff users gain Range instead of Hit:{br}{br}A Rank: <yellow-green>+1 Range</>{br}S Rank: <yellow-green>+2 Range</>"
     },
     {
         "nid": "Convoy",
@@ -60,7 +60,7 @@
         "name": "Building",
         "title": "Building Supports",
         "category": "2. Supports",
-        "text": "Units can support with any other playable unit but are limited to <yellow-green>1 support partner</> at a time{br}Supports are unlocked after a chapter where both units are deployed\nEach pair only has 1 support rank{br}If either unit <red-orange>dies</>, the support is <red-orange>broken</>; allowing the surviving unit to support with a different unit"
+        "text": "Units can support with any other playable unit but are limited to <yellow-green>1 support partner</> at a time.\nSupports are unlocked after a chapter where both units are deployed.\nEach pair only has 1 support rank.{br}If either unit <red-orange>dies</>, the support is <red-orange>broken</>; allowing the surviving unit to support with a different unit."
     },
     {
         "nid": "SupportBonuses",
@@ -74,97 +74,97 @@
         "name": "General",
         "title": "General",
         "category": "3. Difficulty",
-        "text": "On <red>Hard</red>:{br}Inventories don't go to{br}convoy <red>on death</red>.{br}Prf weapons have <red>less</red> uses{br}Blessed weapons are <red>S Rank</red>{br}Enemies have higher growths\nOn <red>Lunatic</red>:{br}There is <red>no convoy</red>{br}There are <red>less</red> droppables{br}Some enemies have edited{br}inventories{br}Enemies have even higher growths and higher defences"
+        "text": "On <red>Hard</red>:{br}Inventories don't go to{br}convoy <red>on death</red>.{br}Prf weapons have <red>less</red> uses.{br}Blessed weapons are <red>S Rank</red>{br}Enemies have higher growths.\nOn <red>Lunatic</red>:{br}There is <red>no convoy</red>.{br}There are <red>less</red> droppables.{br}Some enemies have edited{br}inventories.{br}Enemies have even higher growths and higher defences."
     },
     {
         "nid": "Ch1",
         "name": "Ch1",
         "title": "Chapter 1",
         "category": "3. Difficulty",
-        "text": "On <red>Hard</red> you have <red>8 turns</red>{br}to escape"
+        "text": "On <red>Hard</red>:{br}You have <red>8 turns</red> to escape."
     },
     {
         "nid": "Ch2",
         "name": "Ch2",
         "title": "Chapter 2",
         "category": "3. Difficulty",
-        "text": "On <red>Hard</red> you have <red>10 turns</red>{br}to clear{br}{br}On <red>Lunatic</red> vision granted{br}from doors is <red>removed</red>"
+        "text": "On <red>Hard</red>:{br}You have <red>10 turns</red> to clear.{br}{br}On <red>Lunatic</red>:{br}Vision granted from doors is <red>removed</red>."
     },
     {
         "nid": "Ch3",
         "name": "Ch3",
         "title": "Chapter 3",
         "category": "3. Difficulty",
-        "text": "On <red>Hard</red> you have to{br}survive for <red>7 turns</red>{br}{br}On <red>Lunatic</red> any item pilfered{br}by thieves <red>disappears</red>"
+        "text": "On <red>Hard</red>:{br}You have to survive for <red>7 turns</red>.{br}{br}On <red>Lunatic</red>:{br}Any item pilfered by thieves <red>disappears</red>."
     },
     {
         "nid": "Ch4",
         "name": "Ch4",
         "title": "Chapter 4",
         "category": "3. Difficulty",
-        "text": "On <red>Hard</red> Cawthorne{br}arrives <red>earlier</red>{br}{br}On <red>Lunatic</red> any item pilfered{br}by thieves <red>disappears</red>"
+        "text": "On <red>Hard</red>:{br}Cawthorne arrives <red>earlier</red>.{br}{br}On <red>Lunatic</red>{br}Any item pilfered by thieves <red>disappears</red>."
     },
     {
         "nid": "Ch5",
         "name": "Ch5",
         "title": "Chapter 5",
         "category": "3. Difficulty",
-        "text": "On <red>Hard</red> Cawthorne has a <red>Second Stage</red>; He and his{br}lieutenants <red>charge earlier</red>{br}{br}On <red>Lunatic</red> Shallcross and Keeva also <red>charge</red>"
+        "text": "On <red>Hard</red>:{br}Cawthorne has a <red>Second Stage</red>;{br}He and his lieutenants <red>charge earlier</red>.{br}{br}On <red>Lunatic</red>:{br}Shallcross and Keeva also <red>charge</red>."
     },
     {
         "nid": "BonusModes",
         "name": "Modes",
         "title": "Bonus Modes",
         "category": "4. Modes",
-        "text": "<blue>Weapon Reversal</blue> Modes:{br}You can select <blue>WR</blue>/<blue>DR</blue> for player units and enemy units independently{br}<blue>Reverse Recruitment</blue> Mode is also independent!{br}Customize your playthrough!\n<blue>PRF Weapons</blue> change accordingly for player <blue>WR</blue>/<blue>DR</blue>{br}Droppable weapons also change accordingly for enemy <blue>WR</blue>/<blue>DR</blue>"
+        "text": "<blue>Weapon Reversal</blue> Modes:{br}You can select <light-orange>WR</light-orange>/<orange>DR</orange> for player units and enemy units independently{br}<red>Reverse Recruitment</red> Mode is also independent!{br}Customize your playthrough!\n<purple>PRF Weapons</purple> change accordingly for player <light-orange>WR</light-orange>/<orange>DR</orange>{br}Droppable weapons also change accordingly for enemy <light-orange>WR</light-orange>/<orange>DR</orange>."
     },
     {
         "nid": "WeaponReversal",
         "name": "W.Reversal",
         "title": "Weapon Reversal",
         "category": "4. Modes",
-        "text": "In <blue>Weapon Reversal</blue> Mode:{br}Units change classes to one that has weapon triangle advantage over their original class{br}Bow units become staffers and vice versa"
+        "text": "In <light-orange>Weapon Reversal</light-orange> Mode:{br}Units change classes to one that has weapon triangle advantage over their original class.{br}{br}Bow units become staffers and vice versa."
     },
     {
         "nid": "DoubleReversal",
         "name": "D.Reversal",
         "title": "Double Reversal",
         "category": "4. Modes",
-        "text": "In <blue>Double Reversal</blue> Mode:{br}Units change classes to one that their original class has weapon triangle advantage over{br}Bow and staff units retain their original classes"
+        "text": "In <orange>Double Reversal</orange> Mode:{br}Units change classes to one that their original class has weapon triangle advantage over.{br}{br}Bow and staff units retain their original classes."
     },
     {
         "nid": "ReverseRecruitment",
         "name": "R.Recruitment",
         "title": "Reverse Recruitment",
         "category": "4. Modes",
-        "text": "In <blue>Reverse Recruitment</blue> mode player units are recruited in <red>reverse</red> order.{br}Player units are autoleveled accordingly{br}Their houses are even reversed accordingly!\nFor the purposes of events:{br}<blue>Elspeth</blue> replaces <blue>Elwynn</blue>{br}<blue>Quinley</blue> replaces <blue>Lamonte</blue>, and <blue>Saraid</blue> replaces <blue>Garvey</blue>{br}<blue>Alpin</blue> replaces <blue>Laisren</blue> as the <red>Gotoh</red>"
+        "text": "In <red>Reverse Recruitment</red> mode player units are recruited in <red>reverse</red> order.{br}Player units are autoleveled accordingly.{br}Their houses are even reversed accordingly!\nFor the purposes of events:{br}<blue>Elspeth</blue> replaces <blue>Elwynn</blue>{br}<yellow>Quinley</yellow> replaces <yellow>Lamonte</yellow>, and <light-green>Saraid</light-green> replaces <light-green>Garvey</light-green>{br}<light-red>Alpin</light-red> replaces <light-red>Laisren</light-red> as the <red>Gotoh</red>."
     },
     {
         "nid": "ThrallVisits",
         "name": "Thrall Visits",
         "title": "Thrall Visits",
         "category": "5. Misc.",
-        "text": "When a <blue>Thrall</> visits a house <blue>Quinley</> acquires a powerful consumable instead of triggering the regular visit\nThralls can visit any house, and these count as <red>generic visits</> for the <green>Instructions Unclear</> Achievement\n<blue>Soul Rend</> removes all skills on an adjacent enemy, leaving them vulnerable!"
+        "text": "When a <blue>Thrall</> visits a house <blue>Quinley</> acquires a powerful consumable instead of triggering the regular visit.\nThralls can visit any house, and these count as <red>generic visits</> for the <green>Instructions Unclear</> Achievement.\n<blue>Soul Rend</> removes all skills on an adjacent enemy, leaving them vulnerable!"
     },
     {
         "nid": "Burning",
         "name": "Burning",
         "title": "Burning",
         "category": "5. Misc.",
-        "text": "<blue>Saraid</>'s Firestarter sets tiles ablaze with holy fire!{br}The fire spreads next turn to adjacent tiles{br}<red>Enemy Units</> who are on fire at take 4 damage on their turn{br}Also, they suffer -1 SKL/SPD/DEF/RES"
+        "text": "<blue>Saraid</>'s Firestarter sets tiles ablaze with holy fire!{br}The fire spreads next turn to adjacent tiles.{br}<red>Enemy Units</> who are on fire at take <red>4 damage</red> on their turn.{br}Also, they suffer <red>-1 SKL</red>/<red>SPD</red>/<red>DEF</red>/<red>RES</red>."
     },
     {
         "nid": "Visiting",
         "name": "Visiting",
         "title": "Visiting",
         "category": "5. Misc.",
-        "text": "Houses are labeled by which unit lives there{semicolon}{br}They or somebody close to them may have a unique experience when visiting\nVisit tiles will highlight upon unit select if they have a unique visit"
+        "text": "Houses are labeled by which unit lives there{semicolon}{br}They or somebody close to them may have a unique experience when visiting.\nVisit tiles will highlight upon unit select if they have a unique visit."
     },
     {
         "nid": "Thieves",
         "name": "Thieves",
         "title": "Thieves",
         "category": "5. Misc.",
-        "text": "Thieves <red>will never interact with player units</red>{br}{br}They just want to get loot, then get out!"
+        "text": "Thieves <red>will never</red> interact with <light-green>player units</light-green>{br}{br}They just want to get loot, then get out!"
     }
 ]

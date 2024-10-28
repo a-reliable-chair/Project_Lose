@@ -19,7 +19,7 @@
             "        change_music;other_phase;Onward",
             "    elif;'{v:Jukebox}' == 'Play Some Grooves!'",
             "        music_clear",
-            "        music;Hard Habit To Break",
+            "        music;Battlefield Blues",
             "        change_music;player_phase;Battlefield Blues",
             "        change_music;enemy_phase;Battlefield Blues",
             "        change_music;enemy2_phase;Battlefield Blues",

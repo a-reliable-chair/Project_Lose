@@ -2,7 +2,7 @@
     {
         "nid": "Flair",
         "name": "<purple>Flair</purple>",
-        "desc": "Elwynn Only.\nSteals an unequipped item from target.\nCan't miss, double, or kill.",
+        "desc": "Elwynn Only.\nAfter combat, steal an unequipped item from target.\nCan't double or kill.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -85,6 +85,10 @@
             [
                 "wexp",
                 5
+            ],
+            [
+                "hit",
+                15
             ]
         ]
     }

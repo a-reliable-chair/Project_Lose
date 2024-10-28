@@ -17,7 +17,7 @@
             "s;Thief1;What, that backscratcher?{w} If you really want.|I'm going for all the valuables I can, ehehe!",
             "multi_remove_portrait;Thief1;Thief2",
             "if;not RECORDS.get(\"Thieves\")",
-            "    s;;Thieves <red>will never interact with player units</red>.|They just want to get loot, then get out!;;;hint;;;text",
+            "    s;;Thieves <red>will never</red> interact with <light-green>player units</light-green>.|They just want to get loot, then get out!;;;hint;;;text",
             "    update_record;Thieves;True",
             "    add_lore;Thieves",
             "end"

@@ -81,6 +81,7 @@
             "    remove_portrait;Ackerman",
             "    wait;250",
             "end",
+            "music_clear",
             "if;not has_achievement('1')",
             "    update_achievement;1;Flashback: Shayla;Visit Shayla's house with Shayla",
             "end",

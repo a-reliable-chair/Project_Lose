@@ -12,7 +12,7 @@
             "    trigger_script;Global HouseThrall",
             "elif;'{v:ReverseRecruitment}' == 'Yes'",
             "    if;unit.nid == 'Laisren'",
-            "        trigger_script;Global HouseLaisren",
+            "        trigger_script;Global HouseAlpin",
             "    else",
             "        give_item;{unit};DEFBooster",
             "        give_exp;{unit};10",

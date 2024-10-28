@@ -107,6 +107,7 @@
             "    s;Alpin;Y-yeah!{w} You'll like what you see!{w}{clear}I trained so hard for you, a-and... to keep everybody safe.",
             "    multi_remove_portrait;Alpin;Laisren",
             "    inc_level_var;TraineeDeployed;1",
+            "            inc_level_var;GotohDeployed;1",
             "end",
             "if;u('Laisren').position and not u('Alpin').position",
             "    flicker_cursor;Laisren",
