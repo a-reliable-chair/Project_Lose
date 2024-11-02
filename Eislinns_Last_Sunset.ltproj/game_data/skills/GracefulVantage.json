@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "GracefulVantage",
+        "name": "Outplay",
+        "desc": "Always attacks first. When initiating combat, fully restore HP on takedowns.",
+        "icon_nid": "TraineeSkillUpgrades",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "vantage",
+                null
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

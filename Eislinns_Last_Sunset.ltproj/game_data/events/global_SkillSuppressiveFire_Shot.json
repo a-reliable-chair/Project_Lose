@@ -1,0 +1,28 @@
+[
+    {
+        "name": "SkillSuppressiveFire_Shot",
+        "trigger": "Garvey_Shot",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;not skill_system.check_ally(unit, u('Garvey')) and unit.faction != 'Looter'",
+            "    give_skill;Garvey;GarveyOverride;;no_banner",
+            "    if;u(\"Garvey\").klass == 'Cleric'",
+            "        interact_unit;Garvey;{unit};hit1;Hinder;force_no_animation",
+            "    else",
+            "        interact_unit;Garvey;{unit};;force_no_animation",
+            "    end",
+            "    remove_skill;Garvey;GarveyOverride;no_banner",
+            "end",
+            "if;not is_dead(unit.nid)",
+            "    set_unit_field;{unit};Supression;{e:int(-1 * utils.calculate_distance(unit.position, unit.previous_position))}",
+            "    give_skill;{unit};Suppressed;no_banner",
+            "    reset;{unit}",
+            "end",
+            "trigger_script;Global SkillSuppressiveFire_Cancel"
+        ]
+    }
+]

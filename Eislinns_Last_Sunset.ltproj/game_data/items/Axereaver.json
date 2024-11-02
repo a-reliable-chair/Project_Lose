@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "Axereaver",
+        "name": "Axereaver",
+        "desc": "Reverses the weapon triangle.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            5
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                0
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "uses",
+                8
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "reaver",
+                null
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "crit",
+                10
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "eval_warning",
+                "target.get_weapon() and item_system.weapon_type(target, target.get_weapon()) == 'Axe'"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Lance_Cast"
+            ]
+        ]
+    }
+]

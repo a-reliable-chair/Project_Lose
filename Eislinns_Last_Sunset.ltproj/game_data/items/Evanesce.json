@@ -1,0 +1,101 @@
+[
+    {
+        "nid": "Evanesce",
+        "name": "Evanesce",
+        "desc": "Set damage.\nCan't miss or target bosses.",
+        "icon_nid": "Dark",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    72,
+                    0,
+                    65
+                ]
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                2
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Boss' not in target.tags"
+            ],
+            [
+                "cannot_be_countered",
+                null
+            ],
+            [
+                "battle_cast_anim",
+                "Evanesce"
+            ],
+            [
+                "weapon_type",
+                "Dark"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Evanesce_Cast"
+            ],
+            [
+                "damage",
+                25
+            ],
+            [
+                "alternate_damage_formula",
+                "ZERO"
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ],
+            [
+                "crit",
+                0
+            ]
+        ]
+    }
+]

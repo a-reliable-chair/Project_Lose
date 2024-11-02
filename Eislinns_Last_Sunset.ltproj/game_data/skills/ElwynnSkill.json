@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "ElwynnSkill",
+        "name": "Treat",
+        "desc": "Restores (User's MAG + 2) HP.",
+        "icon_nid": "PersonalSkills",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "ability",
+                "Treat"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

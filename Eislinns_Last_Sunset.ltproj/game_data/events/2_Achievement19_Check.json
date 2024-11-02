@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Achievement19_Check",
+        "trigger": "unit_wait",
+        "level_nid": "2",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;not has_achievement('19') and has_item(\"BlessedRing\", party='Eirika') and has_item(\"TheReclaimer\", party='Eirika') and {v:GotKeys} == 0",
+            "    update_achievement;19;Didn't Even Need 'Em;Acquired relics without getting the Relic Key",
+            "    complete_achievement;19;1;banner",
+            "    inc_game_var;GotReclaimer;1",
+            "end",
+            "if;not has_achievement('19') and has_item(\"BlessedRing\", party='Eirika') and has_item(\"TheReclaimer_1\", party='Eirika') and {v:GotKeys} == 0",
+            "    update_achievement;19;Didn't Even Need 'Em;Acquired relics without getting the Relic Key",
+            "    complete_achievement;19;1;banner",
+            "    inc_game_var;GotReclaimer;1",
+            "end",
+            ""
+        ]
+    }
+]

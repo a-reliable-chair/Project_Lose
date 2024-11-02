@@ -1,0 +1,57 @@
+[
+    {
+        "nid": "SKLBooster",
+        "name": "<yellow>SKL++</>",
+        "desc": "Grants 2 SKL until end of chapter.",
+        "icon_nid": "Consumables2",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "status_on_hit",
+                "SKL"
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "PureWater"
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "Map_SKL_Cast"
+            ]
+        ]
+    }
+]

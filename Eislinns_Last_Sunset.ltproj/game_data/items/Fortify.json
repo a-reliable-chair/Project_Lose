@@ -1,0 +1,81 @@
+[
+    {
+        "nid": "Fortify",
+        "name": "Fortify",
+        "desc": "Restores (User's Magic * 2) HP to all allies within MAG * 2 tiles.",
+        "icon_nid": "Staff",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "weapon_type",
+                "Staff"
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                66
+            ],
+            [
+                "equation_heal",
+                "MAG2"
+            ],
+            [
+                "unrepairable",
+                null
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ],
+            [
+                "map_target_cast_anim",
+                "Map_Heal_Cast"
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    96,
+                    144,
+                    232
+                ]
+            ],
+            [
+                "eval_ally_smartblast_aoe",
+                "unit.stats['MAG']*2"
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ]
+        ]
+    }
+]

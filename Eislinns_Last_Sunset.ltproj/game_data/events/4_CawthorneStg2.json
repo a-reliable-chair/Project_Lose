@@ -1,0 +1,26 @@
+[
+    {
+        "name": "CawthorneStg2",
+        "trigger": "combat_end",
+        "level_nid": "4",
+        "condition": "game.mode.nid != 'Normal' and u('Cawthorne').get_hp() == 1",
+        "commands": [],
+        "only_once": true,
+        "priority": 21,
+        "_source": [
+            "if;{v:Ch5Outro} == 1",
+            "else",
+            "    move_cursor;Cawthorne",
+            "    flicker_cursor;Cawthorne",
+            "    add_portrait;Cawthorne;Right",
+            "    s;Cawthorne;Grgh!{w} I've had it with these bumpkins and their arrogance!{w}{clear}My armour, my sword arm, my very existence is blessed by the Goddess!{w}{clear}I will not fall in some backwater nowhere like this!{w} I will not!{w}{clear}The Goddess protects me!{w} Your fight is meaningless!{w} So just die already!",
+            "    remove_portrait;Cawthorne",
+            "    remove_skill;Cawthorne;CawMiracle;no_banner",
+            "    change_stats;Cawthorne;STR,2,SKL,2,SPD,2;immediate",
+            "    set_current_hp;Cawthorne;25",
+            "    change_ai;Cawthorne;Yolo",
+            "    inc_level_var;CawthorneStg2;1",
+            "end"
+        ]
+    }
+]

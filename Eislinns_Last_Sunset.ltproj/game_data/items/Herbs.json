@@ -1,0 +1,49 @@
+[
+    {
+        "nid": "Herbs",
+        "name": "<yellow>Herbs</>",
+        "desc": "Restores 4 HP.",
+        "icon_nid": "Consumable",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "usable",
+                null
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                2
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "heal",
+                4
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "unrepairable",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Herb_Cast"
+            ]
+        ]
+    }
+]

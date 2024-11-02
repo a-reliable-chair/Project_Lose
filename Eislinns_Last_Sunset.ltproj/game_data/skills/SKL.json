@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "SKL",
+        "name": "Skill+",
+        "desc": "Skill temporarily increased. ",
+        "icon_nid": "Stats",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "SKL",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "lost_on_end_chapter",
+                null
+            ]
+        ]
+    }
+]

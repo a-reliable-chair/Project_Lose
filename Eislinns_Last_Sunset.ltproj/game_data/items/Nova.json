@@ -1,0 +1,96 @@
+[
+    {
+        "nid": "Nova",
+        "name": "<purple>Nova</>",
+        "desc": "Elwynn and Elspeth Only.\nDamages all enemies.",
+        "icon_nid": "Light",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                2
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "crit",
+                25
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    255,
+                    255,
+                    0
+                ]
+            ],
+            [
+                "prf_unit",
+                [
+                    "Elwynn",
+                    "Elspeth"
+                ]
+            ],
+            [
+                "map_target_cast_anim",
+                "Map_Nova_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "all_enemies_aoe",
+                null
+            ],
+            [
+                "cannot_be_countered",
+                null
+            ],
+            [
+                "cannot_counter",
+                null
+            ],
+            [
+                "global_range",
+                null
+            ]
+        ]
+    }
+]

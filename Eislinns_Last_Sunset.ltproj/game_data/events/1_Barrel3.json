@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Barrel3",
+        "trigger": "unit_death",
+        "level_nid": "1",
+        "condition": "unit.nid == \"Barrel_3\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "# Show destruction anim",
+            "map_anim;Snag;{position}",
+            "# Show the new layer",
+            "show_layer;Box3",
+            "if;game.check_alive('Leod')",
+            "    flicker_cursor;Leod",
+            "    add_portrait;Leod;Right",
+            "    bop_portrait;Leod",
+            "    speak;Leod;NOT LIKE THIS!{w} SOMEBODY HELP!",
+            "    remove_portrait;Leod",
+            "end",
+            "inc_level_var;BrokenBarrel;1"
+        ]
+    }
+]

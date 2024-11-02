@@ -1,0 +1,30 @@
+[
+    {
+        "name": "GenericsAutoLevel",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.level.nid == '1'",
+            "    for;enemy_generics;[u for u in game.level.units if u.team in ['enemy', 'enemy2'] and u.generic]",
+            "        autolevel_to;{enemy_generics};2;random",
+            "    endf",
+            "elif;game.level.nid == '2'",
+            "    for;enemy_generics;[u for u in game.level.units if u.team in ['enemy', 'enemy2'] and u.generic]",
+            "        autolevel_to;{enemy_generics};3;random",
+            "    endf",
+            "elif;game.level.nid == '3'",
+            "    for;enemy_generics;[u for u in game.level.units if u.team in ['enemy', 'enemy2'] and u.generic]",
+            "        autolevel_to;{enemy_generics};4;random",
+            "    endf",
+            "elif;game.level.nid == '4'",
+            "    for;enemy_generics;[u for u in game.level.units if u.team in ['enemy', 'enemy2'] and u.generic]",
+            "        autolevel_to;{enemy_generics};5;random",
+            "    endf",
+            "end"
+        ]
+    }
+]

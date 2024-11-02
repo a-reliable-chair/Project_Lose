@@ -1,0 +1,35 @@
+[
+    {
+        "name": "FightBrassfield",
+        "trigger": "combat_start",
+        "level_nid": "1",
+        "condition": "(unit.nid == \"Brassfield\" and unit2.team == 'player') or (unit2.nid == \"Brassfield\" and unit.team == 'player' )",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:BossMusic} == 0",
+            "    music;With Every Odd Against Us",
+            "    change_music;player_phase;With Every Odd Against Us",
+            "    change_music;enemy_phase;With Every Odd Against Us",
+            "    change_music;other_phase;With Every Odd Against Us",
+            "    change_music;enemy2_phase;With Every Odd Against Us",
+            "    set_custom_options;Codex,Achievements;true,true;Open the Codex.,Check Achievements.;Menu_Codex,CallAchievements",
+            "    inc_level_var;BossMusic;1",
+            "end",
+            "if;'{v:BrassfieldQuote}' == 0",
+            "    hide_combat_ui",
+            "    add_portrait;Brassfield;LeftCorner",
+            "    speak;Brassfield;{c:expression;Brassfield;CloseEyes}I didn't want it come to this...|{c:expression;Brassfield;HalfCloseEyes}Ready your blade. I can't hold back now.;center;;boss_convo_left",
+            "    remove_portrait;Brassfield",
+            "    show_combat_ui",
+            "    inc_level_var;BrassfieldQuote;1",
+            "end",
+            "if;unit.nid == \"Raelin\" or unit2.nid == \"Raelin\"",
+            "    if;{v:RaelinVisited} == 1 and {v:RaelinBrassfield} == 0",
+            "        inc_level_var;RaelinBrassfield;1",
+            "    end",
+            "end"
+        ]
+    }
+]

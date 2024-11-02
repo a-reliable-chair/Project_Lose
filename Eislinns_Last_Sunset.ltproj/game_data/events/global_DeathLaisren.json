@@ -1,0 +1,26 @@
+[
+    {
+        "name": "DeathLaisren",
+        "trigger": "combat_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Laisren'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;{v:Ch5Outro} == 1",
+            "else",
+            "    hide_combat_ui",
+            "    music;Gone...",
+            "    add_portrait;Laisren;RightCorner",
+            "    expression;Laisren;HalfCloseEyes",
+            "    s;Laisren;No...{w} No!{w} I refuse to fall here!|Not when Alpin still needs me.|There's still so much more we{br}have to do...{w} I can't die here.|I'll fall back to the vanguard.|I can still get him to safety...;center;;boss_convo_right",
+            "    expression;Laisren;CloseEyes",
+            "    remove_portrait;Laisren",
+            "    music_fade_back",
+            "    inc_game_var;NoDeaths;1",
+            "    show_combat_ui",
+            "end"
+        ]
+    }
+]

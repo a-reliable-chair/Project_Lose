@@ -1,0 +1,42 @@
+[
+    {
+        "name": "UnitSelect",
+        "trigger": "unit_select",
+        "level_nid": "3",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;'{v:ReverseRecruitment}' == 'Yes'",
+            "    if;unit.nid == \"Saraid\" and {v:LeodHouse} == 0",
+            "        map_anim;Map_Unit_Select;13,2;permanent",
+            "    elif;unit.nid == \"Quinley\" and {v:LeodHouse} == 0",
+            "        map_anim;Map_Unit_Select;13,2;permanent",
+            "    elif;unit.nid == \"Laisren\" and {v:AlpinHouse} == 0",
+            "        map_anim;Map_Unit_Select;3,3;permanent",
+            "    elif;unit.nid == \"Carlin\" and {v:CorridonHouse} == 0",
+            "        map_anim;Map_Unit_Select;15,21;permanent",
+            "    end",
+            "else",
+            "    if;unit.nid == \"Lamonte\" and {v:LeodHouse} == 0",
+            "        map_anim;Map_Unit_Select;13,2;permanent",
+            "    elif;unit.nid == \"Garvey\" and {v:LeodHouse} == 0",
+            "        map_anim;Map_Unit_Select;13,2;permanent",
+            "    elif;unit.nid == \"Alpin\" and {v:AlpinHouse} == 0",
+            "        map_anim;Map_Unit_Select;3,3;permanent",
+            "    elif;unit.nid == \"Corridon\" and {v:CorridonHouse} == 0",
+            "        map_anim;Map_Unit_Select;15,21;permanent",
+            "    elif;unit.nid == \"Carlin\"",
+            "        if;{v:CarlinVisited} == 1 and {v:CarlinUpgraded} == 0 and get_item('Carlin', 'Lockpick')",
+            "            map_anim;Map_Unit_Select;18,21;permanent;overlay",
+            "        end",
+            "    elif;unit.nid == \"Shayla\"",
+            "        if;{v:ShaylaVisited} == 1 and{v:ShaylaUpgraded} == 0",
+            "            map_anim;Map_Unit_Select;7,17;permanent;overlay",
+            "        end",
+            "    end",
+            "end"
+        ]
+    }
+]

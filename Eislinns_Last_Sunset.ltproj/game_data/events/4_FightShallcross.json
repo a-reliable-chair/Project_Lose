@@ -1,0 +1,23 @@
+[
+    {
+        "name": "FightShallcross",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == \"Shallcross\" and unit2.team == 'player') or (unit2.nid == \"Shallcross\" and unit.team == 'player')",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;{v:Ch5Outro} == 1",
+            "else",
+            "    if;(not has_skill(unit, 'Thrall')) and (not has_skill(unit2, 'Thrall'))",
+            "        hide_combat_ui",
+            "        add_portrait;Shallcross;LeftCorner",
+            "        s;Shallcross;You stand before me, asking for a fight?{w}{clear}You wish to expedite your death, then?{w} Very well.{w}{clear}I shall oblige you your final wish{semicolon}{w} fall before me!;center;;boss_convo_left",
+            "        remove_portrait;Shallcross",
+            "        show_combat_ui",
+            "    end",
+            "end"
+        ]
+    }
+]

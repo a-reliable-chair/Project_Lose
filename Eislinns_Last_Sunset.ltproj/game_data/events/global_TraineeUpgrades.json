@@ -1,0 +1,16 @@
+[
+    {
+        "name": "TraineeUpgrades",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "speak;;Each of the 4 Trainees are able to either upgrade their personal skills via secret events.|They all share the common component of visiting their own houses.|These upgrades are only available in <yellow>Normal Recruitment</>.|Codex entries for each one will be unlocked as they're discovered.|All of the Codex entries will be revealed upon clearing <red>Lunatic</>.;;;hint;;;text",
+            "update_record;TraineeUpgrades;True",
+            "add_lore;TraineeUpgrades"
+        ]
+    }
+]

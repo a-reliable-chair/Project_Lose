@@ -1,0 +1,32 @@
+[
+    {
+        "name": "FightWynnflaedEmberson",
+        "trigger": "combat_start",
+        "level_nid": "4",
+        "condition": "(unit.nid == \"Emberson\" and unit2.nid == \"Brassfield\") or (unit.nid == \"Brassfield\" and unit2.nid == \"Emberson\")",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;(not has_skill(unit, 'Thrall')) and (not has_skill(unit2, 'Thrall'))",
+            "    hide_combat_ui",
+            "    add_portrait;Emberson;LeftCorner",
+            "    speak;Emberson;I should've known you'd betray us, but somehow I'm still surprised.|You and your bleeding heart.;center;;boss_convo_left",
+            "    remove_portrait;Emberson",
+            "    add_portrait;Brassfield;RightCorner",
+            "    s;Brassfield;Save it, Wilfrith.{w} Unlike you, I cannot stomach this slaughter.;center;;boss_convo_right",
+            "    remove_portrait;Brassfield",
+            "    add_portrait;Emberson;LeftCorner",
+            "    s;Emberson;Yes, I've noticed.{w} You never did have the guts for this work.{w}{clear}Suppose you've come to me to die, then, is that it?;center;;boss_convo_left",
+            "    remove_portrait;Emberson",
+            "    add_portrait;Brassfield;RightCorner",
+            "    s;Brassfield;Something like that.{w} You first?;center;;boss_convo_right",
+            "    remove_portrait;Brassfield",
+            "    add_portrait;Emberson;LeftCorner",
+            "    s;Emberson;Hah!{w} Still got some fire in you!|Let's see how long you've got until the last of it sputters out!;center;;boss_convo_left",
+            "    remove_portrait;Emberson",
+            "    show_combat_ui",
+            "end"
+        ]
+    }
+]

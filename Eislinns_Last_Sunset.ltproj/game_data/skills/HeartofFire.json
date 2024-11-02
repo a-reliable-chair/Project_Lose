@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "HeartofFire",
+        "name": "Fiery Heart",
+        "desc": "+1 STR/MAG. Fire affinity only.",
+        "icon_nid": "AnimaStatus",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "condition",
+                "unit.affinity == 'Fire'"
+            ],
+            [
+                "hidden_if_inactive",
+                null
+            ],
+            [
+                "damage",
+                1
+            ],
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        1
+                    ],
+                    [
+                        "MAG",
+                        1
+                    ]
+                ]
+            ]
+        ]
+    }
+]

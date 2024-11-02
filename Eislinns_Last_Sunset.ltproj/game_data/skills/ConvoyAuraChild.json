@@ -1,0 +1,28 @@
+[
+    {
+        "nid": "ConvoyAuraChild",
+        "name": "ConvoyAuraChild",
+        "desc": "",
+        "icon_nid": null,
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "hidden",
+                null
+            ],
+            [
+                "has_tags",
+                [
+                    "Convoy"
+                ]
+            ],
+            [
+                "condition",
+                "not has_skill(unit, 'Thrall')"
+            ]
+        ]
+    }
+]

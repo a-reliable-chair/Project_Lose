@@ -1,0 +1,73 @@
+[
+    {
+        "nid": "KillerLance",
+        "name": "Killer Lance",
+        "desc": "SPD -1.",
+        "icon_nid": "Lance",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                -5
+            ],
+            [
+                "weapon_type",
+                "Lance"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "crit",
+                30
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "status_on_equip",
+                "SPD1"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Lance_Cast"
+            ]
+        ]
+    }
+]

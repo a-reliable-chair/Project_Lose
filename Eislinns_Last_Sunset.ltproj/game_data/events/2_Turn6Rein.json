@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Turn6Rein",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 6",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;0, 17",
+            "add_unit;Soldier_16;0, 16;immediate;push;west",
+            "add_unit;Soldier_17;0, 17;immediate;push;west",
+            "wait;500"
+        ]
+    }
+]

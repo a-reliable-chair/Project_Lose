@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "HiddenMiracle",
+        "name": "True Miracle",
+        "desc": "Unit's HP cannot fall below 1 for 1 turn. <red>Cannot</red> be removed.",
+        "icon_nid": "Statuses",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "TrueMiracle",
+                null
+            ],
+            [
+                "hidden",
+                null
+            ],
+            [
+                "event_on_remove",
+                "Global GrantHiddenMiracle"
+            ]
+        ]
+    }
+]

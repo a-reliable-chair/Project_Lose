@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "HeartOfFrost",
+        "name": "<light-orange>Wintry Heart</light-orange>",
+        "desc": "Ice affinity only.\n+1 DEF/RES. ",
+        "icon_nid": "Accessory",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "HeartofFrost"
+            ]
+        ]
+    }
+]

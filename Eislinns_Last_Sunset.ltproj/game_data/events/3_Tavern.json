@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Tavern",
+        "trigger": "<yellow>Visit</yellow>",
+        "level_nid": "3",
+        "condition": "region.nid == 'Tavern'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;...And Forgotten",
+            "add_portrait;{unit};Left",
+            "",
+            "if;unit.nid == 'Thrall'",
+            "    speak;{unit};...",
+            "    remove_portrait;{unit}",
+            "    give_item;Quinley;Nova",
+            "else",
+            "    speak;{unit};...{w}Dead.{w} ...{w}Every one of them... slaughtered.|What's this?",
+            "    remove_portrait;{unit}",
+            "    give_item;{unit};Nova",
+            "    give_exp;{unit};40",
+            "end",
+            "",
+            "if;not has_achievement('22')",
+            "    update_achievement;22;Every Party Needs A Pooper;Visited the tavern in Ch4",
+            "    complete_achievement;22;1;banner",
+            "end",
+            "",
+            "has_traded;{unit}"
+        ]
+    }
+]

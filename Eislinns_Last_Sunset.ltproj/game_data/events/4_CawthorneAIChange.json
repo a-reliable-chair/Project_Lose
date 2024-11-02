@@ -1,0 +1,22 @@
+[
+    {
+        "name": "CawthorneAIChange",
+        "trigger": "combat_end",
+        "level_nid": "4",
+        "condition": "unit2.nid == \"Cawthorne\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;{v:Ch5Outro} == 1",
+            "else",
+            "    if;game.check_alive('Cawthorne') and {v:CawthorneCharge} == 0",
+            "        flicker_cursor;Cawthorne",
+            "        change_ai;Cawthorne;Yolo",
+            "        inc_level_var;CawthorneCharge;1",
+            "        alert;Cawthorne is on the attack!",
+            "    end",
+            "end"
+        ]
+    }
+]

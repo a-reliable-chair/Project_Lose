@@ -1,0 +1,31 @@
+[
+    {
+        "name": "Bulwark",
+        "trigger": "combat_end",
+        "level_nid": null,
+        "condition": "(unit1.team == 'player' and has_skill(unit1, 'CoveredChild')) or (unit2.team == 'player' and has_skill(unit2, 'CoveredChild'))",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit1.team == 'enemy' and item_system.resist_formula(unit, unit.get_weapon()) == 'DEFENSE'",
+            "    if;u('Lamonte').get_hp() > (u('Lamonte').get_stat('DEF')/2)",
+            "        set_current_hp;Lamonte;{e:u('Lamonte').get_hp() - (u('Lamonte').get_stat('DEF')//2)}",
+            "        give_exp;Lamonte;10",
+            "        if;u('Lamonte').get_hp() <= 1",
+            "            set_current_hp;Lamonte;1",
+            "        end",
+            "    end",
+            "end",
+            "if;unit2.team == 'enemy' and item_system.resist_formula(unit2, unit2.get_weapon()) == 'DEFENSE'",
+            "    if;u('Lamonte').get_hp() > (u('Lamonte').get_stat('DEF')/2)",
+            "        set_current_hp;Lamonte;{e:u('Lamonte').get_hp() - (u('Lamonte').get_stat('DEF')//2)}",
+            "        give_exp;Lamonte;10",
+            "        if;u('Lamonte').get_hp() <= 1",
+            "            set_current_hp;Lamonte;1",
+            "        end",
+            "    end",
+            "end"
+        ]
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Flow",
+        "name": "Flow",
+        "desc": "Once per turn, after killing an enemy on player phase, unit acts again, sacrificing their defenses until next turn.",
+        "icon_nid": "PersonalSkills",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "charges_per_turn",
+                1
+            ]
+        ]
+    }
+]

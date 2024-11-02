@@ -1,0 +1,72 @@
+[
+    {
+        "nid": "TheConqueror",
+        "name": "<blue>The Conqueror</>",
+        "desc": "Ignores weapon triangle.\nUses MAG and targets RES at range.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            9
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "weapon_rank",
+                "A"
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                15
+            ],
+            [
+                "damage",
+                4
+            ],
+            [
+                "hit",
+                0
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "magic_at_range",
+                null
+            ],
+            [
+                "ignore_weapon_advantage",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Conqueror_Cast"
+            ],
+            [
+                "item_tags",
+                [
+                    "BlessedWeapon"
+                ]
+            ],
+            [
+                "battle_cast_anim",
+                "TheConqueror"
+            ]
+        ]
+    }
+]

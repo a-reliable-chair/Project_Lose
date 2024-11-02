@@ -1,0 +1,69 @@
+[
+    {
+        "nid": "Junk8",
+        "name": "Junk8",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                360
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                8
+            ],
+            [
+                "hit",
+                80
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "uses",
+                45
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "alternate_damage_formula",
+                "ZERO"
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
+            ]
+        ]
+    }
+]

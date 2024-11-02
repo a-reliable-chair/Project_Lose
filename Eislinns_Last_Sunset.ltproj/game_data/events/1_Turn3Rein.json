@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Turn3Rein",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 3",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;0, 11",
+            "wait;250",
+            "add_group;Rein2;Rein2;immediate;push",
+            "flicker_cursor;0, 11",
+            "flicker_cursor;0, 12",
+            "wait;250",
+            "add_portrait;SoldierPurple;Left",
+            "speak;SoldierPurple;C'mon, soldiers.{w} Let's go for the coward!",
+            "remove_portrait;SoldierPurple"
+        ]
+    }
+]

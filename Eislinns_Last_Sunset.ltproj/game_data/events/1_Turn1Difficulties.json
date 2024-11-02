@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Turn1Difficulties",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;game.mode.nid == 'Hard' and not RECORDS.get(\"Ch2Hard\")",
+            "    s;;On Hard and Lunatic you have <red>10 turns</> to route the fodder.;;;hint;;;text",
+            "    add_lore;Ch2",
+            "    update_record;Ch2Hard;True",
+            "end",
+            "if;game.mode.nid == 'Lunatic' and not RECORDS.get(\"Ch2Lun\")",
+            "    s;;On Lunatic, all vision granted from doors are removed...;;;hint;;;text",
+            "    update_record;Ch2Lun;True",
+            "end"
+        ]
+    }
+]

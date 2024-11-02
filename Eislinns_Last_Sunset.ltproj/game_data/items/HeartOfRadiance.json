@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "HeartOfRadiance",
+        "name": "<light-orange>Radiant Heart</light-orange>",
+        "desc": "Holy affinity only.\n+15 Avoid. ",
+        "icon_nid": "Accessory",
+        "icon_index": [
+            0,
+            4
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "HeartofRadiance"
+            ]
+        ]
+    }
+]

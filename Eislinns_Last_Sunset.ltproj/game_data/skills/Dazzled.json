@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Dazzled",
+        "name": "Dazzled",
+        "desc": "-20 Hit.",
+        "icon_nid": "Statuses",
+        "icon_index": [
+            0,
+            7
+        ],
+        "components": [
+            [
+                "hit",
+                -20
+            ],
+            [
+                "negative",
+                null
+            ],
+            [
+                "unit_anim",
+                "Map_Dazzled_Unit"
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

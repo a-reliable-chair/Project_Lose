@@ -1,0 +1,34 @@
+[
+    {
+        "name": "RecordsWeaponRanks",
+        "trigger": "combat_end",
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 19,
+        "_source": [
+            "if;u('Alpin').wexp['Sword'] >= 6 and not RECORDS.get(\"WeaponRanks\")",
+            "    speak;;<orange>Most weapons</> don't require weapon ranks.|Instead, characters gain <green>Hit</> at rank <yellow>A</> and <yellow>S</>!|<yellow>A Rank</>: <purple>+10 Hit</>{br}<yellow>S Rank</>: <purple>+20 Hit</>;;;hint;;;text",
+            "    update_record;WeaponRanks;True",
+            "    add_lore;WeaponRanks",
+            "elif;u('Shayla').wexp['Axe'] >= 6 and not RECORDS.get(\"WeaponRanks\")",
+            "    speak;;<orange>Most weapons</> don't require weapon ranks.|Instead, characters gain <green>Hit</> at rank <yellow>A</> and <yellow>S</>!|<yellow>A Rank</>: <purple>+10 Hit</>{br}<yellow>S Rank</>: <purple>+20 Hit</>;;;hint;;;text",
+            "    update_record;WeaponRanks;True",
+            "    add_lore;WeaponRanks",
+            "elif;u('Raelin').wexp['Lance'] >= 6 and not RECORDS.get(\"WeaponRanks\")",
+            "    speak;;<orange>Most weapons</> don't require weapon ranks.|Instead, characters gain <green>Hit</> at rank <yellow>A</> and <yellow>S</>!|<yellow>A Rank</>: <purple>+10 Hit</>{br}<yellow>S Rank</>: <purple>+20 Hit</>;;;hint;;;text",
+            "    update_record;WeaponRanks;True",
+            "    add_lore;WeaponRanks",
+            "elif;u('Carlin').wexp['Dark'] >= 6 and not RECORDS.get(\"WeaponRanks\")",
+            "    speak;;<orange>Most weapons</> don't require weapon ranks.|Instead, characters gain <green>Hit</> at rank <yellow>A</> and <yellow>S</>!|<yellow>A Rank</>: <purple>+10 Hit</>{br}<yellow>S Rank</>: <purple>+20 Hit</>;;;hint;;;text",
+            "    update_record;WeaponRanks;True",
+            "    add_lore;WeaponRanks",
+            "elif;u('Elwynn').wexp['Light'] >= 21 and not RECORDS.get(\"WeaponRanks\")",
+            "    speak;;<orange>Most weapons</> don't require weapon ranks.|Instead, characters gain <green>Hit</> at rank <yellow>A</> and <yellow>S</>!|<yellow>A Rank</>: <purple>+10 Hit</>{br}<yellow>S Rank</>: <purple>+20 Hit</>;;;hint;;;text",
+            "    update_record;WeaponRanks;True",
+            "    add_lore;WeaponRanks",
+            "end"
+        ]
+    }
+]

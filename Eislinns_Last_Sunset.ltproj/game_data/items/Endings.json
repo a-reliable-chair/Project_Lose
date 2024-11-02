@@ -1,0 +1,50 @@
+[
+    {
+        "nid": "Endings",
+        "name": "Endings",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            11,
+            0
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "value",
+                360
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                13
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "alternate_damage_formula",
+                "ZERO"
+            ],
+            [
+                "alternate_resist_formula",
+                "ZERO"
+            ]
+        ]
+    }
+]

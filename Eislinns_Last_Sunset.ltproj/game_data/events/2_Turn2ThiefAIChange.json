@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Turn2ThiefAIChange",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 2",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "change_ai;Thief_1;Ch3_Thief",
+            "change_ai;Thief_2;Ch3_Thief",
+            ""
+        ]
+    }
+]

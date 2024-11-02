@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Flair",
+        "name": "Flair",
+        "desc": "Stun target then access their inventory.\nDoesn't affect <red>crit-immune</> units.\nChapter uses: 1.",
+        "icon_nid": "Flair",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Flair"
+            ]
+        ]
+    }
+]

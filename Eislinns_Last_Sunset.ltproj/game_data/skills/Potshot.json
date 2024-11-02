@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Potshot",
+        "name": "Potshot",
+        "desc": "Once per turn, act again after attacking from terrain with DEF boost.",
+        "icon_nid": "PersonalSkills",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "event_after_initiated_combat",
+                "Global SkillPotshot"
+            ]
+        ]
+    }
+]

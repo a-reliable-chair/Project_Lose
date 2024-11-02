@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "HeartOfGales",
+        "name": "<light-orange>Zephyrous Heart</light-orange>",
+        "desc": "Wind affinity only.\n+1 SPD. ",
+        "icon_nid": "Accessory",
+        "icon_index": [
+            0,
+            1
+        ],
+        "components": [
+            [
+                "status_on_hold",
+                "HeartofGales"
+            ]
+        ]
+    }
+]

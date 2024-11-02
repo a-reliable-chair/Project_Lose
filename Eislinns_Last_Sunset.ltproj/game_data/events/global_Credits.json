@@ -1,0 +1,40 @@
+[
+    {
+        "name": "Credits",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;RECORDS.get(\"LunaticCleared\")",
+            "    music;Thanks For Playing",
+            "    change_background;CreditEnd",
+            "    transition;open",
+            "    credits;A Game By;A Reliable Chair",
+            "    credits;Lex Talionis Engine;rainlash",
+            "    credits;Alpha Testing;A Reliable Chair,Leche,Lord Tweed,Xilirite",
+            "    credits;Additional Programming;Lord Tweed,Rasta,aorlnn",
+            "    credits;Map Design;A Reliable Chair",
+            "    credits;Tilesets;Beast,flasuban,hypergammaspaces,N426,RandomWizard,WAve,ZoramineFae",
+            "    credits;Plot;A Reliable Chair",
+            "    credits;Written by;Xilirite",
+            "    credits;Portraits;Cygnus776,Dutch Introvert,Fuyu,Helix0981,HusbandoEmblem,hypergammaspaces,LaurentLacroix,Lenh,Levin64,LittleKyng,Melia,Nuramon,Plant Academy,RandomWizard,SamirPlayz,Sphealnuke,SSHX,vlak",
+            "    credits;Battle Animations;Alfred Kamon,Alusq,BatimaTheBat,DerTheVaporeon,EldritchAbomination,Endelphia,epicer,FEAW,flasuban,Gav333,Intestine,Iscaneus,JeyTheCount,Leo Link,MeatOfJustice,Mikey Seregon,MK404,Nuramon,Oreostyx,Pikmin1211,Pushwall,Reromastah,Roxannity,Skitty,Solum,Spud,StruedelMuffin,Tatuta Chang,Team SALVAGED,Temp,The Big Dededester,TheBlindArcher,UltraFenix,UncleMikey,Vilk,Waleed",
+            "    credits;Map Sprites;Agro,Alusq,ArcherBias,Ash3wl,BatimaTheBat,Blademaster,DerTheVaporeon,epicer,flasuban,hypergammaspaces,JeyTheCount,L95,Leo Link,MeatOfJustice,N426,Norikins,Nuramon,Permafrost,Pikmin1211,Pushwall,Rasdel,StreetHero,Tatuta Chang,Team SALVAGED,topazlight,Vyland,Waleed",
+            "    credits;Spell Animations;A Reliable Chair",
+            "    credits;Item Icons;A Reliable Chair,2WB,AtelierLabs,Batima,Beansy,CardCafe,Celice,EldritchAbomination,Endelphia,Erishkgel,FuriousHaunter,George Reds,Kyrads,Leif,LordGlenn,Maxim,Ryan914,SmithyGCN,Snakey1,topazlight,Vilk,Zane,Zarg,Zelix",
+            "    credits;Skill Icons;A Reliable Chair,BlackMage,Fuyu,monkeybard,rainlash,ZessDynamite",
+            "    credits;User Interface;A Reliable Chair",
+            "    credits;Battle Backgrounds;Ripped from Final Fantasy GBA",
+            "    credits;Soundtrack Composed by;A Reliable Chair",
+            "    credits;Credit background;RisingSolaris",
+            "    credits;;The Lion Throne is a non-profit fangame, released for free, and developed using Python, Pygame, and the Lex Talionis engine. Many assets are copyrighted or trademarked by their respective owners.;center;no_split;wait",
+            "    credits;;Thanks For Playing, Friend;no_split;center;wait",
+            "    wait;5000",
+            "    transition;close;5000",
+            "end"
+        ]
+    }
+]

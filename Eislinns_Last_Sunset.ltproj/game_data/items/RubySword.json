@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "RubySword",
+        "name": "Ruby Sword",
+        "desc": "Doubles the weapon triangle.",
+        "icon_nid": "Sword",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                5
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Sword"
+            ],
+            [
+                "uses",
+                8
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "double_triangle",
+                null
+            ],
+            [
+                "warning",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "Map_Sword_Cast"
+            ]
+        ]
+    }
+]

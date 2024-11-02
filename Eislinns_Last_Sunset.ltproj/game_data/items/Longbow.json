@@ -1,0 +1,89 @@
+[
+    {
+        "nid": "Longbow",
+        "name": "Longbow",
+        "desc": "SPD -1.",
+        "icon_nid": "Bow",
+        "icon_index": [
+            0,
+            3
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                -10
+            ],
+            [
+                "weapon_type",
+                "Bow"
+            ],
+            [
+                "uses",
+                10
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "min_range",
+                3
+            ],
+            [
+                "max_range",
+                3
+            ],
+            [
+                "effective_damage",
+                {
+                    "effective_tags": [
+                        "Flying"
+                    ],
+                    "effective_multiplier": 3.0,
+                    "effective_bonus_damage": 0,
+                    "show_effectiveness_flash": true,
+                    "weapon_effectiveness_multiplied": true
+                }
+            ],
+            [
+                "status_on_equip",
+                "SPD1"
+            ],
+            [
+                "eval_warning",
+                "'Flying' in unit.tags"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Bow_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ]
+        ]
+    }
+]

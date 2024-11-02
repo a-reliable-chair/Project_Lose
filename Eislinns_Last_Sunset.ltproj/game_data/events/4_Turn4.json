@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Turn4",
+        "trigger": "turn_change",
+        "level_nid": "4",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;0, 10",
+            "wait;250",
+            "add_unit;T5Rein_1;0, 7;immediate;closest;west",
+            "wait;250",
+            "",
+            "move_cursor;21, 15",
+            "wait;250",
+            "add_unit;T5Rein_2;21, 15;immediate;closest;south",
+            "wait;250",
+            "",
+            "move_cursor;21, 0",
+            "wait;250",
+            "add_unit;T7Rein_2;21, 0;immediate;closest;north",
+            "wait;250"
+        ]
+    }
+]

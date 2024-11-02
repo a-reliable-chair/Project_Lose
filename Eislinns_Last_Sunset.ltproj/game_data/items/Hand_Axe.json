@@ -1,0 +1,77 @@
+[
+    {
+        "nid": "Hand Axe",
+        "name": "Hand Axe",
+        "desc": "SPD -3.",
+        "icon_nid": "Axe",
+        "icon_index": [
+            0,
+            2
+        ],
+        "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "max_range",
+                2
+            ],
+            [
+                "damage",
+                3
+            ],
+            [
+                "hit",
+                -10
+            ],
+            [
+                "crit",
+                0
+            ],
+            [
+                "uses",
+                8
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "weapon_type",
+                "Axe"
+            ],
+            [
+                "wexp",
+                2
+            ],
+            [
+                "status_on_equip",
+                "SPD3"
+            ],
+            [
+                "map_cast_anim",
+                "Map_Handaxe_Cast"
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ]
+        ]
+    }
+]

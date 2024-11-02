@@ -1,0 +1,14 @@
+[
+    {
+        "name": "BossDeathDavenportTrigger_1",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == \"Davenport\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "trigger_script;Global BossDeathDavenport"
+        ]
+    }
+]

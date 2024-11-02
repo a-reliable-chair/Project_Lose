@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Lose3",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;(game.turncount == 8 and game.mode.nid != 'Normal') or (game.turncount == 10 and game.mode.nid == 'Normal')",
+            "    change_objective_simple;Escape With All:,<green>Last Turn</>",
+            "end",
+            "if;(game.turncount == 9 and game.mode.nid != 'Normal') or (game.turncount == 11 and game.mode.nid == 'Normal')",
+            "    alert;You took too long to escape!",
+            "    lose_game",
+            "end"
+        ]
+    }
+]

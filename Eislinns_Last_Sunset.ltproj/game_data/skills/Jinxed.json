@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "Jinxed",
+        "name": "Jinxed",
+        "desc": "-2 Damage.",
+        "icon_nid": "Statuses",
+        "icon_index": [
+            2,
+            8
+        ],
+        "components": [
+            [
+                "negative",
+                null
+            ],
+            [
+                "damage",
+                -2
+            ],
+            [
+                "unit_anim",
+                "Map_Jinxed_Unit"
+            ],
+            [
+                "combined_time",
+                1
+            ]
+        ]
+    }
+]

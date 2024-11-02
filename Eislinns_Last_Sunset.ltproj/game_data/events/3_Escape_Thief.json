@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Escape_Thief",
+        "trigger": "Escape_Thief",
+        "level_nid": "3",
+        "condition": "unit.team == 'enemy'",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "flicker_cursor;{unit}",
+            "remove_unit;{unit};fade;south",
+            "sound;ItemBreak",
+            "alert;The thief got away!"
+        ]
+    }
+]

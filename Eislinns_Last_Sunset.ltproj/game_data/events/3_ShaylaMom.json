@@ -1,0 +1,29 @@
+[
+    {
+        "name": "ShaylaMom",
+        "trigger": "<yellow>Interact</yellow>",
+        "level_nid": "3",
+        "condition": "region.nid == 'ShaylaMom'",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "music;Betimed Blossoming",
+            "add_portrait;Shayla;Left",
+            "s;Shayla;...{w} No...{w} No, no, no, is that...?{w} Mom...{w}{clear}Goddess, that's my mom!|I-I...{w} I'm so sorry I wasn't there to help you.{w} I'm sorry for...{w} for...{w}{clear}f-for all the things I've said...|If I had been better...{w} a better fighter, a better daughter, maybe...{w}{clear}...{w}{clear}But I can't...{w} I can't let this be{br}what breaks me.{w} Not after all this.|I need to be better. To keep going.{w}{clear}Mom...{w} m-mom...{w} y-you always said I wasn't the type to cry like this...|I promise this'll be the last time.{w}{clear}And...{w} I'll make this right.{w} The guys who did this to you, I'll...{w}{clear}I'll make it right.{w} I promise.",
+            "remove_portrait;Shayla",
+            "remove_skill;Shayla;Bungle",
+            "give_skill;Shayla;GracefulVantage",
+            "music_fade_back",
+            "inc_game_var;ShaylaUpgraded;1",
+            "has_traded;{unit}",
+            "if;not RECORDS.get(\"TraineeUpgrades\")",
+            "    trigger_script;Global TraineeUpgrades",
+            "end",
+            "if;not RECORDS.get(\"ShaylaUpgrade\")",
+            "    update_record;ShaylaUpgrade;True",
+            "    add_lore;Shayla",
+            "end"
+        ]
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "nid": "GuardianAngel",
+        "name": "<purple>Guardian Angel</purple>",
+        "desc": "Target ally's HP cannot fall below 1 for 1 turn.\nCompletely recover health on the following turn.\nElspeth Only.",
+        "icon_nid": "PRFs",
+        "icon_index": [
+            1,
+            2
+        ],
+        "components": [
+            [
+                "spell",
+                null
+            ],
+            [
+                "magic",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "wexp",
+                5
+            ],
+            [
+                "exp",
+                100
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "status_on_hit",
+                "Miracle"
+            ],
+            [
+                "max_equation_range",
+                "MAGIC_RANGE"
+            ],
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "map_hit_add_blend",
+                [
+                    170,
+                    170,
+                    255
+                ]
+            ],
+            [
+                "prf_unit",
+                [
+                    "Elspeth"
+                ]
+            ],
+            [
+                "ignore_line_of_sight",
+                null
+            ],
+            [
+                "map_cast_anim",
+                "Map_GuardianAngel_Cast"
+            ],
+            [
+                "never_use_battle_animation",
+                null
+            ]
+        ]
+    }
+]

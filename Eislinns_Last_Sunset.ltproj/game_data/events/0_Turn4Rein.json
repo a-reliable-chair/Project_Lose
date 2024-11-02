@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Turn4Rein",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount == 4",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "move_cursor;0, 4",
+            "wait;250",
+            "add_unit;Rein_3;0, 4;immediate;push;west",
+            "wait;250",
+            "move_cursor;7, 0",
+            "add_unit;Rein_4;7, 0;immediate;push;west",
+            "wait;250"
+        ]
+    }
+]

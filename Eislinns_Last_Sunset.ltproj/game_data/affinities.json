@@ -1,0 +1,151 @@
+[
+    {
+        "nid": "None",
+        "name": "None",
+        "desc": "No affinity",
+        "bonus": [],
+        "icon_nid": "",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Fire",
+        "name": "Fire",
+        "desc": "Grants +2 STR/MAG.",
+        "bonus": [
+            {
+                "support_rank": "1",
+                "damage": 0.0,
+                "resist": 0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            4
+        ]
+    },
+    {
+        "nid": "Thunder",
+        "name": "Thunder",
+        "desc": "Grants +30 Crit.",
+        "bonus": [
+            {
+                "support_rank": "1",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 30.0,
+                "dodge": 0.0,
+                "attack_speed": 0,
+                "defense_speed": 0
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            0
+        ]
+    },
+    {
+        "nid": "Wind",
+        "name": "Wind",
+        "desc": "Grants +2 SPD.",
+        "bonus": [
+            {
+                "support_rank": "1",
+                "damage": 0.0,
+                "resist": 0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            7
+        ]
+    },
+    {
+        "nid": "Ice",
+        "name": "Ice",
+        "desc": "Grants +2 DEF/RES.",
+        "bonus": [
+            {
+                "support_rank": "1",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            5
+        ]
+    },
+    {
+        "nid": "Dark",
+        "name": "Dark",
+        "desc": "Grants +30 Acc.",
+        "bonus": [
+            {
+                "support_rank": "1",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 30.0,
+                "avoid": 0.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            1
+        ]
+    },
+    {
+        "nid": "Light",
+        "name": "Light",
+        "desc": "Grants +30 Avo.",
+        "bonus": [
+            {
+                "support_rank": "1",
+                "damage": 0.0,
+                "resist": 0.0,
+                "accuracy": 0.0,
+                "avoid": 30.0,
+                "crit": 0.0,
+                "dodge": 0.0,
+                "attack_speed": 0.0,
+                "defense_speed": 0.0
+            }
+        ],
+        "icon_nid": "Affinity",
+        "icon_index": [
+            0,
+            6
+        ]
+    }
+]

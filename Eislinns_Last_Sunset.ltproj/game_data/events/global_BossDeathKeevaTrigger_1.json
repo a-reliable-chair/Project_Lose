@@ -1,0 +1,14 @@
+[
+    {
+        "name": "BossDeathKeevaTrigger_1",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == \"Keeva\"",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "trigger_script;Global BossDeathKeeva"
+        ]
+    }
+]

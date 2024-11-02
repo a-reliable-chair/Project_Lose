@@ -1,0 +1,57 @@
+[
+    {
+        "nid": "WExp",
+        "name": "<yellow>WEXP++</>",
+        "desc": "Grants 15 WEXP.",
+        "icon_nid": "Consumables2",
+        "icon_index": [
+            1,
+            4
+        ],
+        "components": [
+            [
+                "target_ally",
+                null
+            ],
+            [
+                "uses",
+                1
+            ],
+            [
+                "uses_options",
+                {
+                    "lose_uses_on_miss": false,
+                    "one_loss_per_combat": false
+                }
+            ],
+            [
+                "attack_after_combat",
+                null
+            ],
+            [
+                "map_cast_sfx",
+                "PureWater"
+            ],
+            [
+                "min_range",
+                0
+            ],
+            [
+                "max_range",
+                1
+            ],
+            [
+                "usable",
+                null
+            ],
+            [
+                "event_after_combat_on_hit",
+                "Global WEXP++"
+            ],
+            [
+                "map_cast_anim",
+                "Map_WEXP_Cast"
+            ]
+        ]
+    }
+]

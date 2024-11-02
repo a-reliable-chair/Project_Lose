@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Turn1ThiefTalk",
+        "trigger": "turn_change",
+        "level_nid": "2",
+        "condition": "game.turncount == 1",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "flicker_cursor;Thief_1",
+            "multi_add_portrait;Thief1;Left;Thief2;Right",
+            "s;Thief1;Ehehe, lookie lookie!{w} The place is practically unguarded!",
+            "s;Thief2;Did they have to light the fire *before* we got started?",
+            "s;Thief1;You know that Emberson bastard -{w} he's as crazy as they come.{w}{clear}Look, all we have to do is wait for the fighting to distract everybody.{w} Then, we swoop in and nab the goods!",
+            "s;Thief2;Good plan!{w} I call dibs on the fancy spear I've heard about!",
+            "s;Thief1;What, that backscratcher?{w} If you really want.|I'm going for all the valuables I can, ehehe!",
+            "multi_remove_portrait;Thief1;Thief2",
+            "if;not RECORDS.get(\"Thieves\")",
+            "    s;;Thieves <red>will never</red> interact with <light-green>player units</light-green>.|They just want to get loot, then get out!;;;hint;;;text",
+            "    update_record;Thieves;True",
+            "    add_lore;Thieves",
+            "end"
+        ]
+    }
+]
