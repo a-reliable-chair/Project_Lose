@@ -1,0 +1,22 @@
+[
+    {
+        "name": "AIChangeDavenport",
+        "trigger": "combat_end",
+        "level_nid": "4",
+        "condition": "unit2.nid == \"Davenport\"",
+        "commands": [],
+        "only_once": true,
+        "priority": 20,
+        "_source": [
+            "if;{v:Ch5Outro} == 1",
+            "else",
+            "    if;game.check_alive('Davenport') and {v:DavenportCharge} == 0 and game.get_unit('Davenport').team == 'enemy'",
+            "        flicker_cursor;Davenport",
+            "        change_ai;Davenport;Yolo",
+            "        inc_level_var;DavenportCharge;1",
+            "        alert;Davenport is on the attack!",
+            "    end",
+            "end"
+        ]
+    }
+]

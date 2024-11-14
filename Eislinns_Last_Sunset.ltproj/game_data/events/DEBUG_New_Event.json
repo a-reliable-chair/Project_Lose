@@ -1,0 +1,31 @@
+[
+    {
+        "name": "New Event",
+        "trigger": null,
+        "level_nid": "DEBUG",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "        transition;Close",
+            "        change_background;House",
+            "        transition;Open",
+            "        add_portrait;Shayla;OffscreenLeft",
+            "        s;Shayla;Hello!",
+            "        move_portrait;Shayla;Left",
+            "        s;Shayla;Anybody home?",
+            "        move_portrait;Shayla;MidLeft",
+            "        expression;Shayla;CloseEyes",
+            "        speak;Shayla;Nobody's home...{c:expression;Shayla;HalfCloseEyes}|I hope Shayla's family is safe...{w}{clear}{c:mirror_portrait;Shayla}{c:expression;Shayla;OpenEyes} I'm sure they won't mind if I take this{semicolon}{w}{c:expression;Shayla;Smile} It may come in handy.",
+            "        move_portrait;Shayla;OffscreenLeft",
+            "        transition;Close",
+            "        remove_portrait;Shayla",
+            "        change_background",
+            "        transition;Open",
+            "        give_item;Shayla;Exp",
+            "        give_exp;Shayla;10",
+            "        inc_game_var;InstructionsUnclear;1"
+        ]
+    }
+]

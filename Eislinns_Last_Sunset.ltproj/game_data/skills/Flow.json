@@ -2,7 +2,7 @@
     {
         "nid": "Flow",
         "name": "Flow",
-        "desc": "Once per turn, after killing an enemy on player phase, unit acts again, sacrificing their defenses until next turn.",
+        "desc": "1/<icon>Clock</>, after killing an enemy on player phase, unit acts again, sacrificing their defenses until next turn.",
         "icon_nid": "PersonalSkills",
         "icon_index": [
             1,

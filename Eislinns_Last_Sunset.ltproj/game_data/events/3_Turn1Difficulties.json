@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 21,
         "_source": [
+            "level_var;DeadPlayers;0",
             "if;game.mode.nid == 'Hard' and not RECORDS.get(\"Ch4Hard\")",
             "    s;;On Hard and Lunatic Cawthorne arrives <red>earlier</>.;;;hint;;;text",
             "    add_lore;Ch4",

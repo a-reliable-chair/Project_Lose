@@ -1,0 +1,18 @@
+[
+    {
+        "nid": "Phalanx",
+        "name": "Phalanx",
+        "desc": "If an ally within 2 spaces is attacked, after combat inflict non-fatal damage equal to Lamonte's DEF. Triggers once per ally.",
+        "icon_nid": "Phalanx",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

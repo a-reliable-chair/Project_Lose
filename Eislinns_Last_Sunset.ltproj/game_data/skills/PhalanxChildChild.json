@@ -1,0 +1,27 @@
+[
+    {
+        "nid": "PhalanxChildChild",
+        "name": "Phalanx",
+        "desc": "",
+        "icon_nid": "Phalanx",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "event_on_remove",
+                "Global Phalanx"
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": false,
+                    "lost_on_ally": false,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": false
+                }
+            ]
+        ]
+    }
+]

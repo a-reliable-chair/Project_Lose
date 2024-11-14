@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "level_var;DeadPlayers;0",
             "if;not RECORDS.get(\"Visiting\")",
             "    speak;;Houses are labeled by which unit lives there{semicolon}|They or somebody close to them may have a unique experience when visiting.{w}{br}Visit tiles will highlight upon unit select if they have a unique visit.;;;hint;;;text",
             "    update_record;Visiting;True",
@@ -24,7 +25,6 @@
             "if;game.mode.nid == 'Hard' and not RECORDS.get(\"Ch1Hard\")",
             "    s;;On Hard you have <red>8 turns</red> to escape.{w}{br}Unit inventories don't go to the convoy on death.|Also, Prf weapons have less uses...;;;hint;;;text",
             "    add_lore;Ch1",
-            "    add_lore;DiffGeneral",
             "end",
             "if;game.mode.nid == 'Lunatic' and not RECORDS.get(\"Ch1Lun\")",
             "    s;;On Lunatic, you have <red>8 turns</red> to escape.{w}{br}There's no convoy at all...|Also, Prf weapons have less uses...{w}{br}There are less droppables in the game and some enemies have altered inventories.;;;hint;;;text",

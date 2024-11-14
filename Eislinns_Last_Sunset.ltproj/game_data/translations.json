@@ -56,8 +56,8 @@
         "text": "Select which unit to trade with."
     },
     {
-        "nid": "<yellow>Talk</yellow>_desc",
-        "text": "Select a unit to talk to."
+        "nid": "Talk_desc",
+        "text": "Free action. Select a unit to talk to."
     },
     {
         "nid": "<yellow>Interact</yellow>_desc",
@@ -393,15 +393,15 @@
     },
     {
         "nid": "Normal_desc",
-        "text": "The introductory difficulty."
+        "text": "For those who want to learn the game."
     },
     {
         "nid": "Hard_desc",
-        "text": "For those familiar with the game."
+        "text": "For those who want a challenge."
     },
     {
         "nid": "Lunatic_desc",
-        "text": "For those who wish to struggle."
+        "text": "For those who want to struggle."
     },
     {
         "nid": "<yellow>Support</yellow>_desc",

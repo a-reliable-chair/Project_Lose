@@ -1,0 +1,35 @@
+[
+    {
+        "name": "AIChangeSubstitutes",
+        "trigger": "combat_end",
+        "level_nid": "4",
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "if;unit2.nid == 'Sub_2'",
+            "    if;game.check_alive('Sub_2') and {v:Sub2Charge} == 0",
+            "        flicker_cursor;Sub_2",
+            "        change_ai;Sub_2;Yolo",
+            "        inc_level_var;Sub2Charge;1",
+            "        alert;This unit is on the attack!",
+            "    end",
+            "elif;unit2.nid == 'Sub_3'",
+            "    if;game.check_alive('Sub_3') and {v:Sub3Charge} == 0",
+            "        flicker_cursor;Sub_3",
+            "        change_ai;Sub_3;Yolo",
+            "        inc_level_var;Sub3Charge;1",
+            "        alert;This unit is on the attack!",
+            "    end",
+            "elif;unit2.nid == 'Sub_4'",
+            "    if;game.check_alive('Sub_4') and {v:Sub4Charge} == 0",
+            "        flicker_cursor;Sub_4",
+            "        change_ai;Sub_4;Yolo",
+            "        inc_level_var;Sub4Charge;1",
+            "        alert;This unit is on the attack!",
+            "    end",
+            "end"
+        ]
+    }
+]

@@ -32,8 +32,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    4,
-                    5
+                    12,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -58,8 +58,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    4
+                    12,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -71,8 +71,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    9
+                    14,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -110,8 +110,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    3
+                    9,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -136,8 +136,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    9
+                    13,
+                    4
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -149,8 +149,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    5,
-                    6
+                    15,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -162,8 +162,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    6,
-                    7
+                    16,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -175,8 +175,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    7
+                    14,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -188,8 +188,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    4
+                    13,
+                    6
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -254,8 +254,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    11,
-                    2
+                    10,
+                    3
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -327,7 +327,7 @@
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "Yolo",
+                "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
@@ -369,22 +369,70 @@
                 "nid": "105",
                 "variant": null,
                 "level": 1,
-                "klass": "Mage",
+                "klass": "Archer",
                 "faction": "Soldier",
                 "starting_items": [
                     [
-                        "Fire",
+                        "Iron Bow",
                         false
                     ]
                 ],
                 "starting_skills": [],
                 "team": "enemy",
-                "ai": "None",
+                "ai": "Yolo",
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    7,
-                    9
+                    15,
+                    3
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "111",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    13,
+                    5
+                ],
+                "starting_traveler": null,
+                "generic": true
+            },
+            {
+                "nid": "112",
+                "variant": null,
+                "level": 1,
+                "klass": "Archer",
+                "faction": "Soldier",
+                "starting_items": [
+                    [
+                        "Iron Bow",
+                        false
+                    ]
+                ],
+                "starting_skills": [],
+                "team": "enemy",
+                "ai": "Yolo",
+                "roam_ai": null,
+                "ai_group": "",
+                "starting_position": [
+                    10,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": true
@@ -482,8 +530,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    8,
-                    2
+                    6,
+                    1
                 ],
                 "starting_traveler": null,
                 "generic": false
@@ -500,10 +548,7 @@
                 "ai": "None",
                 "roam_ai": null,
                 "ai_group": "",
-                "starting_position": [
-                    12,
-                    2
-                ],
+                "starting_position": null,
                 "starting_traveler": null,
                 "generic": true
             },
@@ -514,8 +559,8 @@
                 "roam_ai": null,
                 "ai_group": "",
                 "starting_position": [
-                    10,
-                    4
+                    11,
+                    2
                 ],
                 "starting_traveler": null,
                 "generic": false

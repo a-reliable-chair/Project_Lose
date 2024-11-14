@@ -2,7 +2,7 @@
     {
         "nid": "ShiningBind",
         "name": "Shining Bind",
-        "desc": "Petrifies target.\nCan't double.",
+        "desc": "Petrifies target for 2 <icon>Clock</>.\nCan't double.",
         "icon_nid": "Light",
         "icon_index": [
             0,

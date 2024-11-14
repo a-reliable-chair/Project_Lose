@@ -19,7 +19,7 @@
         "objective": {
             "simple": "Rout Fodder",
             "win": "Defeat All,(Boss Optional)",
-            "loss": "Three Player Units Die"
+            "loss": "Two Player Units Die"
         },
         "roam": false,
         "roam_unit": null,

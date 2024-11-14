@@ -2,7 +2,7 @@
     {
         "nid": "CloakAndStaffer",
         "name": "Cloak And Staffer",
-        "desc": "Once per turn, act again after staffing from terrain with DEF boost.",
+        "desc": "1/<icon>Clock</>, act again after staffing from a Forest, Pillar, or Crag.",
         "icon_nid": "SarGarv",
         "icon_index": [
             0,

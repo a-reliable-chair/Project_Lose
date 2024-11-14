@@ -2,7 +2,7 @@
     {
         "nid": "Spite",
         "name": "<purple>Spite</purple>",
-        "desc": "Garvey Only.\nSets user's HP to 1 and reduces target's stats to 0 for 1 turn.\nChapter Uses: 1.",
+        "desc": "Garvey Only.\nSets user's HP to 1 and reduces target's stats to 0 for 1 <icon>Clock</>.\nChapter Uses: 1.",
         "icon_nid": "Staves PRF",
         "icon_index": [
             0,

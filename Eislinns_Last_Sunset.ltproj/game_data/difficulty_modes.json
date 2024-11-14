@@ -167,7 +167,7 @@
         "enemy_autolevels": 0,
         "boss_autolevels": 0,
         "promoted_autolevels_fraction": 1.0,
-        "start_locked": true
+        "start_locked": false
     },
     {
         "nid": "Lunatic",

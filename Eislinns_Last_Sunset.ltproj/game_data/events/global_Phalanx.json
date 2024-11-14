@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Phalanx",
+        "trigger": null,
+        "level_nid": null,
+        "condition": "True",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "map_anim;Map_Phalanx_Cast;{unit2}",
+            "wait;500",
+            "map_anim;Map_Phalanx_Hit;{unit1}",
+            "wait;250",
+            "sound;Wall Attack",
+            "map_anim;Snag;{unit1}",
+            "wait;500",
+            "if;unit.get_hp() > (u('Lamonte').get_stat('DEF') + 1)",
+            "    set_current_hp;{unit};{e:unit.get_hp() - (u('Lamonte').get_stat('DEF'))}",
+            "else",
+            "    set_current_hp;{unit};1",
+            "end",
+            "if;u('Lamonte').get_exp() >= 90",
+            "    give_exp;Lamonte;10",
+            "else",
+            "    give_exp;Lamonte;10;silent",
+            "end"
+        ]
+    }
+]

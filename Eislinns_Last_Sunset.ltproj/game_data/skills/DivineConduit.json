@@ -2,7 +2,7 @@
     {
         "nid": "DivineConduit",
         "name": "Divine Conduit",
-        "desc": "Once per turn move an ally within MAG to another square.\nRequires line of sight.",
+        "desc": "1/<icon>Clock</>, move an ally within MAG to another square.\nRequires line of sight.",
         "icon_nid": "DivineConduit",
         "icon_index": [
             0,

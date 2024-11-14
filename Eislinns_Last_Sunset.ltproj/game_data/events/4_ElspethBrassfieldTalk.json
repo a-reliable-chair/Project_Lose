@@ -41,7 +41,7 @@
             "inc_game_var;BrassfieldRecruited;1",
             "if;game.get_unit('Davenport').team == 'player' and u('Davenport').position",
             "    unlock_support_rank;Brassfield;Davenport;1",
-            "    alert;Wynnflaed and Osgar's Support Is Unlocked!",
+            "    alert;Wynnflaed and Osgar are supporting!",
             "end",
             "if;not has_achievement('49')",
             "    update_achievement;49;A Cause Worth Dying For;Recruited Wynnflaed in Ch5",

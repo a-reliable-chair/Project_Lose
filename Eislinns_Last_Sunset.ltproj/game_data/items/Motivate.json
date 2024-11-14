@@ -2,7 +2,7 @@
     {
         "nid": "Motivate",
         "name": "<yellow>Motivate</>",
-        "desc": "Refreshes target ally and grants them +1 to all stats for 1 turn.",
+        "desc": "Refreshes target ally and grants them +1 to all stats for 1 <icon>Clock</>.",
         "icon_nid": "PersonalSkills",
         "icon_index": [
             1,

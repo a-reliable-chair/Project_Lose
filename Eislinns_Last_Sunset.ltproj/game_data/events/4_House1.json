@@ -24,7 +24,7 @@
             "    if;unit.nid == 'Orla'",
             "        trigger_script;Global HouseOrla",
             "    elif;unit.nid == 'Elspeth'",
-            "        trigger_script;Global HouseElspeth2",
+            "        trigger_script;Global HouseElspeth1",
             "    else",
             "        transition;Close",
             "        change_background;House",

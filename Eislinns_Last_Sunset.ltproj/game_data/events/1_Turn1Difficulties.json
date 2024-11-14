@@ -8,6 +8,13 @@
         "only_once": false,
         "priority": 20,
         "_source": [
+            "level_var;DeadPlayers;0",
+            "if;not RECORDS.get(\"Supports\")",
+            "    s;;Supports can be built between any playable units but are limited to <yellow-green>1 partner</> at a time.|Supports are unlocked after a chapter where both units are deployed.|Each pair only has 1 support rank.{br}If either unit <orange>dies</>,{w} the support is <orange>broken</>{semicolon}|allowing the surviving unit to support with a different unit.|Bonuses are <yellow-green>one-way</>, based on partner's affinity.;;;hint;;;text",
+            "    update_record;Supports;True",
+            "    add_lore;SupportBonuses",
+            "    add_lore;BuildingSupports",
+            "end",
             "if;game.mode.nid == 'Hard' and not RECORDS.get(\"Ch2Hard\")",
             "    s;;On Hard and Lunatic you have <red>10 turns</> to route the fodder.;;;hint;;;text",
             "    add_lore;Ch2",
@@ -16,7 +23,11 @@
             "if;game.mode.nid == 'Lunatic' and not RECORDS.get(\"Ch2Lun\")",
             "    s;;On Lunatic, all vision granted from doors are removed...;;;hint;;;text",
             "    update_record;Ch2Lun;True",
-            "end"
+            "end",
+            "move_cursor;Brassfield",
+            "flicker_cursor;Brassfield",
+            "alert;Brassfield will charge after being attacked!",
+            "move_cursor;3,0"
         ]
     }
 ]

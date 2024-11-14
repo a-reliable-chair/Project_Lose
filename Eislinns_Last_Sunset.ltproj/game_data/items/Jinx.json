@@ -2,7 +2,7 @@
     {
         "nid": "Jinx",
         "name": "Jinx",
-        "desc": "Lowers target's damage by 2 for 1 turn.",
+        "desc": "Lowers target's damage by 2 for 1 <icon>Clock</>.",
         "icon_nid": "Dark",
         "icon_index": [
             0,

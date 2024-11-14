@@ -2,7 +2,7 @@
     {
         "nid": "Flash",
         "name": "Flash",
-        "desc": "Lowers target's Accuracy by 20 for 1 turn.",
+        "desc": "Lowers target's Accuracy by 20 for 1 <icon>Clock</>.",
         "icon_nid": "Light",
         "icon_index": [
             0,

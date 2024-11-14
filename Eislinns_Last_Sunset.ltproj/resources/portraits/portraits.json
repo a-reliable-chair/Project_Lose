@@ -936,18 +936,6 @@
         "info_offset": 0
     },
     {
-        "nid": "ShaylaMother",
-        "blinking_offset": [
-            16,
-            24
-        ],
-        "smiling_offset": [
-            16,
-            40
-        ],
-        "info_offset": 0
-    },
-    {
         "nid": "ShaylaSister",
         "blinking_offset": [
             24,
@@ -956,6 +944,18 @@
         "smiling_offset": [
             16,
             56
+        ],
+        "info_offset": 0
+    },
+    {
+        "nid": "ShaylaMother",
+        "blinking_offset": [
+            16,
+            24
+        ],
+        "smiling_offset": [
+            16,
+            40
         ],
         "info_offset": 0
     },

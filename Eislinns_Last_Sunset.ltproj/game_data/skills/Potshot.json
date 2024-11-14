@@ -2,7 +2,7 @@
     {
         "nid": "Potshot",
         "name": "Potshot",
-        "desc": "Once per turn, act again after attacking from terrain with DEF boost.",
+        "desc": "1/<icon>Clock</>, act again after attacking from a Forest, Pillar, or Crag.",
         "icon_nid": "PersonalSkills",
         "icon_index": [
             0,

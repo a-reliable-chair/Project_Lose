@@ -18,7 +18,7 @@
         "objective": {
             "simple": "Escape With All",
             "win": "Escape With All",
-            "loss": "Four Player Units Die,Or Last Player Unit Dies"
+            "loss": "Three Player Units Die,Or Last Player Unit Dies"
         },
         "roam": false,
         "roam_unit": null,
@@ -1385,7 +1385,7 @@
                         false
                     ],
                     [
-                        "Axereaver",
+                        "Lancereaver",
                         false
                     ]
                 ],

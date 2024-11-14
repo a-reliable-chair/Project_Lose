@@ -2,7 +2,7 @@
     {
         "nid": "Invigorate",
         "name": "Invigorate",
-        "desc": "Restore ally's HP by MAG + 2, grants x2 EXP for 1 turn.",
+        "desc": "Restore ally's HP by MAG + 2, grants x2 EXP for 1 <icon>Clock</>.",
         "icon_nid": "{2WB} (Icon Blitz 1) Heal",
         "icon_index": [
             0,

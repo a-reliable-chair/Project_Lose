@@ -11,7 +11,7 @@
             "if;unit2.team == 'other' and not unit2.nid == 'Ailsa'",
             "    if;len(unit2.items) == 0 and has_skill(unit2,'Lootable')",
             "        remove_skill;{unit2};Lootable;no_banner",
-            "    elif;len(unit2.items) >= 0 and not has_skill(unit2,'Lootable')",
+            "    elif;len(unit2.items) > 0 and not has_skill(unit2,'Lootable')",
             "        give_skill;{unit2};Lootable;no_banner",
             "    end",
             "end"

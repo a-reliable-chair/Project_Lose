@@ -16,7 +16,7 @@
             "if;'{v:ReverseRecruitment}' == 'No' and unit.nid == 'Ailsa'",
             "    trigger_script;Global HouseAilsa",
             "elif;'{v:ReverseRecruitment}' == 'No' and unit.nid == 'Elspeth'",
-            "    trigger_script;Global HouseElspeth1",
+            "    trigger_script;Global HouseElspeth2",
             "elif;unit.nid == 'Thrall'",
             "    trigger_script;Global HouseThrall",
             "else",

@@ -2,7 +2,7 @@
     {
         "nid": "Disaster",
         "name": "<purple>Disaster</purple>",
-        "desc": "Carlin Only.\nAfter any interaction with another unit, Backdash: 1.",
+        "desc": "Carlin Only.\nAfter any interaction with another unit, pushes Carlin away 1 tile.",
         "icon_nid": "Dark",
         "icon_index": [
             0,

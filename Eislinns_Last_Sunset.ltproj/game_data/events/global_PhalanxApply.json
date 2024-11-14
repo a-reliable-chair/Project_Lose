@@ -1,0 +1,16 @@
+[
+    {
+        "name": "PhalanxApply",
+        "trigger": "enemy_turn_change",
+        "level_nid": null,
+        "condition": " u('Lamonte').position",
+        "commands": [],
+        "only_once": false,
+        "priority": 20,
+        "_source": [
+            "for;Adjacent_Allies;[u.nid for u in get_allies_within_distance('Lamonte', dist = 2) if u.nid != 'Lamonte']",
+            "    give_skill;{Adjacent_Allies};PhalanxChild;no_banner",
+            "endf"
+        ]
+    }
+]

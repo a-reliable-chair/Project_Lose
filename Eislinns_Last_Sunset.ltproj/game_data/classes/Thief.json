@@ -2,7 +2,7 @@
     {
         "nid": "Thief",
         "name": "Thief",
-        "desc": "Mounted knights with swift movement.",
+        "desc": "Sneaky looters who avoid conflict.\nOnly here for plunder!",
         "tier": 1,
         "movement_group": "Light Foot",
         "promotes_from": null,

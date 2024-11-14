@@ -2,7 +2,7 @@
     {
         "nid": "Entangle",
         "name": "Entangle",
-        "desc": "Lowers target's Avoid by 20 for 1 turn.",
+        "desc": "Lowers target's Avoid by 20 for 2 <icon>Clock</>.",
         "icon_nid": "Anima",
         "icon_index": [
             0,

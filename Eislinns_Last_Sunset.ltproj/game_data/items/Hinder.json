@@ -2,7 +2,7 @@
     {
         "nid": "Hinder",
         "name": "Hinder",
-        "desc": "Reduces target's stats by 1 for 1 turn.",
+        "desc": "Reduces target's stats by 1 for 1 <icon>Clock</>.",
         "icon_nid": "Staff",
         "icon_index": [
             0,

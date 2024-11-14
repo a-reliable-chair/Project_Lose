@@ -2,7 +2,7 @@
     {
         "nid": "Play",
         "name": "Play",
-        "desc": "Once per turn, refresh target ally.",
+        "desc": "1/<icon>Clock</>, refresh target ally.",
         "icon_nid": "PersonalSkills",
         "icon_index": [
             1,

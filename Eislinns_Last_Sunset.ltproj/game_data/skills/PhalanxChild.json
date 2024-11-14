@@ -1,0 +1,39 @@
+[
+    {
+        "nid": "PhalanxChild",
+        "name": "Phalanx",
+        "desc": "",
+        "icon_nid": "Phalanx",
+        "icon_index": [
+            0,
+            0
+        ],
+        "components": [
+            [
+                "skill_before_combat",
+                {
+                    "skill": "PhalanxChildChild",
+                    "recipient": "target",
+                    "allegiance": "enemy"
+                }
+            ],
+            [
+                "lost_on_end_combat2",
+                {
+                    "lost_on_self": false,
+                    "lost_on_ally": false,
+                    "lost_on_enemy": true,
+                    "lost_on_splash": false
+                }
+            ],
+            [
+                "lost_on_upkeep",
+                null
+            ],
+            [
+                "unit_anim",
+                "Map_Phalanx_Unit"
+            ]
+        ]
+    }
+]

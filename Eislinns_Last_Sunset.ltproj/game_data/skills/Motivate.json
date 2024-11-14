@@ -2,7 +2,7 @@
     {
         "nid": "Motivate",
         "name": "Motivate",
-        "desc": "Once per turn, refresh target ally and grant them +1 to all stats for 1 turn.",
+        "desc": "1/<icon>Clock</>, refresh target ally and grant them +1 to all stats for 1 turn.",
         "icon_nid": "PersonalSkills",
         "icon_index": [
             1,

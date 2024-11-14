@@ -8,8 +8,7 @@
         "only_once": false,
         "priority": 22,
         "_source": [
-            "if;'{v:ReverseRecruitment}' == 'Yes'  ",
-            "    ",
+            "if;'{v:ReverseRecruitment}' == 'Yes'      ",
             "else",
             "    transition;close",
             "    change_background;TownSunset",

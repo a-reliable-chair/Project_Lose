@@ -8,6 +8,7 @@
         "only_once": false,
         "priority": 21,
         "_source": [
+            "level_var;DeadPlayers;0",
             "if;game.mode.nid == 'Hard' and not RECORDS.get(\"Ch3Hard\")",
             "    s;;On Hard and Lunatic you have to survive for <red>7 turns</>.|Also, Thieves spawn earlier.;;;hint;;;text",
             "    add_lore;Ch3",

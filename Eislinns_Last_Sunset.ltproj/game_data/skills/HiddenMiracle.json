@@ -20,6 +20,10 @@
             [
                 "event_on_remove",
                 "Global GrantHiddenMiracle"
+            ],
+            [
+                "hide_skill_icon_in_combat",
+                null
             ]
         ]
     }

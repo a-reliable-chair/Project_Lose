@@ -2,7 +2,7 @@
     {
         "nid": "Tidecaller",
         "name": "<purple>Tidecaller</purple>",
-        "desc": "Ailsa Only.\nWhile equipped, unit adds it's Crit to Avoid.",
+        "desc": "Ailsa Only.\nWhile equipped, unit adds its Crit to Avoid.",
         "icon_nid": "PRFs",
         "icon_index": [
             0,

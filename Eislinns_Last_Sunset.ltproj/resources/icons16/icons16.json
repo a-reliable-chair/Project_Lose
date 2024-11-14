@@ -222,5 +222,18 @@
     {
         "nid": "Flair",
         "subicon_dict": {}
+    },
+    {
+        "nid": "Clock",
+        "subicon_dict": {
+            "Clock": [
+                0,
+                0
+            ]
+        }
+    },
+    {
+        "nid": "Phalanx",
+        "subicon_dict": {}
     }
 ]

@@ -2,7 +2,7 @@
     {
         "nid": "Nova",
         "name": "<purple>Nova</>",
-        "desc": "Elwynn and Elspeth Only.\nDamages all enemies.",
+        "desc": "Elwynn and Elspeth Only.\nDamages enemies around target within MAG tiles.",
         "icon_nid": "Light",
         "icon_index": [
             0,
@@ -38,7 +38,7 @@
             ],
             [
                 "crit",
-                25
+                15
             ],
             [
                 "map_hit_add_blend",
@@ -68,18 +68,6 @@
                 null
             ],
             [
-                "target_enemy",
-                null
-            ],
-            [
-                "min_range",
-                1
-            ],
-            [
-                "all_enemies_aoe",
-                null
-            ],
-            [
                 "cannot_be_countered",
                 null
             ],
@@ -88,8 +76,20 @@
                 null
             ],
             [
+                "target_enemy",
+                null
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
                 "global_range",
                 null
+            ],
+            [
+                "equation_blast_aoe",
+                "MAGIC_DAMAGE"
             ]
         ]
     }

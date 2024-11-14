@@ -2,13 +2,25 @@
     {
         "nid": "Duskfall",
         "name": "<purple>Duskfall</>",
-        "desc": "<red>Eclipse</> all non-boss enemies.\nCarlin and Quinley Only.",
+        "desc": "Carlin and Quinley Only.\n<red>Eclipse</> up to 5 non-boss enemies within MAG * 2 tiles.",
         "icon_nid": "Dark",
         "icon_index": [
             0,
             3
         ],
         "components": [
+            [
+                "weapon",
+                null
+            ],
+            [
+                "level_exp",
+                null
+            ],
+            [
+                "target_enemy",
+                null
+            ],
             [
                 "uses",
                 1
@@ -32,20 +44,40 @@
                 null
             ],
             [
-                "target_tile",
-                null
-            ],
-            [
-                "event_after_combat_on_hit",
-                "Global Duskfall"
-            ],
-            [
                 "map_hit_sfx",
                 "Eclipse1"
             ],
             [
                 "map_cast_anim",
                 "Map_Duskfall_Cast"
+            ],
+            [
+                "min_range",
+                1
+            ],
+            [
+                "eclipse",
+                null
+            ],
+            [
+                "map_target_cast_anim",
+                "Map_Duskfall_Unit"
+            ],
+            [
+                "eval_target_restrict_2",
+                "'Boss' not in target.tags"
+            ],
+            [
+                "multi_target",
+                5
+            ],
+            [
+                "allow_less_than_max_targets",
+                null
+            ],
+            [
+                "max_equation_range",
+                "MAG2"
             ]
         ]
     }

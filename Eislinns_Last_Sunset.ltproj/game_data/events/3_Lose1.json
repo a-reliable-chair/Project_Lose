@@ -12,7 +12,7 @@
             "    if;unit.nid != 'Thrall'",
             "        inc_level_var;DeadPlayers;1",
             "    end",
-            "    if;{v:DeadPlayers} == 4",
+            "    if;{v:DeadPlayers} == 3",
             "        alert;You have lost too many members of your party.",
             "        lose_game",
             "    end",
