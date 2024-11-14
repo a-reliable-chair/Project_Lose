@@ -267,5 +267,6 @@
     "DEBUG_New_Event",
     "global_Phalanx",
     "global_PhalanxApply",
-    "global_PhalanxRemove"
+    "global_PhalanxRemove",
+    "0_Escape"
 ]
