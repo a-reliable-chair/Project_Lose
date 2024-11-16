@@ -10,8 +10,11 @@
         "_source": [
             "if;not RECORDS.get(\"NormalCleared\")",
             "    game_var;Jukebox;False",
+            "    game_var;ReverseRecruitment;'No'",
+            "    game_var;PlayerReverse;'No Reversal'",
+            "    game_var;EnemyReverse;'No Reversal'",
+            "    give_skill;Alpin;Flail_Lance;no_banner",
             "end",
-            "",
             "",
             "if;'{v:ReverseRecruitment}' == 'Yes'",
             "    change_tilemap;Ch1",
